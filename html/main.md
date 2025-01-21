@@ -1,9 +1,9 @@
 ---
-title: Frontend Docs
+title: HTML
 layout: default
 ---
 
-# Frontend Docs
+# HTML
 {: .no_toc }
 
 <details open markdown="block">
@@ -14,3 +14,10 @@ layout: default
 1. TOC
 {:toc}
 </details>
+
+<div class="code-example">
+<input type="password">
+</div>
+```html
+<input type="password">
+```
