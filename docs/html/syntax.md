@@ -1,9 +1,10 @@
 ---
-title: Frontend Docs
-layout: default
+title: Syntax
+parent: HTML
 ---
 
-# Frontend Docs
+# HTML
+
 {: .no_toc }
 
 <details open markdown="block">
