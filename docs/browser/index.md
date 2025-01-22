@@ -1,10 +1,9 @@
 ---
-title: Frontend Docs
-nav_order: 0
-nav_exclude: true
+title: Browser
+nav_order: 2
 ---
 
-# Frontend Docs
+# Browser
 {: .no_toc }
 
 <details open markdown="block">
