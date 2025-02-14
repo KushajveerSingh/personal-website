@@ -2,7 +2,7 @@ title: Frontend Docs
 description: Collection of notes that I use while developing web applications (work in process)
 theme: just-the-docs
 
-favicon_ico: '/assets/favicon.ico'
+favicon_ico: /assets/images/favicon.ico
 
 url: https://kushajveersingh.com/frontend-docs/
 
