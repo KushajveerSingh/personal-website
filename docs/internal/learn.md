@@ -1,11 +1,11 @@
 ---
-title: Learn Web
+title: Learn
 nav_order: 1
 parent: Internal
 search_exclude: true
 ---
 
-# TODO
+# Learn
 {: .no_toc }
 
 <details open markdown="block">
