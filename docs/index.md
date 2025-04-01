@@ -4,6 +4,7 @@ nav_order: 0
 nav_exclude: true
 ---
 
+<!-- prettier-ignore-start -->
 # Frontend Docs
 {: .no_toc }
 
@@ -15,3 +16,5 @@ nav_exclude: true
 1. TOC
 {:toc}
 </details>
+
+<!-- prettier-ignore-end -->

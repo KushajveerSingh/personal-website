@@ -5,6 +5,7 @@ parent: Internal
 search_exclude: true
 ---
 
+<!-- prettier-ignore-start -->
 # Projects
 {: .no_toc }
 
@@ -16,3 +17,5 @@ search_exclude: true
 1. TOC
 {:toc}
 </details>
+
+<!-- prettier-ignore-end -->

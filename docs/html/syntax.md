@@ -3,6 +3,7 @@ title: Syntax
 parent: HTML
 ---
 
+<!-- prettier-ignore-start -->
 # HTML
 {: .no_toc }
 
@@ -14,3 +15,5 @@ parent: HTML
 1. TOC
 {:toc}
 </details>
+
+<!-- prettier-ignore-end -->

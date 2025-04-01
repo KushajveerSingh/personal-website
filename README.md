@@ -12,6 +12,7 @@ nav_exclude: false
 layout: default
 ---
 
+<!-- prettier-ignore-start -->
 # Title
 {: .no_toc }
 
@@ -23,4 +24,6 @@ layout: default
 1. TOC
 {:toc}
 </details>
+
+<!-- prettier-ignore-end -->
 ```
