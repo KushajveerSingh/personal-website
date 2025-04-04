@@ -19,3 +19,8 @@ search_exclude: true
 </details>
 
 <!-- prettier-ignore-end -->
+
+-   `why_rust.md`
+    -   Complete book
+    -   Proof read notes + spell check
+    -   For each code example, copy to deficated file and run the example + format
