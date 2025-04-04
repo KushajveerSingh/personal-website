@@ -1,19 +1,19 @@
-title: Frontend Docs
+title: Notes
 description: Collection of notes that I use while developing web applications (work in process)
 theme: just-the-docs
 
 favicon_ico: /assets/images/favicon.ico
 
-url: https://kushajveersingh.com/frontend-docs/
+url: https://kushajveersingh.com/notes/
 
 mermaid:
-  version: '11.4.1'
+  version: "11.4.1"
 
 color_scheme: dark
 enable_copy_code_button: true
 
 back_to_top: true
-back_to_top_text: 'Back to top'
+back_to_top_text: "Back to top"
 
 source: docs
 defaults:

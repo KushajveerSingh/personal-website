@@ -1,4 +1,4 @@
-# Frontend Docs
+# Notes
 
 ## Markdown template
 
