@@ -151,5 +151,245 @@ To ensure heal-allocated values are not accessed after been freed, langauges use
 Rust has three rules, to specify when each value is freed, and ensure all pointers to it are gone by that point. This is all compile time, and at runtime regular pointers are used.
 
 1. Every value has a single owner at any given time. You can move a value from one owner to another, but when a value's owner goes away, the value is freed along with it.
-2. You can borrow a reference to a value, so long as the reference dosen't outlive the vlaue (or equivalenty, its owner). Borrowed references are temporary pointers; they allow you to operate on values you don't own.
+
+    Every heap-allocated value has a single pointer that owns it; when its owning pointer is dropped, the value is dropped along with it.
+
+    ```rust
+    {
+        let s = "kushaj".to_string();
+    } // s goes out of scope here; text is freed
+    ```
+
+    Assignment moves the value: the destination takes ownership, and the source is no longer considered initialized. The reason being, in most of the cases the source of the assignment isn't going to be used anymore.
+
+    ```rust
+    {
+        let s = "kushaj".to_string();
+        let t1 = s; // t1 takes ownership from 's'
+        let t2 = s; // compile-time error: use of moved value: 's'
+    }
+    ```
+
+    Passing arguments to functions and returning values from a function, are also handled like assignment i.e. the values are moved, leaving the source unusable.
+
+    ```rust
+    let s = "kushaj".to_string();
+    f(s) // value of 's' moved to 'f'
+    s // compile-time error: use of moved value: 's'
+    ```
+
+    For simple (primitive) types, the values are copied instead of moved on assignment. Internally, this is done by having a `Copy` trait. For custom types, you can implement `Copy` (need to meet the rules for it though), otherwise you can use `Clone` trait.
+
+    ```rust
+    let pi = 3.14;
+    let one_eighty = pi;
+    ```
+
+    Both `Copy` and `Clone` can be automatically created by the compiler as well
+
+    ```rust
+    #[derive(Copy, Clone)]
+    Struct Color { r: u8, g: u8, b: u8 }
+    ```
+
+2. You can borrow a reference to a value, so long as the reference dosen't outlive the value (or equivalenty, its owner). Borrowed references are temporary pointers; they allow you to operate on values you don't own.
+
+    Rust restricts the use of references to ensure that they all disappear before the value they refer to is dropped or moved, so references are never dangling pointers.
+
+    Example of function without reference borrowing
+
+    ```rust
+    fn append_to_string(mut t: String) -> String {
+        t.push('!');
+        t
+    }
+
+    let mut s = "Hello, world".to_string();
+    s = append_to_string(s);
+    println!("{}", s)
+    ```
+
+    Example with borrowing
+
+    ```rust
+    fn append_to_string(t: &mut String) {
+        t.push('!');
+        t
+    } // 't' goes out of scope, so the borrow has ended
+
+    let mut s = "Hello, world".to_string();
+    append_to_string(&mut s); // share a mutable reference to 's'
+    println!("{}", s);
+    ```
+
+    In the above example
+
+    - `s` always had ownership.
+    - `append_to_string` borrowed ownership.
+
+    For cases, when we don't want to modify a value use `&` instead of `&mut`.
+
+    ```rust
+    fn print_string(t: &String) {
+        println!("{}", t);
+    }
+
+    let mut s = "Hello, world".to_string();
+    print_string(&s);
+    ```
+
+    References cannot outlive the value they point to
+
+    ```rust
+    let x = String::new();
+    let borrow = &x;
+    let y = x; // error: cannot move out of 'x' because it is borrowed
+    ```
+
+    The borrowed value must not outlive the owner i.e. a variable must not go out of scope while it's borrowed.
+
+    ```rust
+    let borrow;
+    let x = String::new();
+    borrow = &x; // error: 'x' does not live long enough (since `x` declared after 'borrow')
+    ```
+
+    The above is equivalent to
+
+    ```rust
+    {
+        let borrow;
+        {
+            let x = String::new();
+            borrow = &x; // error
+        }
+    }
+    ```
+
+    If atleast one value in a struct is being borrowed, assignment on the whole struct is forbidden.
+
+    ```rust
+    let mut v = vec!["hemlock"];
+
+    let borrow = &v[0]; // borrow first element
+    v = vec!["wormwood"]; // error: cannot assign to 'v' because it is borrowed
+    ```
+
 3. You can only modify a value when you have exclusive access to it.
+
+    - While you borrow a shared reference to a value, nothing can modify it or cause it to be dropped.
+        ```rust
+        let x: i32 = 128;
+        function(&x, &x); // you can borrow as many times as you want, since
+                          // shared borrow does not modify the original value.
+        ```
+    - While you borrow a mutable reference to a value, that reference is the only way to access that value at all.
+        ```rust
+        let mut x = 128;
+        let b1 = &mut x;
+        x; // error: cannot use 'x' becuase it was mutable borrowed
+        x += 1; // error: cannot assign to 'x' because it is borrowed
+        ```
+
+    Borrow checking on data structures, locks the entire structure.
+
+    ```rust
+    let mut v = Vec::new();
+    v.push(vec![' ', 'o', 'x']);
+    v.push(vec![' ', 'x', 'x']);
+    v.push(vec!['o', ' ', ' ']);
+
+    // It does chain of borrows: first v, then v[1], then v[1][0]
+    let b1 = &v[2][2];
+
+    v[1][0]; // reads are fine, since the borrow is shared
+    v[1][0] = 'o'; // error: cannot borrow 'v' as mutable because it is also borrowed as shared
+    ```
+
+### Lifetimes
+
+Functions can return reference to one of its arguments, or some part of the argument. The reason being the caller was able to pass in a reference, the the original things must be alive for the duration of the call .
+
+```rust
+fn first(v: &Vec<i32>) -> i32 {
+    return &v[0];
+}
+```
+
+When returning multiple references, it is not clear what reference points to which arguments from the function type. `(&i32, &i32)` does not give any info.
+
+```rust
+fn first(x: &Vec<i32>, y: &Vec<i32>) -> (&i32, &i32) {
+    return (&x[0], &y[0]);
+}
+```
+
+In situations like these, define _explicit lifetimes_ on the references to spell out the relationships.
+
+```rust
+// 'a - define lifetime name
+// 'b - define lifetime name
+fn firsts<'a, 'b>(x: &'a Vec<i32>,
+                  y: &'b Vec<i32>)
+                  ->
+                  (&'a i32, &'b i32) {
+    return (&x[0], &y[0]);
+}
+```
+
+References always have lifetimes associated with them, Rust just allows us to omit them when the situation is unambigous.
+
+### Buffer overruns
+
+In C++, you don't actually index arrays, you index pointers, which carry no information about the start and end of the array or object they point into.
+
+In Rust, you index arrays and slices, both of which have definite bounds.
+
+-   Doing `a[i]`, first checks that `i` falls within the array's size `n`. Sometimes the compiler recognizes that this check can be safely omitted, but when it can't, Rust generates code to check the array's index at runtime.
+-   Slice is a pointer to the first element included in the slice, along with the number of elements in it. `&a[i..j]` is a slice referring to the i-th through j-1th elements of `a`. Bounds are checked when creating the slice, and also when indexing into the slice.
+
+## Multithreaded programming
+
+Concurrency without data races.
+
+```rust
+let thread1 = std::thread::spawn(|| {
+    println!("Alphonse");
+    return 137;
+})
+
+assert_eq(!(try!(thread1.join()), 137));
+```
+
+Use `scoped` instead of `spawn`, when you want to access local variables. A thread started with `scoped` never outlives its `JoinGuard`.
+
+```rust
+// This fails as we are violating rule 3. You can only modify variables, when you have
+// exclusive access to it
+let mut x = 1;
+let thread1 = std::thread::scoped(|| { x += 8; });
+let thread2 = std::thread::scoped(|| { x += 27; });
+```
+
+### Mutex
+
+In C/C++, the relationship between data and the data it protects is entirely implicit in the structure of the program. And the developer has to write comments that explain which threads can touch which data structures, and what mutexes must be help while doing so.
+
+In Rust, `std::sync::Mutex` uses borrowing rules to ensure that threads never use a data structure without holding the mutex that protects it. Each mutex own the data it protects, and threads can borrow a reference to thie data only by locking the mutex.
+
+```rust
+let x = std::sync::Mutex::new(1);
+let thread1 = std::thread::scoped(|| {
+    *x.lock().unwrap() += 8;
+});
+let thread2 = std::thread::scoped(|| {
+    *x.lock().unwrap() += 27;
+});
+
+thread1.join();
+thread2.join();
+
+assert_eq!(*x.lock().unwrap(), 36);
+```
+
+// Resume page 54 "channels"

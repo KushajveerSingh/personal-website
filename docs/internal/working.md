@@ -27,15 +27,17 @@ search_exclude: true
 
 ## Daily Routine
 
+-   Project work
 -   (1-2 hours) Learn Rust
     -   Learn QT
     -   Learn Apple
     -   Learn Android
     -   Learn VR
--   Project work
--   (30 mins - 1 hour) Update things to learn (project ideas, screenshots, notes, learn.md)
-    -   Online presence (social media updates, project announcements/udpates)
--   (temp) Apt clean
--   (2 hours) Frontend (Start from HTML)
+-   (30 mins) Things to learn + Social presence
+    -   Update list (project ideas, screenshots, notes, learn.md)
+    -   Social media updates, project announcements/updates
+-   (2 hours) Frontend
+    -   HTML
 -   (1 - 2 hours) UI/UX
     -   Software engineering books
+-   (temp) Apt clean
