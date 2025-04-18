@@ -20,10 +20,9 @@ search_exclude: true
 
 <!-- prettier-ignore-end -->
 
--   `why_rust.md`
-    -   Complete book
-    -   Proof read notes + spell check
-    -   For each code example, copy to deficated file and run the example + format
+## Working
+
+-   A gentle introduction to rust book
 
 ## Daily Routine
 

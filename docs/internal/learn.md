@@ -214,8 +214,8 @@ search_exclude: true
 
 ### Language
 
--   [ ] [link](https://www.oreilly.com/library/view/why-rust/9781492048589/) Why Rust? Trustworthy, Concurrent Systems Programming by _Jim Blandy_ (60 pages) (Sep 2015)
--   [ ] [link](https://stevedonovan.github.io/rust-gentle-intro/) A Gentle Introduction to Rust
+-   [x] [link](https://www.oreilly.com/library/view/why-rust/9781492048589/) Why Rust? Trustworthy, Concurrent Systems Programming by _Jim Blandy_ (60 pages) (Sep 2015)
+-   [ ] [link](https://stevedonovan.github.io/rust-gentle-intro/) A Gentle Introduction to Rust by _Steve J Donovan_ (153 pages) (Dec 2019)
 -   [ ] [link](https://doc.rust-lang.org/book/) The Rust Programming Language book
     -   [ ] [link](https://doc.rust-lang.org/rust-by-example/) Rust by Example
     -   [ ] [link](https://rustlings.cool/) Rustlings (exercises)
