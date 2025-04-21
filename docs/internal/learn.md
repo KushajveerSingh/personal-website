@@ -22,11 +22,11 @@ search_exclude: true
 
 ## General
 
--   [ ] [link](https://wpc.guide/) Web Platform Contribution Guide
--   [ ] [link](https://resilientwebdesign.com/) Resilient web design by Jeremy Keith
+-   [x] [link](https://wpc.guide/) Web Platform Contribution Guide
+-   [ ] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
 -   [ ] MDN Learn
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Browsing the web
-    -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Dealing wioth files
+    -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Dealing with files
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works) How the web works
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model) The web standards model
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites) How browsers load websites

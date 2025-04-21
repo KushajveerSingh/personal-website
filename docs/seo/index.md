@@ -1,6 +1,6 @@
 ---
 title: SEO
-nav_order: 0.2
+nav_order: 5
 ---
 
 <!-- prettier-ignore-start -->
