@@ -19,6 +19,12 @@ parent: Rust
 
 <!-- prettier-ignore-end -->
 
+Rust is a statically and strongly typed systems programming language.
+
+-   statically - all types are known at compile-time.
+-   strongly - types make it harder to write incorrect programs.
+-   systems - generate the best machine code with full control of memory use.
+
 ## Problems with C/C++
 
 Systems programming languages (C, C++) have two main problems

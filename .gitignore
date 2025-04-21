@@ -5,3 +5,9 @@ _site/
 
 .bundle/
 vendor/
+
+debug/
+target/
+*.pdb
+**/*.rs.bk
+*.exe
