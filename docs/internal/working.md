@@ -22,9 +22,9 @@ search_exclude: true
 
 ## TODO
 
--   Add books from issues and pull request https://github.com/sger/RustBooks
 -   Add https://github.com/sger/RustBooks to check for updates
 -   Add rust release notes to check for updates
+-   Add https://lborb.github.io/book/ to rust books
 
 ## Working
 

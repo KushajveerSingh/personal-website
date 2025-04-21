@@ -249,9 +249,11 @@ search_exclude: true
 -   [ ] [link](https://rust-api.dev/docs/front-matter/preface/) API development with Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/too-many-brainfuck-compilers.md) Learn Assembly by Writing Entirely Too Many Brainfuck Compilers
 -   [ ] [link](https://www.zero2prod.com/index.html?country_code=US) Zero To Production in Rust by _Luca Palmieri_
+-   [ ] [link](https://www.newline.co/fullstack-rust) Fullstack Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md) RESTful API in Sync and Async Rust
 -   [ ] [link](https://www.manning.com/books/rust-web-development) Rust Web Development by _Bastian Gruber_ (400 pages)
 -   [ ] [link](https://www.oreilly.com/library/view/command-line-rust/9781098109424/) Command-Line Rust by _Ken Youens-Clark_
+-   [ ] [link](https://rustwasm.github.io/docs/book/) Rust and WebAssembly
 -   [ ] [link](https://pragprog.com/titles/khrust/programming-webassembly-with-rust/) Programming WebAssembly with Rust
 -   [ ] [link](https://kerkour.com/black-hat-rust) Black Hat Rust
 
@@ -259,3 +261,5 @@ search_exclude: true
 
 -   [ ] [link](https://rustup.rs/) rustup
 -   [ ] [link](https://play.rust-lang.org/) Rust playground
+
+## Certifications
