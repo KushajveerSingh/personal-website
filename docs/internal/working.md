@@ -20,23 +20,28 @@ search_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## TODO
+
+-   Add books from issues and pull request https://github.com/sger/RustBooks
+-   Add https://github.com/sger/RustBooks to check for updates
+-   Add rust release notes to check for updates
+
 ## Working
 
 -   A gentle introduction to rust book
 
 ## Daily Routine
 
--   Project work
--   (1-2 hours) Learn Rust
+-   Learn Rust
     -   Learn QT
     -   Learn Apple
     -   Learn Android
     -   Learn VR
--   (30 mins) Things to learn + Social presence
+-   UI/UX (alternate with learn.md)
+    -   Software engineering books
+-   Certificate work
+-   Todo + Social presence + Health
     -   Update list (project ideas, screenshots, notes, learn.md)
     -   Social media updates, project announcements/updates
--   (2 hours) Frontend
-    -   HTML
--   (1 - 2 hours) UI/UX
-    -   Software engineering books
--   (temp) Apt clean
+    -   Exercise, nutrition, recovery
+-   Project work
