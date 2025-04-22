@@ -22,13 +22,8 @@ search_exclude: true
 
 ## TODO
 
--   Add https://github.com/sger/RustBooks to check for updates
--   Add rust release notes to check for updates
 -   Add https://lborb.github.io/book/ to rust books
-
-## Working
-
--   A gentle introduction to rust book
+-   Delete reorganize folder
 
 ## Daily Routine
 

@@ -1,10 +1,10 @@
-title: Notes
-description: Collection of notes that I use while developing web applications (work in process)
+title: Kushaj
+description: Kushajveer Singh personal websites
 theme: just-the-docs
 
 favicon_ico: /assets/images/favicon.ico
 
-url: https://kushajveersingh.com/notes/
+url: https://kushaj.com/
 
 mermaid:
   version: "11.4.1"
