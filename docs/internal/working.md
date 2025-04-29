@@ -32,9 +32,10 @@ search_exclude: true
     -   Learn Apple
     -   Learn Android
     -   Learn VR
--   UI/UX (alternate with learn.md)
+-   UI/UX
+    -   Learn.md stuff from top to bottom
     -   Software engineering books
--   Certificate work
+-   HTML
 -   Todo + Social presence + Health
     -   Update list (project ideas, screenshots, notes, learn.md)
     -   Social media updates, project announcements/updates

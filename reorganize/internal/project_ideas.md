@@ -272,3 +272,15 @@ Companion app
 -   Use GoLang, HTMX, Tailwind as the tech stack.
 -   Along side the interactive tutorial script, have detailed documentation as well.
 -   If you just want documentation, then the repo can be used to generate that as well. If you just want to write HTML files, then it can be used as well.
+
+## Fortran transpiler
+
+-   Start from 66 standard and work your way up (look into various compiler options also)
+-   [fortran-lang.org](https://fortran-lang.org/)
+-   [fortranwiki.org](https://fortranwiki.org/fortran/show/HomePage)
+-   Wiki has list of libraries using Fortran. Transpile them to C++, make test cases pass, test for performance to act as a proof of concept.
+-   Use the official compilers for this task. A compiler has the following components
+    -   Lexical analysis - source code converted to tokens
+    -   Syntax analysis (parsing) - use tokens to create a syntax tree
+    -   Semantic analysis - check syntax tree for consistency, like type checking, vars/funcs are defined
+    -   Intermediate Code Generation - it is low-level, more abstract representation of the code that is easier to optimize, and is independent of the platform.

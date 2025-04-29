@@ -20,7 +20,104 @@ search_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## General
+## Digital content
+
+### Take photo
+
+### Record video
+
+### Record audio
+
+### Affinity Photo (Image editing)
+
+-   [Official docs](https://affinity.serif.com/en-us/learn/photo/desktop/) - youtube videos, written docs
+-   [Affinity Revolution](https://courses.affinityrevolution.com/) courses
+    -   Affinity Photo for Beginners
+    -   Affinity Photo: Beyond the Basics
+    -   Create Amazing Macros in Affinity Photo
+    -   The Ultimate Guide to Black and Whites
+-   Affinity Revolution youtube [Affinity Photo Tutorials](https://www.youtube.com/playlist?list=PLtQWi0Ez-6Qb_sMRcl9NcvUEvmDOVG5_Q) playlist
+
+### Affinity Designer (Vector graphics)
+
+-   [Official docs](https://affinity.serif.com/en-us/learn/designer/desktop/) - youtube videos, written docs
+-   [Logos by Nick](https://academy.logosbynick.com/) courses
+    -   Logo Design Academy
+    -   The Affinity Designer Masterclass
+-   [Affinity Revolution](https://courses.affinityrevolution.com/) courses
+    -   Affinity Designer for Beginners
+    -   Affinity Designer: Beyond the Basics
+-   Affinity Revolution youtube [Affinity Designer Tutorials](https://www.youtube.com/playlist?list=PLtQWi0Ez-6QaB92EOEoHKV7xiXBeLcMpB)
+
+### Affinity Publisher (Cards, magazines)
+
+-   [Official docs](https://affinity.serif.com/en-us/learn/publisher/desktop/)
+-   [Affinity Revolution](https://courses.affinityrevolution.com/) courses
+    -   Affinity Publisher for Beginners
+    -   Affinity Publisher: Beyond the Basics
+-   Affinity Revolution youtube [Affinity Designer Tutorials](https://www.youtube.com/playlist?list=PLtQWi0Ez-6QadDL8oUPGJ5uu9mQyMm-aa)
+
+### Davinci Resolve (Video, Audio)
+
+-   [Official Training](https://www.blackmagicdesign.com/products/davinciresolve/training)
+    -   (Book) Beginner's Guide to Davinci Resolve
+    -   Edit
+        -   Part 1 Intro to Editing
+        -   Part 2 Intro to Editing
+        -   Multi cam Editing
+        -   Visual Effects in the Edit Page
+        -   (Book) Editor's Guide to Davinci Resolve
+    -   Color
+        -   Introduction to Color
+        -   Advanced Color
+        -   Delivering Content
+        -   Color Management
+        -   (Book) The Colorist Guide to Davinci Resolve
+    -   Fairlight
+        -   Introduction to Audio
+        -   Introduction to Sound Design
+        -   Introduction to Mixing
+        -   Recording VO and ADR
+        -   Working with Audio Track Layers
+        -   Channel Mapping and Linked Groups
+        -   Dolby Atmos Integration
+        -   (Book) The Fairlight Audio Guide to Davinci Resolve
+    -   Fusion
+        -   Introduction to Fusion
+        -   basic Composting
+        -   Motion Graphics in Fusion
+        -   3D Composting in Fusion
+        -   (Book) The Visual Effects Guide to Davinci Resolve
+-   [GroundControl.film](https://www.groundcontrol.film/) courses
+    -   [Casey Faris](https://www.youtube.com/@CaseyFaris/videos) youtube
+    -   Pro Color Grading
+    -   Fusion: Zero to Hero Program
+    -   Pro Composting & VFX Course
+    -   Keyframe Animation Made Simple
+
+### OBS (screen recording)
+
+-   [OBS docs](https://obsproject.com/kb/)
+-   [The Definitive Guide to OBS Studio](https://glitch.mov/products/the-definitive-guide-to-obs-studio) by EposVox
+-   [EposVox](https://www.youtube.com/@EposVox) youtube playlists (capture card, teleprompter, webcams)
+-   Nvidia OBS [blog](https://www.nvidia.com/en-us/geforce/guides/broadcasting-guide/)
+
+### 3D software
+
+-   (modelling, rigging, animation) [Maya](https://www.autodesk.com/products/maya) better than [Blender](https://www.blender.org/)
+-   (modeling, architecture and product visualization) [3ds Max](https://www.autodesk.com/products/3ds-max)
+-   (composting) [Nuke](https://www.foundry.com/products/nuke-family/nuke) better than Davinci Fusion for composting
+-   (procedural simulations) [Houdini](https://www.sidefx.com/products/houdini/)
+-   (motion graphics) [Cinema 4d](https://www.maxon.net/en/cinema-4d)
+-   (sculpting or detail modeling) [ZBrush](https://www.maxon.net/en/zbrush)
+-   (real time 3d renderer) [Unreal Engine](https://www.unrealengine.com/en-US)
+-   (terrain generator) [Gaea](https://quadspinner.com/) or [World Creator](https://www.world-creator.com/en/index.phtml)
+-   (cloth simulation) [Marvelous Designer](https://www.marvelousdesigner.com/)
+-   (photogrammetry, convert images to 3d models) [Reality Capture](https://www.capturingreality.com/), [r/photogrammetry](https://www.reddit.com/r/photogrammetry/)
+
+## Web development
+
+### General
 
 -   [x] [link](https://wpc.guide/) Web Platform Contribution Guide
 -   [ ] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
@@ -35,7 +132,7 @@ search_exclude: true
 -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
 -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Privacy) MDN Reference: Privacy on the web
 
-## UI/UX
+### UI/UX
 
 -   [ ] [link](https://inclusivedesignprinciples.info/) Inclusive Design Principles
 -   [ ] [link](https://shapeofdesignbook.com/) The Shape of Design by Frank Chimero
@@ -45,7 +142,7 @@ search_exclude: true
 -   [ ] [link](https://readabilityguidelines.co.uk/) Readability Guidelines by Content Design London
 -   [ ] [link](https://www.designsystems.com/) Design Systems publication by Figma
 
-### Practical
+#### Practical
 
 -   [ ] [link](https://anthonyhobday.com/sideprojects/saferules/) Visual design rules you can safely follow every time
 -   [ ] [link](https://www.adhamdannaway.com/blog/ui-design/ui-design-tips) 16 little UI design tips that make a big impact
@@ -56,7 +153,7 @@ search_exclude: true
     -   https://www.youtube.com/watch?v=7Z9rrryIOC4
     -   https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE
 
-### Tools
+#### Tools
 
 -   [ ] [link](https://www.figma.com/) Figma
 -   [ ] [link](https://www.protopie.io/) ProtoPie
@@ -64,7 +161,7 @@ search_exclude: true
 -   [ ] [link](https://github.com/goabstract/Awesome-Design-Tools/blob/master/Awesome-Design-Plugins.md) Awesome-Design-Plugins
 -   [ ] [link](https://github.com/goabstract/Awesome-Design-Tools/blob/master/Awesome-Design-UI-Kits.md) Awesome-Design-UI-Kits
 
-### Courses
+#### Courses
 
 -   [ ] Frontend Masters courses
     -   [ ] [link](https://frontendmasters.com/courses/design-for-developers/) Design for Developers by _Sarah Drasner_
@@ -92,7 +189,7 @@ search_exclude: true
     -   [ ] [link](https://www.coursera.org/learn/responsive-web-design-adobe-xd?specialization=google-ux-design) Build Dynamic User Interfaces (UI) for Websites
     -   [ ] [link](https://www.coursera.org/learn/ux-design-jobs?specialization=google-ux-design) Design a User Experience for Social Good and Prepare for Jobs
 
-### Books
+#### Books
 
 -   [ ] Don't Make Me Think by _Steve Krug_
 -   [ ] The Design of Everyday Things by _Don Norman_
@@ -150,7 +247,7 @@ search_exclude: true
 -   [ ] [link](https://abookapart.com/collections/books) A Book Apart (all 50 books)
     -   [ ] HTML5 For Web Designers by _Jeremy Keith_, _Rachel Andrew_
 
-### Guidelines
+#### Guidelines
 
 -   [ ] Google Material for Android
 -   [ ] Apple Human Interfaces for Apple
@@ -161,7 +258,7 @@ search_exclude: true
 -   [ ] [link](https://typedesignresources.com/) Type Design Resources
 -   [ ] [link](https://www.oddbird.net/2025/02/12/fluid-type/?ck_subscriber_id=2308324911) Reimagining Fluid Typography
 
-## Search Engine Optimization (SEO)
+### Search Engine Optimization (SEO)
 
 -   [ ] [link](https://frontendmasters.com/courses/modern-seo/) Frontend Masters: Modern Search Engine Optimization (SEO)
 -   [ ] [link](https://developers.google.com/search/docs) Google Search docs
@@ -171,14 +268,12 @@ search_exclude: true
 -   [ ] [link](https://www.reddit.com/r/NextLevelSEO/top/?t=all) r/NextLevelSEO top posts
 -   [ ] [link](https://www.reddit.com/r/seogrowth/top/?t=all) r/SEOGrowth top posts
 
-### Books
+#### Books
 
 -   [ ] Product-Led SEO: The Why Behind Building Your Organic Growth
 -   [ ] The Art of SEO: Mastering Search Engine Optimization
 
-## Marketing
-
-## HTML
+### HTML
 
 -   [ ] MDN Learn
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content) Structuring content with HTML
@@ -205,14 +300,63 @@ search_exclude: true
 -   [ ] [link](https://web.dev/learn/pwa) web.dev: Learn PWA
 -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) MDN Reference: Progressive web apps
 
-## Testing
+### Testing
 
 -   [ ] [link](https://web.dev/learn/testing) web.dev: Learn Testing
 -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing) MDN Learn: Testing
 
-## Rust
+## Apple development
 
-### Language
+### Swift
+
+-   [Swift.org](https://www.swift.org/)
+    -   How code works internally, like how array are implemented at high level
+    -   Examples of useful array functions with all edge cases
+-   Resources
+    -   [Language Reference](https://www.swift.org/documentation/tspl/)
+    -   [API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
+    -   [Google swift style guide](https://google.github.io/swift/)
+    -   [Swift standard library](https://www.swift.org/documentation/standard-library/)
+    -   [Swift core libraries](https://www.swift.org/documentation/core-libraries/)
+    -   [Package manager](https://www.swift.org/documentation/package-manager/)
+    -   LLDB Debugger
+        -   [REPL & Debugger](https://www.swift.org/documentation/lldb/)
+        -   [LLDB](https://lldb.llvm.org/)
+    -   Look at articles section
+    -   Look at contributing section
+    -   Look at getting started section
+-   Formatter - [swift-format](https://github.com/swiftlang/swift-format/tree/main)
+-   Look at swift lang github account for related repositories
+-   LLVM compiler backend. Uses swift-compiler (instead of clang)
+-   swift-build-tool used instead of cmake/make
+-   profiler like tracy profiler
+-   apple swift developer [website](https://developer.apple.com/swift/)
+    -   [swift docs](https://developer.apple.com/documentation/swift)
+    -   [swift videos from wwdc](https://developer.apple.com/videos/swift/)
+-   [Sean allen youtube](https://www.youtube.com/@seanallen)
+-   [pointfree.co](https://www.pointfree.co/) - advanced swift
+-   https://www.objc.io/books/
+
+### ios
+
+-   [Stanford CS193p Spring 2023](https://www.youtube.com/watch?v=n1qabtjZ_jg) - Developing ios applications with SwiftUI
+-   https://swiftui-lab.com/
+-   https://www.bigmountainstudio.com/swiftui-views-book-14
+
+## QT development
+
+-   [QT overviews](https://doc.qt.io/qt-6/overviews-main.html) explain the purpose of all libraries
+-   Bryan Cairns udemy QT courses
+-   Scythe Studio youtube
+-   KDE Frameworks
+
+## Marketing
+
+## Programming Languages
+
+### Rust
+
+#### Language
 
 -   [x] [link](https://www.oreilly.com/library/view/why-rust/9781492048589/) Why Rust? Trustworthy, Concurrent Systems Programming by _Jim Blandy_ (60 pages) (Sep 2015)
 -   [ ] [link](https://stevedonovan.github.io/rust-gentle-intro/) A Gentle Introduction to Rust by _Steve J Donovan_ (153 pages) (Dec 2019)
@@ -244,7 +388,7 @@ search_exclude: true
 -   [ ] [link](https://www.amazon.com/dp/B0D7FQB3DH) Rust Under the Hood: A deep dive into Rust internals and generated assembly
 -   [ ] [link](https://nnethercote.github.io/perf-book/title-page.html) The Rust Performance Book
 
-### Application
+#### Application
 
 -   [ ] [link](https://rust-api.dev/docs/front-matter/preface/) API development with Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/too-many-brainfuck-compilers.md) Learn Assembly by Writing Entirely Too Many Brainfuck Compilers
@@ -257,9 +401,266 @@ search_exclude: true
 -   [ ] [link](https://pragprog.com/titles/khrust/programming-webassembly-with-rust/) Programming WebAssembly with Rust
 -   [ ] [link](https://kerkour.com/black-hat-rust) Black Hat Rust
 
-### Other
+#### Other
 
 -   [ ] [link](https://rustup.rs/) rustup
 -   [ ] [link](https://play.rust-lang.org/) Rust playground
 
+### Go
+
+-   [ ] [link](https://go.dev/doc/) Go Documentation
+    -   [ ] Getting started
+    -   [ ] Developing modules (skim all topics)
+    -   [ ] Talks (check [wiki](https://go.dev/wiki/GoTalks) for all the relevant talks)
+    -   [ ] Codewalks (only do Tools section)
+    -   [ ] Accessing databases
+    -   [ ] References (complete Go By Example before starting)
+    -   [ ] Using and Understanding Go
+-   [ ] [link](https://gobyexample.com/) Go By Example
+-   [ ] [link](https://google.github.io/styleguide/go/) Google style guide
+-   [ ] [link](https://www.alexedwards.net/blog) Alex Edwards
+    -   [ ] [link](https://lets-go.alexedwards.net/) Let's Go
+    -   [ ] [link](https://lets-go-further.alexedwards.net/) Let's Go Further
+    -   [ ] [link](https://www.alexedwards.net/blog) Articles
+-   [ ] [link](https://checkmarx.gitbooks.io/go-scp/content/) Go SCP
+-   [ ] [link](https://bitfieldconsulting.com/books) John Arundel books
+    -   [ ] [link](https://bitfieldconsulting.com/books/love) For the love of Go
+    -   [ ] [link](https://bitfieldconsulting.com/books/tools) The power of Go Tools
+    -   [ ] [link](https://bitfieldconsulting.com/books/tests) The Power of Go tests
+    -   [ ] [link](https://bitfieldconsulting.com/books/generics) Know go
+    -   [ ] [link](https://bitfieldconsulting.com/books/crypto) Explore go cryptography
+-   [ ] [link](https://coreyscott.dev/book/) Corey scott
+    -   [ ] Hands-On Dependency Injection in Go
+    -   [ ] Beyond effective Go Part 1 Achieving High-Performance Code
+    -   [ ] Beyond effective Go Part 2 Striving for High-Quality Code
+-   [ ] Thorsten Ball
+    -   [ ] Writing an interpreter in go
+    -   [ ] Writing a compiler in go
+-   [ ] Dave Cheney
+    -   [ ] [link](https://dave.cheney.net/high-performance-go-workshop/gophercon-2019.html) High Performance Go
+    -   [ ] [link](https://dave.cheney.net/practical-go) Practical Go
+-   [ ] [link](https://www.youtube.com/playlist?list=PL0xRBLFXXsP7-0IVCmoo2FEWBrQzfH2l8) Anthony GG How to Golang playlist
+-   [ ] Books
+    -   [ ] Manning books
+        -   [ ] 100 Go Mistakes and How to Avoid Them
+        -   [ ] Shipping Go: Develop, deliver, discuss, design, and go again
+        -   [ ] Learn Go with Pocket-Size Projects
+        -   [ ] Go by Example: Programmer's guide to idiomatic and testable code
+        -   [ ] Go in Practice, 2nd ed.
+        -   [ ] Go in Action, 2nd ed.
+        -   [ ] gRPC Microservices in Go
+        -   [ ] Build an Orchestrator in Go (From Scratch)
+        -   [ ] Learn Concurrent Programming with Go
+    -   [ ] O'Reiley books
+        -   [ ] Learning Go: An idiomatic approach to real-world problems
+        -   [ ] Efficient Go: Data-driven performance optimization
+        -   [ ] Cloud native Go: Building Reliable Services in Unreliable
+        -   [ ] Go cookbook: expert solutions for commonly needed go tasks
+        -   [ ] Concurrency in go: tools and techniques for developers
+    -   [ ] [link](https://github.com/dariubs/GoBooks) Other
+        -   [ ] Security with Go
+        -   [ ] Black Hat Go
+        -   [ ] Building Distributed Applications in Gin
+        -   [ ] Network Programming with Go
+        -   [ ] Powerful Command-Line Applications in Go
+        -   [ ] Microservices with Go
+        -   [ ] Event-Driven Architecture in Golang
+        -   [ ] Domain-Driven Design with Golang
+        -   [ ] Go with the Domain: Building Modern Business Software in Go
+        -   [ ] 12 Factor Applications with Docker and Go
+        -   [ ] Creative DIY Microcontroller Projects with TinyGo and WebAssembly
+        -   [ ] Distributed Services with Go Your Guide to Reliable, Scalable, and Maintainable Systems
+        -   [ ] Wasm Cooking with Golang
+        -   [ ] Generative Art in Go
+        -   [ ] Everyday Golang
+-   [ ] Conferences
+    -   [Gopher Academy](https://www.youtube.com/@GopherAcademy/playlists) - in july (videos are posted almost 1 year after the conference)
+    -   [GopherCon Europe](https://www.youtube.com/@GopherConEurope/playlists) - in june
+    -   [GopherCon UK](https://www.youtube.com/@GopherConUK/playlists) - in august
+-   [ ] [link](https://github.com/avelino/awesome-go) Tools
+
+### C++
+
+-   [learncpp.com](https://www.learncpp.com/) - supplement with cppreference and CPPCon
+-   [studyplan.dev/cpp](https://www.studyplan.dev/cpp) - supplement with cppreference and CPPCon
+    -   [studyplan.dev/sdl](https://www.studyplan.dev/sdl)
+    -   Can look into computer graphics courses followed by
+    -   OpenGL (old, but has better tutorials, and better to spend a month here and then move on).
+    -   Vulkan (modern and cross-platform)
+-   [cppreference.com](https://en.cppreference.com/w/) - supplement with CPPCon videos
+-   CPPCon
+    -   [2022 videos](https://www.youtube.com/playlist?list=PLHTh1InhhwT7gQEuYznhhvAYTel0qzl72)
+-   [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)
+-   C++23 ISO specification
+
+#### Useful tools
+
+-   (IDE) VSCode C++ [docs](https://code.visualstudio.com/docs/languages/cpp1)
+-   Linter / Static Analysis
+    -   clang-tidy
+    -   Clang Static Analyzer
+    -   CppCheck
+    -   Compile with multiple compilers with all warning flags turned on
+    -   SonarLint
+    -   SonarCloud
+    -   Ericsson/codechecker
+    -   Google Sanitizers ASAN/TSAN
+-   (Formatter) clang-format
+-   Debugging tools
+    -   GDB
+    -   Valgrind
+    -   [Google Sanitizers](https://github.com/google/sanitizers?tab=readme-ov-file)
+-   (Package Manager) vcpkg
+-   Build system
+    -   Make
+        -   Managing projects with gnu make
+        -   makefiletutorial.com
+    -   Ninja
+    -   CMake
+        -   Mastering CMake
+        -   Professional CMake
+-   Profiler
+    -   Valgrind Callgrind
+    -   Tracy Profiler
+    -   google/pprof
+-   Testing
+    -   Google Test
+    -   Catch2
+    -   doctest
+    -   Look at SQLite, for all the tests they perform and how to replicate then in C++ (OS error, IO error, network error, ...)
+-   Compiler
+    -   GCC
+    -   Clang
+-   [List](https://en.cppreference.com/w/cpp/links/libs) of open-source libraries
+-   How to optimize bytecode (like JS uses UTF-16 by default, but UTF-8 can also be used).
+-   AUTOSAR
+    -   Used in cars
+    -   Has a good C++ standard
+-   Logging (?) (page 42 of yellow book)
+
+#### Books
+
+https://github.com/yuchdev/CppBooks
+
+-   Understanding and Using C Pointers: Core Techniques for Memory Management (223 pages)
+
+### C
+
+-   [Low Level Academy course](https://lowlevel.academy/courses)
+    -   Zero2Hero C Programming
+    -   Network Code that doesn't Suck
+    -   Threads, but Smart
+
+## Computer architecture
+
+Books
+
+-   Computer Systems A Programmer's Perspective 3rd edition (1078 pages)
+-   Structure and Interpretation of Computer Programs 2nd edition (883 pages)
+-   Code: The Hidden Language of Computer Hardware and Software (480 pages)
+-   The Elements of Computer Systems: Building a Modern Computer from First Principles 2nd edition (344 pages)
+-   Operating Systems: Three Easy Pieces (747 pages)
+-   Structure and Interpretation of Computer Programs 2nd edition (657 pages)
+-   Computer Architecture: A Quantitative Approach 6th edition (936 pages)
+-   Computer Architecture by Charles Fox (560 pages)
+-   Computer Organization and Design RISC: The Hardware Software Interface 5th edition (736 pages)
+-   Computers as Components: Principles of Embedded Computing System Design 5th edition (560 pages)
+-   Cache Memory Book 2nd edition (256 pages)
+
+Courses
+
+-   How do computers work by Sebastian Lague [4 video playlist](https://www.youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq)
+-   Computer Science by CrashCourse [40 video playlist](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+-   (Coursera) Build a Modern Computer from First Principles: From Nand to Tetris [link](https://www.coursera.org/learn/build-a-computer)
+-   Article on C memory management [link](https://www.rfleury.com/p/untangling-lifetimes-the-arena-allocator)
+-   Casey Muratori [course](https://www.computerenhance.com/p/table-of-contents)
+-   Zero to ASIC [course](https://www.zerotoasiccourse.com/)
+-   Binary Exploitation / Memory Corruption by LiveOverflow [playlist](https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
+-   [Courses](https://people.inf.ethz.ch/omutlu/lecture-videos.html) by Professor Onur Mutlu
+
+## Compiler
+
+[Reddit post](https://www.reddit.com/r/Compilers/comments/15ga21m/comment/jujd5ul/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) with information on resources.
+
+-   Crafting Interpreters
+-   CS 6120: Advanced Compilers
+-   Engineering a Compiler 3rd edition
+-   SSA-based Compiler Design
+-   Static Program Analysis by Anders Moller
+-   Modern Compiler Implementation in C
+-   Advanced C and C++ Compiling
+-   How to Write Shared Libraries by Ulrich Drepper
+
+### GCC
+
+-   An Introduction to GCC for the GNU Compiler gcc and g++
+-   GCC docs + what each optimize does
+
 ## Certifications
+
+-   Comptia
+-   CISCO
+-   ISC 2
+-   ISACA
+-   Google
+-   BISCI
+-   AWS
+-   GCP
+-   Azure
+-   PMI
+-   FIDO
+-   ICCP
+-   Redhat
+-   ISTQB
+-   Linux foundation
+-   hashicorp
+-   kubrenetes (linux foundation, mirantis)
+-   Openstack
+-   databricks
+-   snowflake
+-   facebook
+-   snia
+-   schneider
+-   uptime institute / tier-certification
+-   tiaonline
+-   cnet-training
+
+## Career
+
+### Leadership
+
+-   Ethan Evans substack archive
+-   Ethan evans courses
+    -   Cracking the C-Suite: How to get and master key executive roles
+    -   Level Up: Breaking through to executive
+    -   Managing up successfully
+    -   Leadership Networking
+    -   Leadership Resumes that get results
+    -   The growth and promotion recipe
+    -   How to get a raise
+
+### Severance
+
+-   Ethan Evans course (Maximizing a Severance Package)
+-   How to Engineer your layoff book
+
+## Money
+
+-   JJ Collins
+    -   The Simple Path to Wealth book
+    -   Stuff I recommend (website)
+    -   Stock series (website)
+    -   Home ownership (website)
+-   r/personalfinance wiki
+-   r/Bogleheads
+    -   reddit sidebar links
+    -   book
+-   Is a financial advisor worth it? r/financialplanning
+-   Khan academy
+    -   personal finance
+    -   financial literacy
+-   Investopedia
+    -   Investing
+    -   Banking
+    -   Personal Finance
+-   The Math Sorcerer (Finviz, Stock market playlist)
