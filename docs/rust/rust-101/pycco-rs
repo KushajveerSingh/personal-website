@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+# A little wrapper around pycco, to add Rust support.
+import pycco, pycco_resources
+from pygments import lexers, formatters
+import sys, re
+
+# helper functions
+def patch_html(source, marker, new_text):
+    '''Find the [marker] in [source], and insert [new_text] after it.'''
+    assert source.count(marker) == 1
+    return source.replace(marker, marker + new_text, 1)
+
+# now, monkey-patch pycco for Rust support
+pycco.main.supported_languages[".rs"] = { "name": "rust", "comment_symbol": "//"}
+for ext, l in pycco.main.supported_languages.items():
+    # Does the line begin with a comment?
+    l["comment_matcher"] = re.compile(r"^\s*" + l["comment_symbol"] + "\s?")
+    # The dividing token we feed into Pygments, to delimit the boundaries between
+    # sections.
+    l["divider_text"] = "\n" + l["comment_symbol"] + "DIVIDER\n"
+    # The mirror of `divider_text` that we expect Pygments to return. We can split
+    # on this to recover the original sections.
+    l["divider_html"] = re.compile(r'\n*<span class="c[1]?">' + l["comment_symbol"] + 'DIVIDER</span>\n*')
+    # Get the Pygments Lexer for this language.
+    l["lexer"] = lexers.get_lexer_by_name(l["name"])
+
+# and monkey-patch the function generating the output to do some post-processing
+generate_documentation_orig = pycco.main.generate_documentation
+generate_documentation_called = False
+def generate_documentation(*args, **kwargs):
+    global generate_documentation_called
+    generate_documentation_called = True
+    result = generate_documentation_orig(*args, **kwargs)
+    # now patch it
+    result = patch_html(result, b'<link rel="stylesheet" href="pycco.css">',
+                        b'<link rel="stylesheet" href="pycco_custom.css"><meta name="viewport" content="width=device-width">')
+    result = patch_html(result, b'<title>', b'Rust-101: ')
+    ## remove empty code blocks
+    result = re.sub(b'''<div class='code'>
+ *<div class="highlight"><pre>(<span></span>)?</pre></div>
+ *</div>''', b'<!-- empty code block -->', result)
+    # done
+    return result
+pycco.main.generate_documentation = generate_documentation
+
+# call pycco
+assert len(sys.argv) == 2
+pycco.main.main()
+assert generate_documentation_called

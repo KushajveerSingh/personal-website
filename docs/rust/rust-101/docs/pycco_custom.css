@@ -1,0 +1,93 @@
+/*--------------------- Typography ----------------------------*/
+
+@font-face {
+    font-family: 'aller-light';
+    src: url('fonts/aller-light.eot');
+    src: url('fonts/aller-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aller-light.woff') format('woff'),
+         url('fonts/aller-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*--------------------- Layout ----------------------------*/
+body {
+    font-family: 'aller-light', sans-serif;
+    position: relative;
+    display: inline-block;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1em;
+}
+
+div.docs {
+    max-width: 580px;
+    padding-left: 35px;
+}
+#background {
+    position: absolute;
+    height: 100%;
+    left: 640px;
+}
+div.code {
+    margin-left: 640px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+}
+div.docs p {
+    margin-bottom: 5px;
+}
+div.code {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+@media print {
+    #background {
+        background: none;
+        border: none;
+    }
+    div.docs {
+        max-width: 99%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    div.code {
+        margin: 0px;
+        clear: both;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #background {
+        background: none;
+        border: none;
+    }
+    div.docs {
+        max-width: 99%;
+    }
+    div.code {
+        margin: 0px;
+        clear: both;
+        background: #EEEEEE;
+        border-top: #BBBBBB 1px solid;
+        border-bottom: #BBBBBB 1px solid;
+    }
+}
+
+/*---------------------- Syntax Highlighting -----------------------------*/
+body .k { font-weight: bold }                   /* Keyword */
+body .kd { font-weight: normal }                /* Keyword.Declaration */
+body .n { color: #19469D }                      /* Name */
+
+body .mf { color: #40A070 }                     /* Literal.Number.Float */
+body .mh { color: #40A070 }                     /* Literal.Number.Hex */
+body .mi { color: #40A070 }                     /* Literal.Number.Integer */
+body .mo { color: #40A070 }                     /* Literal.Number.Oct */
+body .il { color: #40A070 }                     /* Literal.Number.Integer.Long */
