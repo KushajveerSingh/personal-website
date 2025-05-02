@@ -1,11 +1,11 @@
 ---
-title: Projects
+title: Learn - Swift
 search_exclude: true
 nav_exclude: true
 ---
 
 <!-- prettier-ignore-start -->
-# Projects
+# Swift
 {: .no_toc }
 
 <details open markdown="block">
@@ -18,3 +18,5 @@ nav_exclude: true
 </details>
 
 <!-- prettier-ignore-end -->
+
+Refer to [Learn - Apple Development](/internal/learn/apple-development).

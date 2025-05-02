@@ -1,8 +1,7 @@
 ---
 title: Working
-nav_order: 2
-parent: Internal
 search_exclude: true
+nav_exclude: true
 ---
 
 <!-- prettier-ignore-start -->

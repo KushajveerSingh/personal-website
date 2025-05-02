@@ -1,11 +1,11 @@
 ---
-title: Projects
+title: Learn - Android Development
 search_exclude: true
 nav_exclude: true
 ---
 
 <!-- prettier-ignore-start -->
-# Projects
+# Android Development
 {: .no_toc }
 
 <details open markdown="block">

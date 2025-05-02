@@ -1,11 +1,11 @@
 ---
-title: Projects
+title: Learn - Desktop Development
 search_exclude: true
 nav_exclude: true
 ---
 
 <!-- prettier-ignore-start -->
-# Projects
+# Desktop Development
 {: .no_toc }
 
 <details open markdown="block">
@@ -18,3 +18,10 @@ nav_exclude: true
 </details>
 
 <!-- prettier-ignore-end -->
+
+## QT
+
+-   [QT overviews](https://doc.qt.io/qt-6/overviews-main.html) explain the purpose of all libraries
+-   Bryan Cairns udemy QT courses
+-   Scythe Studio youtube
+-   KDE Frameworks

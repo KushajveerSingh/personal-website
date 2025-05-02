@@ -1,11 +1,11 @@
 ---
-title: Projects
+title: Learn - JavaScript
 search_exclude: true
 nav_exclude: true
 ---
 
 <!-- prettier-ignore-start -->
-# Projects
+# JavaScript
 {: .no_toc }
 
 <details open markdown="block">
@@ -18,3 +18,5 @@ nav_exclude: true
 </details>
 
 <!-- prettier-ignore-end -->
+
+Refer to [Learn - Web Development](/internal/learn/web-development).

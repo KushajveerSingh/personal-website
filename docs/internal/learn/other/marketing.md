@@ -1,11 +1,11 @@
 ---
-title: Projects
+title: Learn - Marketing
 search_exclude: true
 nav_exclude: true
 ---
 
 <!-- prettier-ignore-start -->
-# Projects
+# Marketing
 {: .no_toc }
 
 <details open markdown="block">

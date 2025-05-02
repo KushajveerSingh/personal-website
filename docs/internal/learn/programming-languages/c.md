@@ -1,11 +1,11 @@
 ---
-title: Projects
+title: Learn - C
 search_exclude: true
 nav_exclude: true
 ---
 
 <!-- prettier-ignore-start -->
-# Projects
+# C
 {: .no_toc }
 
 <details open markdown="block">
@@ -18,3 +18,8 @@ nav_exclude: true
 </details>
 
 <!-- prettier-ignore-end -->
+
+-   [Low Level Academy course](https://lowlevel.academy/courses)
+    -   Zero2Hero C Programming
+    -   Network Code that doesn't Suck
+    -   Threads, but Smart
