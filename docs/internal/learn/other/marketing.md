@@ -18,3 +18,7 @@ nav_exclude: true
 </details>
 
 <!-- prettier-ignore-end -->
+
+## Digital Marketing
+
+-   [ ] [link](https://www.coursera.org/google-certificates/digital-marketing-certificate) Google Digital Marketing & E-commerce Professional Certificate coursera

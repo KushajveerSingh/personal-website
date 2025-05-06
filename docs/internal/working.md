@@ -23,6 +23,13 @@ nav_exclude: true
 
 -   Add https://lborb.github.io/book/ to rust books
 -   Delete reorganize folder
+-   Add paid software from notes to internal
+-   Add cmopany ideas from notes to internal
+-   Add project ideas from notes to internal
+-   Add adventure from notes to adventure.md
+-   Rewrite adventure.md
+-   Move house ideas fro notes to adventure.md
+-   Rework social accounts and sync the info and picture in them all
 
 ## Daily Routine
 

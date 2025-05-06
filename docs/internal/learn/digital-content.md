@@ -19,11 +19,13 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## Take photo
+## Image
 
-## Record video
+## Video
 
-## Record audio
+## Audio
+
+-   [link](https://www.youtube.com/watch?v=u6EuAUjq92k) Raytraced audio
 
 ## Affinity Photo (Image editing)
 

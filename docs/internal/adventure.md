@@ -141,6 +141,11 @@ Useful resource
 
 -   Create a crossword puzzle like shape with blocks with your name and other important stuff. Motivation: Saw mom/dad/child's name in this format.
 
+## Dog
+
+-   Breeds
+    -   Samoyed
+
 ## Random stuff
 
 -   In Europe, get train pass and use hostel to stay when backpacking.

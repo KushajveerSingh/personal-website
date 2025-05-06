@@ -83,6 +83,7 @@ Other
     -   r/accessibility
     -   Problem: with accessibility with math equations (can maybe can extend to chemistry)
     -   Make a tool like stark to check accessibility with wcag spec and other specs you can find.
+    -   https://www.apaservices.org/ APA accessibility
 -   Good [posts](https://adrianroselli.com/posts) by Adrian Roselli
 -   JavaScript
     -   https://www.patterns.dev/
@@ -302,6 +303,7 @@ Start with [Hussein Nasser Courses](https://www.husseinnasser.com/p/about-hussei
 
 ## Database
 
+-   https://www.hytradboi.com/2025
 -   PostgreSQL
 -   ScyllaDB
 

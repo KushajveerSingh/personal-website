@@ -154,3 +154,5 @@ devops handbooks to how create world class agility, reliability and security in 
 -   Build a UI for all the steps of the compiler architecture
 
 home internet provider [reddit post](https://www.reddit.com/r/NoContract/comments/g1b8p0/calyxinstitute_vs_connectall_vs_mobilecitizen_vs/)
+
+futo guide to building home server https://wiki.futo.org/index.php/Introduction_to_a_Self_Managed_Life:_a_13_hour_%26_28_minute_presentation_by_FUTO_software

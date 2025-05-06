@@ -43,6 +43,7 @@ nav_exclude: true
 -   [ ] [link](https://learningseo.io/) LearnSEO.io
 -   [ ] [link](https://www.reddit.com/r/NextLevelSEO/top/?t=all) r/NextLevelSEO top posts
 -   [ ] [link](https://www.reddit.com/r/seogrowth/top/?t=all) r/SEOGrowth top posts
+-   [ ] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
 
 ### Books
 
@@ -76,8 +77,3 @@ nav_exclude: true
 
 -   [ ] [link](https://web.dev/learn/pwa) web.dev: Learn PWA
 -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) MDN Reference: Progressive web apps
-
-## Testing
-
--   [ ] [link](https://web.dev/learn/testing) web.dev: Learn Testing
--   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing) MDN Learn: Testing

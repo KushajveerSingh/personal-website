@@ -28,6 +28,7 @@ nav_exclude: true
 -   [ ] [link](https://webstyleguide.com/) Web style guide by Patrick J. Lynch and Sarah Horton
 -   [ ] [link](https://readabilityguidelines.co.uk/) Readability Guidelines by Content Design London
 -   [ ] [link](https://www.designsystems.com/) Design Systems publication by Figma
+-   [ ] [link](https://www.youtube.com/@phoebeyutbt/videos) Phoebe Yu youtube videos
 
 ## Practical
 
@@ -144,3 +145,5 @@ nav_exclude: true
 -   [ ] [link](https://practicaltypography.com/) Practical Typography by Butterrick
 -   [ ] [link](https://typedesignresources.com/) Type Design Resources
 -   [ ] [link](https://www.oddbird.net/2025/02/12/fluid-type/?ck_subscriber_id=2308324911) Reimagining Fluid Typography
+-   [ ] Tools
+    -   [ ] [link](https://github.com/Munter/subfont?tab=readme-ov-file) subfont

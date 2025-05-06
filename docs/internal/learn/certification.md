@@ -45,3 +45,8 @@ nav_exclude: true
 -   uptime institute / tier-certification
 -   tiaonline
 -   cnet-training
+
+## Cybersecurity
+
+-   Sans https://www.sans.org/cyber-security-certifications/
+-   Offsec https://www.offsec.com/
