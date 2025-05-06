@@ -62,8 +62,16 @@ nav_exclude: true
 -   [ ] [link](https://rustwasm.github.io/docs/book/) Rust and WebAssembly
 -   [ ] [link](https://pragprog.com/titles/khrust/programming-webassembly-with-rust/) Programming WebAssembly with Rust
 -   [ ] [link](https://kerkour.com/black-hat-rust) Black Hat Rust
+-   [ ] [link](https://github.com/aquova/chip8-book) An Introduction to Chip-8 emulation using Rust
+-   [ ] [link](https://pest.rs/book/) A thoughtful introduction to pest parser
+-   [ ] [link](https://wubingzheng.github.io/build-lua-in-rust/en/) Build a Lua Interpreter in Rust
+-   [ ] [link](https://crosvm.dev/book/) Book of crosvm
+-   [ ] [link](https://createlang.rs/) Create Your Own Programming Language with Rust
+-   [ ] [link](https://docs.rust-embedded.org/discovery/) micro::bit v2 Embedded Discovery Book
+-   [ ] [link](https://docs.esp-rs.org/book/) The Rust on ESP Book
 
 ## Other
 
+-   [ ] [link](https://lborb.github.io/book/title-page.html) The Little Book of Rust Books
 -   [ ] [link](https://rustup.rs/) rustup
 -   [ ] [link](https://play.rust-lang.org/) Rust playground

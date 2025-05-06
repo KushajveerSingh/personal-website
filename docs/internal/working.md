@@ -21,7 +21,6 @@ nav_exclude: true
 
 ## TODO
 
--   Add https://lborb.github.io/book/ to rust books
 -   Delete reorganize folder
 -   Add paid software from notes to internal
 -   Add cmopany ideas from notes to internal
