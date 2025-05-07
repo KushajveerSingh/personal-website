@@ -28,7 +28,6 @@ nav_exclude: true
 -   [ ] [link](https://webstyleguide.com/) Web style guide by Patrick J. Lynch and Sarah Horton
 -   [ ] [link](https://readabilityguidelines.co.uk/) Readability Guidelines by Content Design London
 -   [ ] [link](https://www.designsystems.com/) Design Systems publication by Figma
--   [ ] [link](https://www.youtube.com/@phoebeyutbt/videos) Phoebe Yu youtube videos
 
 ## Practical
 
@@ -37,6 +36,7 @@ nav_exclude: true
 -   [ ] [link](https://www.youtube.com/@UICollectiveDesign) UICollective youtube channel
 -   [ ] [link](https://www.youtube.com/@chainliftwebdesign/videos) Chainlift youtube channel
 -   [ ] [link](https://www.youtube.com/@wearestudiotonic/videos) Tonic youtube channel
+-   [ ] [link](https://www.youtube.com/@phoebeyutbt/videos) Phoebe Yu youtube videos
 -   [ ] Refactoring UI
     -   https://www.youtube.com/watch?v=7Z9rrryIOC4
     -   https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE
