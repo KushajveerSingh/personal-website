@@ -153,3 +153,5 @@ Useful resource
 -   https://lnt.org/
 -   Rope tying
 -   https://outwardbound.org/ for group trips
+
+https://andrewskurka.com/guided-trips/

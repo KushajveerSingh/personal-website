@@ -56,6 +56,9 @@ Other
         -   Learn CSS
         -   Learn Responsive Design
         -   Learn Design
+    -   https://www.realtimecolors.com/
+    -   Challenges
+        -   https://csshell.dev/
 -   Post CSS
 -   Lightning CSS
 -   Tailwind CSS
@@ -242,6 +245,7 @@ Frameworks
 Start with [Hussein Nasser Courses](https://www.husseinnasser.com/p/about-hussein.html)
 
 -   Node.js
+    -   https://www.deepintodev.com/blog/how-nodejs-works-behind-the-scenes?ck_subscriber_id=2308324911
 -   ExpressJS
 -   Fastify
 -   NestJS
@@ -320,3 +324,7 @@ Start with [Hussein Nasser Courses](https://www.husseinnasser.com/p/about-hussei
 -   Stripe
 -   ParityDeals
 -   Socket.IO
+
+## Cybersecurity
+
+https://www.hackerone.com/product/pentest
