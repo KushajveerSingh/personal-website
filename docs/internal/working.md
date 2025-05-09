@@ -22,13 +22,11 @@ nav_exclude: true
 ## TODO
 
 -   Delete reorganize folder
--   Add paid software from notes to internal
--   Add cmopany ideas from notes to internal
+-   Add company ideas from notes to internal
 -   Add project ideas from notes to internal
 -   Add adventure from notes to adventure.md
 -   Rewrite adventure.md
--   Move house ideas fro notes to adventure.md
--   Rework social accounts and sync the info and picture in them all
+-   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
 
 ## Daily Routine
 
