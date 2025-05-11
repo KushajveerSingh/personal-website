@@ -1,3 +1,0 @@
-
-* Shared-memory concurrency, interior mutability, Sync: Concurrent counter
-* Drop, unsafe: doubly-linked list

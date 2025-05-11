@@ -21,7 +21,7 @@ nav_exclude: true
 
 ## Leadership
 
--   Ethan Evans substack archive
+-   Ethan Evans Substack archive
 -   Ethan evans courses
     -   Cracking the C-Suite: How to get and master key executive roles
     -   Level Up: Breaking through to executive

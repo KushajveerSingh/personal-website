@@ -1,7 +1,8 @@
----
+1---
 title: Internal
 nav_exclude: true
 search_exclude: true
+
 ---
 
 # Internal
@@ -9,6 +10,7 @@ search_exclude: true
 <h2 class="text-delta">Table of content</h2>
 
 -   Learn
+    -   [Software Engineering Books](/internal/learn/software-engineering-books)
     -   [Certification](/internal/learn/certification)
     -   [Digital Content](/internal/learn/digital-content)
     -   [UI/UX](/internal/learn/ui-ux)
@@ -16,6 +18,8 @@ search_exclude: true
     -   [Apple Development](/internal/learn/apple-development)
     -   [Android Development](/internal/learn/android-development)
     -   [Desktop Development](/internal/learn/desktop-development)
+    -   [Virtual Reality](/internal/learn/virtual-reality)
+    -   [Augmented Reality](/internal/learn/augmented-reality)
     -   Programming Languages
         -   [C](/internal/learn/programming-languages/c)
         -   [C++](/internal/learn/programming-languages/cpp)

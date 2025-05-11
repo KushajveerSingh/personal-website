@@ -21,26 +21,19 @@ nav_exclude: true
 
 ## TODO
 
--   Delete reorganize folder
--   Add company ideas from notes to internal
--   Add project ideas from notes to internal
 -   Add adventure from notes to adventure.md
--   Rewrite adventure.md
+-   Add project ideas from notes to internal (from yellow, black notebook)
+-   Add company ideas from notes to internal
+-   Add youtube liked videos
+-   Delete reorganize folder
 -   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
 
 ## Daily Routine
 
--   Learn Rust
-    -   Learn QT
-    -   Learn Apple
-    -   Learn Android
-    -   Learn VR
--   UI/UX
-    -   Learn.md stuff from top to bottom
-    -   Software engineering books
--   HTML
--   Todo + Social presence + Health
-    -   Update list (project ideas, screenshots, notes, learn.md)
-    -   Social media updates, project announcements/updates
-    -   Exercise, nutrition, recovery
--   Project work
+-   rust.md
+    -   compiler.md
+    -   c.md
+-   Update social media (personal information, project updates) + Update todo list (screenshots, notes, project ideas)
+-   ui-ux.md + software-engineering-books.md
+-   web-development.md
+-   projects.md

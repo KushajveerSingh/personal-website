@@ -29,12 +29,12 @@ nav_exclude: true
 -   [link](https://affinity.serif.com/en-us/photo/) Affinity Photo 2
 -   [link](https://affinity.serif.com/en-us/designer/) Affinity Designer 2
 -   [link](https://affinity.serif.com/en-us/publisher/) Affinity Publisher 2
--   [link](https://www.blackmagicdesign.com/products/davinciresolve) Davinci Resolve
+-   [link](https://www.blackmagicdesign.com/products/davinciresolve) DaVinci Resolve
 
 ## Web Development
 
 -   [link](https://designcourse.com/app/course) DesignCourse
-    -   Advanced Frontends
+    -   Advanced Frontend
     -   AI Generative Video Production
     -   CSS
     -   Rapid Refactors

@@ -81,12 +81,12 @@ CERN was using SGML internally, and Tim Berners-Lee used SGML as a starting poin
 
 Nicola Pellow, an intern at CERN, created the first cross-platform browser called _Line Mode Browser_, making the web accessible to everyone.
 
-To solve issues with interoperability i.e. what should browser do when it encounters something that it dosen't understand, browsers will ignore tags they don't understand. This allows to add new tags, and knowing exactly how old browsers will treat it; they will ignore the tag and display the content.
+To solve issues with interoperability i.e. what should browser do when it encounters something that it doesn't understand, browsers will ignore tags they don't understand. This allows to add new tags, and knowing exactly how old browsers will treat it; they will ignore the tag and display the content.
 
-New tags kept being added to HTML, but most of these tags were focused on visual than the meaning of content. Hakon Wium Lie, also working at CERN at the same time as Tim Berners-Lee, proposed a Cascading Style Sheets to describe the presentation of HTML documents. And together with Bert Bos, they created the sytax of CSS.
+New tags kept being added to HTML, but most of these tags were focused on visual than the meaning of content. Hakon Wium Lie, also working at CERN at the same time as Tim Berners-Lee, proposed a Cascading Style Sheets to describe the presentation of HTML documents. And together with Bert Bos, they created the syntax of CSS.
 
 In 1996 David Siegel published _Creating Killer Websites_ book, outlining series of ingenious techniques for creating eye-catching designs out of the raw HTML tags. Like using a transparent GIF as an IMG element to control amount of whitespace in the design. Or using TABLE element to recreate any desired layout.
 
 Web designers didn't use CSS because of the browser war between Microsoft Internet Explorer and Netscape Navigator, who would invent their own separate HTML elements, and designers were forced to write for both browsers. A group of web designers formed Web Standards Project, and began lobbying Microsoft and Netscape to abandon their proprietary ways and adopt standards.
 
-Dave Shea created CSS Zen Gardent to showcase what could be done with CSS.
+Dave Shea created CSS Zen Garden to showcase what could be done with CSS.
