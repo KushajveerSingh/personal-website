@@ -19,7 +19,8 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
--   [Low Level Academy course](https://lowlevel.academy/courses)
-    -   Zero2Hero C Programming
-    -   Network Code that doesn't Suck
-    -   Threads, but Smart
+-   [ ] [Low Level Academy course](https://lowlevel.academy/courses)
+    -   [ ] Zero2Hero C Programming
+    -   [ ] Network Applications in C
+    -   [ ] Multi Threaded C Applications
+    -   [ ] Write Your Own HTTP Server

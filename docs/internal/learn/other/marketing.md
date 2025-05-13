@@ -22,3 +22,5 @@ nav_exclude: true
 ## Digital Marketing
 
 -   [ ] [link](https://www.coursera.org/google-certificates/digital-marketing-certificate) Google Digital Marketing & E-commerce Professional Certificate coursera
+
+## Social Media Marketing

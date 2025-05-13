@@ -21,8 +21,6 @@ nav_exclude: true
 
 ## CompTIA
 
-Total certification cost **$5983**.
-
 ### CompTIA Tech+
 
 -   [link](https://www.comptia.org/certifications/tech)
@@ -30,20 +28,26 @@ Total certification cost **$5983**.
 -   Price **$129**
 -   Prep
     -   [link](https://www.youtube.com/watch?v=6orWtPDOL-0) Tech Gee CompTIA Tech+ FC0-U71 Certification Full Course youtube video (6:29:00 hours)
-    -   [link](https://www.comptia.org/training/books/it-fundamentals-fc0-u61-study-guide) The Official CompTIA ITF+ Study Guide (552 pages)
+    -   [link](https://www.comptia.org/training/books/it-fundamentals-fc0-u61-study-guide) The Official CompTIA ITF+ Student Guide (552 pages)
     -   [link](<https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-tech-fc0-u71-exam-objectives-(2-0).pdf?sfvrsn=8bf4d474_4>) CompTIA Tech+ Certification Exam Objectives (14 pages)
 
-### CompTIA A+ (Part 1)
+### CompTIA A+
 
 -   [link](https://www.comptia.org/certifications/a)
 -   Exam code **220-1201**
--   Price **$265**
-
-### CompTIA A+ (Part 2)
-
--   [link](https://www.comptia.org/certifications/a)
+    -   Price **$265**
+    -   Prep
+        -   [link](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-a-220-1201-exam-objectives.pdf?sfvrsn=ff1d5b9f_2) CompTIA A+ Certification Exam Objectives: Core 1 (18 pages)
+        -   [link](https://store.comptia.org/the-official-comptia-a-core-1-and-core-2-self-paced-study-guide-exams-220-1101-and-220-1102-ebook/p/APL-11C-SPDB-22-C) The Official CompTIA A+ Core 1 and Core 2 Study Guide
+        -   [link](https://www.comptia.org/training/resources/practice-tests/comptia-a-1201-practice-questions) Practice questions by CompTIA
+        -   [link](https://www.youtube.com/playlist?list=PLG49S3nxzAnnes8ZGI-OBlKEukHCX46N8) Professor Messer CompTIA A+ 220-1201 Training Course playlist
 -   Exam code **220-1202**
--   Price **$265**
+    -   Price **$265**
+    -   Prep
+        -   [link](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-a-220-1202-exam-objectives.pdf?sfvrsn=110e6756_2) CompTIA A+ Certification Exam Objectives: Core 2 (20 pages)
+        -   [link](https://store.comptia.org/the-official-comptia-a-core-1-and-core-2-self-paced-study-guide-exams-220-1101-and-220-1102-ebook/p/APL-11C-SPDB-22-C) The Official CompTIA A+ Core 1 and Core 2 Self-Paced Study Guide
+        -   [link](https://www.comptia.org/training/resources/practice-tests/comptia-a-1202-practice-questions) Practice questions by CompTIA
+        -   [link](https://www.youtube.com/playlist?list=PLG49S3nxzAnn7PDGQ17m5AYbDRhnW7vOb) Professor Messer CompTIA A+ 220-1202 Training Course playlist
 
 ### CompTIA Network+
 
@@ -129,32 +133,224 @@ Total certification cost **$5983**.
 -   Exam code **PK0-005**
 -   Price **$369**
 
+## Cybersecurity, audit and risk certifications
+
+### HTB Academy
+
+#### CPTS - Penetration Testing Specialist
+
+-   [link](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist)
+-   Price **$490**
+
+#### CBBH - Bug Bounty Hunter
+
+-   [link](https://academy.hackthebox.com/preview/certifications/htb-certified-bug-bounty-hunter)
+-   Price **$490**
+
+#### CDSA - Defensive Security Analyst
+
+-   [link](https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst)
+-   Price **$490**
+
+#### CWEE - Web Exploitation Expert
+
+-   [link](https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert)
+-   Price **$1260**
+
+#### CAPE - Active Directory Pentesting Expert
+
+-   [link](https://academy.hackthebox.com/preview/certifications/htb-certified-active-directory-pentesting-expert)
+-   Price **1260**
+
+### Security Blue Team
+
+#### BTL1 - Blue Team Level 1
+
+#### BTL2 - Blue Team Level 2
+
+#### CSOM - Certified Security Operations Manager
+
+### OffSec
+
+#### SEC-100: Cybersecurity Essentials
+
+#### PEN-103: Kali Linux Revealed
+
+#### PEN-200: Penetration Testing with Kali Linux
+
+#### PEN-210: Foundational Wireless Network Attacks
+
+#### PEN-300: Advanced Evasion Techniques and Breaching Defenses
+
+#### OSCP+: standalone exam
+
+#### WEB-200: Foundational Web Application Assessment with Kali Linux
+
+#### WEB-300: Advanced Web Attacks and Exploitation
+
+#### SOC-200: Foundational Security Operations and Defensive Analysis
+
+#### EXP-301: Windows User Mode Exploit Development
+
+#### EXP-312: Advanced macOS Control Bypasses
+
+#### EXP-401: Advanced Windows Exploitation
+
+#### TH-200 Foundational Threat Hunting
+
+#### IR-200: Foundational Incident Response
+
+#### SJD-100: Secure Java Development Essentials
+
+### GIAC
+
+-   https://www.sans.edu/cyber-security-programs/masters-degree/
+
+### ISC2
+
+#### CC - Certified in Cybersecurity ($199)
+
+-   [link](https://www.isc2.org/certifications/cc)
+-   Price **199**
+
+#### SSCP - Systems Security Certified Practitioner
+
+-   [link](https://www.isc2.org/certifications/sscp)
+-   Price **$249**
+-   Experience 1 year
+
+#### CISSP - Certified Information Systems Security Professional
+
+-   [link](https://www.isc2.org/certifications/cissp)
+-   Price **$749**
+-   Experience 5 years
+
+#### CGRC - Governance, Risk and Compliance Certification
+
+-   [link](https://www.isc2.org/certifications/cgrc)
+-   Price **$599**
+-   Experience 2 years
+
+#### CSSLP - Certified Secure Software Lifecycle Professional
+
+-   [link](https://www.isc2.org/certifications/csslp)
+-   Price **$599**
+-   Experience 4 years
+
+#### CCSP - Certified Cloud Security Professional
+
+-   [link](https://www.isc2.org/certifications/ccsp)
+-   Price **$599**
+-   Experience 5 years
+
+#### ISSAP - Information Systems Security Architecture Professional
+
+-   [link](https://www.isc2.org/certifications/issap)
+-   Price **$599**
+-   Experience 7 years or CISSP + 2 years
+
+#### ISSEP - Information Systems Security Engineering Professional
+
+-   [link](https://www.isc2.org/certifications/issep)
+-   Price **$599**
+-   Experience 7 years or CISSP + 2 years
+
+#### ISSMP - Information Systems Security Management Professional
+
+-   [link](https://www.isc2.org/certifications/issmp)
+-   Price **$599**
+-   Experience 7 years or CISSP + 2 years
+
+### IAPP
+
+#### AIGP - Artificial Intelligence Governance Professional
+
+-   [link](https://iapp.org/certify/aigp/)
+-   Price **$799**
+
+#### CIPP/A - Certified Information Privacy Professional Asia
+
+-   [link](https://iapp.org/certify/cippa/)
+-   Price **$550**
+
+#### CIPP/C - Certified Information Privacy Professional Canada
+
+-   [link](https://iapp.org/certify/cippc/)
+-   Price **$550**
+
+#### CIPP/CN - Certified Information Privacy Professional China
+
+-   [link](https://iapp.org/certify/cippcn/)
+-   Price **$550**
+
+#### CIPP/E - Certified Information Privacy Professional Europe
+
+-   [link](https://iapp.org/certify/cippe/)
+-   Price **$550**
+
+#### CIPP/US - Certified Information Privacy Professional United States
+
+-   [link](https://iapp.org/certify/cippus/)
+-   Price **$550**
+
+#### CIPM - Certified Information Privacy Manager
+
+-   [link](https://iapp.org/certify/cipm/)
+-   Price **$550**
+
+#### CIPT - Certified Information Privacy Technologist
+
+-   [link](https://iapp.org/certify/cipt/)
+-   Price **$550**
+
+### ISACA
+
+#### CISA - Certified Information Systems Auditor
+
+-   [link](https://www.isaca.org/credentialing/cisa)
+
+#### CISM - Certified Information Security Manager
+
+-   [link](https://www.isaca.org/credentialing/cism)
+
+#### CRISC - Certified in Risk and Information Systems Control
+
+-   [link](https://www.isaca.org/credentialing/crisc)
+
+#### CDPSE - Certified Data Privacy Solutions Engineer
+
+-   [link](https://www.isaca.org/credentialing/cdpse)
+
+#### CGEIT - Certified in the Governance of Enterprise IT
+
+-   [link](https://www.isaca.org/credentialing/cgeit)
+
+#### CCOA - Certified Cybersecurity Operations Analyst
+
+-   [link](https://www.isaca.org/credentialing/ccoa)
+
+#### CSX-P - CSX Cybersecurity Practitioner
+
+-   [link](https://www.isaca.org/credentialing/csx-p)
+
 ## Next certification
 
 -   CISCO
--   ISC 2
--   ISACA
--   Google
+-   ISTQB
+-   PMI
 -   BISCI
 -   AWS
--   GCP
--   Azure
--   PMI
--   FIDO
--   ICCP
--   Redhat
--   ISTQB
--   Linux foundation
 -   hashicorp
 -   kubrenetes (linux foundation, mirantis)
+-   GCP
+-   Azure
+-   Redhat
+-   Linux foundation
 -   Openstack
 -   databricks
 -   snowflake
--   facebook
 -   snia
 -   schneider
 -   uptime institute / tier-certification
 -   tiaonline
 -   cnet-training
--   Sans https://www.sans.org/cyber-security-certifications/
--   Offsec https://www.offsec.com/

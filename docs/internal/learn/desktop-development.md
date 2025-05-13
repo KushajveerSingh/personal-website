@@ -22,6 +22,6 @@ nav_exclude: true
 ## QT
 
 -   [QT overviews](https://doc.qt.io/qt-6/overviews-main.html) explain the purpose of all libraries
--   Bryan Cairns udemy QT courses
+-   Bryan Cairns Udemy QT courses
 -   Scythe Studio youtube
 -   KDE Frameworks

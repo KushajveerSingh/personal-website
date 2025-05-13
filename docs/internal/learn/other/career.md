@@ -21,17 +21,18 @@ nav_exclude: true
 
 ## Leadership
 
--   Ethan Evans Substack archive
--   Ethan evans courses
-    -   Cracking the C-Suite: How to get and master key executive roles
-    -   Level Up: Breaking through to executive
-    -   Managing up successfully
-    -   Leadership Networking
-    -   Leadership Resumes that get results
-    -   The growth and promotion recipe
-    -   How to get a raise
+-   [ ] [link](https://levelupwithethanevans.substack.com/archive) Ethan Evans Substack archive
+-   [ ] [link](https://ethan-evans.mykajabi.com/) Ethan evans courses
+    -   [ ] Stuck at Senior Manager - How to Break Through to Executive
+    -   [ ] Cracking the C-Suite: How to Get and Master Key Executive Roles
+    -   [ ] Managing up successfully
+    -   [ ] Leadership Networking
+    -   [ ] Leadership Resumes That Get Results
+    -   [ ] The Growth and Promotion Recipe
+    -   [ ] How to get a raise
+    -   [ ] How to Negotiate a Job Offer
 
 ## Severance
 
--   Ethan Evans course (Maximizing a Severance Package)
--   How to Engineer your layoff book
+-   [ ] [link](https://ethan-evans.mykajabi.com/) Ethan Evans course (Maximizing a Severance Package)
+-   [ ] [link](https://www.financialsamurai.com/how-to-engineer-your-layoff-make-a-small-fortune-by-saying-goodbye/) How to Engineer Your Layoff Book: Make A Small Fortune By Saying Goodbye

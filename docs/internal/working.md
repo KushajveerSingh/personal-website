@@ -25,7 +25,6 @@ nav_exclude: true
 -   Add project ideas from notes to internal
 -   Add project ideas from yellow notebook and separate pages
 -   Add company ideas from notes to internal
--   Add youtube liked videos
 -   Delete reorganize folder
 -   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
 -   Revisit backup folder and move list of social accounts here with all relevant info
