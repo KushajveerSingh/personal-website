@@ -64,6 +64,7 @@ pagefind: false
 -   Zero Trust Network Access [link](https://zerotrustnetworkaccess.info/)
 -   Mullvad VPN
     -   Also check Mullvad browser
+-   https://mullvad.net/en/browser
 
 ## Seedbox
 
@@ -156,3 +157,26 @@ devops handbooks to how create world class agility, reliability and security in 
 home internet provider [reddit post](https://www.reddit.com/r/NoContract/comments/g1b8p0/calyxinstitute_vs_connectall_vs_mobilecitizen_vs/)
 
 futo guide to building home server https://wiki.futo.org/index.php/Introduction_to_a_Self_Managed_Life:_a_13_hour_%26_28_minute_presentation_by_FUTO_software
+
+## Linux
+
+-   https://docs.kernel.org/#user-oriented-documentation
+-   The Linux Programming Interface: A Linux and UNIX System Programming Handbook
+-   UNIX and Linux System Administration Handbook
+-   How Linux Works, 3rd Edition: What Every Superuser Should Know
+-   Linux Bible
+-   Linux pocket guide
+-   Linux Command Line and Shell Scripting Bible
+-   https://linuxjourney.com/
+-   https://overthewire.org/wargames/bandit/bandit0.html
+-   https://linuxsurvival.com/
+-   https://guide.bash.academy/
+-   The Linux Command Line: A Complete Introduction
+
+cybersecurity
+
+-   https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN
+
+https://flipperzero.one/
+
+https://simplex.chat/

@@ -89,6 +89,7 @@ Other
     -   https://www.apaservices.org/ APA accessibility
 -   Good [posts](https://adrianroselli.com/posts) by Adrian Roselli
 -   JavaScript
+    -   https://www.youtube.com/watch?v=Xs1EMmBLpn4
     -   https://www.patterns.dev/
     -   web.dev/learn Learn JS
     -   Eloquent js [link](https://eloquentjavascript.net/)

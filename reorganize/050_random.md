@@ -14,6 +14,7 @@ pagefind: false
 ## Presentation
 
 -   [Marp](https://marp.app/) for Markdown presentation
+-   [link](https://www.youtube.com/watch?v=Vh3y1ela-_s) How to make beautiful code presentations
 
 ## Prompting
 

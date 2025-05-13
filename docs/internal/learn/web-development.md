@@ -71,7 +71,9 @@ nav_exclude: true
 -   Learn all formats and optimizations for images, video, audio
 -   [ ] [link](https://web.dev/learn/images) web.dev: Learn Images
 -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Media) MDN Reference: Media
--   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/SVG) MDN Reference: SVG
+-   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/SVG) MDN Reference: SVG\
+-   https://ausi.github.io/respimagelint/docs.html\
+-   https://www.youtube.com/watch?v=345V2MU3E_w
 
 ## Progressive web apps
 

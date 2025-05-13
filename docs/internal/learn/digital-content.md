@@ -26,6 +26,7 @@ nav_exclude: true
 ## Audio
 
 -   [link](https://www.youtube.com/watch?v=u6EuAUjq92k) Raytraced audio
+-   [link](https://www.youtube.com/watch?v=fzNk_1xLIKI) How to sound great! (video on audio capture)
 
 ## Affinity Photo (Image editing)
 

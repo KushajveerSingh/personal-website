@@ -284,3 +284,203 @@ Companion app
     -   Syntax analysis (parsing) - use tokens to create a syntax tree
     -   Semantic analysis - check syntax tree for consistency, like type checking, vars/funcs are defined
     -   Intermediate Code Generation - it is low-level, more abstract representation of the code that is easier to optimize, and is independent of the platform.
+
+## Google Keep
+
+Open cinebench and get the score for your cpu (the most powerful one like m4). And then throttle the cpu, till you get the performance of a weaker cpu. Do this for all the cpus you target and same for gpus.
+Then in your testing you can throttle the same cpu, and get website fps scores for all the cpus you are targetting.
+Cpu/gpu/ram can be throttled at hardware and browser level
+
+When making your css component library, have three levels of documentation.
+
+-   usage docs, showing how to use all the variations of the component
+-   intermediate docs, showing how the component addresses all the accesibility, performance, ui issues with the component
+-   advanced docs, showing how the component is built internally
+
+To track changes in document pages, use an automation tool to go to each page, and compare the info with the previous value.
+You will need to manually, add links to all the pages.
+Also, you can track sidebar elements, to ensure no new item is added.
+
+Extension to hide sponsored from google search, ai and allthe other stuff and show legacy stuff first. Also, show random results from page 2, 3 of results.
+
+Create a linux distro with windows 10 ui, and all the similar programs, settings ui, windows store.
+
+Add kinetic sculptures to home
+
+Cable television simulator, where you have episodes and commercials, and then the tv runs 24/7 on a set schedule and commercials are inserted in between episodes.
+
+For data attributes in html, define a enum with all possible values somewhere and it can be used in html, css, js to verify if someone misspelled it, or see available options
+
+Create a code snippet module in native css, js. Check all the documentation generators and copy their features.
+More importantly, add compiler outputs, advanced stuff like assembly output, or whatever is relevant to that language.
+Integrate this into all the popular documentation generators as a plugin.
+See typescript, swift docs for inspiration.
+Add optional feature for formatting the code using offical formatters of each language.
+Comments/Code can be highlighted for warming, danger, info, ...
+All the code in the codeblock should be generated at build time, including line numbers
+
+Qwik ui library, with options to first define the design system and then the components.
+Qwik in mistosis, to convert the code to all other frameworks and test using ui components.
+Qwik seo, with all the required components like creating head, schema.org components, tools that help with seo.
+Qwik owasp security helper.
+Qwik pwa helper.
+Qwik accessibility helper.
+
+Create a visualization tool of parser for each library you use.
+For html, given the html, show step by step the graph being built.
+For browsers, show how this is translated to graphics layers and all the intermediary.
+
+In qwik create, all the libraries to reach feature parity as other frameworks
+Qwik- design-system build the design system based on the youtube video, create figma and css code, test cases, multi language(left to right, right to left, top to bottom), headless components, allow users to modufy the style while still using the existing edge cases and add new ones
+Qwik-seo schema.org, other validators
+
+In database, create logic to check how different is your query from sql standard, and provide suggestions on the differences, like this function does not exist, or this is how the function differs from sql standard.
+
+Create application to track item by item costs of a company, liek salary then go deeper salary per employee, then deeper how salary is distributed for a si gle employee like tax and actual comp.
+For a plane, break it down to how many screws are in the plane and what is the cost of each screw
+
+For battleship game, ceeate a ui to input all your ships coordinates, and then compute the number of moves it will take to figure out all the ships using the optimal strategy of exploring in a checkerbox pattern, also add different exploration techniques.
+Add option to add a second player, and find odds of winning.
+Start checkbox pattern from each positin and go in both forward and backward directions to get average probabilities.
+Also, add option to input custom size of the ships and board size and adjust the algorithm according to that.
+
+When working on html, css tools create something similar to "tldr" on linux. When you hover over html element, it shows the semantic meaning and performance impact.
+
+Create a ui for vimms lair, with all the emulators made till this day. Create text files with urls (steps that can be fed to playwright) to download all the roms. After downloading, find a way to compress as well, and the ui can show a list of decompressed files which can be played.
+Run a test every month, to see if all the downloads are working.
+The ui tool takes care of downloading, updating emulators.
+It also shows where to see for help on the wiki before playing a game, to fix any bugs.
+Support for all the co trollers should also be seamless.
+
+Can jasn file be preprocessed to optimize it for later. Check kiki's bytes youtube video on how nvidia reduced json processing. Looke how chrome/google does it.
+Create c++ parser to parse the file in parallel chunks like apache spark.
+Create vilkan/gpu versions of the algorithm.
+Can you minify the json variable names, and then in the end have the mappings if needed?
+The mappings can be extended to have another object that specifies the type.
+
+In the c++ template, how to compile a binary for each linux distribution.
+This includes testing infrastructure, to run alll the source test cases on the compiled binary, and show the info in a table and github action.
+This includes detailed automatically created documentation on how to install, upgrade, delete.
+This includes creating a ui that will look in a folder (similar to macos) for the binaries. Create desktop icons and other stuff for each distribution. When user runs the ui, show option to check for update, delete, roll back to previous version.
+In the tool, provide a syntax where the developers can define where and how to check if an update is released.
+
+Look at all the compliance related stuff and create a detailed blog on how to achieve it.
+
+In the css library, add animations like nocode tools, charts, diagram tools like plantuml, maps, and anything else you can find.
+
+After creating css components, create a simple tool for qwik with drag and drop to mimic nocode tools, with the same options as the arguments of the components. Limit the customization to have a better mapping to code.
+Create cms for people to easily modify the site.
+
+For devtools, can you build your own. Like ladybird hooked into firefox devtools protocol to get all its benefits.
+In this way we can show lot more information from the chromium likerender tree and so on.
+
+Create ai to translate all the ui principles to your website
+
+Old indian political cartoons,can be brought to american audience, like mojahed fudaleist in ufc.
+
+Website with all the card games, and their optimal solutions.
+
+Url best practices. Integrate with js framework and automatically check all urls.
+
+Make a drone vr thing, where you can play liek star wars ships.
+
+Sync clipboard for copy/paste between computer and phone. Useful when you want to paste something from computer to mobile.
+
+Take popular movie series like resident evil and reorganize all the video clips in chronological order. Create a youtube channel for this.
+
+Take books like goosebumps and make animates series for kids6
+
+When crossing rivers, mountains, attractions you wonder what that is. And app that can just show the attraction around you as travelling can solve this problem.
+
+As sleep time approches the lights need to get dimmer. All lights, monitors can be controlled through a single app.
+Plus, in case you arrive jome late the algorithm can adapt and adjust sleep time or how fast the lights get dimmer.
+Other mood things can be explored like getting ready for an event, meeting, waking up. Bryan johnson as reference.
+
+How to unfragment linux. Universal directory structure, shortcuts, ...
+
+On trail take pictures abd report tge location for trash pickupvand maintenance
+
+Weite your own we standards abd integrate with chromium, and provide thevbuild for download. No html, css, js only rust
+
+Convert linux kernel development email into online form thing, where all the updates from email are visible in a searchable form.
+Maybe allow people to post from form to email chain.
+
+In rust, create a special debug run, where we convert all the numbers to string and do the relevant arithematic, as the application is running, and check if there is ever an overflow or underflow.
+Extend the program to include precison errors, like when adding two floats. In this case, tell the user to check for if numbers are close to each other, rather than strict equality.
+
+C trnspiler to rust. Look at tractor by federal. Convert major c codebases like linux, git, gnome, ... as a proof of concept.
+Write a transpiler for c++, go, ...
+Start with low-level and even ancient languages and work your way up.
+
+App to track skincare routine. Set timer for multiple things in a row. And track.
+
+Using a series of mobile cameras, record live basketball game and get stats of all players
+
+Ticketmaster has a ton of problems. Create a clone.
+
+Phone app with option to block people similar to alarm clock. Block people in a time range, day range. When blocked, people's call would just keep on ri ging so that they don't know that they are blocked.
+
+Build ui for all steps of compiler architecture
+
+Create a book that shows how India can improve as a society. Make a constitution from scratch, and what current laws need to be removed.
+Death penanlty for corrupt people.
+Reduce population by taxing on second child.
+Prison like El Salvador to get free labor.
+
+All medical records are online, and there is a risk these might get altered without you knowing, or you might lose access to them.
+Create a versioned version of these documents, plus any other document that is relevant like insurance, bank statement.
+Help autoparse the document for searchability.
+Add records of family.
+
+There is a standard on how to create li rary books. Convert this into an interactive web page, and maybe work with an actual bookbinder and create 3d visuals of the process.
+
+Learn magic. Matt mcgurk start here. Asi wind tricks next.
+
+Learn road bike and miuntain bike maintennace. Zinn and the art of road/mountain bike maintenance books.
+
+In project where you analyze code that can be paralleized automatically, do it for Js where you convert all other code to promises and do an await before it is first used.
+Check the performance on popular libraries.
+Create a simple UI to show what changes were made.
+Combine this with a profiler where you get time taken by each line, or function. Then you can say the profiler has these lines with the worst performance, reference it with parallel and only optimize these.
+Using the profiler we can also automatically optimize sections of the code.
+
+Add all pc parts to bettertech project like motherboard, powersupply
+
+## Company ideas
+
+In games you can have servers and bots running to make monry. Watch asmongolfdtv $3,000,000 WoW mafia that blizzard is scared of.
+Explore all these options an dhave your own setup making money.
+
+Vanilla ice cream with chocholste outside. Have multiple layers vanilla, choco, vanilla choco
+
+Clash royale clone with the original gameplay and cards. Have a random mechanism where cards get buffed, nerfed every two weeks
+
+Competitor to hello fresh but instead connect chefs to customers like uber and let the chefs handle groceries delivery.
+Provide nutritional content of all meals to users, vet the cooks
+
+Drone show for weddings, events
+Micro robots in fish tanks for another variation
+
+Make framework for character making in video games and similar stuff like having console, pc input mappings in games
+
+Solution to help with scalping products. This can be sold to companies/retialers, and at launch time the solution would manually verify the customer before approving the sale.
+
+Create 3d models of the home for sales, adding another option for buyers to help make their decision.
+
+App to purchase traditional infian dresses, and expand it to other countries
+
+Leaves are used to teplace plastic plates. What if we were to form a sheet using the leaves, that people can use to cover the plastic containers in their home.
+The selling idea would be to help reduce intake of microplastics from the containers
+
+Vr to teach biology. Vr is used in car manufacture industry, when making 3d designs. The 3d designes can be extended to human/other animal.
+How different diseases problems propagate or evolve in human body. Like how dry eyes evolve, smoking affects the lungs.
+
+Drone to 3d map water cave. Put sensors to get various laters of data from wlthe walls.
+Use AI to figure out what might be under the walls.
+
+Payment processor like stripe but with fixed cost per transaction.
+Start with usa, and then keep adding countires. Can have different payment page for each country.
+
+Modify anti-cheat to handle all the hacks. Sell it for like 10 cents per user base.
+
+Create unpickable electronic lock

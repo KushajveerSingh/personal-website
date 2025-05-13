@@ -39,5 +39,7 @@ search_exclude: true
 -   [Adventure](/internal/adventure)
 -   [House](/internal/house)
 -   [Paid Software](/internal/paid-software)
+-   [Personal](/internal/personal)
 -   [Projects](/internal/projects)
+-   [Wishlist](/internal/wishlist)
 -   [Working](/internal/working)
