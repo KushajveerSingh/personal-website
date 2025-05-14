@@ -133,6 +133,60 @@ nav_exclude: true
 -   Exam code **PK0-005**
 -   Price **$369**
 
+## Redhat
+
+## Linux foundation
+
+## Cisco
+
+Collaboration
+
+#### 300-810 CLCOR - Implementing Cisco Collaboration Core Techniques
+
+#### 300-810 CLICA - Implementing Cisco Collaboration Applications
+
+#### 300-815 CLACCM - Advanced Call Control and Mobility Services
+
+#### 300-820 CLCEI - Implementing Cisco Collaboration Cloud and Edge Solutions
+
+#### 300-835 CLAUTO - Automating Cisco Collaboration Solutions
+
+#### CCNP - Cisco Certified Network Professional
+
+#### CCIE - Cisco Certified Internetwork Expert Collaboration
+
+Cybersecurity
+
+#### CCST - Cisco Certified Support Technician Cybersecurity
+
+#### Cisco Certified Cybersecurity Associate
+
+#### 350-201 CBRCOR - Performing Cybersecurity Using Cisco Security Technologies
+
+#### 300-215 CBRFIR - Conducting Forensic Analysis and Incident Response Using Cisco Technologies for Cybersecurity
+
+#### 300-220 CBRTHD - Conducting Threat Hunting and Defending using Cisco Technologies for Cybersecurity
+
+#### Cisco Certified Cybersecurity Professional
+
+Data center
+
+Design
+
+DevNet
+
+Enterprise
+
+Security
+
+Service Provider
+
+Additional certifications
+
+## ISTQB
+
+## PMI
+
 ## Cybersecurity, audit and risk certifications
 
 ### HTB Academy
@@ -204,7 +258,157 @@ nav_exclude: true
 
 ### GIAC
 
--   https://www.sans.edu/cyber-security-programs/masters-degree/
+Blue team operations
+
+#### GOSI - Open Source Intelligence Certification
+
+#### GCIA - Certified Intrusion Analyst Certification
+
+#### GMLE - Machine Learning Engineer
+
+#### GMON - Continuous Monitoring Certification
+
+#### GDSA - Defensible Security Architect
+
+#### GCDA - Certified Detection Analyst
+
+#### GSOC - Security Operations Certified
+
+#### GX-IA - Experienced Intrusion Analyst
+
+Cyber defense essentials
+
+#### GISP - Information Security Fundamentals
+
+#### GSEC - Security Essentials
+
+#### GCED - Certified Enterprise Defender
+
+#### GCIH - Certified Incident Handler Certification
+
+#### GISP - Information Security Professional Certification
+
+#### GX-CS - Experienced Cyber Security
+
+Purple team
+
+#### GFACT - Foundational Cybersecurity Techniques
+
+#### GDAT - Defending Advanced Threats
+
+Operating systems & Device In-Depth
+
+#### GIME - iOS and macOS Examiner
+
+#### GBFA - BattleField Forensics and Acquisition
+
+#### GCFE - Certified Forensic Examiner
+
+#### GASP - Advanced Smartphone Forensics Certification
+
+#### GX-FE - Experienced Forensics Examiner
+
+Red team operations
+
+#### GCIH - Certified Incident Handler Certification
+
+#### GPYC - Python Coder
+
+#### GX-IH - Experienced Incident Handler
+
+#### GRTP - Red Team Professional
+
+Penetration testing
+
+#### GPEN - Penetration Tester Certification
+
+#### GWAPT - Web Application Penetration Tester
+
+#### GMOB - Mobile Device Security Analyst
+
+#### GXPN - Exploit Researcher and Advanced Penetration Tester
+
+#### GAWN - Accessing and Auditing Wireless Networks
+
+#### GCPN - Cloud Penetration Tester
+
+#### GEVA - Enterprise Vulnerability Assessor Certification
+
+#### GX-PT - Experienced Penetration Tester
+
+Incident response and threat hunting
+
+#### GEIR - Enterprise Incident Response
+
+#### GCFR - Cloud Forensics Responder
+
+#### GCFA - Certified Forensic Analyst
+
+#### GNFA - Network Forensic Analyst
+
+#### GCTI - Cyber Threat Intelligence
+
+#### GREM - Reverse Engineering Malware Certification
+
+#### GCIH - Certified Incident Handler Certification
+
+#### GRID - Response and Industrial Defense
+
+#### GX-FA - Experienced Forensics Analyst
+
+#### GLIX - Linux Incident Responder
+
+Cloud security techniques
+
+#### GCLD - Cloud Security Essentials
+
+#### GWEB - Certified Web Application Defender
+
+#### GCSA - Cloud Security Automation
+
+#### GPCS - Public Cloud Security
+
+#### GCTD - Cloud Threat Detection
+
+#### GCFR - Cloud Forensics Responder
+
+#### GCAD - Cloud Security Architecture and Design
+
+#### GCPN - Cloud Penetration Tester
+
+#### AWS Secure Builder Micro-credential
+
+Industrial control systems
+
+#### GICSP - Industrial Cyber Security Professional Certification
+
+#### GRID - Response and Industrial Defense
+
+#### GCIP - Critical Infrastructure Protection Certification
+
+Cybersecurity leadership
+
+#### GCCC - Critical Controls Certification
+
+#### GCPM - Certified Project Manager
+
+#### GLEG - Law of Data Security & Investigations
+
+#### GSLC - Security Leadership
+
+#### GSOM - Security Operations Manager Certification
+
+#### GSTRT - Strategic Planning, Policy, and Leadership
+
+#### GISP - Information Security Professional Certification
+
+#### GCIL - Cyber Incident Leader
+
+Portfolio certification
+
+#### GSP - Security Professional Certification
+
+#### GSE - Security Expert Certification
 
 ### ISC2
 
@@ -335,22 +539,15 @@ nav_exclude: true
 
 ## Next certification
 
--   CISCO
--   ISTQB
--   PMI
--   BISCI
+-   snowflake
+-   databricks
 -   AWS
--   hashicorp
 -   kubrenetes (linux foundation, mirantis)
 -   GCP
 -   Azure
--   Redhat
--   Linux foundation
--   Openstack
--   databricks
--   snowflake
 -   snia
+-   BISCI
+-   Openstack
 -   schneider
--   uptime institute / tier-certification
+-   uptime institute
 -   tiaonline
--   cnet-training
