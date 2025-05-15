@@ -133,13 +133,219 @@ nav_exclude: true
 -   Exam code **PK0-005**
 -   Price **$369**
 
+## ISTQB
+
+### CTFL - Certified Tester Foundation Level
+
+### CTAL-TA - Certified Tester Advanced Level Test Analyst
+
+### CTAL-TAE - Certified Tester Advanced Level Test Automation Engineering
+
+### CTAL-TM - Certified Tester Advanced Level Test Management
+
+### CTAL-TTA - Certified Tester Advanced Level Technical Test Analyst
+
+### CT-AT - Certified Tester Foundation Level Agile Tester
+
+### CT-ATT - Certified Tester Agile Technical Tester
+
+### CT-ATLaS - Certified Tester Agile Test Leadership at Scale
+
+### CT-AI - Certified Tester AI Testing
+
+### CT-MAT - Certified Tester Mobile Application Testing
+
+### CT-MBT - Certified Tester Model-Based Tester
+
+### CT-TAS - Certified Tester Test Automation Strategy
+
+### CT-AcT - Certified Tester Acceptance Testing
+
+### CT-PT - Certified Tester Performance Testing
+
+### CT-SEC - Certified Tester Security Tester
+
+### CT-STE - Certified Tester Security Test Engineer
+
+### CT-UT - Certified Tester Usability Testing
+
+### CT-AuT - Certified Tester Automotive Software Tester
+
+### CT-GaMe - Certified Tester Game Testing
+
+### CT-GT - Certified Tester Gambling Industry Tester
+
+### CTEL-ITP-ATP - Certified Tester Expert Level Accessing Test Processes
+
+### CTEL-ITP-ITPI - Certified Tester Expert Level Implementing Test Process Improvement
+
+### CTEL-TM-SM - Certified Tester Expert Level Test Management Strategic Test Management
+
+### CTEL-TM-OTM - Certified Tester Expert Level Test Management Operational Test Management
+
+### CTEL-TM-MTT - Certified Tester Expert Level Test Management Managing the Test Team
+
+## PMI
+
+### CAPM - Certified Associate in Project Management
+
+### PMP - Project Management Professional
+
+### PgMP - Program Management Professional
+
+### PfMP - Portfolio Management Professional
+
+### PMI-PMOCP - PMO Certified Professional
+
+### PMI-ACP - Agile Certified Practitioner
+
+### PMI-RMP - Risk Management Professional
+
+### PMI-PBA - Professional in Business Analysis
+
+### PMI-CP - Construction Professional
+
+### CPMAI - Cognitive Project Management in AI
+
 ## Redhat
+
+### Platforms
+
+#### RHCSA - Red Hat Certified System Administrator
+
+#### Red Hat Certified Engineer (RHCE)
+
+#### Red Hat Certified Specialist in Services Management and Automation
+
+#### Red Hat Certified Specialist in Deployment and Systems Management
+
+#### Red Hat Certified Specialist in Security: Linux
+
+#### Red Hat Certified Specialist in High Availability Clustering
+
+#### Red Hat Certified Specialist in Linux Diagnostics and Troubleshooting
+
+#### Red Hat Certified Specialist in Linux Performance Tuning
+
+#### Red Hat Certified OpenShift Administrator
+
+#### Red Hat Certified Specialist in Identity Management
+
+#### Red Hat Certified Specialist in Cloud Infrastructure
+
+### Application Services
+
+#### Red Hat Certified Cloud-Native Developer
+
+#### Red Hat Certified Enterprise Application Developer
+
+#### Red Hat Certified Specialist in API Management
+
+#### Red Hat Certified Specialist in Building Resilient Microservices
+
+#### Red Hat Certified Specialist in Business Process Design
+
+#### Red Hat Certified Specialist in Camel Development
+
+#### Red Hat Certified Specialist in Decision Management
+
+#### Red Hat Certified Specialist in Enterprise Application Server Administration
+
+#### Red Hat Certified Specialist in Event-Driven Development with Kafka
+
+#### Red Hat Certified Specialist in Messaging Administration
+
+#### Red Hat Certified OpenShift Application Developer
+
+#### Red Hat Certified Specialist in Cloud-native Integration
+
+### Application development
+
+#### Red Hat Certified Cloud-Native Developer
+
+#### Red Hat Certified Enterprise Application Developer
+
+#### Red Hat Certified Specialist in API Management
+
+#### Red Hat Certified Specialist in Building Resilient Microservices
+
+#### Red Hat Certified Specialist in Business Process Design
+
+#### Red Hat Certified Specialist in Business Rules
+
+#### Red Hat Certified Specialist in Decision Management
+
+#### Red Hat Certified OpenShift Application Developer
+
+#### Red Hat Certified Specialist in Camel Development
+
+#### Red Hat Certified Specialist in Event-Driven Development with Kafka
+
+#### Red Hat Certified Specialist in Cloud-native Integration
+
+### Automation and management
+
+#### Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform
+
+#### Red Hat Certified Specialist in API Management
+
+#### Red Hat Certified Specialist in Services Management and Automation
+
+#### Red Hat Certified Specialist in Ansible Network Automation
+
+#### Red Hat Certified Specialist in Business Process Design
+
+#### Red Hat Certified Specialist in Decision Management
+
+#### Red Hat Certified Specialist in Advanced Automation: Ansible Best Practices
+
+#### Red Hat Certified Specialist in Ansible Network Automation
+
+#### Red Hat Certified Specialist in OpenShift Automation and Integration
+
+### Cloud computing
+
+#### Red Hat Certified Specialist in Event-Driven Development with Kafka
+
+#### Red Hat Certified Specialist in Cloud Infrastructure
+
+#### Red Hat Certified Specialist in Camel Development
+
+#### Red Hat Certified Cloud-Native Developer
+
+#### Red Hat Certified OpenShift Application Developer
+
+#### Red Hat Certified OpenShift Administrator
+
+#### Red Hat Certified Specialist in Messaging Administration
+
+#### Red Hat Certified Specialist in OpenShift Automation and Integration
+
+#### Red Hat Certified Specialist in Cloud-native Integration
+
+#### Red Hat Certified Specialist in MultiCluster Management
+
+#### Red Hat Certified Specialist in Containers
+
+### Data services
+
+#### Red Hat Certified Specialist in Ceph Cloud Storage
+
+#### Red Hat Certified Specialist in OpenShift Data Foundation
 
 ## Linux foundation
 
+### LFCA - Linux Foundation Certified IT Associate
+
+### LFCS - Linux Foundation Certified System Administrator
+
+### LFCT - Linux Foundation Certified Cloud Technician
+
+### CGOA - Certified GitOps Associate
+
 ## Cisco
 
-Collaboration
+### Collaboration
 
 #### 300-810 CLCOR - Implementing Cisco Collaboration Core Techniques
 
@@ -155,7 +361,7 @@ Collaboration
 
 #### CCIE - Cisco Certified Internetwork Expert Collaboration
 
-Cybersecurity
+### Cybersecurity
 
 #### CCST - Cisco Certified Support Technician Cybersecurity
 
@@ -169,23 +375,19 @@ Cybersecurity
 
 #### Cisco Certified Cybersecurity Professional
 
-Data center
+### Data center
 
-Design
+### Design
 
-DevNet
+### DevNet
 
-Enterprise
+### Enterprise
 
-Security
+### Security
 
-Service Provider
+### Service Provider
 
-Additional certifications
-
-## ISTQB
-
-## PMI
+### Additional certifications
 
 ## Cybersecurity, audit and risk certifications
 
@@ -537,17 +739,58 @@ Portfolio certification
 
 -   [link](https://www.isaca.org/credentialing/csx-p)
 
-## Next certification
+## Data engineering
 
--   snowflake
--   databricks
--   AWS
--   kubrenetes (linux foundation, mirantis)
--   GCP
--   Azure
--   snia
--   BISCI
--   Openstack
--   schneider
--   uptime institute
--   tiaonline
+### EDB Postgres
+
+### MySQL
+
+### Oracle
+
+### Snowflake
+
+### Databricks
+
+### Apache Airflow
+
+## Cloud
+
+### AWS
+
+### Kubernetes
+
+### GCP
+
+### Azure
+
+### FinOps
+
+#### Introduction to FinOps
+
+#### FinsOps Certified Practitioner
+
+#### FinOps Certified Enigneer
+
+#### FinOps Certified Professional
+
+#### FinsOps for Container
+
+#### FinOps for AI
+
+### Openstack
+
+## Salesforce
+
+## SAP
+
+## SNIA
+
+## BISCI
+
+## Data center
+
+### Schneider
+
+### Uptime Institute
+
+### TIA
