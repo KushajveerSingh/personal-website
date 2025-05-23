@@ -1,6 +1,22 @@
 ---
-title: 'The Pragmatic Programmer: Your Journey To Mastery'
+title: "The Pragmatic Programmer: Your Journey To Mastery"
+parent: Books
 ---
+
+<!-- prettier-ignore-start -->
+# The Pragmatic Programmer: Your Journey To Mastery
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+<!-- prettier-ignore-end -->
 
 **The Pragmatic Programmer: Your Journey To Mastery, 20th Anniversary (2nd Edition) by _David Thomas_, _Andrew Hunt_ (352 pages) (Sep 13, 2019)**
 

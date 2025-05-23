@@ -21,10 +21,7 @@ nav_exclude: true
 
 ## TODO
 
--   Add adventure from notes to adventure.md
--   Add project ideas from notes to internal
 -   Add project ideas from yellow notebook and separate pages
--   Add company ideas from notes to internal
 -   Delete reorganize folder
 -   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
 -   Revisit backup folder and move list of social accounts here with all relevant info
