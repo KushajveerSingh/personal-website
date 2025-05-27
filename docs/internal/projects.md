@@ -31,10 +31,21 @@ nav_exclude: true
 No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
 
 -   Reinvent internet.
+
+### Browser + Frontend framework
+
 -   Identify all the web standards, and make your own version of the standards.
 -   Start by modifying the HTML parser in Chromium with one in Rust, move to CSS, JS, and keep adding standards. Over time replace Chromium with a version of Rust.
     -   For the name of the browser, look up ancient words that mean starting over.
 -   Add parsers/viewers/formatters for all file types, like images, audio, video, pdf, json, programming languages.
+-   Create specific file/directory structure for adding css/js features.
+    -   Like for CSS, allow custom functions that can overwrite the default for all pseudo classes.
+    -   Keyboard shortcuts in a different directory.
+    -   JS event listeners can be replaced with reactive programming. And these can be placed in a specific directory only.
+    -   Similarly for CSS you can different modes like print, accessible options. And these all would be in a separate file.
+
+### Other
+
 -   After a working browser has been created. Create a clone of all the popular apps, if multiple can be consolidated into one do that. And make these part of the browser.
     -   If a backend server is needed, divide the expenses among all the people signed up for the service. Add a small fee for personal fund, reinvesting into the product/new products.
 
@@ -172,23 +183,8 @@ Create HTML formatter module for Configurable formatter.
 
 ### Inline style sorter
 
--   Sort inline styles using the same rules as Tailwind CSS
--   Use Tailwind logic to move all the inline styles to style.css
-
-## Artificial Intelligence
-
-### Pragmatic programmer
-
--   In the book Pragmatic programmer, there are multiple principles like DRY, orthogonality, and so on.
--   Additionally, there are various code examples that shows things not to do.
--   All of these things can be checked by AI on a codebase.
--   This can be implemented by taking checking one function at a time. Create different LLM prompts for each principle and run for each function.
--   The idea of the AI is to provide suggestions on why a certain pragmatic principle is being violated, and how to resolve it.
--   An optimization can include, only running this stuff on the modified code, after the initial cache of the entire codebase has been created.
-
-Read the book again, for each example document it, and find similar examples online for best practices.
-
-Another idea for checking duplication of utility function
+-   Create specific file/directory structure for adding css/js features. - Like for CSS, allow custom functions that can overwrite the default for all pseudo classes. - Keyboard shortcuts in a different directory. - JS event listeners can be replaced with reactive programming. And these can be placed in a specific directory only. - Similarly for CSS you can different modes like print, accessible options. And these all would be in a separate file.
+    Another idea for checking duplication of utility function
 
 -   Create a list of all the utility functions in a project, and optionally a string that describes the intent of each utility function.
 -   When a new developer creates a utility function, they can query this database, to see if a similar utility function exists. And this can avoid duplication.
@@ -254,14 +250,13 @@ Other stuff
 -   Split the charges/maintenance with the gym and yourself.
 -   Invest money equivalent to the cost of the machine, before expansion.
 
-### Ground marking machine
+### Ground marking machine- Create specific file/directory structure for adding css/js features.
 
--   Get the machine for marking grounds for baseball, football, ... and approach schools to do this for them.
+    -   Like for CSS, allow custom functions that can overwrite the default for all pseudo classes.
+    -   Keyboard shortcuts in a different directory.
+    -   JS event listeners can be replaced with reactive programming. And these can be placed in a specific directory only.
+    -   Similarly for CSS you can different modes like print, accessible options. And these all would be in a separate file.ormation about healthy lifestyle (exercise, recovery, nutrition, sleep, ...).
 
-### Health information website
-
--   The purpose of the website is to provide information that a normal person can use (alternatively, what is the base fitness, health knowledge that every human should have). This should not be geared towards some domain experts like body lifters, athletes.
--   Create a website to provide information about healthy lifestyle (exercise, recovery, nutrition, sleep, ...).
 -   Completely free and proof-checked with experts. Donations are welcome but not expected.
 -   Have a forum section, where people can post suggestion for new/missing topics.
 -   How to take care of each body part (ear, nose, eyes, ...).
@@ -316,17 +311,9 @@ Companion app
 -   [fortran-lang.org](https://fortran-lang.org/)
 -   [fortranwiki.org](https://fortranwiki.org/fortran/show/HomePage)
 -   Wiki has list of libraries using Fortran. Transpile them to C++, make test cases pass, test for performance to act as a proof of concept.
--   Use the official compilers for this task. A compiler has the following components
-    -   Lexical analysis - source code converted to tokens
-    -   Syntax analysis (parsing) - use tokens to create a syntax tree
-    -   Semantic analysis - check syntax tree for consistency, like type checking, vars/funcs are defined
-    -   Intermediate Code Generation - it is low-level, more abstract representation of the code that is easier to optimize, and is independent of the platform.
-
-## Google Keep
-
-Open cinebench and get the score for your cpu (the most powerful one like m4). And then throttle the cpu, till you get the performance of a weaker cpu. Do this for all the cpus you target and same for gpus.
-Then in your testing you can throttle the same cpu, and get website fps scores for all the cpus you are targetting.
-Cpu/gpu/ram can be throttled at hardware and browser level
+-   Use the official compilers for this task. A compiler has the following components - Lexical analysis - source c- Create specific file/directory structure for adding css/js features. - Like for CSS, allow custom functions that can overwrite the default for all pseudo classes. - Keyboard shortcuts in a different directory. - JS event listeners can be replaced with reactive programming. And these can be placed in a specific directory only. - Similarly for CSS you can different modes like print, accessible options. And these all would be in a separate file.your cpu (the most powerful one like m4). And then throttle the cpu, till you get the performance of a weaker cpu. Do this for all the cpus you target and same for gpus.
+    Then in your testing you can throttle the same cpu, and get website fps scores for all the cpus you are targetting.
+    Cpu/gpu/ram can be throttled at hardware and browser level
 
 When making your css component library, have three levels of documentation.
 
