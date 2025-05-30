@@ -39,5 +39,3 @@ nav_exclude: true
 -   [link](https://www.youtube.com/watch?v=ghgW1PLXrc8) Mr Tom Ford's Six Rules of Style | MR PORTER
 
 ## Hygiene
-
-https://www.fragrantica.com/
