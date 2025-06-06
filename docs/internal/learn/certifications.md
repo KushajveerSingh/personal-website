@@ -1,5 +1,5 @@
 ---
-title: Learn - Certification
+title: Learn - Certifications
 search_exclude: true
 nav_exclude: true
 ---

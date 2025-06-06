@@ -1,5 +1,5 @@
 ---
-title: Paid Software
+title: Personal - Paid Software
 search_exclude: true
 nav_exclude: true
 ---

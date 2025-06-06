@@ -1,5 +1,5 @@
 ---
-title: Adventure
+title: Personal - Adventure
 search_exclude: true
 nav_exclude: true
 ---

@@ -1,8 +1,23 @@
 ---
-title: Random
-slug: internal/learning_resources/random
-pagefind: false
+title: Learn - Random
+search_exclude: true
+nav_exclude: true
 ---
+
+<!-- prettier-ignore-start -->
+# Random
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+<!-- prettier-ignore-end -->
 
 ## Diagram
 
@@ -10,6 +25,10 @@ pagefind: false
 -   c4model.com
 -   diagrams.minigrammer.com
 -   Mermaid
+-   https://arc42.org/
+-   https://c4model.com/
+-   https://www.uml.org/
+-   https://sysml.org/
 
 ## Presentation
 
@@ -24,8 +43,6 @@ pagefind: false
 ## Standard/Specification
 
 -   [link](https://infra.spec.whatwg.org/) Infra Standard
-
-## GDPR
 
 ## Semantic versioning
 

@@ -1,5 +1,5 @@
 ---
-title: Wishlist
+title: Personal - Wishlist
 search_exclude: true
 nav_exclude: true
 ---

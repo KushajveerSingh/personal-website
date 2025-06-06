@@ -21,7 +21,6 @@ nav_exclude: true
 
 ## TODO
 
--   software enginnering books
 -   web development
 -   reorganize bookmark
 -   keep notes
@@ -30,7 +29,6 @@ nav_exclude: true
 -   working
 -   separate pages in yellow notebook
 -   Delete reorganize folder
--   learn/index.md - check table of contents
 -   Revisit backup folder and move list of social accounts here with all relevant info
 -   yellow notebook
 -   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo

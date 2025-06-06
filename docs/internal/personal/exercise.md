@@ -1,5 +1,5 @@
 ---
-title: Exercise
+title: Personal - Exercise
 search_exclude: true
 nav_exclude: true
 ---
