@@ -20,6 +20,7 @@ nav_exclude: true
 <!-- prettier-ignore-end -->
 
 -   Range: Why Generalists Triumph in a Specialized World
+-   Stuff You Should Know An Incomplete Compendium of Mostly Interesting Things by Josh Clark
 -   Negotiating the Nonnegotiable: How to Resolve Your Most Emotionally Charged Conflicts
 -   The Back of the Napkin (Expanded Edition): Solving Problems and Selling Ideas with Pictures
 -   Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts

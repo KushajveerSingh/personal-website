@@ -508,3 +508,32 @@ Start with usa, and then keep adding countires. Can have different payment page 
 Modify anti-cheat to handle all the hacks. Sell it for like 10 cents per user base.
 
 Create unpickable electronic lock
+
+Create a tool like your own version of storybook for for desktop apps built with qt. It will show screenshots of how the app looks in different linux distros.
+And also take care of all inconsistencies.
+
+For every ai tool they add metadata which can be checked if the inage/video by created by it.
+Make a tool to automatically check all this stuff. Google released SynthID detector to check for their products.
+Make it an app, desktop where users can check validity of a video, audio, image on their screen with the click of a button.
+
+App similar to nutrition insights of kroger. Include all the nutrient breakdown. I tegrate with shopping sites and get price of food per day or user can enter manyally. I tegrate all the health related stuff.
+Merge robert idea of showing deals on food prices from different stores.
+
+Delete tool for all os's that actually clears out the bits on disk. And gives an option to fill with random bits.
+Nvme drives have a default password, since data is encrypted on hardware level. Look at this level of detail when creating the software.
+For each hardware, what is the best way to deal with the erasing process.
+Check if encryption is enabled, so that user does not have to worry about it.
+Mental outlaw video: How to securely erase data on May 27, 2025
+
+Make a data recovery tool.
+
+In the password tool, have it where it automatically helps you resets your password on the websites you choose.
+Maybe a monthly popup where is opens the necessary wi dows back and forth, and you copy paste the passwords with ease.
+
+In apps liek garmin for tracking runs, bikes, hikes, sometimes you forget to turn off after finishing the activity. Create extensions to these apps for modifying the activities, and quickly set the stopping point to where you actually stopped.
+
+Cybersecurity. Take wifi and for all versions create an easy to run exploit collection.
+Do for bluetooth.
+Find a cve list and provide 1 click solutions for all severe (or the highest ranked vunerabilities)
+
+Mental outlaw video "Make any messaging service E2E Encrypted with PGP". Create a client for this.

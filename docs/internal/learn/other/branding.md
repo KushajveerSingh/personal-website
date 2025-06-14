@@ -28,6 +28,7 @@ https://www.syntaxdesign.com/expertise
 ## Product Branding
 
 -   [ ] [link](https://www.syntaxdesign.com/expertise) Check Syntax Design to get overview of the field.
+-   [ ] [link](https://galshir.com/) Galshir brand design specialist website
 
 ## City/Country Branding
 

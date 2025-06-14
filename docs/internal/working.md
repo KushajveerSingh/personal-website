@@ -22,9 +22,6 @@ nav_exclude: true
 ## TODO
 
 -   web development
--   reorganize bookmark
--   keep notes
--   screenshots
 -   adventure
 -   working
 -   separate pages in yellow notebook

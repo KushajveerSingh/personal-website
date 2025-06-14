@@ -31,3 +31,14 @@ nav_exclude: true
 ## Fires
 
 -   [link](https://www.youtube.com/watch?v=kqTxWiW8x9o) The Swedish torch: an ingenious 400-year-odl invention
+
+## Art and Crafts
+
+-   The Fine Art of paper flowers by Tiffanie Turner
+-   punched Techniques and Projects for Modern Punch Needle Art by Stacie Schaat
+-   Microcrafts Tiny Treasures to Make and Share by Margaret McGuire
+-   The Colour Mixing Guide Watercolor Botanicals by Julie Collins
+-   fine art wire weaving by Sarah Thompson
+-   The Art of Modern Quilling by Erin Perkins Curet
+-   Tools Working Wood in Eighteenth Century America by James M. Gaymor
+-   A Natural History of Colore by Rob Deasalle

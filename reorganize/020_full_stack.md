@@ -43,6 +43,8 @@ Other
     -   https://typedesignresources.com/#learning-type-design
     -   https://www.oddbird.net/2025/02/12/fluid-type/?ck_subscriber_id=2308324911
 -   CSS
+    -   https://piccalil.li/blog/reality-check-1-building-out-a-furniture-site-from-dribbble/
+    -   https://viewports.fyi/
     -   https://every-layout.dev/
     -   Kevin powell courses
     -   Check kevin powell videos on each topic
@@ -173,6 +175,7 @@ Other
     -   [vinxi](https://github.com/nksaraf/vinxi) (combines vite and nitro)
     -   [JSBenchmark](https://jsbenchmark.com/)
     -   [WebContainers](https://webcontainers.io/)
+-   Progressive JSON by overreacted
 -   SlateJS (text editor)
 -   Testing
     -   vitest
