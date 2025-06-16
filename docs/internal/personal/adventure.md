@@ -19,26 +19,25 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## Georgia, USA
+## Locations
 
--   State parks passport
--   Historical sites
+### USA
 
-Useful resource
+-   [ ] [link](https://americasnationalparks.org/passport-to-your-national-parks/) America's National Parks Passport
+-   [ ] [link](https://www.nps.gov/aboutus/national-park-system.htm) National Park System
+    -   [ ] [link](https://www.nps.gov/subjects/battlefields/visit.htm) National Battlefields
+    -   [ ] [link](https://www.nps.gov/subjects/nationalhistoriclandmarks/list-of-nhls-by-state.htm) National Historic Landmarks
+    -   [ ] [link](https://www.nps.gov/subjects/monuments/visit.htm) Monuments and Memorials
+    -   [ ] [link](https://www.nps.gov/subjects/oceans/index.htm) Oceans, Coasts & Seashores
+-   [ ] [link](https://www.fs.usda.gov/visit/forests-and-grasslands) Forests and Grasslands
 
--   https://www.gaorienteering.org/
--   https://georgiawildlife.com/
--   https://www.gooutdoorsgeorgia.com/
+### Georgia, USA
 
-## USA
-
--   National parks passport
--   National battlefields
--   National historical sites
--   National monuments
--   National seashores
--   National recreational areas
--   National forests
+-   [ ] [link](https://friendsofgastateparks.org/passport) Georgia State Parks Passport
+-   [ ] [link](https://gastateparks.org/AllHistoricSites) Historic Sites
+-   [ ] [link](https://www.gaorienteering.org/) Georgia Orenteering Club
+-   [ ] [link](https://georgiawildlife.com/) Georgia Wildlife
+-   [ ] [link](https://www.gooutdoorsgeorgia.com/) Go Outdoors Georgia
 
 ## Other places to check
 

@@ -14,7 +14,7 @@ search_exclude: true
     -   [Adventure](/internal/personal/adventure)
     -   [Books](/internal/personal/books)
     -   [Exercise](/internal/personal/exercise)
-    -   [Games](/internal/games)
+    -   [Games](/internal/personal/games)
     -   [House](/internal/personal/house)
     -   [Paid Software](/internal/personal/paid-software)
     -   [Personal Care](/internal/personal/personal-care)
