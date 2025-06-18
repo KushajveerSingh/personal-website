@@ -21,6 +21,11 @@ nav_exclude: true
 
 ## Locations
 
+### World
+
+-   [ ] [link](https://www.worlddata.info/highest-mountains.php) Peaks and Mountain Ranges
+-   [ ] [link](https://sanctuaryfederation.org/find-a-sanctuary/) Animal Sanctuaries
+
 ### USA
 
 -   [ ] [link](https://americasnationalparks.org/passport-to-your-national-parks/) America's National Parks Passport
@@ -29,7 +34,18 @@ nav_exclude: true
     -   [ ] [link](https://www.nps.gov/subjects/nationalhistoriclandmarks/list-of-nhls-by-state.htm) National Historic Landmarks
     -   [ ] [link](https://www.nps.gov/subjects/monuments/visit.htm) Monuments and Memorials
     -   [ ] [link](https://www.nps.gov/subjects/oceans/index.htm) Oceans, Coasts & Seashores
+-   [ ] [link](https://www.nps.gov/index.htm) National Park Service (Explore by topic)
+    -   [ ] [linkk](https://www.nps.gov/subjects/canyons/visit.htm) Canyons & Canyonlands
+    -   [ ] [link](https://www.nps.gov/subjects/caves/index.htm) Caves and Karst
+    -   [ ] [link](https://www.nps.gov/subjects/dams/about.htm) Dams
+    -   [ ] [link](https://www.nps.gov/subjects/landscapearchitecture/gardens.htm) Gardens
+    -   [ ] [link](https://www.nps.gov/subjects/wetlands/index.htm) Wetlands
+    -   [ ] [link](https://www.nps.gov/subjects/waterfalls/waterfalls.htm) Waterfalls & Gorges
 -   [ ] [link](https://www.fs.usda.gov/visit/forests-and-grasslands) Forests and Grasslands
+-   Conservation centers
+-   [ ] [link](https://www.fws.gov/program/national-fish-hatchery-system/about-us) National Fish Hatchery System
+-   Museums
+-   Churches
 
 ### Georgia, USA
 
@@ -38,35 +54,39 @@ nav_exclude: true
 -   [ ] [link](https://www.gaorienteering.org/) Georgia Orenteering Club
 -   [ ] [link](https://georgiawildlife.com/) Georgia Wildlife
 -   [ ] [link](https://www.gooutdoorsgeorgia.com/) Go Outdoors Georgia
-
-## Other places to check
-
--   Island
--   Lake
--   Canyons
--   Caves
--   Mountains
--   beaches
--   Wildlife sanctuaries, zoo, conservation centers
--   Dam
--   Hatchery
--   Orchard (Corn fields, apple orchard)
--   Gardens
--   Swamps
--   Museums
--   Churches
--   Historic buildings in the city
+-   [ ] [link](https://www.orangepippin.com/orchards/united-states/georgia) Orchards
 -   Haunted city trails
 -   Waterfall
+-   [ ] [link](https://www.hubbikes.com/hub-routes) Hub Bikes Routes
 
-## Useful resources
+## Resources
 
--   [link](https://www.youtube.com/@KilianBron) Kilian Bron youtube places to check
--   https://www.outsideonline.com/
--   https://www.alltrails.com/
--   https://www.gaiagps.com/
--   https://faroutguides.com/
--   Georgia adventure bucket list by Rio [link](https://reachinternationaloutfitters.com/collections/state-bucket-lists/products/georgia-adventure-bucket-list)
+### Race websites
+
+-   [link](https://bikepacking.com/event/) Bike packing
+-   [link](https://www.bikereg.com/Events) BikeReg
+-   [link](https://www.gamultisports.com/) Georgia Multisport
+-   [link](https://www.runreg.com/events) RunReg
+-   [link](https://runningintheusa.com/race/list/) Running In The USA
+-   [link](https://www.skireg.com/Events) SkiReg
+-   [link](https://www.trireg.com/Events) TriReg
+
+### Youtube
+
+-   [link](https://www.youtube.com/@KilianBron) Kilian Bron
+
+### Navigation apps
+
+-   [link](https://www.alltrails.com/) AllTrails
+-   [link](https://faroutguides.com/) farOut
+-   [link](https://www.gaiagps.com/) GAIA GPS
+-   [link](https://www.mapmyrun.com/routes/search) Map My Run (make run route)
+-   [link](https://ridewithgps.com/route_planner) Ride with GPS (make bike route)
+
+### Other
+
+-   [link](https://www.outsideonline.com/home) Outside
+-   [link](https://reachinternationaloutfitters.com/) RIO (Adventure Bucket Lists)
 
 ## Activities
 
