@@ -24,12 +24,21 @@ nav_exclude: true
 -   [link](https://cleanshot.com/) CleanShot - one year of upgrades
 -   Goodnotes - ends Jul 26, 2025
 
+## Books
+
+-   [link](https://bitfieldconsulting.com/books/monk-mode) Monk Mode by John Arundel
+
 ## Digital Content
 
 -   [link](https://affinity.serif.com/en-us/photo/) Affinity Photo 2
 -   [link](https://affinity.serif.com/en-us/designer/) Affinity Designer 2
 -   [link](https://affinity.serif.com/en-us/publisher/) Affinity Publisher 2
 -   [link](https://www.blackmagicdesign.com/products/davinciresolve) DaVinci Resolve
+
+## Programming
+
+-   [link](https://lets-go.alexedwards.net/) Let's Go
+-   [link](https://lets-go-further.alexedwards.net/) Let's Go Further
 
 ## Web Development
 
@@ -46,12 +55,3 @@ nav_exclude: true
     -   kushajveersingh.com + PremiumDNS
 -   [link](https://www.pronextjs.dev/workshops) ProNextJS by Jack Herrington
 -   [link](https://tailwindcss.com/plus) Tailwind Plus
-
-## Programming
-
--   [link](https://lets-go.alexedwards.net/) Let's Go
--   [link](https://lets-go-further.alexedwards.net/) Let's Go Further
-
-## Books
-
--   [link](https://bitfieldconsulting.com/books/monk-mode) Monk Mode by John Arundel

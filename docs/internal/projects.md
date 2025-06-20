@@ -537,3 +537,6 @@ Do for bluetooth.
 Find a cve list and provide 1 click solutions for all severe (or the highest ranked vunerabilities)
 
 Mental outlaw video "Make any messaging service E2E Encrypted with PGP". Create a client for this.
+
+NBA reffing is messed up. Create data visualizations to see how refs, odds, vegas affect the outcome of the games. https://www.youtube.com/watch?v=wmFCwweYy_E
+Create a graph of how refrees might be connected outside (like a social engineering graph, who refs follow on social and stuff like that)

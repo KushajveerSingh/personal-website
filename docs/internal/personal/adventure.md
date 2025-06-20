@@ -19,6 +19,41 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Activities
+
+-   Boating
+    -   Fishing
+    -   Waterboarding
+    -   Water Skiing
+    -   Camping
+    -   Snorkeling
+    -   Scuba Diving
+-   Water related
+    -   Standup Paddleboarding
+    -   Kayak
+    -   White water rafting
+    -   Canoeing
+    -   Float tubing
+-   Orienteering
+-   Bird watching
+    -   Hiking related
+    -   Hiking
+    -   Backpacking
+    -   Sunset hike
+    -   Stargazing
+-   Biking related
+    -   Road bike
+    -   Mountain bike
+    -   Gravel Bike
+    -   Backpacking
+-   Rock climbing
+-   Skiing
+-   Ice climbing
+-   Haunted house/trails and haunted city tours
+-   Hot air balloon
+-   Eclipse
+-   Constellation
+
 ## Locations
 
 ### World
@@ -35,7 +70,7 @@ nav_exclude: true
     -   [ ] [link](https://www.nps.gov/subjects/monuments/visit.htm) Monuments and Memorials
     -   [ ] [link](https://www.nps.gov/subjects/oceans/index.htm) Oceans, Coasts & Seashores
 -   [ ] [link](https://www.nps.gov/index.htm) National Park Service (Explore by topic)
-    -   [ ] [linkk](https://www.nps.gov/subjects/canyons/visit.htm) Canyons & Canyonlands
+    -   [ ] [link](https://www.nps.gov/subjects/canyons/visit.htm) Canyons & Canyonlands
     -   [ ] [link](https://www.nps.gov/subjects/caves/index.htm) Caves and Karst
     -   [ ] [link](https://www.nps.gov/subjects/dams/about.htm) Dams
     -   [ ] [link](https://www.nps.gov/subjects/landscapearchitecture/gardens.htm) Gardens
@@ -46,12 +81,14 @@ nav_exclude: true
 -   [ ] [link](https://www.fws.gov/program/national-fish-hatchery-system/about-us) National Fish Hatchery System
 -   Museums
 -   Churches
+-   Photograph all birds (get book with list of all birds)
+-   [link](https://www.outsideonline.com/adventure-travel/essays/northern-lights-canada-joe-buffalo-child/?utm_term=ool_member&utm_campaign=oplus_topfive&utm_medium=email&_hsmi=332351068&utm_source=newsletter) Northern lights
 
 ### Georgia, USA
 
 -   [ ] [link](https://friendsofgastateparks.org/passport) Georgia State Parks Passport
 -   [ ] [link](https://gastateparks.org/AllHistoricSites) Historic Sites
--   [ ] [link](https://www.gaorienteering.org/) Georgia Orenteering Club
+-   [ ] [link](https://www.gaorienteering.org/) Georgia Orienteering Club
 -   [ ] [link](https://georgiawildlife.com/) Georgia Wildlife
 -   [ ] [link](https://www.gooutdoorsgeorgia.com/) Go Outdoors Georgia
 -   [ ] [link](https://www.orangepippin.com/orchards/united-states/georgia) Orchards
@@ -59,7 +96,49 @@ nav_exclude: true
 -   Waterfall
 -   [ ] [link](https://www.hubbikes.com/hub-routes) Hub Bikes Routes
 
+### Friends
+
+-   In Europe, get train pass and use hostel to stay when backpacking.
+-   Qinghai Lake (400 mile bike ride in China)
+-   Etape du tour (public version of tour de france)
+-   Scotland islands connected with bridges
+-   Viking Cruises company or european cruises
+-   Cooper river bridge run - charleston, south carolina
+-   Turtle season in summer charleston, south carolina beach
+-   Via de la Plata (Silver Way) 621 mile 40day hike in Spain
+-   Appalachian Trail (check the international version as well)
+-   Pacific Crest Trail on west coast side (Mexico to Canada)
+-   ETH Zürich swiss college
+-   Swiss Alps and Gineava
+-   Brazil Carnival (2 to 3 weeks)
+
 ## Resources
+
+## Guided trips
+
+-   [link](https://www.outwardbound.org/) Outward Bound for group trips
+-   [link](https://andrewskurka.com/guided-trips/) Andrew Shurka guided trips
+
+### Navigation apps
+
+-   [link](https://www.alltrails.com/) AllTrails
+-   [link](https://caltopo.com/) CalTopo
+-   [link](https://faroutguides.com/) farOut
+-   [link](https://www.gaiagps.com/) GAIA GPS
+-   [link](https://www.mapmyrun.com/routes/search) Map My Run (make run route)
+-   [link](https://www.mountainproject.com/) Mountain Project (rock climbing)
+-   [link](https://ridewithgps.com/route_planner) Ride with GPS (make bike route)
+
+### Other apps/websites
+
+-   [link](https://connect.garmin.com/) Garmin Connect
+-   [link](https://lnt.org/) Leave No Trace
+-   [link](https://www.rei.com/) REI
+
+### Other
+
+-   [link](https://www.outsideonline.com/home) Outside
+-   [link](https://reachinternationaloutfitters.com/) RIO (Adventure Bucket Lists)
 
 ### Race websites
 
@@ -75,107 +154,33 @@ nav_exclude: true
 
 -   [link](https://www.youtube.com/@KilianBron) Kilian Bron
 
-### Navigation apps
+## Things in Car
 
--   [link](https://www.alltrails.com/) AllTrails
--   [link](https://faroutguides.com/) farOut
--   [link](https://www.gaiagps.com/) GAIA GPS
--   [link](https://www.mapmyrun.com/routes/search) Map My Run (make run route)
--   [link](https://ridewithgps.com/route_planner) Ride with GPS (make bike route)
-
-### Other
-
--   [link](https://www.outsideonline.com/home) Outside
--   [link](https://reachinternationaloutfitters.com/) RIO (Adventure Bucket Lists)
-
-## Activities
-
--   Boating
--   Standup paddleboarding
--   Kayak
--   Canoeing
--   Orienteering
--   Trails
--   Mountain bike
--   Road bike
--   Rock climbing
--   Skiing
--   Ice climbing
--   Bird watching (get book and try to photograph all the bird)
--   Fishing
--   Float tubing
--   Northern lights ([link](https://www.outsideonline.com/adventure-travel/essays/northern-lights-canada-joe-buffalo-child/?utm_term=ool_member&utm_campaign=oplus_topfive&utm_medium=email&_hsmi=332351068&utm_source=newsletter))
--   Haunted house/trails and haunted city tours
--   Sunset hike
--   Stargazing
--   Hot air balloon
--   Follow eclipse on top of mountain peek in national forest (next eclipse happening in Spain)
--   Constellation
--   White water rafting
-
-## Local activities
-
--   Dance
--   Music instrument
--   Language
--   Clothes worn historically/culturally
-
-## Things to put in car
-
--   Mountain bike
--   Road bike
--   Paddleboard
--   Kayak/Canoe
--   Backpacking gear
+-   Bikes
+    -   Mountain bike
+    -   Road bike
+    -   Gravel bike
+-   Water
+    -   Paddleboard
+    -   Kayak/Canoe
+-   Hiking
+    -   Backpacking gear
+    -   Day hike gear
 -   Orienteering gear
--   Day hike gear
--   Frisbee
--   basketball
--   Volleyball
--   Football
--   Rugby
--   Softball
--   Golf
--   Archery
--   Canoe (single or two person)
+-   Sports
+    -   Frisbee
+    -   Basketball
+    -   Volleyball
+    -   Football
+    -   Rugby
+    -   Softball
+    -   Golf
+    -   Archery
 -   Polarized sunglasses
 -   Monocular with rage finder (military standard)
 
-## Places visited by friends
+## Reorder
 
--   Qinghai Lake (400 mile bike ride in China)
--   Etape du tour (public version of tour de france)
--   Scotland islands connected with bridges
--   Viking Cruises company or european cruises
--   Cooper river bridge run - charleston, south carolina
--   Turtle season in summer charleston, south carolina beach
--   Via de la Plata (Silver Way) 621 mile 40day hike in Spain
--   Appalachian Trail (check the international version as well)
--   Pacific Crest Trail on west coast side (Mexico to Canada)
--   ETH Zürich swiss college
--   Swiss Alps and Gineava
--   Brazil Carnival (2 to 3 weeks)
-
-## Home ideas
-
--   Create a crossword puzzle like shape with blocks with your name and other important stuff. Motivation: Saw mom/dad/child's name in this format.
-
-## Dog
-
--   Breeds
-    -   Samoyed
-
-## Random stuff
-
--   In Europe, get train pass and use hostel to stay when backpacking.
--   Get wilderness first aid certification
--   https://lnt.org/
--   Rope tying
--   https://outwardbound.org/ for group trips
-
-https://andrewskurka.com/guided-trips/
-
-https://bikepacking.com/
 https://www.youtube.com/watch?v=IxZW3pTkIoU
 https://www.youtube.com/watch?v=GajmBnurU74
 

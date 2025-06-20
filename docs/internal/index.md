@@ -24,8 +24,15 @@ search_exclude: true
     -   [Books](/internal/learn/books)
     -   [Certifications](/internal/learn/certifications)
     -   CS Fields
-        -   [Computer Architecture](/internal/learn/cs-fields/computer-architecture)
+        -   [Cache](/internal/learn/cs-fields/cache)
         -   [Compiler](/internal/learn/cs-fields/compiler)
+        -   [Computer Architecture](/internal/learn/cs-fields/computer-architecture)
+        -   [Concurrency](/internal/learn/cs-fields/concurrency)
+        -   [Data Structures and Algorithms](/internal/learn/cs-fields/data-structures-and-algorithms)
+        -   [Database](/internal/learn/cs-fields/database)
+        -   [Distributed Computing](/internal/learn/cs-fields/distributed-computing)
+        -   [Object Oriented Design](/internal/learn/cs-fields/object-oriented-design)
+        -   [System Design](/internal/learn/cs-fields/system-design)
         -   [Testing](/internal/learn/cs-fields/testing)
     -   Other
         -   [Branding](/internal/learn/other/branding)

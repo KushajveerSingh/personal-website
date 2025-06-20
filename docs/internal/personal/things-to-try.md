@@ -19,19 +19,6 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## Dance
-
--   [link](https://youtu.be/S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)
--   [link](https://www.youtube.com/watch?v=w60K81K_Idk) How to dance to pop music solo (the best hip moves)
-
-## Jigsaw puzzles
-
--   [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
-
-## Fires
-
--   [link](https://www.youtube.com/watch?v=kqTxWiW8x9o) The Swedish torch: an ingenious 400-year-odl invention
-
 ## Art and Crafts
 
 -   The Fine Art of paper flowers by Tiffanie Turner
@@ -41,4 +28,23 @@ nav_exclude: true
 -   fine art wire weaving by Sarah Thompson
 -   The Art of Modern Quilling by Erin Perkins Curet
 -   Tools Working Wood in Eighteenth Century America by James M. Gaymor
--   A Natural History of Colore by Rob Deasalle
+-   A Natural History of Colour by Rob Deasalle
+
+## Dance
+
+-   [link](https://youtu.be/S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)
+-   [link](https://www.youtube.com/watch?v=w60K81K_Idk) How to dance to pop music solo (the best hip moves)
+
+## Fires
+
+-   [link](https://www.youtube.com/watch?v=kqTxWiW8x9o) The Swedish torch: an ingenious 400-year-odl invention
+
+## Jigsaw puzzles
+
+-   [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
+
+## Rope tying
+
+## Wilderness First Aid
+
+-   [link](https://www.redcross.org/take-a-class/cpr/wilderness-sports) Red Cross

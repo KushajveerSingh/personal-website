@@ -19,7 +19,9 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-https://www.syntaxdesign.com/expertise
+## City/Country Branding
+
+-   [ ] [link](https://www.syntaxdesign.com/expertise) Check Syntax Design to get overview of the field.
 
 ## Corporate Branding
 
@@ -29,7 +31,3 @@ https://www.syntaxdesign.com/expertise
 
 -   [ ] [link](https://www.syntaxdesign.com/expertise) Check Syntax Design to get overview of the field.
 -   [ ] [link](https://galshir.com/) Galshir brand design specialist website
-
-## City/Country Branding
-
--   [ ] [link](https://www.syntaxdesign.com/expertise) Check Syntax Design to get overview of the field.

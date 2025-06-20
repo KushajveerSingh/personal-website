@@ -19,6 +19,6 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
--   https://www.royalenfield.com/us/en/motorcycles/bullet-350/
--   https://instax.com/
--   https://pimax.com/pages/pimax-12k
+-   [link](https://www.royalenfield.com/us/en/motorcycles/bullet-350/) Motorcycle
+-   [link](https://instax.com/) Instant camera
+-   [link](https://pimax.com/pages/pimax-12k) VR Headset

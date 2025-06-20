@@ -1,5 +1,5 @@
 ---
-title: Peronsal - Games
+title: Personal - Games
 search_exclude: true
 nav_exclude: true
 ---

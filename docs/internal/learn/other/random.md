@@ -30,6 +30,8 @@ nav_exclude: true
 -   https://www.uml.org/
 -   https://sysml.org/
 
+## Licenses
+
 ## Presentation
 
 -   [Marp](https://marp.app/) for Markdown presentation
@@ -40,10 +42,8 @@ nav_exclude: true
 -   learnprompting.com
 -   r/PromptEngineering [post](https://www.reddit.com/r/PromptEngineering/comments/18hhvi3/resources_that_dramatically_improved_my_prompting/0)
 
+## Semantic versioning
+
 ## Standard/Specification
 
 -   [link](https://infra.spec.whatwg.org/) Infra Standard
-
-## Semantic versioning
-
-## Licenses
