@@ -46,3 +46,29 @@ nav_exclude: true
 -   Superforecasting: The Art and Science of Prediction
 -   The Signal and the Noise: Why So Many Predictions Fail--but Some Don't
 -   Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career
+
+## Philosophy (Stoicism)
+
+[link](https://www.reddit.com/r/Stoicism/wiki/readinglist/) Reading list.
+
+### Inspiration and context
+
+-   [ ] (popularization) Meditations: A New Translation by Marcus Aurelius, translated by Gregory Hays
+-   [ ] (context) Ancient Philosophy: A Very Short Introduction by Julia Annas
+
+### The basics and getting started
+
+### Basic context and alternatives
+
+### Developing a deeper understanding
+
+### Additional context, alternatives, and successors
+
+### Advanced works and analysis
+
+### Deep dives
+
+## Psychology
+
+-   [ ] [link](https://www.youtube.com/playlist?list=PL8dPuuaLjXtOPRKzVLY0jJY-uHOH9KVU6) CrashCourse playlist
+-   [ ] Classic conditioning
