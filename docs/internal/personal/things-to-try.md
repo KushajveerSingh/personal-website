@@ -43,6 +43,8 @@ nav_exclude: true
 
 -   [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
 
+## Pilot license
+
 ## Rope tying
 
 ## Wilderness First Aid

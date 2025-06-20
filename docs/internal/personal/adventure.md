@@ -96,7 +96,7 @@ nav_exclude: true
 -   Waterfall
 -   [ ] [link](https://www.hubbikes.com/hub-routes) Hub Bikes Routes
 
-### Friends
+### Friends/Others
 
 -   In Europe, get train pass and use hostel to stay when backpacking.
 -   Qinghai Lake (400 mile bike ride in China)
@@ -111,10 +111,20 @@ nav_exclude: true
 -   ETH Zürich swiss college
 -   Swiss Alps and Gineava
 -   Brazil Carnival (2 to 3 weeks)
+-   Barkley Marathon
+-   Great wall of china
+-   Wonders of the world
+-   Adirondack High Peaks in upstate New York
+
+## Projects
+
+-   Create master trail route for entire state/national parks. Use GoPro to document all trails of each park.
+-   Create a photograph book of all state parks in Georgia (different seasons). For each state park, create a theme that is unique to that park/culture/history.
+-   Visit all states of USA. Find the main attractionj points in each state, pin them on the map and use string to trace a path. Use Road Atlas by Rand McNally and compass to travel instead of GPS.
 
 ## Resources
 
-## Guided trips
+### Guided trips
 
 -   [link](https://www.outwardbound.org/) Outward Bound for group trips
 -   [link](https://andrewskurka.com/guided-trips/) Andrew Shurka guided trips
@@ -134,6 +144,7 @@ nav_exclude: true
 -   [link](https://connect.garmin.com/) Garmin Connect
 -   [link](https://lnt.org/) Leave No Trace
 -   [link](https://www.rei.com/) REI
+-   [link](https://www.volosports.com/) Volo Sports (sports recreatioal league)
 
 ### Other
 
@@ -160,6 +171,8 @@ nav_exclude: true
     -   Mountain bike
     -   Road bike
     -   Gravel bike
+    -   Bikepacking bike
+    -   Touring bike
 -   Water
     -   Paddleboard
     -   Kayak/Canoe
@@ -178,39 +191,3 @@ nav_exclude: true
     -   Archery
 -   Polarized sunglasses
 -   Monocular with rage finder (military standard)
-
-## Reorder
-
-https://www.youtube.com/watch?v=IxZW3pTkIoU
-https://www.youtube.com/watch?v=GajmBnurU74
-
-https://www.volosports.com/
-
-Running in USA [link](https://runningintheusa.com/race/list/athens-GA/upcoming)
-Ride with GPS [link](https://ridewithgps.com/explore)
-Map my run [link](https://www.mapmyrun.com/routes/search)
-Bikereg [link](https://www.bikereg.com/Events/?loc=30%7e33.9077%7e-83.3242%7e30605&region=GA)
-Runreg [link](https://www.runreg.com/events?region=GA)
-Hub bikes [routes](https://www.hubbikes.com/hub-routes)
-Bikepacking [link](https://bikepacking.com/event/)
-
-Use go pro, like, and document all trails of each park.
-
-Pilot license
-
-Use incline, decline elevation and length of trail to score the hardness of a trail
-
-Barkley marathon
-
-Walk great walk of china
-47 peaks in upstake new york all above 3600fr
-
-Research study on how long trails like AT affect mentality o people over the course of time.
-Case 1. A guy with depression started PCT and it got resolved.
-Case 2. Met a guy on 2nd day of his AT journey, and he got emotional.
-Check the application of this study on what health problems it can solve, and how doctors can integrate this.
-If this study does get big, you don't want 1000 people showing up at AT, as that will cause trail degradation. Study can be expanded on how to resolve this as well.
-
-Get usa road atlas and travel the country with just map. Rand Mcnally one company selling these books.
-
-https://www.youtube.com/watch?v=pngKtgg-rNo

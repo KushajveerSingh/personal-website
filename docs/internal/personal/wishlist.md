@@ -22,3 +22,5 @@ nav_exclude: true
 -   [link](https://www.royalenfield.com/us/en/motorcycles/bullet-350/) Motorcycle
 -   [link](https://instax.com/) Instant camera
 -   [link](https://pimax.com/pages/pimax-12k) VR Headset
+-   [link](https://gopro.com/en/us/) Go Pro
+-   [link](https://www.insta360.com/) VR camera

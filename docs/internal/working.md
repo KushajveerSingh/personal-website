@@ -32,7 +32,6 @@ nav_exclude: true
 ## TODO
 
 -   web development
--   adventure
 -   working
 -   separate pages in yellow notebook
 -   Delete reorganize folder
