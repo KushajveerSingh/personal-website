@@ -27,6 +27,10 @@ nav_exclude: true
 
 -   [ ] Command & Conquer Generals Zero Hour by _EA Pacific_ (Sep 22, 2003)
 
+## D
+
+-   [ ] DayZ by _Bohemia Interactive_ (Dec 13, 2018)
+
 ## E
 
 -   [ ] Elden Ring by _From Software_ (Feb 24, 2022)

@@ -542,3 +542,5 @@ NBA reffing is messed up. Create data visualizations to see how refs, odds, vega
 Create a graph of how refrees might be connected outside (like a social engineering graph, who refs follow on social and stuff like that)
 
 Use incline, decline elevation and length of trail to score the hardness of a trail
+
+In js linter, create a tree showing event delegation. So you can look at the tree and show how much can you save by using event delegation.
