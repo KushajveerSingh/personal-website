@@ -1,28 +1,8 @@
--   Accessibility
-    -   Deque University
-    -   r/accessibility
-    -   Problem: with accessibility with math equations (can maybe can extend to chemistry)
-    -   Make a tool like stark to check accessibility with wcag spec and other specs you can find.
-    -   https://www.apaservices.org/ APA accessibility
--   Good [posts](https://adrianroselli.com/posts) by Adrian Roselli
--   JavaScript
-    -   https://www.youtube.com/watch?v=Xs1EMmBLpn4
-    -   https://www.patterns.dev/
-    -   web.dev/learn Learn JS
-    -   Eloquent js [link](https://eloquentjavascript.net/)
-    -   Modern JavaScript Tutorial
-    -   MDN Reference: Event reference
-    -   Utility libraries
-        -   jQuery
-        -   lodash
-        -   es-toolkit (newer replacement for lodash)
-    -   MDN
-        -   JavaScript
-        -   Web APIs
+https://github.com/sorrycc/awesome-javascript?tab=readme-ov-file#transpilers
+
     -   TypeScript
         -   TSDoc
         -   Typedoc
-    -   DesignCourse - Advanced Frontend
     -   Animation libraries
         -   GSAP
         -   Motion One (alternative to GSAP)
@@ -34,13 +14,6 @@
     -   Browser
         -   [Web browser engineering](https://browser.engineering/)
         -   67 Weird Debugging Tricks Your Browser Doesn't Want You to Know [article](https://alan.norbauer.com/articles/browser-debugging-tricks)
-    -   Browser engines
-        -   chromium [link](https://developer.chrome.com/docs/chromium)
-        -   webkit
-        -   gecko
-        -   servo
-        -   flow
-        -   ladybird
     -   Chrome browser blog
         -   part 1 [link](https://developer.chrome.com/blog/inside-browser-part1)
         -   part 2 [link](https://developer.chrome.com/blog/inside-browser-part2)
@@ -60,6 +33,7 @@
         -   Extensions
         -   Workbox
     -   Zod (valibot modern replacement for zod)
+
 -   Josh W Comeau [blog posts](https://www.joshwcomeau.com/) (covers CSS, JS, performance)
 -   Speeding up the JavaScript ecosystem [blog series](https://marvinh.dev/blog/speeding-up-javascript-ecosystem/)
 -   JavaScript Tooling

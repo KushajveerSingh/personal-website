@@ -544,3 +544,7 @@ Create a graph of how refrees might be connected outside (like a social engineer
 Use incline, decline elevation and length of trail to score the hardness of a trail
 
 In js linter, create a tree showing event delegation. So you can look at the tree and show how much can you save by using event delegation.
+
+create rust standard library, with all the data structures. and optimize them as much as possible and have graphs showing improvements. Also, document the data structure in detail with all the optimizations. Also, look into optimizing the data structures with cpu specific stuff.
+
+Problem: with accessibility with math equations (can maybe can extend to chemistry)

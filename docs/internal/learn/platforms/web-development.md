@@ -83,6 +83,7 @@ nav_exclude: true
 -   [ ] MDN Resources
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) References: Progressive web apps
 -   [ ] [link](https://serviceworkies.com/) Service Worker mastery game
+-   [ ] [link](https://developer.chrome.com/docs/workbox) Workbox
 
 ## CSS
 
@@ -141,6 +142,9 @@ nav_exclude: true
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Design_and_accessibility) Learn: Design and accessibility
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Accessibility) References: Accessibility
 -   [ ] [link](https://inclusivedesignprinciples.info/) Inclusive Design Principles
+-   [ ] [link](https://adrianroselli.com/tag/accessibility) Adrian Roselli accessibility blog posts
+-   [ ] [link](https://dequeuniversity.com/) Deque University courses
+-   [ ] [link](r/accessibility) r/accessibility
 -   [ ] [link](https://www.w3.org/WAI/) Web Accessibility Initiative (WAI)
     -   [ ] [link](https://www.w3.org/WAI/fundamentals/) Accessibility Fundamentals
     -   [ ] [link](https://www.w3.org/WAI/planning/) Planning & Policies
@@ -154,13 +158,16 @@ nav_exclude: true
     -   [ ] [link](https://www.ada.gov/resources/small-entity-compliance-guide/) Accessibility of Web Content and Mobile Apps Provided by State and Local Government Entities: A Small Entity Compliance Guide
     -   [ ] [link](https://www.ada.gov/resources/web-guidance/) Guidance on Web Accessibility and the ADA
 -   [ ] [link](https://www.dhs.gov/accessibility) Department of Homeland Security: Accessibility
+-   [ ] [link](https://www.apa.org/) APA.org
+    -   [ ] [link](https://apastyle.apa.org/) APA Style
 -   ADA/Section502 cover USA. Look into EU accessibility requirements as well.
 -   [ ] Tools
     -   [link](https://www.getstark.co/) Stark
 
 ## JavaScript
 
--   [ ] [link](https://designcourse.com/app/course/advanced-frontends) DesignCourse: Advanced Frontends
+-   [ ] [link](https://eloquentjavascript.net/) Eloquent JavaScript 4th edition by Marijn Haverbeke
+-   [ ] [link](https://javascript.info/) Modern JavaScript Tutorial
 -   [ ] web.dev Resources
     -   [ ] [link](https://web.dev/learn/javascript) Learn JavaScript
 -   [ ] MDN Resources
@@ -172,11 +179,27 @@ nav_exclude: true
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript) References: JavaScript
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Events) References: Event reference
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/API) References: Web APIs
+-   [ ] [link](https://www.youtube.com/@theavocoder) Lydia Hallie youtube videos
+-   [ ] [link](https://designcourse.com/app/course/advanced-frontends) DesignCourse: Advanced Frontends
+-   [ ] [link](https://www.patterns.dev/) JavaScript patterns
 -   [ ] Games
     -   [ ] [link](https://codepip.com/games/code-crunchers/) codepip: Code Crunchers
     -   [ ] [link](https://codepip.com/games/disarray/) codepip: Disarray
     -   [ ] [link](https://codepip.com/games/intl-delivery/) codepip: Intl Delivery
     -   [ ] [link](https://codepip.com/games/regex-machina/) Regex Machina
+-   [ ] Libraries
+    -   [ ] [link](https://es-toolkit.dev/) es-toolkit
+
+### Package Manager
+
+-   [ ] [link](https://www.npmjs.com/) npm
+-   [ ] [link](https://pnpm.io/) pnpm
+
+### Polyfill
+
+-   [ ] [link](https://github.com/zloirock/core-js) core-js
+-   [ ] [link](https://babeljs.io/) Babel
+-   [ ] [link](https://swc.rs/) SWC
 
 ## Performance
 
@@ -186,6 +209,11 @@ nav_exclude: true
 -   [ ] MDN Resources
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance) Learn: Web performance
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Performance) References: Performance
+-   [ ] [link](https://developer.chrome.com/docs/lighthouse) Lighthouse documentation
+-   [ ] [link](https://developers.google.com/speed) Chrome Speed
+    -   [ ] [link](https://pagespeed.web.dev/) PageSpeed Insights
+    -   [link](https://developers.google.com/speed/pagespeed/module) Speed up with the PageSpeed Modules
+        -   [ ] [link](https://www.modpagespeed.com/doc/) PageSpeed Documentation
 
 ## Privacy
 
@@ -193,6 +221,8 @@ nav_exclude: true
     -   [ ] [link](https://web.dev/learn/privacy) Learn Privacy
 -   [ ] MDN Resources
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Privacy) References: Privacy on the web
+-   [ ] [link](https://developer.chrome.com/docs/privacy-security) Privacy and security
+-   [ ] [link](https://developers.google.com/privacy-sandbox) Privacy Sandbox
 
 ## Security
 
@@ -201,6 +231,7 @@ nav_exclude: true
 
 ## DevTools
 
+-   [ ] [link](https://developer.chrome.com/docs/devtools) Chrome DevTools documentation
 -   [ ] [link](https://codepip.com/games/console-caper/) codepip: Console Caper game
 
 ## Other frontend
@@ -213,6 +244,7 @@ nav_exclude: true
 
 -   [ ] [link](https://web.dev/baseline) Web Platform Baseline
 -   [ ] [link](https://caniuse.com/) Can I use
+-   [ ] [link](https://developer.chrome.com/docs/crux) Chrome UX Report
 
 ## JavaScript Frameworks
 
@@ -244,10 +276,6 @@ nav_exclude: true
 
 -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/WebDriver) MDN References: WebDriver
 -   [ ] [link](https://developer.chrome.com/docs) Chrome Docs
-    -   [ ] [link](https://developer.chrome.com/docs/devtools) DevTools
-    -   [ ] [link](https://developer.chrome.com/docs/lighthouse) Lighthouse
-    -   [ ] [link](https://developer.chrome.com/docs/crux) Chrome UX Report
-    -   [ ] [link](https://developer.chrome.com/docs/workbox) Workbox
     -   [ ] [link](https://developer.chrome.com/docs/chromedriver) Chrome Driver
     -   [ ] [link](https://developer.chrome.com/docs/capabilities) Capabilities
     -   [ ] [link](https://developer.chrome.com/docs/android) Web on Android
@@ -255,13 +283,7 @@ nav_exclude: true
     -   [ ] [link](https://developer.chrome.com/docs/ai) AI on Chrome
     -   [ ] [link](https://developer.chrome.com/docs/aurora) Aurora
     -   [ ] [link](https://developer.chrome.com/docs/identity/) Identity
-    -   [ ] [link](https://developer.chrome.com/docs/privacy-security) Privacy and security
     -   [ ] [link](https://developer.chrome.com/docs/payments) Payments
--   [ ] [link](https://developers.google.com/speed) Chrome Speed
-    -   [ ] [link](https://pagespeed.web.dev/) PageSpeed Insights
-    -   [link](https://developers.google.com/speed/pagespeed/module) Speed up with the PageSpeed Modules
-        -   [ ] [link](https://www.modpagespeed.com/doc/) PageSpeed Documentation
--   [ ] [link](https://developers.google.com/privacy-sandbox) Privacy Sandbox
 
 ### Safari
 
