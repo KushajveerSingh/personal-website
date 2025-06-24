@@ -43,6 +43,7 @@ nav_exclude: true
 
 ### Dog
 
+-   Mongolian Shepherd Dog
 -   Samoyed
 
 ## Pond
