@@ -190,16 +190,61 @@ nav_exclude: true
 -   [ ] Libraries
     -   [ ] [link](https://es-toolkit.dev/) es-toolkit
 
+### TypeScript
+
+-   [ ] [link](https://www.typescriptlang.org/) Docs
+-   [ ] [link](https://tsdoc.org/) TSDoc
+-   [ ] [link](https://typedoc.org/) TypeDoc
+
 ### Package Manager
 
 -   [ ] [link](https://www.npmjs.com/) npm
--   [ ] [link](https://pnpm.io/) pnpm
+-   [ ] [link](https://pnpm.io/) pnpm (+ monorepo)
 
-### Polyfill
+### Package repositories
 
--   [ ] [link](https://github.com/zloirock/core-js) core-js
--   [ ] [link](https://babeljs.io/) Babel
--   [ ] [link](https://swc.rs/) SWC
+-   [ ] [link](https://www.npmjs.com/) NPM Registry
+-   [ ] [link](https://jsr.io/) JSR
+-   [ ] [link](https://cdnjs.com/) cdnjs
+-   [ ] [link](https://www.jsdelivr.com/) jsdelivr
+
+### Bundler
+
+-   [ ] [link](https://vite.dev/) Vite
+-   [ ] [link](https://rolldown.rs/) Rolldown
+-   [ ] [link](https://oxc.rs/) Oxc
+    -   [ ] [link](https://oxc.rs/docs/guide/usage/linter.html) oxlint
+    -   [ ] [link](https://oxc.rs/docs/guide/usage/minifier.html) oxc-minify
+    -   [ ] oxc-formatter (will replace prettier)
+
+### Validation
+
+-   [ ] [link](https://zod.dev/) Zod
+-   [ ] [link](https://valibot.dev/) Valibot
+
+### Testing
+
+-   [ ] [link](https://vitest.dev/) Vitest
+-   [ ] [link](https://playwright.dev/) Playwright
+
+### Graphics
+
+-   [ ] [link](https://threejs.org/) three.js (3d)
+-   [ ] [link](https://d3js.org/) d3.js (visualization)
+-   [ ] [link](https://gsap.com/) GSAP (animation)
+-   [ ] [link](https://github.com/leeoniya/uPlot) uPlot
+-   [ ] [link](https://echarts.apache.org/en/index.html) Apache ECharts
+
+### API mocking
+
+-   [ ] [link](https://mswjs.io/) Mock Service Worker
+
+### State
+
+-   [ ] [link](https://immerjs.github.io/immer/) Immer
+-   [ ] [link](https://tanstack.com/query/latest) Tanstack Query (server state management on client)
+-   [ ] [link](https://tanstack.com/db/latest) Tanstack DB (builds on top of tanstack query)
+-   [ ] [link](https://tanstack.com/store/latest) Tanstack Store (client state management using signals)
 
 ## Performance
 
@@ -214,6 +259,9 @@ nav_exclude: true
     -   [ ] [link](https://pagespeed.web.dev/) PageSpeed Insights
     -   [link](https://developers.google.com/speed/pagespeed/module) Speed up with the PageSpeed Modules
         -   [ ] [link](https://www.modpagespeed.com/doc/) PageSpeed Documentation
+-   [ ] [link](https://github.com/google/tachometer) tachometer (benchmark)
+-   [ ] [link](https://jsbenchmark.com/) JS Benchmark
+-   [ ] [link](https://www.webpagetest.org/) webpagetest
 
 ## Privacy
 
@@ -226,8 +274,13 @@ nav_exclude: true
 
 ## Security
 
+-   [ ] [link](https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) The Tangled Web: A Guide to Securing Modern Web Applications
 -   [ ] MDN Resources
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Security) References: Security
+-   [ ] [link](https://owasp.org/www-project-web-security-testing-guide/) OWASP Web Security Testing Guide
+-   [ ] [link](https://cheatsheetseries.owasp.org/index.html) OWASP Cheat Sheet
+-   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv) Hussein Nasser youtube: Web Security
+-   [ ] [link](https://developer.mozilla.org/en-US/observatory) Mozilla HTTP Observatory
 
 ## DevTools
 
@@ -239,42 +292,44 @@ nav_exclude: true
 -   [ ] [link](https://web.dev/case-studies) web.dev Case studies
 -   [ ] [link](https://web.dev/explore) web.dev Explore
 -   [ ] [link](https://web.dev/patterns) web.dev Patterns
+-   [ ] [link](https://github.com/bowser-js/bowser) browser detector
+-   [ ] [link](https://www.joshwcomeau.com/) Josh W Comeau articles
+-   [ ] [link](https://marvinh.dev/blog/speeding-up-javascript-ecosystem/) Speeding up the JavaScript ecosytem - one library at a time
 
 ### Browser support
 
 -   [ ] [link](https://web.dev/baseline) Web Platform Baseline
 -   [ ] [link](https://caniuse.com/) Can I use
 -   [ ] [link](https://developer.chrome.com/docs/crux) Chrome UX Report
+-   [ ] [link](https://browsersl.ist/) Browserlist
+-   [ ] [link](https://html-now.github.io/) The Web Platform: Browser technologies
+-   [ ] [link](https://web-platform-tests.org/index.html) web-platform-tests
+-   [ ] [link](https://httparchive.org/) http archive
+
+### Dependency
+
+-   [ ] [link](https://socket.dev/) Socket
 
 ## JavaScript Frameworks
 
-### React
-
-### Vue.js
-
-### Angular
-
-### Preact
-
-### Svelte
-
-### Alpine.js
-
-### Lit
-
-### Solid
-
 ### Qwik
 
-### Stencil
+## WebContainers
 
-### HTMX
+-   [ ] [link](https://webcontainers.io/) Docs
 
 ## Browsers
 
+-   [ ] [link](https://browser.engineering/) Web browser engineering
+-   [ ] [link](https://alan.norbauer.com/articles/browser-debugging-tricks/) 67 Weird Debugging Tricks Your Browser Dosen't Want You to Know
+-   [ ] [link](https://textslashplain.com/2020/09/29/debugging-browsers-tools-and-techniques/) Debugging Browsers - Tools and Techniques
+-   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/WebDriver) MDN References:
+        WebDriver
+-   [ ] [link](https://developer.chrome.com/blog/round-up-of-web-browser-internals-resources) Round-up of web browser internals resources
+
 ### Chrome
 
--   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/WebDriver) MDN References: WebDriver
+-   [ ] [link](https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx) Chrome University playlist
 -   [ ] [link](https://developer.chrome.com/docs) Chrome Docs
     -   [ ] [link](https://developer.chrome.com/docs/chromedriver) Chrome Driver
     -   [ ] [link](https://developer.chrome.com/docs/capabilities) Capabilities
@@ -284,6 +339,13 @@ nav_exclude: true
     -   [ ] [link](https://developer.chrome.com/docs/aurora) Aurora
     -   [ ] [link](https://developer.chrome.com/docs/identity/) Identity
     -   [ ] [link](https://developer.chrome.com/docs/payments) Payments
+-   [ ] Chrome browser blog
+    -   [ ] [link](https://developer.chrome.com/blog/inside-browser-part1) Inside browser part 1
+    -   [ ] [link](https://developer.chrome.com/blog/inside-browser-part2) Inside browser part 2
+    -   [ ] [link](https://developer.chrome.com/blog/inside-browser-part3) Inside browser part 3
+    -   [ ] [link](https://developer.chrome.com/blog/inside-browser-part4) Inside browser part 4
+-   [ ] [link](https://v8.dev/docs) V8 docs
+-   [ ] [link](https://chromium.googlesource.com/chromium/src/+/main/docs/README.md) Chromium docs
 
 ### Safari
 
@@ -295,13 +357,31 @@ nav_exclude: true
 
 ### Servo
 
-## API
+## Node.js
 
-### HTTP
+-   [ ] [link](https://nodejs.org/en) Docs
+-   [ ] [link](https://github.com/Schniz/fnm) fnm (version manager)
+-   [ ] [link](https://www.deepintodev.com/blog/how-nodejs-works-behind-the-scenes?ck_subscriber_id=2308324911) How Node.js Works Behind the Scenes
+-   [ ] [link](https://node.win/) Hussein Nasser: Node Internals and Architecture
 
--   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/HTTP) MDN References: HTTP
+### Web framework
 
-### MCP
+-   [ ] [link](https://h3.dev/) H3
+-   [ ] [link](https://nitro.build/) Nitro
 
--   [ ] [link](https://modelcontextprotocol.io/introduction) Model Context Protocol documentation
--   [ ] [link](https://codingfantasy.com/games/mcp) Model Context Protocol Panic
+### Authentication/Authorization
+
+-   [ ] [link](https://www.better-auth.com/) Better-Auth
+
+### Server Sent Events
+
+-   [ ] [link](https://shopify.engineering/server-sent-events-data-streaming) Using Server Sent Events to Simplify Real-time Streaming at Scale shopify blog
+-   [ ] [link](https://matthewwid.github.io/better-sse/) Better SSE library
+
+### Web socket
+
+-   [ ] [link](https://socket.io/) Socket.IO
+
+## Payment
+
+-   [link](https://stripe.com/payments/payment-methods) List of all payment methods by Stripe

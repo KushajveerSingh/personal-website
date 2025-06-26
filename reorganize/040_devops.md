@@ -4,6 +4,24 @@ slug: internal/learning_resources/devops
 pagefind: false
 ---
 
+-   [ ] [link](https://nginx.husseinnasser.com/) Hussein Nasser: Introduction to NGINX
+-   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-) Hussein Nasser youtube: HAProxy
+-   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-) Hussein Nasser youtube: NginX
+-   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh) Hussein Nasser youtube: WebSockets
+-   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r) Hussein Nasser youtube: Docker
+-   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC) Hussein Nasser youtube: Proxies
+
+-   API management (gateway)
+
+    -   Kong (built on top of NGINX)
+    -   Apache APISIX (better than Kong)
+    -   difference between kong, apisix [blog](https://api7.ai/blog/why-choose-apisix-instead-of-nginx-or-kong)
+
+-   Husky
+    -   lint-staged
+    -   pre-commit
+-   editorconfig
+
 -   Ansible
 -   NGINX + NGINX Proxy manager, Traefik
 -   Docker, podman

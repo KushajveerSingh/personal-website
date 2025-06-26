@@ -548,3 +548,9 @@ In js linter, create a tree showing event delegation. So you can look at the tre
 create rust standard library, with all the data structures. and optimize them as much as possible and have graphs showing improvements. Also, document the data structure in detail with all the optimizations. Also, look into optimizing the data structures with cpu specific stuff.
 
 Problem: with accessibility with math equations (can maybe can extend to chemistry)
+
+Create an api similar to stripe and webpage similar to stripe/square. Have all the payment options that can be added, without requiring to be a payment processor like stripe. For example, stripe takes a cut of google pay, but if you set it by yourself, you don't have to pay that cut.
+Add invoicing options to it next. Look at popular invoicing (invoices created) by enterprise erp software.
+Add taxes (including international) as much as you can.
+Charge 50 bucks for 6 months for payment code, and additional money for invoice, tax.
+Create dashboard with graphs to shoiw demographics/money and other stuff.

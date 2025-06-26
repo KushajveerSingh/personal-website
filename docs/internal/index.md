@@ -31,7 +31,9 @@ search_exclude: true
         -   [Data Structures and Algorithms](/internal/learn/cs-fields/data-structures-and-algorithms)
         -   [Database](/internal/learn/cs-fields/database)
         -   [Distributed Computing](/internal/learn/cs-fields/distributed-computing)
+        -   [Networking](/internal/learn/cs-fields/networking)
         -   [Object Oriented Design](/internal/learn/cs-fields/object-oriented-design)
+        -   [Operating Systems](/internal/learn/cs-fields/operating-systems)
         -   [System Design](/internal/learn/cs-fields/system-design)
         -   [Testing](/internal/learn/cs-fields/testing)
     -   Other
