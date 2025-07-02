@@ -24,3 +24,11 @@ nav_exclude: true
 -   [link](https://pimax.com/pages/pimax-12k) VR Headset
 -   [link](https://gopro.com/en/us/) Go Pro
 -   [link](https://www.insta360.com/) VR camera
+
+## Home setup
+
+Total = $
+
+-   Desk
+    -   $759.99 - Flexispot E7 pro + Bamboo + 71"x35" + Black
+-
