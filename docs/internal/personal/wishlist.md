@@ -27,7 +27,7 @@ nav_exclude: true
 
 ## Home setup
 
-Total = $3,770.53 (before sales tax) (excluding monitor, pc)
+Total = $3,850.53 (before sales tax) (excluding monitor, pc)
 
 -   Electrical
     -   $339.99 - [link](https://www.apc.com/us/en/product/BR1500G/apc-backups-pro-1500va-865w-tower-120v-10x-nema-515r-outlets-avr-lcd-user-replaceable-battery/?range=61888-apc-backups-pro&parent-subcategory-id=88975&selectedNodeId=27590292604) **UPS** APC Back-UPS Pro, 1500VA/865W, AVR
@@ -39,6 +39,7 @@ Total = $3,770.53 (before sales tax) (excluding monitor, pc)
     -   $139.99 - [link](https://www.logitechg.com/en-us/products/gaming-mice/g903-hero-wireless-gaming-mouse.html) **Mouse** Logitech G903
     -   $249.99 - [link](https://www.elgato.com/us/en/p/stream-deck-xl) Elgato stream deck XL
     -   $34.99 - [link](https://www.lttstore.com/products/stealth-desk-pad?variant=40023058874471) LTT Stealth Desk Pad
+    -   $80 - [link](https://www.vasagleb2b.com/product/home-office/printer-stand/industrial-printer-stand.html) Printer/pc stand
 -   Streaming accesories
     -   $169.99 - [link](https://www.elgato.com/us/en/p/green-screen-xl) Elgato green screen xl
     -   $199.99 - [link](https://www.logitech.com/en-us/shop/p/mx-brio-4k-webcam.960-001558) Logitech MX Brio
@@ -48,7 +49,11 @@ Total = $3,770.53 (before sales tax) (excluding monitor, pc)
 -   PC accessories
     -   $14.99 - [link](https://www.lttstore.com/products/cable-ties?variant=41233923571815) LTT cable ties
     -   $300 - Sony WF-1000xm6 (yet to be released)
-    -   $349.99 - [link](https://electronics.sony.com/audio/speakers/wireless-speakers/p/srsxg300-bz) SOny XG300 MEGA Bass speaker
+    -   $349.99 - [link](https://electronics.sony.com/audio/speakers/wireless-speakers/p/srsxg300-bz) Sony XG300 MEGA Bass speaker
 -   Monitor
+    -   $49.99 \* 3 - [link](https://us.caldigit.com/products/dp20-hdmi21) Active display port 2.0 to HDMI 2.1 adapter
+    -   $1029.99 \* 3 - [link](https://www.dell.com/en-us/shop/dell-ultrasharp-32-4k-thunderbolt-hub-monitor-u3225qe/apd/210-bqhs/monitors-monitor-accessories) Dell U3225QE + 32inch + 4K + 120hz + IPS black
+    -   $290 \* 3 - [link](https://www.ergotron.com/en-us/products/product-details/45-695#?color=black&buynow=0) ergotron lx pro desk monitor arm, tall pole
+    -   $1399.99 - [link](https://www.dell.com/en-us/shop/dell-ultrasharp-49-curved-usb-c-hub-monitor-u4924dw/apd/210-bgtz/monitors-monitor-accessories) Dell U4924DW + 49inch + dual qhd + 60fps + ips black
+    -   Monitor arm for ultrawide
 -   PC
--   Smaller desk for pc
