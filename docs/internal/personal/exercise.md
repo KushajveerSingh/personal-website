@@ -36,3 +36,7 @@ nav_exclude: true
 -   [link](https://www.youtube.com/watch?v=kQ8bBtxZ1XQ) Stephen Curry full shooting workout 500+ shots at team usa training camp
 -   [link](https://www.youtube.com/watch?v=RboJ6Li7zZI) Kyrie Irving full pregame workout: finishes at rim, bag work and shooting in playoffs
 -   [link](https://www.youtube.com/watch?v=Mx4H3OWD0KM) Anthony Edwards FULL Workout 1000+ Shots At Team USA Training Camp
+
+## Shoe
+
+-   [ ] [link](https://www.footdoctorzach.com/customization) Show Customization & Lower Leg Taping E-book

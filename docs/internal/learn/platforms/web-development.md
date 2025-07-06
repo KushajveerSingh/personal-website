@@ -131,6 +131,7 @@ nav_exclude: true
 
 -   [ ] [link](https://tailwindcss.com/) Documentation
 -   [ ] [link](https://codepip.com/games/tailwind-trainer/) codepip: Tailwind Trainer
+-   [ ] [link](https://daisyui.com/) daisyUI
 
 ## Accessibility
 

@@ -51,6 +51,8 @@ No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
 
 ---
 
+create visualization like tigerbeetle simulator, for all distributed algorithms and database
+
 ## Project writing tips
 
 -   Start each project with a day spent on project planning, scope (including features), rough estimate.
@@ -554,3 +556,16 @@ Add invoicing options to it next. Look at popular invoicing (invoices created) b
 Add taxes (including international) as much as you can.
 Charge 50 bucks for 6 months for payment code, and additional money for invoice, tax.
 Create dashboard with graphs to shoiw demographics/money and other stuff.
+
+Combine all enterprise software solutions into 1 like erp, sas, sap, github, ci/cd, issue tracking.
+Start with a central account management system similar to microsft. Now you have accounts and organizations.
+Add github clone to it, without the bloat and also the privacy issues.
+Add issue tracker and link github to refer to this.
+Add ci/cd.
+And keep adding other enterprise solutions.
+Host it locally, cloud.
+Add scripts to help companies export data from other services to this.
+
+In youtube video dark reader project, add an option to blur/black a section of the video. Sometimes you are watching a video with chat in one corner that you want to hide, to avoid spoilers.
+
+Biochemistry, bioinformatics, gene related fields. All conferences, software

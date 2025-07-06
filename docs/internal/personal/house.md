@@ -43,6 +43,8 @@ nav_exclude: true
 
 ### Dog
 
+-   Cane Corso
+-   Great Danes
 -   Mongolian Shepherd Dog
 -   Samoyed
 

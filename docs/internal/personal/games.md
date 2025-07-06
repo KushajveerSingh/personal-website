@@ -41,6 +41,8 @@ nav_exclude: true
 
 ## R
 
+-   [ ] Red Dead Redemption 2 by Rockstar Games (Dec 5, 2019)
+    -   [ ] [link](https://redm.net/) RedM
 -   [ ] Rust by Facepunch Studios (Feb 8, 2018)
 
 ## S

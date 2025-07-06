@@ -19,6 +19,10 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Airsoft
+
+-   [ ] [link](https://www.youtube.com/watch?v=_a-8U4roG5c) Airsoft battle
+
 ## Art and Crafts
 
 -   The Fine Art of paper flowers by Tiffanie Turner
@@ -32,7 +36,7 @@ nav_exclude: true
 
 ## Dance
 
--   [link](https://youtu.be/S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)
+-   [link](https://www.youtube.com/watch?v=S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)
 -   [link](https://www.youtube.com/watch?v=w60K81K_Idk) How to dance to pop music solo (the best hip moves)
 
 ## Fires
