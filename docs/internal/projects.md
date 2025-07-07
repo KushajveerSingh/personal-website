@@ -51,6 +51,8 @@ No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
 
 ---
 
+create a frontend function to check for caniuse. It checks the browser name (there is a js package for that), and then compares the version with caniuse, to return a boolean if the feature is supported or not. Create a similar function for backend.
+
 when creating lims system for aesl with qwik js, be active in qwik discord and showcase what you are doing. Also, opensource all the work like authentication pages, and stuff like that so that others can use from the community.
 
 create visualization like tigerbeetle simulator, for all distributed algorithms and database
