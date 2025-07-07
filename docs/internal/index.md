@@ -47,6 +47,7 @@ search_exclude: true
         -   [Apple Development](/internal/learn/platforms/apple-development)
         -   [Augmented Reality](/internal/learn/platforms/augmented-reality)
         -   [Desktop Development](/internal/learn/platforms/desktop-development)
+        -   [DevOps](/internal/learn/platforms/devops)
         -   [Digital Content](/internal/learn/platforms/digital-content)
         -   [UI/UX](/internal/learn/platforms/ui-ux)
         -   [Virtual Reality](/internal/learn/platforms/virtual-reality)

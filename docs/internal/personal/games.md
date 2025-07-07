@@ -52,3 +52,7 @@ nav_exclude: true
 ## T
 
 -   [ ] Total War: Rome II by _Creative Assembly_ (Sep 3, 2013)
+
+## W
+
+-   [ ] Wars and Warrios: Joan of Arc by Enlight Software Limited (Feb 7, 2004)

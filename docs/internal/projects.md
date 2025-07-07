@@ -51,6 +51,8 @@ No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
 
 ---
 
+when creating lims system for aesl with qwik js, be active in qwik discord and showcase what you are doing. Also, opensource all the work like authentication pages, and stuff like that so that others can use from the community.
+
 create visualization like tigerbeetle simulator, for all distributed algorithms and database
 
 ## Project writing tips

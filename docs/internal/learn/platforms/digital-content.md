@@ -102,6 +102,10 @@ nav_exclude: true
 -   [EposVox](https://www.youtube.com/@EposVox) youtube playlists (capture card, teleprompter, webcams)
 -   Nvidia OBS [blog](https://www.nvidia.com/en-us/geforce/guides/broadcasting-guide/)
 
+## Streaming
+
+-   [link](https://meldstudio.co/) Meld Studio (stream to twitch, youtube, kick, tiktok, facebook)
+
 ## 3D software
 
 -   (modelling, rigging, animation) [Maya](https://www.autodesk.com/products/maya) better than [Blender](https://www.blender.org/)

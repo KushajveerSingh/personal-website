@@ -296,6 +296,7 @@ nav_exclude: true
 -   [ ] [link](https://github.com/bowser-js/bowser) browser detector
 -   [ ] [link](https://www.joshwcomeau.com/) Josh W Comeau articles
 -   [ ] [link](https://marvinh.dev/blog/speeding-up-javascript-ecosystem/) Speeding up the JavaScript ecosytem - one library at a time
+-   [ ] [link](https://npmtrends.com/) npm trends
 
 ### Browser support
 
@@ -312,6 +313,8 @@ nav_exclude: true
 -   [ ] [link](https://socket.dev/) Socket
 
 ## JavaScript Frameworks
+
+###
 
 ### Qwik
 
