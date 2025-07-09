@@ -31,3 +31,7 @@ nav_exclude: true
 -   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
 -   yellow notebook
 -   projects.md
+-   make deadline notes from
+    -   https://github.com/chinasatokolo/csGraduateFellowships and
+    -   https://grad.uga.edu/funding/funding-from-the-graduate-school/
+    -   https://grad.uga.edu/funding/scholarships-fellowships/
