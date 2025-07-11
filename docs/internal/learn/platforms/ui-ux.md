@@ -38,9 +38,11 @@ nav_exclude: true
 -   [ ] [link](https://www.youtube.com/@wearestudiotonic/videos) Tonic youtube channel
 -   [ ] [link](https://www.youtube.com/@phoebeyutbt/videos) Phoebe Yu youtube videos
 -   [ ] [link](https://www.youtube.com/@whosajid/videos) Sajid youtube videos
--   [ ] Refactoring UI
-    -   https://www.youtube.com/watch?v=7Z9rrryIOC4
-    -   https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE
+-   [ ] [link](https://www.youtube.com/@TimGabe/videos) Time Gabe youtube channel
+-   [ ] [link](https://www.youtube.com/@KoleJain/videos) Kole Jain youtube channel
+-   [ ] [link](https://www.refactoringui.com/) Refactoring UI book
+    -   [ ] [link](https://www.youtube.com/watch?v=7Z9rrryIOC4) Steve Schoger | Refactoring UI | CSS Day 2019
+    -   [ ] [link](https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE) Refactoring UI playlist
 
 ## Tools
 
@@ -49,7 +51,7 @@ nav_exclude: true
 -   [ ] [link](https://github.com/goabstract/Awesome-Design-Tools) Awesome-Design-Tools
 -   [ ] [link](https://github.com/goabstract/Awesome-Design-Tools/blob/master/Awesome-Design-Plugins.md) Awesome-Design-Plugins
 -   [ ] [link](https://github.com/goabstract/Awesome-Design-Tools/blob/master/Awesome-Design-UI-Kits.md) Awesome-Design-UI-Kits
--   [link](https://colorhunt.co/) Colorhunt
+-   [ ] [link](https://colorhunt.co/) Colorhunt
 
 ## Courses
 
