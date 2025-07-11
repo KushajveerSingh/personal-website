@@ -19,28 +19,7 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## Backend
-
-### Courses
-
--   [ ] Hussien Nasser
-    -   [ ] [link](https://backend.husseinnasser.com/) Course: Fundamentals of Backend Engineering
-    -   [ ] [link](https://performance.husseinnasser.com/) Course: Backend Performance
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQU0ICDe-cL1EwXC4GDSayKY) Youtube: The Backend Enigneering Show playlist
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT) Youtube: Backend Engineering (Beginner)
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs) Youtube: Backend Engineering (Intermediate)
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ) Youtube: Backend Engineering (Advanced)
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQXdkZLiYCCh_5RBP1-T-Rnx) Youtube: Backend Outage Analysis of Large...
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQX9U79P6eD_V9USIUTE9yAD) Youtube: Dev Tool them All!
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQVPOt2GrGpq2_NRZjcdxzfu) Youtube: High Availability
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F) Youtube: Distributed Systems
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt) Youtube: Load Balancing
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh) Youtube: WebSockets
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo) Youtube: Message Queues & PubSub Systems
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe) Youtube: Programming Patterns
-    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9) Youtube: Software Architecture
-
-### Distributed Computing
+## Distributed Computing
 
 -   Gaurev Sen Research paper breakdowns [playlist](https://www.youtube.com/playlist?list=PLMCXHnjXnTnv5Pd3O1bKGHNU4mkvribaB)
     -   20 Whitepapers that changed the world [For Senior Software Engineers] (also look for data platforms like Spark)

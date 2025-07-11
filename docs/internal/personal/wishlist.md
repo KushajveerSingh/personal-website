@@ -40,7 +40,9 @@ Total = $3,850.53 (before sales tax) (excluding monitor, pc)
     -   $249.99 - [link](https://www.elgato.com/us/en/p/stream-deck-xl) Elgato stream deck XL
     -   $34.99 - [link](https://www.lttstore.com/products/stealth-desk-pad?variant=40023058874471) LTT Stealth Desk Pad
     -   $80 - [link](https://www.vasagleb2b.com/product/home-office/printer-stand/industrial-printer-stand.html) Printer/pc stand
+    -   [link](https://www.youtube.com/watch?v=3s4ruFFqmqo) How to build a whisper quiet mechanical keyboard
 -   Streaming accesories
+    -   [link](https://www.youtube.com/watch?v=FzlYtYzNLo8) Fix your desktop audio video by IO Sam
     -   $169.99 - [link](https://www.elgato.com/us/en/p/green-screen-xl) Elgato green screen xl
     -   $199.99 - [link](https://www.logitech.com/en-us/shop/p/mx-brio-4k-webcam.960-001558) Logitech MX Brio
     -   $219.97 - [link](https://www.elgato.com/us/en/p/wave-3-black) Elgato wave 3 mic + Wave shock mount + Wave Pop filter

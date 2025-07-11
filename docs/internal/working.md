@@ -31,4 +31,3 @@ nav_exclude: true
 -   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
 -   yellow notebook
 -   projects.md
--   https://frontendmasters.com/

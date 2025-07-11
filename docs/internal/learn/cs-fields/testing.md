@@ -22,11 +22,3 @@ nav_exclude: true
 ## General
 
 -   [ ] [link](https://typesanitizer.com/blog/errors.html) An epic treatise on error models for systems programming languages
-
-## Web
-
--   [ ] web.dev Resources
-    -   [ ] [link](https://web.dev/learn/testing) Learn Testing
--   [ ] MDN Resources
-    -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing) Learn: Testing
--   [ ] [link](https://github.com/goldbergyoni/nodejs-testing-best-practices?ck_subscriber_id=2308324911#readme) A detailed guide to modern testing with Node.js

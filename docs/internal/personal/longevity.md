@@ -1,11 +1,11 @@
 ---
-title: Learn - JavaScript
+title: Personal - Longevity
 search_exclude: true
 nav_exclude: true
 ---
 
 <!-- prettier-ignore-start -->
-# JavaScript
+# Longevity
 {: .no_toc }
 
 <details open markdown="block">
@@ -19,4 +19,5 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-Refer to [Learn - Web Development](/internal/learn/platforms/web-development).
+-   [link](https://www.youtube.com/@BryanJohnson) Bryan Johnson youtube videos
+-   [link](https://www.youtube.com/@FoundMyFitness) FoundMyFitness youtube videos

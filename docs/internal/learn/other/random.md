@@ -37,6 +37,11 @@ nav_exclude: true
 -   [Marp](https://marp.app/) for Markdown presentation
 -   [link](https://www.youtube.com/watch?v=Vh3y1ela-_s) How to make beautiful code presentations
 
+## Power User
+
+-   [ ] [link](https://frontendmasters.com/courses/vs-code-v2/) FrontendMasters: Become a VS Code Power User
+-   [ ] [link](https://frontendmasters.com/courses/developer-productivity-v2/) FrontendMasters: My Dev Setup Is Better Than Yours
+
 ## Prompting
 
 -   learnprompting.com

@@ -4,6 +4,15 @@ slug: internal/learning_resources/devops
 pagefind: false
 ---
 
+-   [ ] FrontendMasters courses
+    -   [ ] [link](https://frontendmasters.com/courses/complete-intro-containers-v2/) Complete Intro to Containers, v2
+    -   [ ] [link](https://frontendmasters.com/courses/enterprise-devops/) Enterprise DevOps & Cloud Infrastructure
+    -   [ ] [link](https://frontendmasters.com/courses/fullstack-v3/) Full Stack for Front-End Engineers, v3
+    -   [ ] [link](https://frontendmasters.com/courses/devops/) Introducting DevOps for Developers
+    -   [ ] [link](https://frontendmasters.com/courses/aws-v2/) AWS For Front-End Engineers, v2
+
+Something
+
 -   [ ] [link](https://nginx.husseinnasser.com/) Hussein Nasser: Introduction to NGINX
 -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-) Hussein Nasser youtube: HAProxy
 -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-) Hussein Nasser youtube: NginX

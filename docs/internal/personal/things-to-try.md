@@ -39,6 +39,10 @@ nav_exclude: true
 -   [link](https://www.youtube.com/watch?v=S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)
 -   [link](https://www.youtube.com/watch?v=w60K81K_Idk) How to dance to pop music solo (the best hip moves)
 
+## Etiquette
+
+-   [link](https://williamhanson.komi.io/) William Hanson
+
 ## Fires
 
 -   [link](https://www.youtube.com/watch?v=kqTxWiW8x9o) The Swedish torch: an ingenious 400-year-odl invention
@@ -46,6 +50,15 @@ nav_exclude: true
 ## Jigsaw puzzles
 
 -   [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
+
+## Lock picking
+
+-   [link](https://www.youtube.com/watch?v=fTt1g0ZrzE0) LockPickingLawyer
+
+## Magic
+
+-   [link](https://www.vanishingincmagic.com/magician/Asi-Wind/) Asi Wind courses
+-   [link](https://www.youtube.com/@MattMcGurk) Matt McGurk youtube videos
 
 ## Pilot license
 

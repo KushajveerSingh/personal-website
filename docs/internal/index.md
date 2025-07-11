@@ -17,6 +17,7 @@ search_exclude: true
     -   [Exercise](/internal/personal/exercise)
     -   [Games](/internal/personal/games)
     -   [House](/internal/personal/house)
+    -   [Longevity](/internal/personal/longevity)
     -   [Paid Software](/internal/personal/paid-software)
     -   [Personal Care](/internal/personal/personal-care)
     -   [Things To Try](/internal/personal/things-to-try)
@@ -41,7 +42,9 @@ search_exclude: true
         -   [Branding](/internal/learn/other/branding)
         -   [Career](/internal/learn/other/career)
         -   [Finance](/internal/learn/other/finance)
+        -   [Management](/internal/learn/other/management)
         -   [Marketing](/internal/learn/other/marketing)
+        -   [Product Design](/internal/learn/other/product-design)
         -   [Random](/internal/learn/other/random)
     -   Platforms
         -   [Android Development](/internal/learn/platforms/android-development)

@@ -37,6 +37,7 @@ nav_exclude: true
 -   [ ] [link](https://www.youtube.com/@chainliftwebdesign/videos) Chainlift youtube channel
 -   [ ] [link](https://www.youtube.com/@wearestudiotonic/videos) Tonic youtube channel
 -   [ ] [link](https://www.youtube.com/@phoebeyutbt/videos) Phoebe Yu youtube videos
+-   [ ] [link](https://www.youtube.com/@whosajid/videos) Sajid youtube videos
 -   [ ] Refactoring UI
     -   https://www.youtube.com/watch?v=7Z9rrryIOC4
     -   https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE
@@ -54,16 +55,12 @@ nav_exclude: true
 
 -   [ ] Frontend Masters courses
     -   [ ] [link](https://frontendmasters.com/courses/design-for-developers/) Design for Developers by _Sarah Drasner_
-    -   [ ] [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process by _Paul Boag_
     -   [ ] [link](https://frontendmasters.com/courses/design-systems-management/) Enterprise Design Systems Management by _Ben Callahan_
     -   [ ] [link](https://frontendmasters.com/courses/hard-parts-ui-dev/) The Hard Parts of UI Development by _Will Sentance_
     -   [ ] [link](https://frontendmasters.com/courses/enterprise-ui-dev/) Enterprise UI Development: Testing & Code Quality by _Steve Kinney_
     -   [ ] [link](https://frontendmasters.com/courses/design-systems-v2/) Design Systems with Storybook v2 by _Steve Kinney_
     -   [ ] [link](https://frontendmasters.com/courses/content-strategy/) Content Strategy by _Kristina Halvorson_
-    -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites by _Paul Boag_
-    -   [ ] [link](https://frontendmasters.com/courses/ux-testing/) UX Research & User Testing by _Paul Boag_
-    -   [ ] [link](https://frontendmasters.com/courses/product-design/) The Product Design Process by _Paul Boag_
-    -   [ ] [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea by _Paul Boag_
+    -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites by _g_
     -   [ ] [link](https://frontendmasters.com/courses/figma-v2/) Figma for Developers, v2 by _Steve Kinney_
 -   [ ] [link](https://designcourse.com/app/course) DesignCourse
     -   [ ] [link](https://designcourse.com/app/course/uiux-bootcamp) UI/UX
@@ -148,3 +145,4 @@ nav_exclude: true
 -   [ ] [link](https://www.oddbird.net/2025/02/12/fluid-type/?ck_subscriber_id=2308324911) Reimagining Fluid Typography
 -   [ ] Tools
     -   [ ] [link](https://github.com/Munter/subfont?tab=readme-ov-file) subfont
+-   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2

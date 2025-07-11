@@ -19,9 +19,7 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## Networking
-
-### Courses
+## Courses
 
 -   [ ] Hussein Nasser
     -   [ ] [link](https://network.husseinnasser.com/) Hussein Nasser: Fundamentals of Networking
@@ -33,8 +31,6 @@ nav_exclude: true
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQWbBegaU790WhH7gNKcMAl-) Hussein Nasser youtube: HTTP/2
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr) Hussein Nasser youtube: Network Engineering
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQXaimjxx6uGLJz6lR25abZn) Hussein Nasser youtube: Cookies
--   [ ] [link](https://hpbn.co/) High Performance Browser Networking
-    -   [ ] [link](https://www.youtube.com/@igrigorik/videos) Ilya Grigorik videos on the book
 -   [ ] [link](https://www.amazon.com/TCP-Network-Administration-OReilly-Networking/dp/0596002971) TCP/IP: Network Administrator
 -   [ ] [link](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149) Computer Networking: A Top-Down Approach
     -   [ ] [link](https://www.youtube.com/playlist?list=PL1ya5dD_M8uX-BLUF1FEvUNsYWQL5_l0O) Videos for the book
@@ -47,36 +43,3 @@ nav_exclude: true
     -   [ ] [link](https://www.amazon.com/TCP-IP-Illustrated-Implementation-Vol/dp/020163354X) Volume 2: The Implementation
     -   [ ] [link](https://www.amazon.com/TCP-Illustrated-Transactions-Addison-Wesley-Professional/dp/0201634953) Volume 3: TCP for Transactions, HTTP, NNTP and the UNIX Domain Protocols
 -   [ ] [link](https://www.amazon.com/Bulletproof-SSL-TLS-Understanding-Applications/dp/1907117040) Bulletproof SSL and TLS: Understanding and Deploying SSL/TLS and PKI to Secure Servers and Web Applications
-
-## API
-
--   [ ] [link](https://swagger.io/specification/) OpenAPI Specification
-    -   [ ] [link](https://github.com/OpenAPITools/openapi-generator) openapi-generator
--   [ ] [link](https://www.amazon.com/Mastering-API-Architecture-Operate-API-Based/dp/1492090638) Mastering API Architecture: Design, operate and evolve API-based systems
--   [ ] [link](https://www.amazon.com/Learn-API-Testing-Guidelines-Automation/dp/1484281411) Learn API Testing: Norms, Practices and Guidelines
--   [link](https://www.manning.com/books/testing-web-apis) Testing Web APIs
--   [link](https://cloud.google.com/apis/design) Google API design guide
--   [link](https://slack.engineering/how-we-design-our-apis-at-slack/) How we Design out APIs at Slack
--   [ ] Testing tools
-    -   [ ] [link](https://curl.se/) curl
-    -   [ ] [link](https://github.com/rs/curlie) curlie
-    -   [ ] [link](https://github.com/usebruno/bruno) bruno
--   [ ] [link](https://www.zaproxy.org/) Zed Attack Proxy (ZAP)
--   [ ] [link](https://owasp.org/www-project-api-security/) OWASP API Security Project
-
-### HTTP
-
--   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/HTTP) MDN References: HTTP
--   [ ] [link](https://www.amazon.com/HTTP-Definitive-Guide-Guides/dp/1565925092) HTTP: The Definitive Guide
-
-### HTTP/2
-
--   [ ] [link](https://www.amazon.com/Learning-HTTP-Practical-Guide-Beginners/dp/1491962445) Learning HTTP/2: A Practical Guide for Beginners
--   [ ] [link](https://www.manning.com/books/http2-in-action) HTTP/2 in Action
-
-### HTTP/3
-
-### MCP
-
--   [ ] [link](https://modelcontextprotocol.io/introduction) Model Context Protocol documentation
--   [ ] [link](https://codingfantasy.com/games/mcp) Model Context Protocol Panic
