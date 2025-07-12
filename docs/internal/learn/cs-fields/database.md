@@ -35,6 +35,7 @@ nav_exclude: true
 
 ### Books
 
+-   [link](https://www.amazon.com/stores/page/500FA967-DEFD-4227-95D5-7D985B3A0699?ingress=0) O'Reilly databases section.
 -   [ ] Database systems concepts 7th edition
 -   [ ] The Data Warehouse Toolkit 3rd edition
 

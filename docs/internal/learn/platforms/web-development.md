@@ -277,9 +277,19 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 -   [ ] FrontendMasters courses
     -   [ ] [link](https://frontendmasters.com/courses/testing/) Testing Fundamentals
     -   [ ] [link](https://frontendmasters.com/courses/web-app-testing/) Web App Testing & Tools
+-   [ ] Type of test
+    -   [ ] Unit tests
+    -   [ ] Security checks
+    -   [ ] Integration tests
+    -   [ ] Linters
+    -   [ ] Formatters
+    -   [ ] End to End tests
+    -   [ ] Smoke tests
+    -   [ ] Performance tests
 
-### Graphics
+### Graphics/Visualization
 
+-   [link](https://www.amazon.com/stores/page/CE49FEF3-1BD9-4A4D-9BA2-A1E8D0511C6A?ingress=0) O'Reilly Data Visualization section
 -   [ ] FrontendMasters courses
     -   [ ] [link](https://frontendmasters.com/courses/data-visualization/) Data Visualization First Steps
     -   [ ] [link](https://frontendmasters.com/courses/3d-webxr/) 3D on the Web & WebXR
@@ -301,7 +311,7 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 -   [ ] [link](https://tanstack.com/db/latest) Tanstack DB (builds on top of tanstack query)
 -   [ ] [link](https://tanstack.com/store/latest) Tanstack Store (client state management using signals)
 
-### Monorepos
+## Monorepo
 
 -   [ ] [link](https://frontendmasters.com/courses/monorepos/) FrontendMasters: JavaScript and TypeScript Monorepos
 
@@ -336,6 +346,7 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Privacy) References: Privacy on the web
 -   [ ] [link](https://developer.chrome.com/docs/privacy-security) Privacy and security
 -   [ ] [link](https://developers.google.com/privacy-sandbox) Privacy Sandbox
+-   [ ] [link](https://privacytests.org/) PrivacyTests.org
 
 ## Security
 
@@ -367,6 +378,8 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 -   [ ] [link](https://www.joshwcomeau.com/) Josh W Comeau articles
 -   [ ] [link](https://marvinh.dev/blog/speeding-up-javascript-ecosystem/) Speeding up the JavaScript ecosytem - one library at a time
 -   [ ] [link](https://npmtrends.com/) npm trends
+-   [ ] [link](https://www.dnsperf.com/#!dns-providers) DNS Performance Analytics and Comparison
+-   [ ] [link](https://publicsuffix.org/list/) Public Suffix List
 
 ### Browser support
 
@@ -473,6 +486,32 @@ Refer to [Learn - Networking](/internal/learn/cs-fields/networking).
 
 ## Backend
 
+Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-computing).
+
+### System Design
+
+-   Books by ByteByteGo
+    -   System Design Interview - An insider's guide
+    -   System Design Interview - An Insider's Guide: Volume 2
+    -   Machine Learning Design Interview
+-   (book) Hacking the system design interview: Real Big Tech Interview Questions and In-depth solutions
+-   Design guru [system design interview roadmap](https://www.designgurus.io/path/system-design-interview-playbook)
+    -   Grokking System Design Fundamentals
+    -   Grokking the System Design Interview
+    -   Grokking the Advanced System Design Interview
+    -   Grokking Microservices Design Patterns
+    -   Grokking Design Patterns for Engineers and Managers
+-   Kiki's Bytes [youtube](https://www.youtube.com/@kikisbytes/videos)
+-   (book) Load Balancing Servers, Firewalls, and Caches
+-   System Design for Interview and Beyond course [youtube playlist](https://www.youtube.com/playlist?list=PLZbK8Oau948Pj2CrU2HGNueI-apkvkG4V)
+-   System Design Interview [youtube channel](https://www.youtube.com/@SystemDesignInterview/videos)
+-   karanpratapsingh/system-design [github](https://github.com/karanpratapsingh/system-design)
+-   ByteByteGo [youtube channel](https://www.youtube.com/@ByteByteGo/videos)
+-   donnemartin/system-design-primer [github](https://github.com/donnemartin/system-design-primer)
+-   [Quastor blog](https://blog.quastor.org/archive)
+
+### Courses
+
 -   [ ] FrontendMasters courses
     -   [ ] [link](https://frontendmasters.com/courses/backend-architectures/) Introduction to Backend Architectures
 -   [ ] Hussien Nasser
@@ -491,6 +530,7 @@ Refer to [Learn - Networking](/internal/learn/cs-fields/networking).
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo) Youtube: Message Queues & PubSub Systems
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe) Youtube: Programming Patterns
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9) Youtube: Software Architecture
+-   [link](https://www.amazon.com/stores/page/8F2FAF4B-8B24-4DAE-B0C6-FF7F65D58A00?ingress=0) O'Reilly streaming book section
 
 ## Node.js
 
@@ -526,3 +566,12 @@ Refer to [Learn - Networking](/internal/learn/cs-fields/networking).
 ## Payment
 
 -   [link](https://stripe.com/payments/payment-methods) List of all payment methods by Stripe
+
+## Database
+
+Check [Learn - Database](/internal/learn/cs-fields/database).
+
+## Domain related
+
+-   [link](https://certbot.eff.org/) certbot
+-   [link](https://www.namecheap.com/) namecheap

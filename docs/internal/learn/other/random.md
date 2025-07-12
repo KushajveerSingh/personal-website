@@ -19,6 +19,10 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Benchmarking
+
+-   [link](https://github.com/sharkdp/hyperfine) hyperfine: CLI benchamrking tool
+
 ## Diagram
 
 -   PlanUML

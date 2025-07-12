@@ -579,3 +579,5 @@ Add scripts to help companies export data from other services to this.
 In youtube video dark reader project, add an option to blur/black a section of the video. Sometimes you are watching a video with chat in one corner that you want to hide, to avoid spoilers.
 
 Biochemistry, bioinformatics, gene related fields. All conferences, software
+
+Build a UI for all the steps of the compiler architecture

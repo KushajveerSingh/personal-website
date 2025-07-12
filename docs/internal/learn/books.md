@@ -27,6 +27,10 @@ nav_exclude: true
 -   [ ] The Power of Ten - Rules for Developing Safety Critical Codeby _Gerald J. Holzmann_ [link](https://spinroot.com/gerard/pdf/P10.pdf)
 -   [ ] Tiger Style [link](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md)
 
+## Software engineering
+
+-   [link](https://www.amazon.com/stores/page/E035D0CE-939B-4FEA-8742-8427A6EAAF4F?ingress=0) O'Reilly Software Engineering Section
+
 ## Software architecture patterns
 
 -   [link](https://architectelevator.com/architecture/architect-path/) The Architect's Path (Part 1 - Model)
