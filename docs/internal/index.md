@@ -16,6 +16,7 @@ search_exclude: true
     -   [Books](/internal/personal/books)
     -   [Exercise](/internal/personal/exercise)
     -   [Games](/internal/personal/games)
+    -   [Homelab & Privacy](/internal/personal/homelab-privacy)
     -   [House](/internal/personal/house)
     -   [Longevity](/internal/personal/longevity)
     -   [Paid Software](/internal/personal/paid-software)

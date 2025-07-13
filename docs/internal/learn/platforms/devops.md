@@ -19,6 +19,18 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Hosting
+
+-   Vercel
+-   Varnish
+-   Fastly
+-   Cloudfare
+
+## Domain related
+
+-   [link](https://certbot.eff.org/) certbot
+-   [link](https://www.namecheap.com/) namecheap
+
 ## Courses
 
 -   [ ] FrontendMasters courses
@@ -82,7 +94,9 @@ nav_exclude: true
 -   [link](https://www.amazon.com/stores/page/820B313E-391F-4457-AEB9-11A7E03454F3?ingress=0) O'Reilly kubernetes section
 -   Kubernetes
 -   Argo CD (Declarative GitOps CD)
+    -   [link](https://github.com/akuity/awesome-argo) awesome-argo
 -   Istio (service mesh)
+-   Flux (GitOps)
 
 ## Linux
 
@@ -132,6 +146,11 @@ nav_exclude: true
 
 -   [link](https://www.amazon.com/stores/page/6AA020D9-FD83-4417-B0A2-609AFFEF4EEA?ingress=0) O'Reilly Security section
 
+## FinOps
+
+-   [link](https://www.finops.org/introduction/what-is-finops/) FinOps
+-   [link](https://www.manning.com/books/practical-finops) Practical FinOps Managing cloud cost, visibiilty, and accountability
+
 ## GitOps
 
 -   [link](https://www.amazon.com/stores/page/A3D40761-8183-4C13-B1CA-90DA7F1BC57F?ingress=0) O'Reilly Git/Github section.
@@ -141,15 +160,8 @@ nav_exclude: true
 -   [ ] [link](https://docs.github.com/en) Github docs
 -   [ ] [link](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/git-branching-strategies.html) Git branching strategies by AWS
 -   [ ] [link](https://www.manning.com/books/gitops-and-kubernetes) GitOps and Kubernetes Continous Deployment with Argo CD, Jenkins X, and Flux
-
-The path to gitops book
-Argo cd
-Flux
-Jenkins
-
-Gitops fundamentals course by codefresh
-Gitops at scale course by codefresh
-
-awesome argo github repo
-amannn/action-semantic-pull-request
-conventional commits
+-   [ ] [link](https://developers.redhat.com/e-books/path-gitops) The Path to GitOps
+-   [ ] [link](https://learning.codefresh.io/) GitOps with Argo by codefresh
+-   [ ] [link](https://learning.codefresh.io/course/gitops-scale) GitOps at Scale by codefresh
+-   [link](https://www.conventionalcommits.org/en/v1.0.0/) Conventional Commits
+-   [link](https://github.com/amannn/action-semantic-pull-request) amannn/action-semantic-pull-request

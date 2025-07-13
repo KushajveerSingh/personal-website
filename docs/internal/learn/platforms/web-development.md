@@ -544,6 +544,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 ### Testing
 
 -   [ ] [link](https://github.com/goldbergyoni/nodejs-testing-best-practices?ck_subscriber_id=2308324911#readme) A detailed guide to modern testing with Node.js
+-   [link](https://testcontainers.com/) Testcontainers
 
 ### Web framework
 
@@ -571,7 +572,14 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 
 Check [Learn - Database](/internal/learn/cs-fields/database).
 
-## Domain related
+## Email
 
--   [link](https://certbot.eff.org/) certbot
--   [link](https://www.namecheap.com/) namecheap
+-   [link](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified) email security
+
+## Cache
+
+-   Redis
+
+## Message brokers
+
+-   Apache Kafka

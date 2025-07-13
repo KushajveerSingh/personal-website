@@ -24,7 +24,6 @@ nav_exclude: true
 ## TODO
 
 -   separate pages in yellow notebook
--   Delete reorganize folder
 -   Revisit backup folder and move list of social accounts here with all relevant info
 -   index.md
 -   what .md files to learn for web development in india

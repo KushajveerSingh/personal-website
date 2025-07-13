@@ -44,47 +44,85 @@ nav_exclude: true
 -   [link](https://mullvad.net/en/vpn) Mullvad VPN
 -   [link](https://mullvad.net/en/browser) Mullvad browser
 
+## Privacy
+
+### Browser testing
+
+-   [link](https://www.deviceinfo.me/) Device Info (web browser security testing, privacy testing)
+-   [link](https://coveryourtracks.eff.org/) Cover Your Tracks (how trackers view your browser)
+-   [link](https://www.doileak.com/classic.html) Do I leak? (check digital fingerprint)
+-   [link](https://browserleaks.com/) BrowserLeaks (web browser security and privacy testing)
+-   [link](https://amiunique.org/) Am I Unique?
+-   [link](https://privacy.net/) Privacy.net
+
 ## Services
+
+### Ad block
+
+-   [link](https://pi-hole.net/) Pi-hole
+
+### Appointment scheduler
+
+-   [ ] [link](https://cal.com/) Cal.com (calendly alternative)
 
 ### Audio
 
 -   [link](https://www.getdante.com/) Dante: Audio over ethernet
 
-### Ad block
+### Customer Relationship Management (CRM)
 
--   [link](https://pi-hole.net/) Pi-hole
+-   [ ] [link](https://twenty.com/) Twenty CRM (salesforces alternative)
+
+### Design
+
+-   [ ] [link](https://penpot.app/) Penpot (figma alternative)
+
+### Ecommerce
+
+-   [ ] [link](https://prestashop.com/) Prestashop (shopify alternative)
+
+### File sync
+
+-   [link](https://syncthing.net/) Syncthing (continous file synchronization)
+
+### Infrastrucutre
+
+-   [ ] [link](https://cockpit-project.org/) Cockpit (gui for managing linux servers)
+    -   [ ] [link](https://github.com/45Drives/cockpit-navigator) cockpit-navigator (file explorer)
+-   [ ] [link](https://coolify.io/) Coolify (vercel, netlify, heroku alternative)
+-   [ ] [link](https://nextcloud.com/) Nextcloud
+-   [ ] [link](https://www.openstack.org/) OpenStack (cloud infrastructure)
 
 ### Messaging
 
 -   [ ] [link](https://simplex.chat/) SimpleX: Messaging app
 -   [link](https://www.securemessagingapps.com/) Comparison of all apps
 
+### Note taking
+
+-   [ ] [link](https://appflowy.com/) appflowy (notion alternative)
+
+### Project management
+
+-   [ ] [link](https://www.openproject.org/pricing/) OpenProject (Asana, ClickUp alternative)
+
 ### Seedbox
 
 -   [ ] [link](https://www.rapidseedbox.com/) RapidSeedbox
 
-### Free Alternative to Saas
+### Spreadsheet
 
--   Notion -> Appflowy
--   Zoom -> Jitsi
--   Jira -> Plane
--   Airtable -> NocoDB
--   Vercel -> Coolify
--   Heroku -> Dokku
--   Firebase -> Pocketbase/Appwrite/Convex/Supabase
--   Shopify -> Prestashop
--   GitHub -> GitLab / Gitea
--   Slack -> Mattermost
--   Salesforce CRM -> ERPNext
--   Dropbox -> NextCloud
--   Mailchimp -> Mautic
--   Trello -> Wekan
--   Docusign -> Docuseal
--   Calendly -> Cal dot com
--   Datadog -> Prometheus
--   Google Analytics -> Matomo
--   Microsoft Office 365 -> LibreOffice
--   Asana -> OpenProject
+-   [ ] [link](https://nocodb.com/) nocoDB (spreadsheet interface for database)
+
+### Video conference
+
+-   [ ] [link](https://jitsi.org/) jitsi (zoom alternative)
+
+### Version control
+
+-   [ ] [link](https://about.gitlab.com/) GitLab
+-   [ ] [link](https://about.gitea.com/) Gitea
+-   [ ] [link](https://forgejo.org/) Foregejo
 
 ## Software
 
@@ -98,6 +136,10 @@ nav_exclude: true
 
 -   [link](https://www.whonix.org/) Whonix
 -   [link](https://www.torproject.org/) Tor
+
+### Wifi
+
+-   [link](https://play.google.com/store/apps/details?id=com.ubnt.usurvey&hl=en_US&pli=1) WiFiman
 
 ## Reddit
 
