@@ -19,6 +19,13 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Books
+
+-   [ ] [link](https://www.amazon.com/dp/1098106067) Foundations of Scalable Systems: Designing Distributed Architectures
+-   [ ] [link](https://www.amazon.com/dp/1838430210) Understanding Distributed Systems, Second Edition: What every developer should know about large distributed applications
+-   [ ] [link](https://www.amazon.com/dp/0138221987) Patterns of Distributed Systems
+-   [ ] [link](https://www.amazon.com/dp/1491983647) Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable Services
+
 ## Distributed Computing
 
 -   Gaurev Sen Research paper breakdowns [playlist](https://www.youtube.com/playlist?list=PLMCXHnjXnTnv5Pd3O1bKGHNU4mkvribaB)
