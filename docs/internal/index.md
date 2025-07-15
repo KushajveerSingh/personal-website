@@ -38,7 +38,6 @@ search_exclude: true
         -   [Networking](/internal/learn/cs-fields/networking)
         -   [Object Oriented Design](/internal/learn/cs-fields/object-oriented-design)
         -   [Operating Systems](/internal/learn/cs-fields/operating-systems)
-        -   [Testing](/internal/learn/cs-fields/testing)
     -   Other
         -   [Branding](/internal/learn/other/branding)
         -   [Career](/internal/learn/other/career)

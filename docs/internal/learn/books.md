@@ -141,3 +141,4 @@ nav_exclude: true
 -   [ ] [link](https://www.amazon.com/dp/0321146530) Test Driven Development: By Example
 -   [ ] [link](https://www.amazon.com/dp/1617296279) Unit Testing Principles, Practices, and Patterns: Effective testing styles, patterns, and reliable automation for unit testing, mocking, and integration testing with examples in C#
 -   [ ] [link](https://www.amazon.com/dp/0321503627) Growing Object-Oriented Software, Guided by Tests
+-   [ ] [link](https://typesanitizer.com/blog/errors.html) An epic treatise on error models for systems programming languages

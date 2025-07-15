@@ -47,7 +47,6 @@ nav_exclude: true
 
 ### Books
 
--   [link](https://www.amazon.com/stores/page/88F4D04E-FAAF-4837-8B33-4D9C6D278849?ingress=0) O'Reilly Software Architecture section
 -   [link](https://www.manning.com/catalog/devops) Manning DevOps section
 -   [link](https://www.amazon.com/stores/page/2F683412-34E1-444B-8B94-D0B455A8969B?ingress=0) O'Reilly Microservices section
 -   [ ] [link](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations-dp-1950508404/dp/1950508404) The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
@@ -141,10 +140,6 @@ nav_exclude: true
     -   pre-commit
 -   editorconfig
 -   Language Server Protocol
-
-## DevSecOps
-
--   [link](https://www.amazon.com/stores/page/6AA020D9-FD83-4417-B0A2-609AFFEF4EEA?ingress=0) O'Reilly Security section
 
 ## FinOps
 
