@@ -350,6 +350,7 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 
 ## Security
 
+-   [ ] [link](https://www.amazon.com/Web-Application-Security-Exploitation-Countermeasures/dp/1098143930) Web Application Security: Exploitation and Countermeasures for Modern Web Applications
 -   [ ] [link](https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) The Tangled Web: A Guide to Securing Modern Web Applications
 -   [ ] MDN Resources
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Security) References: Security
@@ -534,6 +535,8 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 
 ## Node.js
 
+-   [ ] [link](https://www.amazon.com/Full-Stack-JavaScript-Strategies-Mid-Level-Developer/dp/1098122259?ref_=ast_sto_dp) Full Stack JavaScript Strategies: The Hidden Parts Every Mid-Level Develop Needs to Know
+-   [ ] [link](https://www.amazon.com/Efficient-Node-js-Beyond-Basics-Guide/dp/1098145194) Efficient Node.js: A Beyond-the-Basics Guide
 -   [ ] [link](https://frontendmasters.com/courses/servers-node-js/) FrontendMasters: The Hard Parts of Servers & Node.js
 -   [ ] [link](https://nodejs.org/en) Docs
 -   [ ] [link](https://github.com/Schniz/fnm) fnm (version manager)

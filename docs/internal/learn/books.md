@@ -32,10 +32,19 @@ nav_exclude: true
 -   [ ] [link](https://www.amazon.com/Practice-Enterprise-Architecture-Approach-Alignment/dp/064508252X) The Practice of Enterprise Architecture: A Modern Approach to Business and IT Alignment
 -   [ ] [link](https://www.amazon.com/dp/0137353480) Balancing Coupling in Software Design: Universal Design Principles for Architecting Modular Software Systems
 -   [ ] [link](https://www.amazon.com/dp/0071843655) Web Scalibility for Startup Engineers
+-   [ ] [link](https://www.amazon.com/Architecture-Patterns-Python-Domain-Driven-Microservices/dp/1492052205) Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices
+-   [ ] [link](https://www.amazon.com/Flow-Architectures-Streaming-Event-Driven-Integration/dp/1492075892) Flow Architectures: The Future of Streaming and Event-Driven Integration
+-   [ ] [link](https://www.amazon.com/Architecting-Scale-Maintain-Availability-Manage/dp/1492057177) Architecting for Scale: How to Maintain High Availability and Manage Risk in the Cloud
+-   [ ] [link](https://www.amazon.com/Semantic-Software-Design-Practical-Architects/dp/1492045950) Semantic Software Design: A New Theory and Practical Guide for Modern Architects
 
 ## Cloud
 
 -   [ ] [link](https://www.amazon.com/dp/1098116909) Cloud Application Architecture Patterns: Designing, Building, and Modernizing for the Cloud
+-   [ ] [link](https://www.amazon.com/Cloud-Native-Transformation-Practical-Innovation/dp/1492048909) Cloud Native Transformation: Practical Patterns for Innovation
+-   [ ] [link](https://www.amazon.com/Design-Patterns-Cloud-Native-Applications/dp/1492090719) Design Patterns for Cloud Native Applications: Patterns in Practice Using APIs, Data, Events, and Streams
+-   [ ] [link](https://www.amazon.com/Cloud-Architecture-Patterns-Using-Microsoft/dp/1449319777) Cloud Architecture Patterns
+-   [ ] [link](https://www.amazon.com/Cloud-Native-Infrastructure-Applications-Environment/dp/1491984309) Cloud Native Infrastructure: Patterns for Scalable Infrastructure and Applications in a Dynamic Environment
+-   [ ] [link](https://www.amazon.com/Cloud-Native-Containers-Next-Generation-Applications/dp/1492053821) Cloud Native: Using Containers, Functions, and Data to Build Next-Generation Applications
 
 ## Leadership
 
@@ -99,11 +108,17 @@ nav_exclude: true
 
 ## Security
 
+-   [link](https://www.amazon.com/stores/page/6AA020D9-FD83-4417-B0A2-609AFFEF4EEA?ingress=0) O'Rilley security
 -   [ ] [link](https://www.amazon.com/dp/1119642787) Security Engineering: A Guide to Building Dependable Distributed Systems
 -   [ ] [link](https://www.amazon.com/dp/1118809998) Threat Modeling: Designing for Security
 -   [ ] [link](https://www.amazon.com/dp/1098135121) Learning eBPF: Programming the Linux Kernel for Enhanced Observability, Networking, and Security
 -   [ ] [link](https://www.amazon.com/Linux-Observability-BPF-Programming-Performance/dp/1492050202) Linux Observability with BPF: Advanced Programming for Performance Analysis and Networking
 -   [ ] [link](https://www.amazon.com/dp/1492083127) Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems
+-   [ ] [link](https://www.amazon.com/Security-Code-DevSecOps-Patterns-AWS/dp/1098127463) Security as Code: DevSecOps Patterns with AWS
+-   [ ] [link](https://www.amazon.com/dp/1718503849) Serious Cryptography, 2nd Edition: A Practical Introduction to Modern Encryption
+-   [ ] [link](https://www.amazon.com/dp/1394169795) The DevSecOps Playbook: Deliver Continuous Security at Speed
+-   [ ] [link](https://www.amazon.com/dp/1781335028) DevSecOps: A leader’s guide to producing secure software without compromising flow, feedback and continuous improvement
+-   [ ] [link](https://www.amazon.com/dp/1119884845) Project Zero Trust: A Story about a Strategy for Aligning Security and the Business
 
 ## Software
 
