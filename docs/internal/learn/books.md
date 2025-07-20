@@ -72,7 +72,7 @@ nav_exclude: true
 -   [ ] [link](https://www.amazon.com/dp/1950508536) Investments Unlimited: A Novel About DevOps, Security, Audit Compliance, and Thriving in the Digital Age
 -   [ ] [link](https://www.amazon.com/dp/1950508455) Flow Engineering: From Value Stream Mapping to Effective Action
 -   [ ] [link](https://www.amazon.com/dp/1950508498) Making Work Visible: Exposing Time Theft to Optimize Work & Flow
--   [ ] [link](https://www.amazon.com/dp/1453802266) Personal Kanban: Mapping Work | Navigating Life
+-   [ ] [link](https://www.amazon.com/dp/1453802266) Personal Kanban: Mapping Work \| Navigating Life
 -   [ ] [link](https://www.amazon.com/Time-Warrior-procrastination-people-pleasing-over-commitment/dp/1600250378) Time Warrior: How to defeat procrastination, people-pleasing, self-doubt, over-commitment, broken promises and chaos
 -   [ ] [link](https://www.amazon.com/Art-Taking-Action-Japanese-Psychology/dp/0982427387) The Art of Taking Action: Lessons from Japanese Psychology
 -   [ ] [link](https://www.amazon.com/dp/B09MBZBGFK) Engineers Survival Guide: Advice, tactics, and tricks After a decade of working at Facebook, Snapchat, and Microsoft

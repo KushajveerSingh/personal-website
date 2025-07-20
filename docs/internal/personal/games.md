@@ -35,9 +35,20 @@ nav_exclude: true
 
 -   [ ] Elden Ring by _From Software_ (Feb 24, 2022)
 
+## G
+
+-   [ ] Grand Theft Auto: San Andreas by Rockstar Games (Jun 6, 2005)
+    -   [link](https://www.youtube.com/watch?v=B5relHf21lo) I Installed 57 GTA San Andreas Mods
+    -   [link](https://www.youtube.com/watch?v=utVIt6-K9R4) I Remastered GTA San Andreas (with mods)
+    -   [link](https://www.youtube.com/watch?v=PsSHfy50m1o) I Remastered GTA San Andreas With Mods
+
 ## M
 
 -   [ ] Mount & Blade II: Bannerrlord by _TeleWorlds Entertainment_ (Oct 25, 2022)
+
+## O
+
+-   [ ] Old School RuneScape by Jagex Ltd (Dec 22, 2013)
 
 ## R
 

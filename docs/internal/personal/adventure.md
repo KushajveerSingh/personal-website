@@ -58,27 +58,27 @@ nav_exclude: true
 
 ### World
 
--   [ ] [link](https://www.worlddata.info/highest-mountains.php) Peaks and Mountain Ranges
--   [ ] [link](https://sanctuaryfederation.org/find-a-sanctuary/) Animal Sanctuaries
+-   [link](https://www.worlddata.info/highest-mountains.php) Peaks and Mountain Ranges
+-   [link](https://sanctuaryfederation.org/find-a-sanctuary/) Animal Sanctuaries
 
 ### USA
 
--   [ ] [link](https://americasnationalparks.org/passport-to-your-national-parks/) America's National Parks Passport
--   [ ] [link](https://www.nps.gov/aboutus/national-park-system.htm) National Park System
-    -   [ ] [link](https://www.nps.gov/subjects/battlefields/visit.htm) National Battlefields
-    -   [ ] [link](https://www.nps.gov/subjects/nationalhistoriclandmarks/list-of-nhls-by-state.htm) National Historic Landmarks
-    -   [ ] [link](https://www.nps.gov/subjects/monuments/visit.htm) Monuments and Memorials
-    -   [ ] [link](https://www.nps.gov/subjects/oceans/index.htm) Oceans, Coasts & Seashores
--   [ ] [link](https://www.nps.gov/index.htm) National Park Service (Explore by topic)
-    -   [ ] [link](https://www.nps.gov/subjects/canyons/visit.htm) Canyons & Canyonlands
-    -   [ ] [link](https://www.nps.gov/subjects/caves/index.htm) Caves and Karst
-    -   [ ] [link](https://www.nps.gov/subjects/dams/about.htm) Dams
-    -   [ ] [link](https://www.nps.gov/subjects/landscapearchitecture/gardens.htm) Gardens
-    -   [ ] [link](https://www.nps.gov/subjects/wetlands/index.htm) Wetlands
-    -   [ ] [link](https://www.nps.gov/subjects/waterfalls/waterfalls.htm) Waterfalls & Gorges
--   [ ] [link](https://www.fs.usda.gov/visit/forests-and-grasslands) Forests and Grasslands
+-   [link](https://americasnationalparks.org/passport-to-your-national-parks/) America's National Parks Passport
+-   [link](https://www.nps.gov/aboutus/national-park-system.htm) National Park System
+-   [link](https://www.nps.gov/subjects/battlefields/visit.htm) National Battlefields
+-   [link](https://www.nps.gov/subjects/nationalhistoriclandmarks/list-of-nhls-by-state.htm) National Historic Landmarks
+-   [link](https://www.nps.gov/subjects/monuments/visit.htm) Monuments and Memorials
+-   [link](https://www.nps.gov/subjects/oceans/index.htm) Oceans, Coasts & Seashores
+-   [link](https://www.nps.gov/index.htm) National Park Service (Explore by topic)
+-   [link](https://www.nps.gov/subjects/canyons/visit.htm) Canyons & Canyonlands
+-   [link](https://www.nps.gov/subjects/caves/index.htm) Caves and Karst
+-   [link](https://www.nps.gov/subjects/dams/about.htm) Dams
+-   [link](https://www.nps.gov/subjects/landscapearchitecture/gardens.htm) Gardens
+-   [link](https://www.nps.gov/subjects/wetlands/index.htm) Wetlands
+-   [link](https://www.nps.gov/subjects/waterfalls/waterfalls.htm) Waterfalls & Gorges
+-   [link](https://www.fs.usda.gov/visit/forests-and-grasslands) Forests and Grasslands
 -   Conservation centers
--   [ ] [link](https://www.fws.gov/program/national-fish-hatchery-system/about-us) National Fish Hatchery System
+-   [link](https://www.fws.gov/program/national-fish-hatchery-system/about-us) National Fish Hatchery System
 -   Museums
 -   Churches
 -   Photograph all birds (get book with list of all birds)
@@ -86,15 +86,15 @@ nav_exclude: true
 
 ### Georgia, USA
 
--   [ ] [link](https://friendsofgastateparks.org/passport) Georgia State Parks Passport
--   [ ] [link](https://gastateparks.org/AllHistoricSites) Historic Sites
--   [ ] [link](https://www.gaorienteering.org/) Georgia Orienteering Club
--   [ ] [link](https://georgiawildlife.com/) Georgia Wildlife
--   [ ] [link](https://www.gooutdoorsgeorgia.com/) Go Outdoors Georgia
--   [ ] [link](https://www.orangepippin.com/orchards/united-states/georgia) Orchards
+-   [link](https://friendsofgastateparks.org/passport) Georgia State Parks Passport
+-   [link](https://gastateparks.org/AllHistoricSites) Historic Sites
+-   [link](https://www.gaorienteering.org/) Georgia Orienteering Club
+-   [link](https://georgiawildlife.com/) Georgia Wildlife
+-   [link](https://www.gooutdoorsgeorgia.com/) Go Outdoors Georgia
+-   [link](https://www.orangepippin.com/orchards/united-states/georgia) Orchards
 -   Haunted city trails
 -   Waterfall
--   [ ] [link](https://www.hubbikes.com/hub-routes) Hub Bikes Routes
+-   [link](https://www.hubbikes.com/hub-routes) Hub Bikes Routes
 
 ### Friends/Others
 

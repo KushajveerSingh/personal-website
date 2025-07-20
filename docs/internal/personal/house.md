@@ -45,7 +45,7 @@ nav_exclude: true
 
 Training
 
--   [ ] [link](https://www.americanstandardk9.com/) American Standard Dog Training courses
+-   [link](https://www.americanstandardk9.com/) American Standard Dog Training courses
 
 Breeds
 

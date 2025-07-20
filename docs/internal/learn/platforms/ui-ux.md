@@ -148,3 +148,12 @@ nav_exclude: true
 -   [ ] Tools
     -   [ ] [link](https://github.com/Munter/subfont?tab=readme-ov-file) subfont
 -   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
+
+## Product Design
+
+-   [ ] FrontendMasters courses
+    -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
+    -   [ ] [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process
+    -   [ ] [link](https://frontendmasters.com/courses/ux-testing/) UX Research & User Testing
+    -   [ ] [link](https://frontendmasters.com/courses/product-design/) The Product Design Process
+    -   [ ] [link](https://frontendmasters.com/courses/product-management/) Complete Intro to Product Management

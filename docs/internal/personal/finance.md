@@ -1,5 +1,5 @@
 ---
-title: Learn - Finance
+title: Personal - Finance
 search_exclude: true
 nav_exclude: true
 ---

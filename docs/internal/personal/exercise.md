@@ -21,9 +21,9 @@ nav_exclude: true
 
 ## Basketball videos
 
+-   [link](https://www.youtube.com/watch?v=jMLN59-yirc) Steph Curry Training Gym workout routine for MVP performance
 -   [link](https://www.youtube.com/watch?v=M0FwbaLVHpg) Every exercise Steph Curry's trainer makes him do
 -   [link](https://www.masterclass.com/classes/stephen-curry-teaches-shooting-ball-handling-and-scoring) Stephen Curry masterclass
--   [link](https://www.youtube.com/watch?v=jMLN59-yirc) Steph Curry Training | Gym workout routine for MVP performance
 -   [link](https://www.youtube.com/watch?v=XfcDvHI7bjA) How Stephen Curry saved his nba career and how to prevent ankle sprains in sports
 -   [link](https://www.youtube.com/watch?v=wQWmRIHavC8) LeBron James - 1 hour workout (uncut)
 -   [link](https://www.youtube.com/watch?v=ZKZtzwinLFw) Michael Jordon - Masterclass: Basketball fundamentals
@@ -40,6 +40,9 @@ nav_exclude: true
 ## Training
 
 -   [link](https://www.youtube.com/@JPGloria/playlists) JP Gloria youtube videos
+-   [link](https://www.youtube.com/watch?v=4meLjhknvwg) Georges St Pierre's(GSP) Conditioning Training
+-   [link](https://www.youtube.com/watch?v=f3AM6Q5bMc8) Strength & Conditioning Rotuine of an MMA Legend (Analysis)
+-   [link](https://timgrover.com/jump-attack/) Jump attack by tim s. grover
 
 ## Shoe
 

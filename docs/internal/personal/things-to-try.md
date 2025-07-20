@@ -21,7 +21,7 @@ nav_exclude: true
 
 ## Airsoft
 
--   [ ] [link](https://www.youtube.com/watch?v=_a-8U4roG5c) Airsoft battle
+-   [link](https://www.youtube.com/watch?v=_a-8U4roG5c) Airsoft battle
 
 ## Art and Crafts
 

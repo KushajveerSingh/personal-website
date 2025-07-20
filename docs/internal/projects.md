@@ -51,6 +51,16 @@ No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
 
 ---
 
+Make online driagramming tool like eraser, euclid draw which works conpletely client side. And has an option to stnc to google drive. And for the client they get access to diagrams everywhere. Real-time collaboration not possible, but people can open shared google drive.
+Add support to share. Create a read pnly repository token on github and add that to the url when sharing.
+
+Write a paper on how doing multiple sports can prevent injuries. Look at different sports, and parts they normally use, and make a series of sports that cover all parts of the body, without overusing the same part over and over again.
+Look at mentality, physicality aspect of the sports as well.
+Give suggestions like playing with old people, young people, left/right hand, playing with woman.
+Goal: If you are a kid use this protocol, and this might help you with reaching professional league, but this will defintiely hep you stay healthier and injury free in your 60s.
+
+Lims system using quickjs
+
 Usa militiary industry complex
 Show the people who jokd positions and where they held before. And how these people are related to each other.
 For the grants, see which people approved.

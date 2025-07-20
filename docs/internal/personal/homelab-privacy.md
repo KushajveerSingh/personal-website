@@ -21,22 +21,22 @@ nav_exclude: true
 
 ## Homelab
 
--   [ ] FUTO Guide
-    -   [ ] [link](https://www.youtube.com/watch?v=Et5PPMYuOc8) FUTO's Guide to a Self Managed Life: part 1
-    -   [ ] [link](https://www.youtube.com/watch?v=3fW9TV1WQi8) FUTO's Guide to a Self Managed Life: part 2
-    -   [ ] [link](https://wiki.futo.org/index.php/Introduction_to_a_Self_Managed_Life:_a_13_hour_%26_28_minute_presentation_by_FUTO_software) Introduction to a Self Managed Life: a 13 hour & 28 minute presentation by FUTO software
--   [ ] [link](https://www.youtube.com/@FUTOTECH/videos) FUTO youtube videos
--   [ ] [link](https://futo.org/) FUTO website
+-   FUTO Guide
+    -   [link](https://www.youtube.com/watch?v=Et5PPMYuOc8) FUTO's Guide to a Self Managed Life: part 1
+    -   [link](https://www.youtube.com/watch?v=3fW9TV1WQi8) FUTO's Guide to a Self Managed Life: part 2
+    -   [link](https://wiki.futo.org/index.php/Introduction_to_a_Self_Managed_Life:_a_13_hour_%26_28_minute_presentation_by_FUTO_software) Introduction to a Self Managed Life: a 13 hour & 28 minute presentation by FUTO software
+-   [link](https://www.youtube.com/@FUTOTECH/videos) FUTO youtube videos
+-   [link](https://futo.org/) FUTO website
 
 ## Internet
 
 ### Nonprofit Internet Providers
 
--   [ ] [link](https://www.reddit.com/r/NoContract/comments/g1b8p0/calyxinstitute_vs_connectall_vs_mobilecitizen_vs/) Comparison blog
--   [ ] [link](https://www.mobilebeacon.org/) Mobile Beacon
--   [ ] [link](https://mobilecitizen.org/) Mobile Citizen
--   [ ] [link](https://calyxinstitute.org/) Calyx Institute
--   [ ] [link](https://www.pcsforpeople.org/) PCsForPeople
+-   [link](https://www.reddit.com/r/NoContract/comments/g1b8p0/calyxinstitute_vs_connectall_vs_mobilecitizen_vs/) Comparison blog
+-   [link](https://www.mobilebeacon.org/) Mobile Beacon
+-   [link](https://mobilecitizen.org/) Mobile Citizen
+-   [link](https://calyxinstitute.org/) Calyx Institute
+-   [link](https://www.pcsforpeople.org/) PCsForPeople
 
 ### VPN
 
@@ -63,7 +63,7 @@ nav_exclude: true
 
 ### Appointment scheduler
 
--   [ ] [link](https://cal.com/) Cal.com (calendly alternative)
+-   [link](https://cal.com/) Cal.com (calendly alternative)
 
 ### Audio
 
@@ -71,15 +71,15 @@ nav_exclude: true
 
 ### Customer Relationship Management (CRM)
 
--   [ ] [link](https://twenty.com/) Twenty CRM (salesforces alternative)
+-   [link](https://twenty.com/) Twenty CRM (salesforces alternative)
 
 ### Design
 
--   [ ] [link](https://penpot.app/) Penpot (figma alternative)
+-   [link](https://penpot.app/) Penpot (figma alternative)
 
 ### Ecommerce
 
--   [ ] [link](https://prestashop.com/) Prestashop (shopify alternative)
+-   [link](https://prestashop.com/) Prestashop (shopify alternative)
 
 ### File sync
 
@@ -87,42 +87,42 @@ nav_exclude: true
 
 ### Infrastrucutre
 
--   [ ] [link](https://cockpit-project.org/) Cockpit (gui for managing linux servers)
-    -   [ ] [link](https://github.com/45Drives/cockpit-navigator) cockpit-navigator (file explorer)
--   [ ] [link](https://coolify.io/) Coolify (vercel, netlify, heroku alternative)
--   [ ] [link](https://nextcloud.com/) Nextcloud
--   [ ] [link](https://www.openstack.org/) OpenStack (cloud infrastructure)
+-   [link](https://cockpit-project.org/) Cockpit (gui for managing linux servers)
+    -   [link](https://github.com/45Drives/cockpit-navigator) cockpit-navigator (file explorer)
+-   [link](https://coolify.io/) Coolify (vercel, netlify, heroku alternative)
+-   [link](https://nextcloud.com/) Nextcloud
+-   [link](https://www.openstack.org/) OpenStack (cloud infrastructure)
 
 ### Messaging
 
--   [ ] [link](https://simplex.chat/) SimpleX: Messaging app
+-   [link](https://simplex.chat/) SimpleX: Messaging app
 -   [link](https://www.securemessagingapps.com/) Comparison of all apps
 
 ### Note taking
 
--   [ ] [link](https://appflowy.com/) appflowy (notion alternative)
+-   [link](https://appflowy.com/) appflowy (notion alternative)
 
 ### Project management
 
--   [ ] [link](https://www.openproject.org/pricing/) OpenProject (Asana, ClickUp alternative)
+-   [link](https://www.openproject.org/pricing/) OpenProject (Asana, ClickUp alternative)
 
 ### Seedbox
 
--   [ ] [link](https://www.rapidseedbox.com/) RapidSeedbox
+-   [link](https://www.rapidseedbox.com/) RapidSeedbox
 
 ### Spreadsheet
 
--   [ ] [link](https://nocodb.com/) nocoDB (spreadsheet interface for database)
+-   [link](https://nocodb.com/) nocoDB (spreadsheet interface for database)
 
 ### Video conference
 
--   [ ] [link](https://jitsi.org/) jitsi (zoom alternative)
+-   [link](https://jitsi.org/) jitsi (zoom alternative)
 
 ### Version control
 
--   [ ] [link](https://about.gitlab.com/) GitLab
--   [ ] [link](https://about.gitea.com/) Gitea
--   [ ] [link](https://forgejo.org/) Foregejo
+-   [link](https://about.gitlab.com/) GitLab
+-   [link](https://about.gitea.com/) Gitea
+-   [link](https://forgejo.org/) Foregejo
 
 ## Software
 
@@ -143,10 +143,10 @@ nav_exclude: true
 
 ## Reddit
 
--   [ ] [link](https://www.reddit.com/r/homelab) r/homelab
--   [ ] [link](https://www.reddit.com/r/selfhosted) r/selfhosted
--   [ ] [link](https://www.reddit.com/r/DataHoarder) r/DataHoarder
--   [ ] [link](https://www.reddit.com/r/HomeNetworking) r/HomeNetworking
--   [ ] [link](https://www.reddit.com/r/PleX) r/PleX
--   [ ] [link](https://www.reddit.com/r/truenas) r/truenas
--   [ ] [link](https://www.reddit.com/r/Proxmox) r/Proxmox
+-   [link](https://www.reddit.com/r/homelab) r/homelab
+-   [link](https://www.reddit.com/r/selfhosted) r/selfhosted
+-   [link](https://www.reddit.com/r/DataHoarder) r/DataHoarder
+-   [link](https://www.reddit.com/r/HomeNetworking) r/HomeNetworking
+-   [link](https://www.reddit.com/r/PleX) r/PleX
+-   [link](https://www.reddit.com/r/truenas) r/truenas
+-   [link](https://www.reddit.com/r/Proxmox) r/Proxmox

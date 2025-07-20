@@ -25,8 +25,7 @@ nav_exclude: true
 
 -   separate pages in yellow notebook
 -   Revisit backup folder and move list of social accounts here with all relevant info
--   index.md
--   what .md files to learn for web development in india
+-   what .md files to learn for web development
 -   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
 -   yellow notebook
 -   projects.md

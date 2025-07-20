@@ -14,7 +14,9 @@ search_exclude: true
 -   Personal
     -   [Adventure](/internal/personal/adventure)
     -   [Books](/internal/personal/books)
+    -   [Career](/internal/personal/career)
     -   [Exercise](/internal/personal/exercise)
+    -   [Finance](/internal/personal/finance)
     -   [Games](/internal/personal/games)
     -   [Homelab & Privacy](/internal/personal/homelab-privacy)
     -   [House](/internal/personal/house)
@@ -26,26 +28,17 @@ search_exclude: true
 -   Learn
     -   [Books](/internal/learn/books)
     -   [Certifications](/internal/learn/certifications)
+    -   [Random](/internal/learn/random)
     -   CS Fields
-        -   [Cache](/internal/learn/cs-fields/cache)
         -   [Compiler](/internal/learn/cs-fields/compiler)
         -   [Computer Architecture](/internal/learn/cs-fields/computer-architecture)
         -   [Concurrency](/internal/learn/cs-fields/concurrency)
         -   [Cybersecurity](/internal/learn/cs-fields/cybersecurity)
-        -   [Data Structures and Algorithms](/internal/learn/cs-fields/data-structures-and-algorithms)
         -   [Database](/internal/learn/cs-fields/database)
         -   [Distributed Computing](/internal/learn/cs-fields/distributed-computing)
         -   [Networking](/internal/learn/cs-fields/networking)
         -   [Object Oriented Design](/internal/learn/cs-fields/object-oriented-design)
         -   [Operating Systems](/internal/learn/cs-fields/operating-systems)
-    -   Other
-        -   [Branding](/internal/learn/other/branding)
-        -   [Career](/internal/learn/other/career)
-        -   [Finance](/internal/learn/other/finance)
-        -   [Management](/internal/learn/other/management)
-        -   [Marketing](/internal/learn/other/marketing)
-        -   [Product Design](/internal/learn/other/product-design)
-        -   [Random](/internal/learn/other/random)
     -   Platforms
         -   [Android Development](/internal/learn/platforms/android-development)
         -   [Apple Development](/internal/learn/platforms/apple-development)
