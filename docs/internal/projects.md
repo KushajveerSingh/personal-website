@@ -591,3 +591,5 @@ In youtube video dark reader project, add an option to blur/black a section of t
 Biochemistry, bioinformatics, gene related fields. All conferences, software
 
 Build a UI for all the steps of the compiler architecture
+
+in css project, meant to replace storybook, also show how figma rendering. The design would havbe to manually map the components from figma to the tool, but this tool can act as an intemediate between designers and developers.
