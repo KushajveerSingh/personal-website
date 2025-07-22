@@ -44,6 +44,8 @@ nav_order: 1
 
 ## Web Platform
 
+> [link](https://wpc.guide/) Web Platform Contribution Guide
+
 Collection of standardized _application programming interfaces (APIs)_ that programmers use to make web pages and web applications.
 
 -   Browser
@@ -69,7 +71,9 @@ Collection of standardized _application programming interfaces (APIs)_ that prog
 -   IANA
     -   DNS Root, IP addressing
 
-## Resilient Web Design
+## History of web
+
+> [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
 
 Tim-Berners-Lee working at CERN in 1980s, created a personal project _ENQUIRE_ to manage information. To expand the program to large amount of data being created at CERN, he pitched the idea in _Information Management: A Proposal_, which became the World Wide Web. CERN already had a network of networks, connected via telephone wires, since 1960s and the early adopters were universities and scientific institutions.
 
@@ -89,4 +93,6 @@ In 1996 David Siegel published _Creating Killer Websites_ book, outlining series
 
 Web designers didn't use CSS because of the browser war between Microsoft Internet Explorer and Netscape Navigator, who would invent their own separate HTML elements, and designers were forced to write for both browsers. A group of web designers formed Web Standards Project, and began lobbying Microsoft and Netscape to abandon their proprietary ways and adopt standards.
 
-Dave Shea created CSS Zen Garden to showcase what could be done with CSS.
+Dave Shea created CSS Zen Garden to showcase what could be done with CSS. And more importantly separate the concern between HTML and CSS.
+
+continue ch-3 visions [https://resilientwebdesign.com/chapter3/](https://resilientwebdesign.com/chapter3/).

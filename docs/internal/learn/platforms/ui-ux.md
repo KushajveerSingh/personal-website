@@ -47,6 +47,8 @@ nav_exclude: true
 ## Tools
 
 -   [ ] [link](https://www.figma.com/) Figma
+    -   [ ] [link](https://bringyourownlaptop.com/courses/figma-ux-essentials-beginners) Figma UI UX Design Essentials by BYOL
+    -   [ ] [link](https://bringyourownlaptop.com/courses/figma-ui-ux-design-advanced-training-course-tutorial) FIgma Advanced Tutorial: Become a Figma Pro by BYOL
 -   [ ] [link](https://www.protopie.io/) ProtoPie
 -   [ ] [link](https://github.com/goabstract/Awesome-Design-Tools) Awesome-Design-Tools
 -   [ ] [link](https://github.com/goabstract/Awesome-Design-Tools/blob/master/Awesome-Design-Plugins.md) Awesome-Design-Plugins
@@ -76,64 +78,7 @@ nav_exclude: true
     -   [ ] [link](https://www.coursera.org/learn/high-fidelity-designs-prototype?specialization=google-ux-design) Create High-Fidelity Designs and Prototypes in Figma
     -   [ ] [link](https://www.coursera.org/learn/responsive-web-design-adobe-xd?specialization=google-ux-design) Build Dynamic User Interfaces (UI) for Websites
     -   [ ] [link](https://www.coursera.org/learn/ux-design-jobs?specialization=google-ux-design) Design a User Experience for Social Good and Prepare for Jobs
-
-## Books
-
--   [ ] Don't Make Me Think by _Steve Krug_
--   [ ] The Design of Everyday Things by _Don Norman_
--   [ ] Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days by _Jake Knapp_
--   [ ] 100 Things Every Designer Needs to Know About People by _Susan M. Weinschenk_
--   [ ] Designing Interfaces - Patterns for Effective Interaction Design by O'reilly
--   [ ] Type on Screen by Ellen Lupton
--   [ ] Laying the foundations A book about design systems
--   [ ] Layout Essentials: 100 Design Principles for Using Grids
--   [ ] Hooked by Nir Eyal
--   [ ] Thinking Fast and Slow by Daniel Kanehan
--   [ ] Conceptual Design for Interactive Systems by Avi Parush
--   [ ] Think Like a UX Researcher by David Travis
--   [ ] A Project Guide to UX Design: For user experience designers in the field or in the making by Russ Unger and Carolyn Chandler
--   [ ] Articulating Design Decisions by Tom Greever
--   [ ] Continuous Discovery Habits by Teresa Torres
--   [ ] Build Better Products by Laura Klein
--   [ ] Validating Product Ideas by Tomer Sharon
--   [ ] This is Service Design Thinking by Marc Stickdorn
--   [ ] Service Design for Business by Ben Reason
--   [ ] How to Make Sense of Any Mess by Abby Covert
--   [ ] Peter Merholz, Kristin Skinner, Org Design for Design Orgs
--   [ ] Dan Brown, Designing Together, Practical Design Discovery
--   [ ] Cyd Harrell, A Civic Technologist's Practice Guide
--   [ ] Jeff Gothelf, Lean UX: Designing Great Products with Agile Teams
--   [ ] Brett Harned, Project Management for Humans
--   [ ] Deane Barker, Corey Vilhauer, The Web Project Guide
--   [ ] Chris Avore, Russ Unger, Liftoff
--   [ ] Kevin Hoffman, Meeting Design
--   [ ] Lisa Welchman, Managing Chaos
--   [ ] Lara Hogan, Resilient Management
--   [ ] Mike Monteiro, Design is a Job
--   [ ] Peter L. Phillips, Creating the Perfect Design Brief
--   [ ] David C. Baker, Managing Right for the First Time
--   [ ] Chris Johnson, Design Lead Succeed: 48 Rules for Bridging the Gap from Designer to Design Leader
--   [ ] Louis Rosenfeld, Peter Morville, Jorge Arango, Information Architecture for the Web and Beyond
--   [ ] "Designing Interactions" by Bill Moggridge
--   [ ] "Universal Principles of Design" by William Lidwell, Kritina Holden, and Jill Butler
--   [ ] "Interaction Design: Beyond Human-Computer Interaction" by Jenny Preece, Yvonne Rogers, and Helen Sharp
--   [ ] "Thinking with Type" by Ellen Lupton
--   [ ] "About Face: The Essentials of Interaction Design" by Alan Cooper, Robert Reimann, and David Cronin
--   [ ] "Sketching User Experiences: Getting the Design Right and the Right Design" by Bill Buxton
--   [ ] Measuring the User Experience by Tom Tullis
--   [ ] Surveying the User Experience by Jeff Sauro and James R Lewis
--   [ ] Quantifying User Experience Research by Chris Hapmon
--   [ ] Practical Empathy by Indi Young
--   [ ] Mental Models by Indi Young
--   [ ] Continuous Discovery Habits by Teresa Torres
--   [ ] The design of future things
--   [ ] Laws of ux
--   [ ] Letting go of words
--   [ ] Atomic design
--   [ ] [link](https://rosenfeldmedia.com/books/?format=paperback) Rosenfeld Media (all 60 books)
-    -   [ ] Mental Models: Aligning Design Strategy with Human Behavior by _Indi Young_
--   [ ] [link](https://abookapart.com/collections/books) A Book Apart (all 50 books)
-    -   [ ] HTML5 For Web Designers by _Jeremy Keith_, _Rachel Andrew_
+-   [ ] [link](https://bringyourownlaptop.com/courses/color-theory-get-inspired-by-color) Color Theory: Gey Instpired by Color by BYOL
 
 ## Guidelines
 
@@ -195,3 +140,61 @@ nav_exclude: true
 -   [ ] [link](https://www.amazon.com/dp/194230319X) Design Is Storytelling by _Ellen Lupton_ (159 pages)
 -   [ ] [link](https://www.amazon.com/dp/1119629195) The Design Thinking Toolbox: A Guide to Mastering the Most Popular and Valuable Innovation Methods by _Michael Lewrick_, _Patrick Link_, _Larry Leifer_ (320 pages)
 -   [ ] [link](https://www.amazon.com/dp/1250758203) User Friendly-How the Hidden Rules of Design Are Changing the Way We Live, Work, and Play by _Cliff Kuang_, _Robert Fabricant_ (416 pages)
+
+### Sort next
+
+-   [ ] Don't Make Me Think by _Steve Krug_
+-   [ ] The Design of Everyday Things by _Don Norman_
+-   [ ] Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days by _Jake Knapp_
+-   [ ] 100 Things Every Designer Needs to Know About People by _Susan M. Weinschenk_
+-   [ ] Designing Interfaces - Patterns for Effective Interaction Design by O'reilly
+-   [ ] Type on Screen by Ellen Lupton
+-   [ ] Laying the foundations A book about design systems
+-   [ ] Layout Essentials: 100 Design Principles for Using Grids
+-   [ ] Hooked by Nir Eyal
+-   [ ] Thinking Fast and Slow by Daniel Kanehan
+-   [ ] Conceptual Design for Interactive Systems by Avi Parush
+-   [ ] Think Like a UX Researcher by David Travis
+-   [ ] A Project Guide to UX Design: For user experience designers in the field or in the making by Russ Unger and Carolyn Chandler
+-   [ ] Articulating Design Decisions by Tom Greever
+-   [ ] Continuous Discovery Habits by Teresa Torres
+-   [ ] Build Better Products by Laura Klein
+-   [ ] Validating Product Ideas by Tomer Sharon
+-   [ ] This is Service Design Thinking by Marc Stickdorn
+-   [ ] Service Design for Business by Ben Reason
+-   [ ] How to Make Sense of Any Mess by Abby Covert
+-   [ ] Peter Merholz, Kristin Skinner, Org Design for Design Orgs
+-   [ ] Dan Brown, Designing Together, Practical Design Discovery
+-   [ ] Cyd Harrell, A Civic Technologist's Practice Guide
+-   [ ] Jeff Gothelf, Lean UX: Designing Great Products with Agile Teams
+-   [ ] Brett Harned, Project Management for Humans
+-   [ ] Deane Barker, Corey Vilhauer, The Web Project Guide
+-   [ ] Chris Avore, Russ Unger, Liftoff
+-   [ ] Kevin Hoffman, Meeting Design
+-   [ ] Lisa Welchman, Managing Chaos
+-   [ ] Lara Hogan, Resilient Management
+-   [ ] Mike Monteiro, Design is a Job
+-   [ ] Peter L. Phillips, Creating the Perfect Design Brief
+-   [ ] David C. Baker, Managing Right for the First Time
+-   [ ] Chris Johnson, Design Lead Succeed: 48 Rules for Bridging the Gap from Designer to Design Leader
+-   [ ] Louis Rosenfeld, Peter Morville, Jorge Arango, Information Architecture for the Web and Beyond
+-   [ ] "Designing Interactions" by Bill Moggridge
+-   [ ] "Universal Principles of Design" by William Lidwell, Kritina Holden, and Jill Butler
+-   [ ] "Interaction Design: Beyond Human-Computer Interaction" by Jenny Preece, Yvonne Rogers, and Helen Sharp
+-   [ ] "Thinking with Type" by Ellen Lupton
+-   [ ] "About Face: The Essentials of Interaction Design" by Alan Cooper, Robert Reimann, and David Cronin
+-   [ ] "Sketching User Experiences: Getting the Design Right and the Right Design" by Bill Buxton
+-   [ ] Measuring the User Experience by Tom Tullis
+-   [ ] Surveying the User Experience by Jeff Sauro and James R Lewis
+-   [ ] Quantifying User Experience Research by Chris Hapmon
+-   [ ] Practical Empathy by Indi Young
+-   [ ] Mental Models by Indi Young
+-   [ ] Continuous Discovery Habits by Teresa Torres
+-   [ ] The design of future things
+-   [ ] Laws of ux
+-   [ ] Letting go of words
+-   [ ] Atomic design
+-   [ ] [link](https://rosenfeldmedia.com/books/?format=paperback) Rosenfeld Media (all 60 books)
+    -   [ ] Mental Models: Aligning Design Strategy with Human Behavior by _Indi Young_
+-   [ ] [link](https://abookapart.com/collections/books) A Book Apart (all 50 books)
+    -   [ ] HTML5 For Web Designers by _Jeremy Keith_, _Rachel Andrew_

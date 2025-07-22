@@ -22,7 +22,7 @@ nav_exclude: true
 ## General
 
 -   [x] [link](https://wpc.guide/) Web Platform Contribution Guide
--   [ ] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
+-   [x] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
 -   [ ] MDN Learn
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Browsing the web
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Dealing with files
