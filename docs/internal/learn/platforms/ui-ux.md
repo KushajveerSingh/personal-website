@@ -41,7 +41,7 @@ nav_exclude: true
 -   [ ] [link](https://www.youtube.com/@TimGabe/videos) Time Gabe youtube channel
 -   [ ] [link](https://www.youtube.com/@KoleJain/videos) Kole Jain youtube channel
 -   [ ] [link](https://www.refactoringui.com/) Refactoring UI book
-    -   [ ] [link](https://www.youtube.com/watch?v=7Z9rrryIOC4) Steve Schoger | Refactoring UI | CSS Day 2019
+    -   [ ] [link](https://www.youtube.com/watch?v=7Z9rrryIOC4) Steve Schoger \| Refactoring UI \| CSS Day 2019
     -   [ ] [link](https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE) Refactoring UI playlist
 
 ## Tools
@@ -157,3 +157,41 @@ nav_exclude: true
     -   [ ] [link](https://frontendmasters.com/courses/ux-testing/) UX Research & User Testing
     -   [ ] [link](https://frontendmasters.com/courses/product-design/) The Product Design Process
     -   [ ] [link](https://frontendmasters.com/courses/product-management/) Complete Intro to Product Management
+
+## Books
+
+### O'Reilly Media
+
+-   [ ] [link](https://www.amazon.com/dp/1098146964) Laws of UX: Using Psycohology to Design Better Products & Services by _Jon Yablonski_ (183 pages)
+-   [ ] [link](https://www.amazon.com/dp/1492079227) Articulating Design Decisions: Communicate with Stakeholders, Keep Your Sanity, and Deliver the Best User Experience by _Tom Greever_ (238 pages)
+-   [ ] [link](https://www.amazon.com/dp/1491911689) Information Architecture: For the Web and Beyond by _Louis Rosenfield_, _Peter Morville_, _Jorge Arango_ (483 pages)
+
+### Rockport Publishers
+
+-   [ ] [link](https://www.quarto.com/books/9780760392461/universal-principles-of-storytelling-for-designers) Universal Principles of Storytelling For Designers by _Lyle H. Sandler_ (216 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760393086/universal-methods-of-ethical-design) Universal Principles of Ethical Design by _Sai Shruthi Chivukula_, _Colin Gray_ (224 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760375167/universal-principles-of-design-updated-and-expanded-third-edition) Universal Principles of Design, Updated and Exapnded Third Edition by _William Lidwell_, _Kritina Holden_, _Jill Butler_ (424 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760378205/universal-principles-of-branding) Universal Principles of Branding by _Mark Kingsley_ (216 pages)
+-   [ ] [link](https://www.quarto.com/books/9781631597480/universal-methods-of-design-expanded-and-revised) Universal Methods of Design, Expanded and Revised by _Bruce Hanington_, _Bella Martin_ (264 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760378045/universal-principles-of-ux) Universal Principles of UX by _Irene Pereyra_ (224 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760381939/making-and-breaking-the-grid-third-edition) Making and Breaking the Grid, Third Edition by _Timothy Samara_ (256 pages)
+-   [ ] [link](https://www.quarto.com/books/9781631598722/design-elements-third-edition) Design Elements, Third Edition by _Timothy Samara_ (320 pages)
+-   [ ] [link](https://www.quarto.com/books/9781631596315/layout-essentials-revised-and-updated) Layout Essentials Revised and Updated by _Beth Tondreau_ (208 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760383384/universal-principles-of-typography) Universal Principles of Typography by _Elliot Jay Stocks_ (224 pages)
+-   [ ] [link](https://www.quarto.com/books/9781631599255/universal-principles-of-color) Universal Principles of Color by Stephen Westland, _Maggie Maggio_ (216 pages)
+-   [ ] [link](https://www.quarto.com/books/9781631592966/the-complete-color-harmony-pantone-edition) The Complete Color Harmony, Pantone Edition by _Leatrice Eiseman_ (216 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760392577/the-complete-color-harmony-deluxe-edition) The Complete Color Harmony: Deluxe Edition by _Tina Sutton_ (216 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760383179/logos-that-last) Logos That Last by _Allan Peters_ (208 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760376515/principles-of-logo-design) Principles of Logo Design by _George Bokhua_ (224 pages)
+-   [ ] [link](https://www.quarto.com/books/9780760371497/made-by-james) Made by James The Honest Guide to Creativity and Logo Design by _James Martin_ (224 pages)
+
+### Rosenfeld Media
+
+-   [ ] [link](https://www.amazon.com/Mental-Models-Aligning-Strategy-Behavior/dp/1933820063) Mental Models: Aligning Design Strategy with Human Behavior by _Indi Young_ (299 pages)
+
+### Other
+
+-   [ ] [link](https://www.amazon.com/Measuring-User-Experience-Interactive-Technologies/dp/0128180803) Measuring the User Experience: Collecting, Analyzing, and Presenting UX Metrics by _Bill Albert_, _Tom Tullis_ (384 pages)
+-   [ ] [link](https://www.amazon.com/dp/194230319X) Design Is Storytelling by _Ellen Lupton_ (159 pages)
+-   [ ] [link](https://www.amazon.com/dp/1119629195) The Design Thinking Toolbox: A Guide to Mastering the Most Popular and Valuable Innovation Methods by _Michael Lewrick_, _Patrick Link_, _Larry Leifer_ (320 pages)
+-   [ ] [link](https://www.amazon.com/dp/1250758203) User Friendly-How the Hidden Rules of Design Are Changing the Way We Live, Work, and Play by _Cliff Kuang_, _Robert Fabricant_ (416 pages)
