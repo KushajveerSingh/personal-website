@@ -24,8 +24,10 @@ nav_exclude: true
 -   [link](https://pimax.com/pages/pimax-12k) VR Headset
 -   [link](https://gopro.com/en/us/) Go Pro
 -   [link](https://www.insta360.com/) VR camera
+-   [link](https://www.youtube.com/watch?v=6F30QORlPGY) The Most Expensive Watch from Every Manufacturer by Bart's Watch Stories
+-   [link](https://www.youtube.com/watch?v=g22QotwrC3s) The Most Exclusive Credit Card - Amex Centurion Card vs J.P. Morgan Reserver Card by Daniel Shephard
 
-## Home setup
+## Home office setup
 
 Total = $3,850.53 (before sales tax) (excluding monitor, pc)
 

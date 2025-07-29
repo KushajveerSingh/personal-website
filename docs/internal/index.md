@@ -34,7 +34,6 @@ search_exclude: true
         -   [Computer Architecture](/internal/learn/cs-fields/computer-architecture)
         -   [Concurrency](/internal/learn/cs-fields/concurrency)
         -   [Cybersecurity](/internal/learn/cs-fields/cybersecurity)
-        -   [Database](/internal/learn/cs-fields/database)
         -   [Distributed Computing](/internal/learn/cs-fields/distributed-computing)
         -   [Networking](/internal/learn/cs-fields/networking)
         -   [Object Oriented Design](/internal/learn/cs-fields/object-oriented-design)

@@ -485,6 +485,14 @@ Refer to [Learn - Networking](/internal/learn/cs-fields/networking).
 -   [ ] [link](https://hpbn.co/) High Performance Browser Networking
     -   [ ] [link](https://www.youtube.com/@igrigorik/videos) Ilya Grigorik videos on the book
 
+## Error tracking
+
+-   [ ] [link](https://posthog.com/) PostHog
+
+## Analytics
+
+-   [ ] [link](https://posthog.com/) PostHog
+
 ## Backend
 
 Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-computing).
@@ -574,6 +582,52 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 ## Database
 
 Check [Learn - Database](/internal/learn/cs-fields/database).
+
+### Learn
+
+-   CMU courses
+    -   [Intro to Database Systems](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g)
+    -   [Advanced Database Systems](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYa_zX-KeMJui7pcN1rIaIJ)
+    -   [Database Query Optimizer](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYPyrUG_YxqYPS7wjWY6gYN)
+    -   [Database series](https://www.youtube.com/playlist?list=PLSE8ODhjZXjZKp-oX_75aBnznulk7nubu)
+    -   [ML DB Series](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYVdJKka5g3xTKfPBITrxOu)
+-   [ ] Hussein Nasser
+    -   [ ] [link](https://database.husseinnasser.com/) Course: Introduction to Database Engineering
+    -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2) Youtube: Database Engineering
+-   Books
+    -   [link](https://www.amazon.com/stores/page/500FA967-DEFD-4227-95D5-7D985B3A0699?ingress=0) O'Reilly databases section.
+    -   [ ] Database systems concepts 7th edition
+    -   [ ] The Data Warehouse Toolkit 3rd edition
+    -   [ ] [link](https://www.amazon.com/Database-Design-Mere-Mortals-Anniversary/dp/0136788041) Database Design for Mere Mortals: 25th Anniversay Edition
+-   Conferences
+    -   [ ] [link](https://www.hytradboi.com/) HYTRADBOI 2025
+
+### SQL
+
+-   (Code with Mosh) [Complete SQL Mastery](https://codewithmosh.com/p/complete-sql-mastery)
+-   (book) Learning SQL
+    -   Supplement with MySQL syntax docs
+-   (book) [SQL Performance Explained](https://use-the-index-luke.com/)
+-   (book) [SQL Antipatterns volume 1](https://pragprog.com/titles/bksap1/sql-antipatterns-volume-1/)
+-   Leetcode [sql problems](https://leetcode.com/problemset/database/)
+
+### Postgres
+
+-   [ ] [link](https://www.postgresql.org/) Docs
+-   [ ] [link](https://postgresweekly.com/) Postgres weekly newsletter
+-   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r) Hussein Nasser youtube: PostgresSQL
+
+### Valkey (originally Redis)
+
+-   [ ] [link](https://valkey.io/)
+
+### ORM
+
+-   [ ] [link](https://orm.drizzle.team/) drizzle
+
+### IDE
+
+-   [ ] [link](https://www.jetbrains.com/datagrip/) DataGrip
 
 ## Email
 

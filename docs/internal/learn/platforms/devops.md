@@ -19,6 +19,8 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+-   [link](https://landscape.cncf.io/guide#introduction) Cloud Native Landscape guide
+
 ## Hosting
 
 -   Vercel
@@ -126,6 +128,7 @@ nav_exclude: true
     -   Logstash + Ingest Integration
     -   Kibana
 -   Grafana
+-   OpenSearch
 
 ## Proxy
 
