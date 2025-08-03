@@ -34,6 +34,7 @@ No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
 
 ### Browser + Frontend framework
 
+-   Use kernel APIs directlry (wrap these into a separate open source library) to eseentially provide an interface to the operating system.
 -   Identify all the web standards, and make your own version of the standards.
 -   Start by modifying the HTML parser in Chromium with one in Rust, move to CSS, JS, and keep adding standards. Over time replace Chromium with a version of Rust.
     -   For the name of the browser, look up ancient words that mean starting over.

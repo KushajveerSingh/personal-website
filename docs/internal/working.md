@@ -18,14 +18,3 @@ nav_exclude: true
 </details>
 
 <!-- prettier-ignore-end -->
-
-## Daily routine
-
-## TODO
-
--   separate pages in yellow notebook
--   Revisit backup folder and move list of social accounts here with all relevant info
--   what .md files to learn for web development
--   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
--   yellow notebook
--   projects.md
