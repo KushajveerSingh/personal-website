@@ -598,3 +598,7 @@ in css project, meant to replace storybook, also show how figma rendering. The d
 get clips of wnba players shooting ball and do a question on the outcome (miss, fail, foul, fight). Mkae it like a game, every score gets +1 dollar and incorrect gets -1$. The target money is the debt wnba is in. The program's entire goal is to make wnba profitable for first time.
 
 https://optimeist.com/ add to aws ui project
+
+simulation testing for websites. provide an array of all actions that a user can take, and the simulator will run those randomly. this includes, everything like you are on a page, the user has the options to close the tab, open new tab, change url of current tab and lot more, and also click the buy button on the page.
+
+struct in c# have memory alignment issues. create tool to get size of all sturcts in your code, and give suggestions using data-oriented design on how to optimize if for your programming language of choice.
