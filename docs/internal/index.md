@@ -39,6 +39,7 @@ search_exclude: true
         -   [Object Oriented Design](/internal/learn/cs-fields/object-oriented-design)
         -   [Operating Systems](/internal/learn/cs-fields/operating-systems)
     -   Platforms
+        -   [AI Agent](/internal/learn/platforms/ai-agent)
         -   [Android Development](/internal/learn/platforms/android-development)
         -   [Apple Development](/internal/learn/platforms/apple-development)
         -   [Augmented Reality](/internal/learn/platforms/augmented-reality)

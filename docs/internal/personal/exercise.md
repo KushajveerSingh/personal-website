@@ -47,3 +47,4 @@ nav_exclude: true
 ## Shoe
 
 -   [ ] [link](https://www.footdoctorzach.com/customization) Show Customization & Lower Leg Taping E-book
+-   Work with local orthopedic and get an exam to get custom orthotics
