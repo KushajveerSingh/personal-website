@@ -1,11 +1,10 @@
 ---
-title: Working
-search_exclude: true
-nav_exclude: true
+title: Svelte
+parent: JavaScript
 ---
 
 <!-- prettier-ignore-start -->
-# Working
+# Svelte
 {: .no_toc }
 
 <details open markdown="block">

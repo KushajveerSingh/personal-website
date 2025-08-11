@@ -34,6 +34,7 @@ No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
 
 ### Browser + Frontend framework
 
+-   Use kernel APIs directlry (wrap these into a separate open source library) to eseentially provide an interface to the operating system.
 -   Identify all the web standards, and make your own version of the standards.
 -   Start by modifying the HTML parser in Chromium with one in Rust, move to CSS, JS, and keep adding standards. Over time replace Chromium with a version of Rust.
     -   For the name of the browser, look up ancient words that mean starting over.
@@ -597,3 +598,7 @@ in css project, meant to replace storybook, also show how figma rendering. The d
 get clips of wnba players shooting ball and do a question on the outcome (miss, fail, foul, fight). Mkae it like a game, every score gets +1 dollar and incorrect gets -1$. The target money is the debt wnba is in. The program's entire goal is to make wnba profitable for first time.
 
 https://optimeist.com/ add to aws ui project
+
+simulation testing for websites. provide an array of all actions that a user can take, and the simulator will run those randomly. this includes, everything like you are on a page, the user has the options to close the tab, open new tab, change url of current tab and lot more, and also click the buy button on the page.
+
+struct in c# have memory alignment issues. create tool to get size of all sturcts in your code, and give suggestions using data-oriented design on how to optimize if for your programming language of choice.
