@@ -144,7 +144,7 @@ nav_exclude: true
 -   [ ] [link](https://tailwindcss.com/) Documentation
 -   [ ] [link](https://codepip.com/games/tailwind-trainer/) codepip: Tailwind Trainer
 -   [ ] [link](https://daisyui.com/) daisyUI
--   [ ] [link](https://frontendmasters.com/courses/tailwind-css/) FrontendMasters: Tailwind CSS
+-   [ ] [link](https://frontendmasters.com/courses/tailwind-css-v2/) FrontendMasters: Tailwind CSS 4+
 
 ## Accessibility
 
