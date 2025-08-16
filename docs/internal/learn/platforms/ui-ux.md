@@ -59,7 +59,6 @@ nav_exclude: true
 ## Courses
 
 -   [ ] Frontend Masters courses
-    -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites by _Paul Boag_
     -   [ ] [link](https://frontendmasters.com/courses/content-strategy/) Content Strategy by _Kristina Halvorson_
     -   [ ] [link](https://frontendmasters.com/courses/design-for-developers/) Design for Developers by _Sarah Drasner_
     -   [ ] [link](https://frontendmasters.com/courses/design-systems-management/) Enterprise Design Systems Management by _Ben Callahan_
@@ -97,6 +96,8 @@ nav_exclude: true
 ## Product Design
 
 -   [ ] FrontendMasters courses
+    -   [ ] [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea
+    -   [ ] [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
     -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
     -   [ ] [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process
     -   [ ] [link](https://frontendmasters.com/courses/ux-testing/) UX Research & User Testing

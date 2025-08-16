@@ -69,6 +69,4 @@ nav_exclude: true
 ## Startup
 
 -   [ ] [link](https://www.youtube.com/playlist?list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1) How to Start a Startup playlist
--   [ ] [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea
--   [ ] [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
--   [ ] [link](https://bringyourownlaptop.com/courses/24-hour-business-building-contractor) Build an Online Business in 24 hours | Building Contractor by BYOL
+-   [ ] [link](https://bringyourownlaptop.com/courses/24-hour-business-building-contractor) Build an Online Business in 24 hours \| Building Contractor by BYOL
