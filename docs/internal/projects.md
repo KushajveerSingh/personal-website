@@ -602,3 +602,5 @@ https://optimeist.com/ add to aws ui project
 simulation testing for websites. provide an array of all actions that a user can take, and the simulator will run those randomly. this includes, everything like you are on a page, the user has the options to close the tab, open new tab, change url of current tab and lot more, and also click the buy button on the page.
 
 struct in c# have memory alignment issues. create tool to get size of all sturcts in your code, and give suggestions using data-oriented design on how to optimize if for your programming language of choice.
+
+js performance. create an Emmet like extension for vscode that takes the syntax `p_{name}_{args}`. For example to get code for optimized for loop it will be `p_for_i_arrName`. Go through all JS features, look at how each feature is implemented at assembly or some lower level to get idea of max performance. And create shorthands for that. You can also, look at creating a transpiler to convert js into performance js.

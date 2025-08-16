@@ -21,7 +21,8 @@ nav_exclude: true
 
 [Reddit post](https://www.reddit.com/r/Compilers/comments/15ga21m/comment/jujd5ul/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) with information on resources.
 
--   [link](https://frontendmasters.com/courses/type-compiler/) FrontendMasters: Write a Compiler That Understands Types
+-   [link](https://frontendmasters.com/courses/type-compiler/) FrontendMasters: Write a Compiler That Understands Types by _Richard Feldman_
+-   [link](https://frontendmasters.com/courses/programming-language/) Building Your Own Programming Language by _Steve Kinney_
 -   Crafting Interpreters
 -   CS 6120: Advanced Compilers
 -   Engineering a Compiler 3rd edition
