@@ -605,3 +605,5 @@ simulation testing for websites. provide an array of all actions that a user can
 struct in c# have memory alignment issues. create tool to get size of all sturcts in your code, and give suggestions using data-oriented design on how to optimize if for your programming language of choice.
 
 js performance. create an Emmet like extension for vscode that takes the syntax `p_{name}_{args}`. For example to get code for optimized for loop it will be `p_for_i_arrName`. Go through all JS features, look at how each feature is implemented at assembly or some lower level to get idea of max performance. And create shorthands for that. You can also, look at creating a transpiler to convert js into performance js.
+
+Create tool similar to sessionbox, multilogin chrome extension. When opening outlook, you can only have one account open in the entire chrome window across multiple tabs. Create an extension that allows you to limit a website cookies, cache to a single tab. Also, provide full control over the user-agent, in the sense you can modify the user-agent per tab.
