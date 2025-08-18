@@ -22,7 +22,7 @@ nav_exclude: true
 ## General
 
 -   [x] [link](https://wpc.guide/) Web Platform Contribution Guide
--   [x] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
+-   [ ] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
 -   [ ] MDN Learn
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Browsing the web
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Dealing with files
@@ -136,7 +136,7 @@ nav_exclude: true
 
 ### Tools
 
--   [ ] [link](https://postcss.org/) Documentation
+-   [ ] [link](https://postcss.org/) PostCSS
 -   [ ] [link](https://lightningcss.dev/) Lightning CSS
 
 ### Tailwind
@@ -286,6 +286,7 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
     -   [ ] End to End tests
     -   [ ] Smoke tests
     -   [ ] Performance tests
+    -   [ ] [link](https://www.browserstack.com/guide/what-is-exhaustive-testing) Exhaustive Testing
 
 ### Graphics/Visualization
 
@@ -416,6 +417,11 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
         WebDriver
 -   [ ] [link](https://developer.chrome.com/blog/round-up-of-web-browser-internals-resources) Round-up of web browser internals resources
 
+### Development
+
+-   [link](https://polypane.app) Polypane
+-   [link](https://sizzy.co/) Sizzy
+
 ### Chrome
 
 -   [ ] [link](https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx) Chrome University playlist
@@ -526,6 +532,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 -   [ ] Hussien Nasser
     -   [ ] [link](https://backend.husseinnasser.com/) Course: Fundamentals of Backend Engineering
     -   [ ] [link](https://performance.husseinnasser.com/) Course: Backend Performance
+    -   [ ] [link](https://www.udemy.com/course/scalable-real-time-backends-with-websockets) Course: Scalable Real-Time Backends with WebSockets
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQU0ICDe-cL1EwXC4GDSayKY) Youtube: The Backend Enigneering Show playlist
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT) Youtube: Backend Engineering (Beginner)
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs) Youtube: Backend Engineering (Intermediate)

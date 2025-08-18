@@ -1,11 +1,11 @@
 ---
-title: MacOS Setup
+title: macOS
 parent: Development Setup
 ---
 
 <!-- prettier-ignore-start -->
 
-# MaxOS Setup
+# macOS
 
 {: .no_toc }
 
@@ -17,6 +17,10 @@ parent: Development Setup
 1. TOC
 {:toc}
 </details>
+
+## Resources
+
+---
 
 https://github.com/ChrisTitusTech/macutil
 
@@ -114,7 +118,7 @@ Spotlight
 
 Notifications
 
--   Show previews “Never”
+-   Show previews “Never”https://code.visualstudio.com/docs
 -   Turn off all “Application notifications” except “Wallet”
 
 Sound

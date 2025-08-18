@@ -96,7 +96,7 @@ nav_exclude: true
 ## Product Design
 
 -   [ ] FrontendMasters courses
-    -   [ ] [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea
+    -   [x] [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea by _Paul Boag_
     -   [ ] [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
     -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
     -   [ ] [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process

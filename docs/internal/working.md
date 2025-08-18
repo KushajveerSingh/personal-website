@@ -14,7 +14,7 @@ nav_exclude: true
   </summary>
   {: .text-delta }
 1. TOC
-{:toc}`
+{:toc}
 </details>
 
 <!-- prettier-ignore-end -->
@@ -34,7 +34,6 @@ nav_exclude: true
 -   [link](https://frontendmasters.com/courses/cloud-infrastructure/) Cloud Infrastructure: Startup to Scale
 -   [link](https://frontendmasters.com/courses/react-nextjs-state/) State management at Scale in React & Next.js
 -   [link](https://frontendmasters.com/courses/c-fundamentals/) C Fundamentals
--   [link](https://frontendmasters.com/courses/vs-code-v2/) BEcome a VSCode Power User
 
 ## Rust
 
@@ -66,3 +65,7 @@ nav_exclude: true
 -   Writing a compiler in go
 -   Engineering a compiler 3rd edition
 -   rust chumpsky
+
+## Development setup
+
+-   https://www.reddit.com/r/linuxquestions/comments/112i1vl/what_nicetohave_cli_tools_do_you_know/

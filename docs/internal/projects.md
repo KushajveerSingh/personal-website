@@ -454,6 +454,7 @@ Maybe allow people to post from form to email chain.
 
 In rust, create a special debug run, where we convert all the numbers to string and do the relevant arithematic, as the application is running, and check if there is ever an overflow or underflow.
 Extend the program to include precison errors, like when adding two floats. In this case, tell the user to check for if numbers are close to each other, rather than strict equality.
+Look at whitebox for more debugger ideas [link](https://whitebox.systems/)
 
 C trnspiler to rust. Look at tractor by federal. Convert major c codebases like linux, git, gnome, ... as a proof of concept.
 Write a transpiler for c++, go, ...

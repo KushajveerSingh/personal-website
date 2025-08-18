@@ -35,6 +35,7 @@ nav_exclude: true
 
 ## Courses
 
+-   [link](https://www.computerenhance.com/p/table-of-contents) Performance-Aware Programming Series by Casey Muratori
 -   How do computers work by Sebastian Lague [4 video playlist](https://www.youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq)
 -   Computer Science by CrashCourse [40 video playlist](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 -   (Coursera) Build a Modern Computer from First Principles: From Nand to Tetris [link](https://www.coursera.org/learn/build-a-computer)

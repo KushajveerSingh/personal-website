@@ -18,6 +18,14 @@ nav_order: 1
 
 <!-- prettier-ignore-end -->
 
+## Rersources
+
+-   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) MDN Learn: Browsing the web
+-   [link](https://wpc.guide/) Web Platform Contribution Guide
+-   [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
+
+---
+
 ## Terminology
 
 -   **Web page** (or "page") - Document that can be displayed in a web browser, like a HTML document.

@@ -34,6 +34,11 @@ nav_exclude: true
 -   [ ] [link](https://www.syntaxdesign.com/expertise) Check Syntax Design to get overview of the field.
 -   [ ] [link](https://galshir.com/) Galshir brand design specialist website
 
+## English
+
+-   [ ] [link](https://www.youtube.com/watch?v=gfYq2ng9s4E) English Punctuation Guide - English Writing Lesson
+-   [ ] [link](https://www.youtube.com/watch?v=ryAnfbEeJR8) How to Say EVERY SOUND in American English | 44 Sounds of American English
+
 ## Leadership
 
 -   [ ] [link](https://levelupwithethanevans.substack.com/archive) Ethan Evans Substack archive
