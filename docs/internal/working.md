@@ -31,9 +31,11 @@ nav_exclude: true
 
 ## Free time
 
+-   [link](https://frontendmasters.com/courses/vs-code-v2/) Become a VS Code power user
 -   [link](https://frontendmasters.com/courses/cloud-infrastructure/) Cloud Infrastructure: Startup to Scale
 -   [link](https://frontendmasters.com/courses/react-nextjs-state/) State management at Scale in React & Next.js
 -   [link](https://frontendmasters.com/courses/c-fundamentals/) C Fundamentals
+-   [link](https://frontendmasters.com/courses/getting-started-css-v2/) Getting started with CSS, v2
 
 ## Rust
 
