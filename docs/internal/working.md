@@ -21,7 +21,6 @@ nav_exclude: true
 
 ## UI/UX
 
--   [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea
 -   [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
 -   [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
 -   [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process
@@ -31,7 +30,6 @@ nav_exclude: true
 
 ## Free time
 
--   [link](https://frontendmasters.com/courses/vs-code-v2/) Become a VS Code power user
 -   [link](https://frontendmasters.com/courses/cloud-infrastructure/) Cloud Infrastructure: Startup to Scale
 -   [link](https://frontendmasters.com/courses/react-nextjs-state/) State management at Scale in React & Next.js
 -   [link](https://frontendmasters.com/courses/c-fundamentals/) C Fundamentals
@@ -68,6 +66,13 @@ nav_exclude: true
 -   Engineering a compiler 3rd edition
 -   rust chumpsky
 
-## Development setup
+## Random
 
+-   [link](https://frontendmasters.com/courses/vs-code-v2/) Become a VS Code power user
+-   VS Code docs
+-   Semantic versioning
+-   learnprompting.com
 -   https://www.reddit.com/r/linuxquestions/comments/112i1vl/what_nicetohave_cli_tools_do_you_know/
+-   [ ] [link](https://frontendmasters.com/courses/developer-productivity-v2/) FrontendMasters: My Dev Setup Is Better Than Yours
+-   diagram
+-   benchmarking
