@@ -1,10 +1,10 @@
 ---
-title: Svelte
-parent: JavaScript
+title: Software Engineering
+nav_order: 1000
 ---
 
 <!-- prettier-ignore-start -->
-# Svelte
+# Software Engineering
 {: .no_toc }
 
 <details open markdown="block">

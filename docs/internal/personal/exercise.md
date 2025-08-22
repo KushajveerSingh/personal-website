@@ -43,6 +43,7 @@ nav_exclude: true
 -   [link](https://www.youtube.com/watch?v=4meLjhknvwg) Georges St Pierre's(GSP) Conditioning Training
 -   [link](https://www.youtube.com/watch?v=f3AM6Q5bMc8) Strength & Conditioning Rotuine of an MMA Legend (Analysis)
 -   [link](https://timgrover.com/jump-attack/) Jump attack by tim s. grover
+-   [link](https://www.amazon.com/Overcoming-Gravity-Systematic-Gymnastics-Bodyweight/dp/0990873854) Overcoming Gravity: A Systematic Approach to Gymnastics and Bodyweight Strength (Second Edition)
 
 ## Shoe
 

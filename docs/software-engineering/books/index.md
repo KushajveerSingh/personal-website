@@ -1,9 +1,10 @@
 ---
-title: Reorganize
+title: Books
+parent: Software Engineering
 ---
 
 <!-- prettier-ignore-start -->
-# Reorganize
+# Books
 {: .no_toc }
 
 <details open markdown="block">

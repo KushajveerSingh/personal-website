@@ -21,7 +21,7 @@ parent: Rust
 
 ## Resources
 
--   [link](https://www.oreilly.com/content/why-rust/) Why Rust? Trustworthy, concurrent systems programming by _Jim Blandy_
+-   [link](https://www.oreilly.com/content/why-rust/) Why Rust? Trustworthy, concurrent systems programming by _Jim Blandy_ (60 pages) (Sep 2015)
 
 ---
 

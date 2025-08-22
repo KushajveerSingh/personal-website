@@ -20,7 +20,7 @@ parent: Development Setup
 
 ## Resources
 
--   [link](https://frontendmasters.com/courses/vs-code-v2/) Become a VS Code Power User by _Steve Kinney_
+-   [link](https://frontendmasters.com/courses/vs-code-v2/) Become a VS Code Power User by _Steve Kinney_ (5 hours 13 minutes) (May 5, 2025)
 -   [link](https://code.visualstudio.com/docs) Visual Studio Code Docs
 
 ---

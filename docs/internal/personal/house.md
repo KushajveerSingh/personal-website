@@ -53,6 +53,8 @@ Breeds
 -   Great Danes
 -   Mongolian Shepherd Dog
 -   Samoyed
+-   German Shepherd
+-   Siberian Husky
 
 ## Pond
 

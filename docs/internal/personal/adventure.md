@@ -83,6 +83,7 @@ nav_exclude: true
 -   Churches
 -   Photograph all birds (get book with list of all birds)
 -   [link](https://www.outsideonline.com/adventure-travel/essays/northern-lights-canada-joe-buffalo-child/?utm_term=ool_member&utm_campaign=oplus_topfive&utm_medium=email&_hsmi=332351068&utm_source=newsletter) Northern lights
+-   [link](https://www.nps.gov/subjects/forests/leaf-peeping.htm) Leaf Peeping
 
 ### Georgia, USA
 

@@ -75,6 +75,7 @@ nav_exclude: true
     -   [ ] [link](https://ausi.github.io/respimagelint/docs.html) Image Linter rules
     -   [ ] [link](https://frontendmasters.com/courses/svg-essentials-animation/) FrontendMasters: SVG Essentials & Animations, v2
 -   [ ] Video
+    -   [ ] [link](https://www.mux.com/docs) MUX
 -   [ ] Audio
     -   [ ] [link](https://frontendmasters.com/courses/web-audio/) Web Audio Synthesis & Visualization
 

@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer: Your Journey To Mastery"
 parent: Books
+grand_parent: Software Engineering
 ---
 
 <!-- prettier-ignore-start -->
@@ -18,7 +19,11 @@ parent: Books
 
 <!-- prettier-ignore-end -->
 
-**The Pragmatic Programmer: Your Journey To Mastery, 20th Anniversary (2nd Edition) by _David Thomas_, _Andrew Hunt_ (352 pages) (Sep 13, 2019)**
+## Resources
+
+-   [link](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052) The Pragmatic Programmer: Your Journey To Mastery, 20th Anniversary (2nd Edition) by _David Thomas_, _Andrew Hunt_ (352 pages) (Sep 13, 2019)
+
+---
 
 **Pragmatic** - Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.
 

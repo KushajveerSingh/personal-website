@@ -1,10 +1,11 @@
 ---
-title: Product Design
-parent: UI/UX
+title: Market Analysis
+parent: Product Design
+nav_order: 10
 ---
 
 <!-- prettier-ignore-start -->
-# Product Design
+# Market Analysis
 {: .no_toc }
 
 <details open markdown="block">
@@ -20,7 +21,7 @@ parent: UI/UX
 
 ## Resources
 
--   [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea by _Paul Boag_
+-   [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea by _Paul Boag_ (2 hours 55 minutes) (May 30, 2024)
 
 ---
 

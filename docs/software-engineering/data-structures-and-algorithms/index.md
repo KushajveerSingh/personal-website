@@ -1,10 +1,10 @@
 ---
-title: JavaScript
-nav_order: 30
+title: Data Structures and Algorithms
+parent: Software Engineering
 ---
 
 <!-- prettier-ignore-start -->
-# JavaScript
+# Data Structures and Algorithms
 {: .no_toc }
 
 <details open markdown="block">
@@ -17,3 +17,5 @@ nav_order: 30
 </details>
 
 <!-- prettier-ignore-end -->
+
+[scanned notes](./data-structures-and-algorithms.pdf)

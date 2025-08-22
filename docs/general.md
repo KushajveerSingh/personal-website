@@ -1,10 +1,10 @@
 ---
-title: General
-nav_order: 1
+title: Web General
+nav_order: 30
 ---
 
 <!-- prettier-ignore-start -->
-# General
+# Web General
 {: .no_toc }
 
 <details open markdown="block">
