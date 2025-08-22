@@ -553,7 +553,48 @@ Factors to consider when setting the price
 -   Create landing page to sell your application.
 -   A different landing page can be created for different audiences.
 
-Continue page 144
+Things to put in landing page
+
+-   Value proposition
+    -   **Strapline** - Summarize your application in a single sentence.
+    -   **Benefits** - List ways the app helps users achieve their goals or overcome their pain points.
+    -   **Features** - Detail the features that allow users to receive the benefits you have listed.
+-   Calls to action
+    -   **Primary** - It can be the action to preoder.
+    -   **Secondary** - May be to sign up for updates.
+        ![](../assets/ui-ux/product-design/calls-to-action.png)
+-   Brainstorm objections as to why someone will not act to call of actions
+    -   What if they sell my email address to a third party.
+    -   What if the content is rubbish.
+    -   What is they make it hard to unsubscribe.
+    -   What if they send me too many emails.
+    -   What if they pressure me into buying.
+    -   What if they get hacked.
+-   Add an exit intent survey, which pops up when someone leaves the landing page.[Getsitecontrol](https://getsitecontrol.com/) can be used for this.
+    ![](../assets/ui-ux/product-design/exit-intent-survey.png)
+-   Add social proof to the landing page. When you have no users, you can reach out to a couple of people with influence and give them a demo and ask for a testimonial.
+    -   Review and ratings.
+    -   Testimonials (both video and written).
+    -   Simple naming of high profile customers.
+    -   Celebrity endorsement.
+    -   Third-party accrediation.
+    -   Industry awards.
+    -   Positive press coverage.
+        ![](../assets/ui-ux/product-design/social-proof.png)
+-   Create content block, for each feature, benefit and social proof.
+    -   Image and link are optional.
+    -   Address the objections into existing content blocks.
+        ![](../assets/ui-ux/product-design/content-block.png)
+    -   For writing the content, write an initial draft. Use [Hemingway](https://hemingwayapp.com/) app to make the content concise and correct.
+-   Page flow
+    -   For the tagline, tell exactly what your app does based on your benefits and features. Can use AI for this. Do not go big company route like Nike, where they use inspirational taglines like "Just do it".
+        ![](../assets/ui-ux/product-design/page-flow-1.png)
+        ![](../assets/ui-ux/product-design/page-flow-2.png)
+-   Test the landing page
+    -   5-second test. Use [Attention Insight](https://attentioninsight.com/) for this.
+    -   First-click test.
+    -   Semantic differential survey.
+    -   Eye-tracking simulation, to see if they are seeing the main stuff like call to action, tagline. You can also run competitor's web pages to this, and identify weaknesses.
 
 #### 4. Drive traffic
 
