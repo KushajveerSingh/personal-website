@@ -1,6 +1,6 @@
 ---
 title: Rust
-nav_order: 50
+nav_order: 100
 ---
 
 <!-- prettier-ignore-start -->

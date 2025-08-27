@@ -19,4 +19,4 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-Refer to [Learn - Web Development](/internal/learn/web-development).
+Refer to [Learn - Web Development](/internal/learn/platforms/web-development).

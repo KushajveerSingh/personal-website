@@ -19,6 +19,12 @@ parent: Rust
 
 <!-- prettier-ignore-end -->
 
+## Resources
+
+-   [link](https://www.oreilly.com/content/why-rust/) Why Rust? Trustworthy, concurrent systems programming by _Jim Blandy_ (60 pages) (Sep 2015)
+
+---
+
 Rust is a statically and strongly typed systems programming language.
 
 -   statically - all types are known at compile-time.

@@ -19,4 +19,4 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-Refer to [Learn - Apple Development](/internal/learn/apple-development).
+Refer to [Learn - Apple Development](/internal/learn/platforms/apple-development).

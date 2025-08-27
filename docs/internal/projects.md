@@ -34,6 +34,7 @@ No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
 
 ### Browser + Frontend framework
 
+-   Use kernel APIs directlry (wrap these into a separate open source library) to eseentially provide an interface to the operating system.
 -   Identify all the web standards, and make your own version of the standards.
 -   Start by modifying the HTML parser in Chromium with one in Rust, move to CSS, JS, and keep adding standards. Over time replace Chromium with a version of Rust.
     -   For the name of the browser, look up ancient words that mean starting over.
@@ -50,6 +51,28 @@ No HTML/CSS/JavaScript. Use Rust for everything, and create a browser in Rust.
     -   If a backend server is needed, divide the expenses among all the people signed up for the service. Add a small fee for personal fund, reinvesting into the product/new products.
 
 ---
+
+Make online driagramming tool like eraser, euclid draw which works conpletely client side. And has an option to stnc to google drive. And for the client they get access to diagrams everywhere. Real-time collaboration not possible, but people can open shared google drive.
+Add support to share. Create a read pnly repository token on github and add that to the url when sharing.
+
+Write a paper on how doing multiple sports can prevent injuries. Look at different sports, and parts they normally use, and make a series of sports that cover all parts of the body, without overusing the same part over and over again.
+Look at mentality, physicality aspect of the sports as well.
+Give suggestions like playing with old people, young people, left/right hand, playing with woman.
+Goal: If you are a kid use this protocol, and this might help you with reaching professional league, but this will defintiely hep you stay healthier and injury free in your 60s.
+
+Lims system using quickjs
+
+Usa militiary industry complex
+Show the people who jokd positions and where they held before. And how these people are related to each other.
+For the grants, see which people approved.
+In a table show all the people in militiary industry complez, have a button to show that persons last positions, relationship to others in the table, grants accepted.
+Show how much money is spent lobbying by each company and at which locations.
+
+create a frontend function to check for caniuse. It checks the browser name (there is a js package for that), and then compares the version with caniuse, to return a boolean if the feature is supported or not. Create a similar function for backend.
+
+when creating lims system for aesl with qwik js, be active in qwik discord and showcase what you are doing. Also, opensource all the work like authentication pages, and stuff like that so that others can use from the community.
+
+create visualization like tigerbeetle simulator, for all distributed algorithms and database
 
 ## Project writing tips
 
@@ -431,6 +454,7 @@ Maybe allow people to post from form to email chain.
 
 In rust, create a special debug run, where we convert all the numbers to string and do the relevant arithematic, as the application is running, and check if there is ever an overflow or underflow.
 Extend the program to include precison errors, like when adding two floats. In this case, tell the user to check for if numbers are close to each other, rather than strict equality.
+Look at whitebox for more debugger ideas [link](https://whitebox.systems/)
 
 C trnspiler to rust. Look at tractor by federal. Convert major c codebases like linux, git, gnome, ... as a proof of concept.
 Write a transpiler for c++, go, ...
@@ -508,3 +532,78 @@ Start with usa, and then keep adding countires. Can have different payment page 
 Modify anti-cheat to handle all the hacks. Sell it for like 10 cents per user base.
 
 Create unpickable electronic lock
+
+Create a tool like your own version of storybook for for desktop apps built with qt. It will show screenshots of how the app looks in different linux distros.
+And also take care of all inconsistencies.
+
+For every ai tool they add metadata which can be checked if the inage/video by created by it.
+Make a tool to automatically check all this stuff. Google released SynthID detector to check for their products.
+Make it an app, desktop where users can check validity of a video, audio, image on their screen with the click of a button.
+
+App similar to nutrition insights of kroger. Include all the nutrient breakdown. I tegrate with shopping sites and get price of food per day or user can enter manyally. I tegrate all the health related stuff.
+Merge robert idea of showing deals on food prices from different stores.
+
+Delete tool for all os's that actually clears out the bits on disk. And gives an option to fill with random bits.
+Nvme drives have a default password, since data is encrypted on hardware level. Look at this level of detail when creating the software.
+For each hardware, what is the best way to deal with the erasing process.
+Check if encryption is enabled, so that user does not have to worry about it.
+Mental outlaw video: How to securely erase data on May 27, 2025
+
+Make a data recovery tool.
+
+In the password tool, have it where it automatically helps you resets your password on the websites you choose.
+Maybe a monthly popup where is opens the necessary wi dows back and forth, and you copy paste the passwords with ease.
+
+In apps liek garmin for tracking runs, bikes, hikes, sometimes you forget to turn off after finishing the activity. Create extensions to these apps for modifying the activities, and quickly set the stopping point to where you actually stopped.
+
+Cybersecurity. Take wifi and for all versions create an easy to run exploit collection.
+Do for bluetooth.
+Find a cve list and provide 1 click solutions for all severe (or the highest ranked vunerabilities)
+
+Mental outlaw video "Make any messaging service E2E Encrypted with PGP". Create a client for this.
+
+NBA reffing is messed up. Create data visualizations to see how refs, odds, vegas affect the outcome of the games. https://www.youtube.com/watch?v=wmFCwweYy_E
+Create a graph of how refrees might be connected outside (like a social engineering graph, who refs follow on social and stuff like that)
+
+Use incline, decline elevation and length of trail to score the hardness of a trail
+
+In js linter, create a tree showing event delegation. So you can look at the tree and show how much can you save by using event delegation.
+
+create rust standard library, with all the data structures. and optimize them as much as possible and have graphs showing improvements. Also, document the data structure in detail with all the optimizations. Also, look into optimizing the data structures with cpu specific stuff.
+
+Problem: with accessibility with math equations (can maybe can extend to chemistry)
+
+Create an api similar to stripe and webpage similar to stripe/square. Have all the payment options that can be added, without requiring to be a payment processor like stripe. For example, stripe takes a cut of google pay, but if you set it by yourself, you don't have to pay that cut.
+Add invoicing options to it next. Look at popular invoicing (invoices created) by enterprise erp software.
+Add taxes (including international) as much as you can.
+Charge 50 bucks for 6 months for payment code, and additional money for invoice, tax.
+Create dashboard with graphs to shoiw demographics/money and other stuff.
+
+Combine all enterprise software solutions into 1 like erp, sas, sap, github, ci/cd, issue tracking.
+Start with a central account management system similar to microsft. Now you have accounts and organizations.
+Add github clone to it, without the bloat and also the privacy issues.
+Add issue tracker and link github to refer to this.
+Add ci/cd.
+And keep adding other enterprise solutions.
+Host it locally, cloud.
+Add scripts to help companies export data from other services to this.
+
+In youtube video dark reader project, add an option to blur/black a section of the video. Sometimes you are watching a video with chat in one corner that you want to hide, to avoid spoilers.
+
+Biochemistry, bioinformatics, gene related fields. All conferences, software
+
+Build a UI for all the steps of the compiler architecture
+
+in css project, meant to replace storybook, also show how figma rendering. The design would havbe to manually map the components from figma to the tool, but this tool can act as an intemediate between designers and developers.
+
+get clips of wnba players shooting ball and do a question on the outcome (miss, fail, foul, fight). Mkae it like a game, every score gets +1 dollar and incorrect gets -1$. The target money is the debt wnba is in. The program's entire goal is to make wnba profitable for first time.
+
+https://optimeist.com/ add to aws ui project
+
+simulation testing for websites. provide an array of all actions that a user can take, and the simulator will run those randomly. this includes, everything like you are on a page, the user has the options to close the tab, open new tab, change url of current tab and lot more, and also click the buy button on the page.
+
+struct in c# have memory alignment issues. create tool to get size of all sturcts in your code, and give suggestions using data-oriented design on how to optimize if for your programming language of choice.
+
+js performance. create an Emmet like extension for vscode that takes the syntax `p_{name}_{args}`. For example to get code for optimized for loop it will be `p_for_i_arrName`. Go through all JS features, look at how each feature is implemented at assembly or some lower level to get idea of max performance. And create shorthands for that. You can also, look at creating a transpiler to convert js into performance js. In vscode create snippets starting with `k_`. And make it for every js feature like loop, reduce, ...
+
+Create tool similar to sessionbox, multilogin chrome extension. When opening outlook, you can only have one account open in the entire chrome window across multiple tabs. Create an extension that allows you to limit a website cookies, cache to a single tab. Also, provide full control over the user-agent, in the sense you can modify the user-agent per tab.
