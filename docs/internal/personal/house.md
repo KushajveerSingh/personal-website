@@ -56,6 +56,10 @@ Breeds
 -   German Shepherd
 -   Siberian Husky
 
+## Machines
+
+-   [link](https://monarcsport.com/the-seeker/) Monarc The Seeker quaterback robot
+
 ## Pond
 
 -   [link](https://www.youtube.com/watch?v=KRyZXwWZeqw) Adding 3,000 Fish to the 5 Acre Pond!
@@ -63,6 +67,8 @@ Breeds
 ## Security
 
 -   [link](https://www.youtube.com/watch?v=sYS72a1LF1E) Top Home Security Tips with John Lovell
+-   [link](https://huupe.com/products/huupe-pro) huupe pro basketball
+-   [link](https://www.shoot360.com/) Shoto 360 machines
 
 ## Sports courts
 

@@ -595,7 +595,6 @@ Biochemistry, bioinformatics, gene related fields. All conferences, software
 Build a UI for all the steps of the compiler architecture
 
 in css project, meant to replace storybook, also show how figma rendering. The design would havbe to manually map the components from figma to the tool, but this tool can act as an intemediate between designers and developers.
-
 get clips of wnba players shooting ball and do a question on the outcome (miss, fail, foul, fight). Mkae it like a game, every score gets +1 dollar and incorrect gets -1$. The target money is the debt wnba is in. The program's entire goal is to make wnba profitable for first time.
 
 https://optimeist.com/ add to aws ui project
@@ -607,3 +606,5 @@ struct in c# have memory alignment issues. create tool to get size of all sturct
 js performance. create an Emmet like extension for vscode that takes the syntax `p_{name}_{args}`. For example to get code for optimized for loop it will be `p_for_i_arrName`. Go through all JS features, look at how each feature is implemented at assembly or some lower level to get idea of max performance. And create shorthands for that. You can also, look at creating a transpiler to convert js into performance js. In vscode create snippets starting with `k_`. And make it for every js feature like loop, reduce, ...
 
 Create tool similar to sessionbox, multilogin chrome extension. When opening outlook, you can only have one account open in the entire chrome window across multiple tabs. Create an extension that allows you to limit a website cookies, cache to a single tab. Also, provide full control over the user-agent, in the sense you can modify the user-agent per tab.
+
+In access control, with a lot of booleans for read/write permissions, you can put all the booleans into a single byte and have code abstracted that deals with the underlying. This is part of the auth project that repicates better-auth. Build a UI for the access control as well, like drupal.

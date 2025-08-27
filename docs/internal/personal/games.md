@@ -66,4 +66,5 @@ nav_exclude: true
 
 ## W
 
+-   [ ] War of Rights by Campfire Games (Dec 3, 2018)
 -   [ ] Wars and Warrios: Joan of Arc by Enlight Software Limited (Feb 7, 2004)
