@@ -33,6 +33,7 @@ nav_exclude: true
 
 ## Useful tools
 
+-   [link](https://github.com/KDE/heaptrack) KDE/heaptrack
 -   (IDE) VSCode C++ [docs](https://code.visualstudio.com/docs/languages/cpp1)
 -   Linter / Static Analysis
     -   clang-tidy

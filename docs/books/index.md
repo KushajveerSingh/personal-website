@@ -1,6 +1,6 @@
 ---
 title: Books
-nav_order: 100
+nav_order: 10
 ---
 
 <!-- prettier-ignore-start -->

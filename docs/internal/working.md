@@ -19,28 +19,60 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## TODO
+## UI/UX
 
--   software enginnering books
--   web development
--   reorganize bookmark
--   keep notes
--   screenshots
--   adventure
--   working
--   separate pages in yellow notebook
--   Delete reorganize folder
--   learn/index.md - check table of contents
--   Revisit backup folder and move list of social accounts here with all relevant info
--   yellow notebook
--   Rework social accounts and sync the info and picture in them all, and remove the file from backup repo
+-   [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
+-   [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
+-   [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process
+-   [link](https://frontendmasters.com/courses/ux-testing/) UX Research & User Testing
+-   [link](https://frontendmasters.com/courses/product-design/) The Product Design Process
+-   [link](https://frontendmasters.com/courses/product-management/) Complete Intro to Product Management
 
-## Daily Routine
+## Free time
 
--   rust.md
-    -   compiler.md
-    -   c.md
--   Update social media (personal information, project updates) + Update todo list (screenshots, notes, project ideas)
--   ui-ux.md + software-engineering-books.md
--   web-development.md
--   projects.md
+-   [link](https://frontendmasters.com/courses/cloud-infrastructure/) Cloud Infrastructure: Startup to Scale
+-   [link](https://frontendmasters.com/courses/react-nextjs-state/) State management at Scale in React & Next.js
+-   [link](https://frontendmasters.com/courses/c-fundamentals/) C Fundamentals
+-   [link](https://frontendmasters.com/courses/getting-started-css-v2/) Getting started with CSS, v2
+
+## Rust
+
+-   The rust programming language by frontendmaster
+-   The Rust Programming Language
+-   Common Rust Lifetime Misconceptions
+-   Common Rust Lifetime Misconceptions
+-   Clear explanation fo rust's module system
+-   The Cargo book
+-   The rustdoc book
+-   The rustc book
+-   Tools
+    -   Rustfmt
+    -   Clippy
+    -   Miri
+-   Rust Design patterns
+-   The rust performance book
+-   Rust atomics and locks
+-   Asynchronous programming in rust
+-   Effective rust
+-   Rust under the hood
+
+## Compiler
+
+-   Write a compiler that understands types frontendmaster
+-   Building your own programming language frontendmaster
+-   Crafting interpreter book
+-   Writing an interpreter in go
+-   Writing a compiler in go
+-   Engineering a compiler 3rd edition
+-   rust chumpsky
+
+## Random
+
+-   [link](https://frontendmasters.com/courses/vs-code-v2/) Become a VS Code power user
+-   VS Code docs
+-   Semantic versioning
+-   learnprompting.com
+-   https://www.reddit.com/r/linuxquestions/comments/112i1vl/what_nicetohave_cli_tools_do_you_know/
+-   [ ] [link](https://frontendmasters.com/courses/developer-productivity-v2/) FrontendMasters: My Dev Setup Is Better Than Yours
+-   diagram
+-   benchmarking

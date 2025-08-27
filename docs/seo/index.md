@@ -1,6 +1,6 @@
 ---
 title: SEO
-nav_order: 5
+nav_order: 40
 ---
 
 <!-- prettier-ignore-start -->
@@ -20,7 +20,9 @@ nav_order: 5
 
 ## Resources
 
--   Google Search Central [documentation](https://developers.google.com/search/docs).
+-   [link](https://developers.google.com/search/docs) Google Search Central docs
+
+---
 
 ## Tools
 
