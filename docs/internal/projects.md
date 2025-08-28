@@ -608,3 +608,6 @@ js performance. create an Emmet like extension for vscode that takes the syntax 
 Create tool similar to sessionbox, multilogin chrome extension. When opening outlook, you can only have one account open in the entire chrome window across multiple tabs. Create an extension that allows you to limit a website cookies, cache to a single tab. Also, provide full control over the user-agent, in the sense you can modify the user-agent per tab.
 
 In access control, with a lot of booleans for read/write permissions, you can put all the booleans into a single byte and have code abstracted that deals with the underlying. This is part of the auth project that repicates better-auth. Build a UI for the access control as well, like drupal.
+
+extension to npm, where it automatically choses the next avaialble port, in case the provided port is busy.
+Think how you can extend this to any project, since knowing if a port is open or not easy, and then you create an env variable to run the script with that port, assuming the script can take port from env variable.
