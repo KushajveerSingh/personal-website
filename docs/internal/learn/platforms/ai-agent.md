@@ -30,3 +30,7 @@ nav_exclude: true
     -   [ ] [link](https://frontendmasters.com/courses/ai-agents/) Build an AI Agent from Scratch
     -   [ ] [link](https://frontendmasters.com/courses/production-ai/) AI Agent: From Prototype to Production
     -   [ ] [link](https://frontendmasters.com/courses/openai-node/) Build AI-Powered Apps with OpenAI and Node.js
+
+## Tools
+
+-   [ ] [link](https://llmstxt.org/) llms-txt

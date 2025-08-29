@@ -76,10 +76,13 @@ Breeds
 -   [link](https://www.ductsox.com/) DuctSox for airflow
 -   [link](https://www.youtube.com/watch?v=jv3P09GD7FM) LTT video
 -   [link](https://www.youtube.com/watch?v=kObmcOaPcbM) Dude perfect office
+-   Bowling lane (no strings)
+-   [link](https://settercloset.com/collections/kilter-board) Rock climbing wall
+-   [link](https://www.kompan.com/en/us/products/play) Kompan Commercial Playground Equipment and Structures
 
 ## Youtube videos
 
 -   [link](https://www.youtube.com/@reynardlowell/videos) Reynard Lowell youtube videos
 -   [link](https://www.youtube.com/watch?v=Wgw9tBynJck) How an Architect Fit 7 Floors into His 646-Square-Foot Tokyo Home
 -   [link](https://www.youtube.com/watch?v=TIpZbyMtbxg) Touring a $39,500,000 Invisible Modern Home with crazy ocean views
--   [link](https://www.youtube.com/watch?v=3l8G2ZViF9A&list=PLZbK8Oau948NtZnGRaP8GhqQgf88KdCOS&index=44) How this couple defeated toxic air pollution to breathe mountain air while staying in delhi
+-   [link](https://www.youtube.com/watch?v=3l8G2ZViF9A) How this couple defeated toxic air pollution to breathe mountain air while staying in delhi
