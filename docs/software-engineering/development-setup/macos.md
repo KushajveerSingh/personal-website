@@ -4,9 +4,7 @@ parent: Development Setup
 ---
 
 <!-- prettier-ignore-start -->
-
 # macOS
-
 {: .no_toc }
 
 <details open markdown="block">
@@ -17,6 +15,8 @@ parent: Development Setup
 1. TOC
 {:toc}
 </details>
+
+<!-- prettier-ignore-end -->
 
 ## Resources
 

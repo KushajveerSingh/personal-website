@@ -1,12 +1,10 @@
 ---
 title: VS Code
-parent: Development Setup
+parent: Power User
 ---
 
 <!-- prettier-ignore-start -->
-
 # VS Code
-
 {: .no_toc }
 
 <details open markdown="block">
@@ -17,6 +15,8 @@ parent: Development Setup
 1. TOC
 {:toc}
 </details>
+
+<!-- prettier-ignore-end -->
 
 ## Resources
 

@@ -28,6 +28,7 @@ search_exclude: true
 -   Learn
     -   [Books](/internal/learn/books)
     -   [Certifications](/internal/learn/certifications)
+    -   [Power User](/internal/learn/power-user)
     -   [Random](/internal/learn/random)
     -   CS Fields
         -   [Compiler](/internal/learn/cs-fields/compiler)

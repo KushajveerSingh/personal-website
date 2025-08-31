@@ -19,6 +19,11 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Prompting
+
+-   learnprompting.com
+-   r/PromptEngineering [post](https://www.reddit.com/r/PromptEngineering/comments/18hhvi3/resources_that_dramatically_improved_my_prompting/0)
+
 ## MCP
 
 -   [ ] [link](https://modelcontextprotocol.io/introduction) Model Context Protocol documentation

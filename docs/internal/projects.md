@@ -611,3 +611,7 @@ In access control, with a lot of booleans for read/write permissions, you can pu
 
 extension to npm, where it automatically choses the next avaialble port, in case the provided port is busy.
 Think how you can extend this to any project, since knowing if a port is open or not easy, and then you create an env variable to run the script with that port, assuming the script can take port from env variable.
+
+People are reluctant to read texts that use unfamiliar words. Have a feature when reading online where the meaning of words from dict or from llm would be useful. Definition of a word from dict is not that useful, as we need to know what the meaning of the word in the current context is. Reference the reading mind book on what other things can be added, like sound of word.
+Create a tool that can be used by teachers to help improve reading in schools and by parents.
+Add all the grammer stuff liek subject, noun, verb, adjective, adverb. In each sentence we can classify the words into what grammer they belong to.

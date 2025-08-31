@@ -111,3 +111,4 @@ nav_exclude: true
 -   [ ] Job related finance
     -   [ ] [link](https://www.levels.fyi/blog/equity-tech-job-offer.html) Equity in your tech job offer: everything you need to know levels.fyi
     -   [ ] [link](https://www.levels.fyi/blog/evaluate-startup-offers.html) How to evaluate startup offers levels.fyi
+-   [ ] [link](https://www.reddit.com/r/ValueInvesting/wiki/index/) r/ValueInvesting wiki

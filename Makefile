@@ -1,5 +1,5 @@
 build:
-	bundle exec jekyll serve --livereload --incremental
+	bundle exec jekyll serve --livereload
 
 update:
 	bundle install && bundle update
