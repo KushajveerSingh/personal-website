@@ -35,6 +35,8 @@ nav_exclude: true
     -   [ ] [link](https://frontendmasters.com/courses/ai-agents/) Build an AI Agent from Scratch
     -   [ ] [link](https://frontendmasters.com/courses/production-ai/) AI Agent: From Prototype to Production
     -   [ ] [link](https://frontendmasters.com/courses/openai-node/) Build AI-Powered Apps with OpenAI and Node.js
+    -   [ ] [link](https://frontendmasters.com/courses/pro-ai/) Cursor & Claude Code: Professional AI Setup by _Steve Kinney_ (3 hours 42 minutes) (Aug 23, 2025)
+    -   [ ] [link](https://frontendmasters.com/courses/python-ai/) Open Source AI with Python & Hugging Face by _Steve Kinney_ (4 hours 33 minutes) (Aug 22, 2025)
 
 ## Tools
 
