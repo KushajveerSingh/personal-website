@@ -63,6 +63,7 @@ nav_exclude: true
 ## T
 
 -   [ ] Total War: Rome II by _Creative Assembly_ (Sep 3, 2013)
+-   [ ] Trackmania by _Nadeo_ (Feb 2, 2023)
 
 ## W
 

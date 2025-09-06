@@ -28,12 +28,19 @@ nav_exclude: true
 -   [link](https://frontendmasters.com/courses/product-design/) The Product Design Process
 -   [link](https://frontendmasters.com/courses/product-management/) Complete Intro to Product Management
 
-## Free time
+## Other
 
--   [link](https://frontendmasters.com/courses/cloud-infrastructure/) Cloud Infrastructure: Startup to Scale
--   [link](https://frontendmasters.com/courses/react-nextjs-state/) State management at Scale in React & Next.js
--   [link](https://frontendmasters.com/courses/c-fundamentals/) C Fundamentals
--   [link](https://frontendmasters.com/courses/getting-started-css-v2/) Getting started with CSS, v2
+-   make compiler learning list
+-   Sort projects.md (pages, yellow notebook)
+-   Sort social media pages
+    -   Make a master list in backup
+-   Make work history section
+-   Make education section
+
+## Web
+
+-   resilient wev design
+-   mdn learn in general tab
 
 ## Rust
 
@@ -66,13 +73,9 @@ nav_exclude: true
 -   Engineering a compiler 3rd edition
 -   rust chumpsky
 
-## Random
+## Free time
 
--   [link](https://frontendmasters.com/courses/vs-code-v2/) Become a VS Code power user
--   VS Code docs
--   Semantic versioning
--   learnprompting.com
--   https://www.reddit.com/r/linuxquestions/comments/112i1vl/what_nicetohave_cli_tools_do_you_know/
--   [ ] [link](https://frontendmasters.com/courses/developer-productivity-v2/) FrontendMasters: My Dev Setup Is Better Than Yours
--   diagram
--   benchmarking
+-   [link](https://frontendmasters.com/courses/cloud-infrastructure/) Cloud Infrastructure: Startup to Scale
+-   [link](https://frontendmasters.com/courses/react-nextjs-state/) State management at Scale in React & Next.js
+-   [link](https://frontendmasters.com/courses/c-fundamentals/) C Fundamentals
+-   [link](https://frontendmasters.com/courses/getting-started-css-v2/) Getting started with CSS, v2

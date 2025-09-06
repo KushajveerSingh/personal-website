@@ -19,6 +19,10 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Other resources
+
+-   https://www.reddit.com/r/linuxquestions/comments/112i1vl/what_nicetohave_cli_tools_do_you_know/
+
 ## VS Code
 
 -   [ ] [link](https://frontendmasters.com/courses/vs-code-v2/) Become a VS Code Power User by _Steve Kinney_ (5 hours 13 minutes) (May 5, 2025)

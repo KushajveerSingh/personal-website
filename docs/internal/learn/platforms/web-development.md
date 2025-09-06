@@ -182,6 +182,7 @@ nav_exclude: true
 -   ADA/Section502 cover USA. Look into EU accessibility requirements as well.
 -   [ ] Tools
     -   [link](https://www.getstark.co/) Stark
+-   [ ] [link](https://inclusive-components.design/) Inclusive components
 
 ## JavaScript
 

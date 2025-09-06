@@ -44,6 +44,7 @@ nav_exclude: true
 -   [link](https://www.youtube.com/watch?v=f3AM6Q5bMc8) Strength & Conditioning Rotuine of an MMA Legend (Analysis)
 -   [link](https://timgrover.com/jump-attack/) Jump attack by tim s. grover
 -   [link](https://www.amazon.com/Overcoming-Gravity-Systematic-Gymnastics-Bodyweight/dp/0990873854) Overcoming Gravity: A Systematic Approach to Gymnastics and Bodyweight Strength (Second Edition)
+-   [link](https://www.youtube.com/watch?v=cKx8xE8jJZs) Enter the Kettlebell - Pavel Tsatsouline
 
 ## Shoe
 
