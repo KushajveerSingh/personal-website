@@ -25,7 +25,7 @@ nav_order: 10
 
 ---
 
-## Why startup fail
+## Why startups fail
 
 -   Do not build a startup with the goal of passive income, as 90% of startups fail.
 -   **No real problem** - Fail to solve a meaningful problem to others (not you).
@@ -36,7 +36,7 @@ nav_order: 10
 
 -   Escape the 9 to 5.
 -   Escape hourly ceiling.
--   Escape the boss and clients, with the caveat that the cusotmers become your boss.
+-   Escape the boss and clients, with the caveat that the cusotmers become the boss.
 -   Additional revenue stream.
 
 ### Exceptions
@@ -52,7 +52,7 @@ nav_order: 10
 3. Define your minimum viable product.
 4. Run a test marketing campaign.
 
-## Review the market
+## 1. Review the market
 
 **Goal** - Before taking any action, it's crucial to understand who else is addressing similar issues and the current market landscape.
 
@@ -195,7 +195,7 @@ nav_order: 10
 -   Instead of starting a new business, you can reach out to the competitors and offer them help. Look into channel partnerships or plugin marketplace. After you have got your foot in, you can explore starting your own business as well.
 -   Be careful about making your idea dependent on other business. Like Amazon collects data on people who sell on their marketplace, and then they just copy your product. Or you create a plugin, but then the company decides to copy the plugin or break the API, like Twitter disabled their API.
 
-## Understand your audience
+## 2. Understand your audience
 
 **Goal** - Motivate your audience by being highly focused and understanding of their needs.
 
@@ -363,7 +363,7 @@ nav_order: 10
     -   **Pain points** - What pain points are the users experiencing that they hope to overcome.
     -   **Questions and tasks** - What tasks are users trying to complete. What questions or objections do they need answering.
 
-## Define your minimum viable product
+## 3. Define your minimum viable product
 
 **Goal** - Working out what you intend to launch will be crucial for success and will also help define your approach to marketing.
 
@@ -476,7 +476,7 @@ nav_order: 10
     -   **Can they use it** - (first click testing) Did the user ses critical elements and will they be able to navigate successfully.
 -   Avoid building an interactive prototype until you know people would buy your app.
 
-## Run a test marketing campaign
+## 4. Run a test marketing campaign
 
 **Goal** - Cusotmer acquisition is one of the biggest challenges associated with running a SaaS app. Running a test campaign addresses this problem before investing in building the app.
 

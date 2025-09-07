@@ -25,14 +25,16 @@ nav_order: 20
 
 ---
 
-## Overview
+**Don't market. Don't sell. _Be helpful_.**
 
--   Why you are struggling to find clients.
--   Define the market you wish to target.
--   Get the attention of your audience.
--   Get permission for ongoing contact.
--   Maintain and growing your audience.
--   Turn leads into projects.
+## Goals
+
+1.  Why you are struggling to find clients.
+2.  Define the market you wish to target.
+3.  Get the attention of your audience.
+4.  Get permission for ongoing contact.
+5.  Maintain and growing your audience.
+6.  Turn leads into projects.
 
 ## What we want from marketing
 
@@ -40,7 +42,7 @@ nav_order: 20
 -   **Better** - If you are stuck working for the same type of client, like making small websites which are is a heavy price sensitive area, then you might want better clients.
 -   **Easier** - Rather than pitching your work, which requires time and energy, it is easier if clients want to work specifically with you.
 
-## Why you are struggling to find clients
+## 1. Why you are struggling to find clients
 
 -   Relying too heavily on word of mouth.
     -   **Passive** - Your revenue is dependent as asking clients for recommendations.
@@ -79,9 +81,46 @@ nav_order: 20
 
 -   **Targeted** - Target a particular group of clients we would like to work with.
 -   **Consistent** - Provide's relative consistent and reliable source of new clients.
--   **Controllable** - By tweaking your sales funnel and the messaging, you can control the type of client and work you win. If you want on prototyping, you can send the next 3 emails discussing that, and that should attract prototyping related work.
+-   **Controllable** - By tweaking your sales funnel and the messaging, you can control the type of client and work you win. If you want to work on prototyping, you can send the next 3 emails discussing that, and that should attract prototyping related work.
+
+#### 1. Attract attention
+
+-   Identify and macke contact with audience.
+-   For intiial contact, do not sell as they are not ready to buy.
+-   Instead approach them for research purposes and to gather feedback. This includes personalized email asking them for help.
+-   Later, introduce them to a product that we are creating and ultimately want to sell to them. Involve them in the creation process of the product. This builds credibility.
+-   Build further awareness of our lead magnet (free item or service taht is given away for the purpose of gathering contact details) through guest blogging, speaking , social media.
+
+#### 2. Build a connection
+
+-   Make your product available for free to the people you contacted. Inside the product, ask them to sign up for the email.
+-   For example, you create a resource that shows how to make websites performant. In the resource, you have a sign up for newsletter link (the newsletter contains more performance related info).
+    -   So first, you gave users value by giving them info for free. Second, you gave users value in your free email newsletter. And at no point, you sold anything to the user.
+
+#### 3. Keep engaging
+
+-   Once people are on the mailing list, we will keep them engaged by providing regular and valuable content, so that they are still subscribed when you want to sell.
+-   This also ensures that they remember you when they need your services.
+    -   For example, if you have a newsletter on website performance, then you will be the first person that comes to the reader's mind when they want to hire someone for making their website more performant.
+
+#### 4. Encourage contact
+
+-   Use maillings to encourage your subscribers to make personal contact with you and reach out it they need advice and support. This helps build a relationship.
+-   Relationship is important because people often don't hire based on skillset. But rather if they like you, like the way you think, the way you behave, your professionalism, your attitude, your personality.
+-   You can say in the newsletter, "What I've shared today maybe is a little bit complicated, maybe you don't get it, maybe you have got questions, maybe your circumstance is unique. Drop me an email, I'm here to help.
+    -   Always reply back to people. If a student reaches out, then one day the student will become the employer.
 
 ### Referrals
 
 -   For a high end service, like software engineering, referrals (where client gets 10%) seem out of place.
--   Paul tried and it did not work. Paul tried it with email (people refer to subscribe to email), it didn't work much as well. He tried the gamification as well.
+-   Paul tried and it did not work. Paul tried it with email (people refer to subscribe to email), it didn't work much as well. He tried gamification as well, where people get points for doing certain actions, but that is again out of place for software engineering.
+
+## 2. Define the market you wish to target
+
+## 3. Get the attention of your audience
+
+## 4. Get permission for ongoing contact
+
+## 5. Maintain and growing your audience
+
+## 6. Turn leads into projects
