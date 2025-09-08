@@ -617,3 +617,9 @@ Create a tool that can be used by teachers to help improve reading in schools an
 Add all the grammer stuff liek subject, noun, verb, adjective, adverb. In each sentence we can classify the words into what grammer they belong to.
 
 Track health insurance benefits. For example, my insurance has 1 free physical and 1 free blood test. Have an app which shows stuff like this and helps you set reminders to use all the benefits.
+
+Rust web development
+Instead of creating tools for vanilla js, html, css. Create rust equivalent tools. Create a framework that converts rust into raw html. This can use limited html syntax. Add seo, image optimization, and all your other plans.
+In the end create a website for the new framework, where you compare writing in rust vs old stack. This includes, better html support and various features that are supported like seo, accessbility. For js, not needed in new as we using rust. For DOM, here is the library to use. For broser apis, here is the api to use.
+
+China has a drone show. Use drones to create a wedding story.

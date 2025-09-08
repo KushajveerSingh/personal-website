@@ -19,6 +19,14 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Daily
+
+-   Rust learning
+-   project.md
+-   ui/ux work
+-   read book
+-   web learn
+
 ## UI/UX
 
 -   [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
@@ -75,6 +83,7 @@ nav_exclude: true
 
 ## Free time
 
+-   [link](https://frontendmasters.com/courses/fullstack-v3/) Full Stack for Front-End Engineers, v3 by _Jem Young_ (8 hours 12 minutes) (Apr 18, 2023)
 -   [link](https://frontendmasters.com/courses/cloud-infrastructure/) Cloud Infrastructure: Startup to Scale
 -   [link](https://frontendmasters.com/courses/react-nextjs-state/) State management at Scale in React & Next.js
 -   [link](https://frontendmasters.com/courses/c-fundamentals/) C Fundamentals
