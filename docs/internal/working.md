@@ -38,7 +38,6 @@ nav_exclude: true
 
 ## Other
 
--   make compiler learning list
 -   Sort projects.md (pages, yellow notebook)
 -   Sort social media pages
     -   Make a master list in backup
@@ -71,7 +70,7 @@ nav_exclude: true
 -   Effective rust
 -   Rust under the hood
 
-## Compiler
+### Compiler
 
 -   Write a compiler that understands types frontendmaster
 -   Building your own programming language frontendmaster
