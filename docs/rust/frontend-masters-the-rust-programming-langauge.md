@@ -1,11 +1,11 @@
 ---
-title: The Rust Programming Language course
+title: "Frontend Masters: The Rust Programming Language"
 nav_order: 2
 parent: Rust
 ---
 
 <!-- prettier-ignore-start -->
-# The Rust Programming Language course
+# Frontend Masters: The Rust Programming Language
 {: .no_toc }
 
 <details open markdown="block">
@@ -210,6 +210,21 @@ let success: Result<i64, String> = Ok(42);
 ```
 
 ## Vectors
+
+-   Internally `vec` stores _memory_index_of_first_element_, _length_, _capacity_. Capacity is the starting size of `vec`.
+
+```rust
+let mut years: Vec<i32> = vec![2000, 2001, 2002];
+years.push(2003);
+
+let pop_val: Option<i32> = match years.pop() {
+    Some(val) => { val },
+    None => -1,
+};
+
+// vec macro shorthand for
+let mut years: Vec<i32> = Vec::capacity(1);
+```
 
 ## Ownership
 

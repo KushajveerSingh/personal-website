@@ -19,7 +19,14 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## Language
+## Courses
+
+-   [ ] Frontend Masters
+    -   [ ] [link](https://frontendmasters.com/courses/rust/) The Rust Programming Language by _Richard Feldman_ (4 hours 42 minutes) (May 11, 2021)
+    -   [ ] [link](https://frontendmasters.com/courses/typescript-go-rust/) Polyglot Programming: TypeScript, Go, & Rust by _ThePrimeagen_ (8 hours 49 minutes) (Aug 13, 2022)
+    -   [ ] [link](https://frontendmasters.com/courses/rust-ts-devs/) Rust for TypeScript Developers by _ThePrimeagen_ (5 hours 19 minutes) (Apr 25, 2023)
+
+## Books
 
 -   [x] [link](https://www.oreilly.com/library/view/why-rust/9781492048589/) Why Rust? Trustworthy, Concurrent Systems Programming by _Jim Blandy_ (60 pages) (Sep 2015)
 -   [ ] [link](https://doc.rust-lang.org/book/) The Rust Programming Language book
