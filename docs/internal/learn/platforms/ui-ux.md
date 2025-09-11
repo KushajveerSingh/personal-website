@@ -19,6 +19,26 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Product Design
+
+-   [ ] FrontendMasters courses
+    -   [x] [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea by _Paul Boag_
+    -   [ ] [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
+    -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
+    -   [ ] [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process
+    -   [ ] [link](https://frontendmasters.com/courses/ux-testing/) UX Research & User Testing
+    -   [ ] [link](https://frontendmasters.com/courses/product-design/) The Product Design Process
+    -   [ ] [link](https://frontendmasters.com/courses/product-management/) Complete Intro to Product Management
+
+## Typography
+
+-   [ ] [link](https://practicaltypography.com/) Practical Typography by Butterrick
+-   [ ] [link](https://typedesignresources.com/) Type Design Resources
+-   [ ] [link](https://www.oddbird.net/2025/02/12/fluid-type/?ck_subscriber_id=2308324911) Reimagining Fluid Typography
+-   [ ] Tools
+    -   [ ] [link](https://github.com/Munter/subfont?tab=readme-ov-file) subfont
+-   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
+
 ## Start
 
 -   [ ] [link](https://inclusivedesignprinciples.info/) Inclusive Design Principles
@@ -83,26 +103,6 @@ nav_exclude: true
 
 -   [ ] Google Material for Android
 -   [ ] Apple Human Interfaces for Apple
-
-## Typography
-
--   [ ] [link](https://practicaltypography.com/) Practical Typography by Butterrick
--   [ ] [link](https://typedesignresources.com/) Type Design Resources
--   [ ] [link](https://www.oddbird.net/2025/02/12/fluid-type/?ck_subscriber_id=2308324911) Reimagining Fluid Typography
--   [ ] Tools
-    -   [ ] [link](https://github.com/Munter/subfont?tab=readme-ov-file) subfont
--   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
-
-## Product Design
-
--   [ ] FrontendMasters courses
-    -   [x] [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea by _Paul Boag_
-    -   [ ] [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
-    -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
-    -   [ ] [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process
-    -   [ ] [link](https://frontendmasters.com/courses/ux-testing/) UX Research & User Testing
-    -   [ ] [link](https://frontendmasters.com/courses/product-design/) The Product Design Process
-    -   [ ] [link](https://frontendmasters.com/courses/product-management/) Complete Intro to Product Management
 
 ## Books
 

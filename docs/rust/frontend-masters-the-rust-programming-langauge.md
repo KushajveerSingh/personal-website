@@ -228,6 +228,165 @@ let mut years: Vec<i32> = Vec::capacity(1);
 
 ## Ownership
 
+-   Only applies to things in the heap.
+-   Goal of ownership is to add `dealloc` in code to free the memory. In C/C++ we have to manually add these and do memeory management. In gargabe collected languages, the garbage collector does this. In Rust this is automatic. You can use `unsafe` to do manual memory management.
+-   _Ownership_ - Every value is "owned" by a particular scope. At first it's owned by the scope where it was originally created, but ownership can be passed to other scope later on.
+-   _moving_ - Transferring ownership of a value is called "moving" that value. Use `return` to transfer ownership.
+-   Deallocation happens whern there is no longer any scope owning a value.
+
+**use-after-free** bug
+
+```rust
+fn() -> i64 {
+    let heap_allocated_thing = vec![1,2,3,4]; // alloc
+    dealloc(heap_allocated_thing);
+
+    for item in heap_allocated_thing.iter() { ... }; // use-after-free bug
+}
+```
+
+**double free** bug
+
+```rust
+fn() -> i64 {
+    let heap_allocated_thing = vec![1,2,3,4]; // alloc
+    dealloc(heap_allocated_thing);
+    ...
+    dealloc(heap_allocated_thing); // double free bug
+
+}
+```
+
+Solution: Rust adds dealloc when a variable goes out of scope. So at the end of function
+
+```rust
+fn() -> i64 {
+    let heap_allocated_thing = vec![1,2,3,4]; // alloc
+    ...
+
+    // dealloc(heap_allocated_thing) added by rust
+    return something;
+}
+```
+
+You can also control when to free memory by creating custom scopes using `{}`
+
+```rust
+fn() -> i64 {
+    {
+        let heap_allocated_thing = vec![1,2,3,4]; // alloc
+    } // dealloc(heap_allocated_thing) added by rust
+
+    ...
+    return something;
+}
+```
+
+Problem with the current approach
+
+```rust
+fn get_years() -> Vec<i32> {
+    let years = vec![2001, 2002, 2003]; // alloc
+    return years; // dealloc(years)
+}
+
+fn main() {
+    let years = get_years(); // use-after-free bug, since `years` already deallocated
+}
+```
+
+To resolve the above problem rust created the concept of **Ownership**
+
+```rust
+fn get_years() -> Vec<i32> {
+    let years = vec![2001, 2002, 2003]; // alloc (this scope "owns" years)
+    return years; // transfer ownership to main
+}
+
+fn main() {
+    let years = get_years(); // take ownership
+} // dealloc(years) because it went out of scope, without being moved elsewhere
+```
+
+Limitation of Ownership.
+
+```rust
+fn print_years(years: Vec<i32>) {
+    for year in years.iter() {
+        println!("Year: {}", year);
+    }
+} // dealloc(years)
+
+fn main() {
+    let years = vec![2000, 2001];
+
+    print_years(years);
+    print_years(years); // user-after-free bug, since years already deallocated
+}
+```
+
+Possible solutions to the above problem
+
+-   Return `years` from the `print_years` function, as that will transfer ownership back to `main`.
+-   Or use `.clone()` to pass a new copy to the function. This will hurt performance.
+-   If the function takes immutable value, then you can convert it to mutable value inside the function.
+-   Recommended: Use Borrowing
+
+```rust
+fn main() {
+    let mut years = vec![2001, 2002];
+
+    years = print_years(years);
+    print_years(years); // this works
+    print_years(years.clone()); // this works as well
+}
+```
+
 ## Borrowing
+
+-   To solve limitations of ownership.
+-   _Borrowing_ - Obtain a reference from an owned value. Also, the thing borrowing can't move or mutate it. Once the function returns, that reference if no longer in any scope, and there are no longer any _active borrows_ on the original owned value.
+-   _Borrow checker_ - Rust's compilier errors around ownership and borrowing are collectively called "the borrow chekcer".
+    -   Borrow checker cannot be turned off, even in unsafe code.
+-   For immutable references, multiple functions can borrow the variable.
+-   For mutables references, only one function can borrow at a time, to prevent race-conditions.
+-   References are deallocated when the original variable is deallocated. Also, references never cause anything to get deallocated.
+-   Prefer reference over ownership, if a function can accomplish its goals.
+    -   It makes the function more restricted in what it can do.
+    -   But it makes the caller less restricted. They don't have to clone or modify the function to return the value.
+
+```rust
+fn print_years(years: &Vec<i32>) {
+    for year in years.iter() {
+        println!("Year: {}", year);
+    }
+} // dealloc(years)
+
+fn main() {
+    let years = vec![2000, 2001];
+
+    print_years(&years); // temporarily give print_years access to years (borrow)
+    print_years(&years);
+}
+```
+
+Mutable references have a limitation that as long as you have a mutable borrow active on a value, you are not allowed to have any other borrows (mutable or immutable) active on that value. This helps prevent _data races_.
+
+```rust
+let mut years: Vec<i32> = vec![2001, 2002];
+
+let years2: &mut Vec<i32> = &mut years;
+let years3: &mut Vec<i32> = &mut years; // error
+```
+
+```rust
+let mut years: Vec<i32> = vec![2001, 2002];
+
+let years2: &mut Vec<i32> = &years;
+let years3: &mut Vec<i32> = &mut years; // error (also the order does not matter, it will
+                                        // still error if &mut defined before &years)
+```
+
+### Slices
 
 ## Lifetimes
