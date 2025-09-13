@@ -623,3 +623,5 @@ Instead of creating tools for vanilla js, html, css. Create rust equivalent tool
 In the end create a website for the new framework, where you compare writing in rust vs old stack. This includes, better html support and various features that are supported like seo, accessbility. For js, not needed in new as we using rust. For DOM, here is the library to use. For broser apis, here is the api to use.
 
 China has a drone show. Use drones to create a wedding story.
+
+calorie tracker. plus exercise tracker. Use the exercise info to somehow infer the calorie requirements for the day.

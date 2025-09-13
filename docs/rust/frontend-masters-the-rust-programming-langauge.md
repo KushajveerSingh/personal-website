@@ -389,4 +389,8 @@ let years3: &mut Vec<i32> = &mut years; // error (also the order does not matter
 
 ### Slices
 
+```rust
+
+```
+
 ## Lifetimes
