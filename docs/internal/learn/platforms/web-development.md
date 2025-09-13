@@ -134,6 +134,13 @@ nav_exclude: true
     -   [ ] [link](https://frontendmasters.com/courses/pro-css/) Professional CSS: Build a Website from Scratch
     -   [ ] [link](https://frontendmasters.com/courses/css-grid/) Ultimate CSS Grid & Layout Techniques, v3
     -   [ ] [link](https://frontendmasters.com/courses/css-animations/) CSS Animations and Transitions
+-   [ ] [link](https://www.devsheets.io/categories/css) CSS DevSheets by Travesy Media
+-   [ ] Animations
+    -   [ ] [link](https://emilkowal.ski/) Emil Kowalski animation blog
+    -   [ ] [link](https://benji.org/) Benji Taylor blog
+    -   [ ] [link](https://animations.dev/) animations.dev course by emil kowalski
+    -   [ ] [link](https://developer.apple.com/videos/play/wwdc2018/803/) Designing Fluid Interfaces by apple
+    -   [ ] [link](https://www.youtube.com/watch?v=fZpTvZuysIo) Benjamin De Cock youtube video
 
 ### Tools
 
@@ -385,6 +392,7 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 -   [ ] [link](https://npmtrends.com/) npm trends
 -   [ ] [link](https://www.dnsperf.com/#!dns-providers) DNS Performance Analytics and Comparison
 -   [ ] [link](https://publicsuffix.org/list/) Public Suffix List
+-   [ ] [link](https://webutils.io/) WebUtils.io by Travesy Media
 
 ### Browser support
 

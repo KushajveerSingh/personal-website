@@ -22,7 +22,7 @@ nav_exclude: true
 ## Courses
 
 -   [ ] Frontend Masters
-    -   [ ] [link](https://frontendmasters.com/courses/rust/) The Rust Programming Language by _Richard Feldman_ (4 hours 42 minutes) (May 11, 2021)
+    -   [x] [link](https://frontendmasters.com/courses/rust/) The Rust Programming Language by _Richard Feldman_ (4 hours 42 minutes) (May 11, 2021)
     -   [ ] [link](https://frontendmasters.com/courses/typescript-go-rust/) Polyglot Programming: TypeScript, Go, & Rust by _ThePrimeagen_ (8 hours 49 minutes) (Aug 13, 2022)
     -   [ ] [link](https://frontendmasters.com/courses/rust-ts-devs/) Rust for TypeScript Developers by _ThePrimeagen_ (5 hours 19 minutes) (Apr 25, 2023)
 
@@ -82,3 +82,10 @@ nav_exclude: true
 -   [ ] [link](https://lborb.github.io/book/title-page.html) The Little Book of Rust Books
 -   [ ] [link](https://rustup.rs/) rustup
 -   [ ] [link](https://play.rust-lang.org/) Rust playground
+
+## Tools
+
+-   Tools
+    -   Rustfmt
+    -   Clippy
+    -   Miri

@@ -34,6 +34,10 @@ nav_exclude: true
 -   Tools Working Wood in Eighteenth Century America by James M. Gaymor
 -   A Natural History of Colour by Rob Deasalle
 
+## Cleaning
+
+-   Professional house cleaning training
+
 ## Dance
 
 -   [link](https://www.youtube.com/watch?v=S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)

@@ -625,3 +625,7 @@ In the end create a website for the new framework, where you compare writing in 
 China has a drone show. Use drones to create a wedding story.
 
 calorie tracker. plus exercise tracker. Use the exercise info to somehow infer the calorie requirements for the day.
+
+In rust htmlrewrite, add a templating engine.
+
+create a payments page template using info from https://mitchellh.com/writing/advice-for-tech-nonprofits
