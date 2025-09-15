@@ -389,8 +389,85 @@ let years3: &mut Vec<i32> = &mut years; // error (also the order does not matter
 
 ### Slices
 
-```rust
+-   Reference to subset of vector's elements or strings.
+-   To convert entire vector to slice use `vec.as_slice()`.
+-   To convert entire string to slice use `str.as_str()`.
 
+```rust
+let nums = vec![1,2,3];
+let slices = &nums[0..3]; // specify start index and length
+
+let str_slice: &str = string[3..7];
 ```
 
 ## Lifetimes
+
+-   Lifetime is the time between when a value is allocated and when its deallocated.
+-   Lifetime annotations are a way to track dependencies between lifetimes.
+-   Lifetime annotations are required in all structs that hold references.
+
+```rust
+struct Releases<'y> {
+    years: &'y [i64],
+    eighties: &'y [i64],
+    nineties: &'y [i64],
+}
+
+fn jazz<'a>(years: &'a [i64]) -> Releases<'a> {
+    let eighties: &'a [i64] = &years[0..2];
+    let nineties: &'a [i64] = &years[2..4];
+
+    Releases{
+        years,
+        eighties,
+        nineties,
+    }
+}
+
+let releases: Releases<'a'> = {
+    let all_years: Vec<i64> = vec![...];
+
+    jazz(&all_years)
+}
+```
+
+Lifetimes depend on how you assign data. In this example, all references are populated from the same variable `years`, so in the end, all three lifetimes would end up being the same.
+
+```rust
+struct Releases<'a, 'b, 'c> {
+    years: &'a [i64],
+    eighties: &'b [i64],
+    nineties: &'c [i64],
+}
+```
+
+### Elision
+
+-   Lifetime annotations are not needed when there is exactly 1 reference in the return type and also exactly 1 reference in the arguments.
+
+```rust
+fn foo(arg: &String) -> &i64
+
+// rust will rewrite above to
+fn foo<'a>(arg: &'a String) -> &'a i64
+```
+
+-   Use `_` as the lifetime name to tell rust to infer the lifetime from the context and elision rules.
+
+```rust
+let releases: Releases<'_> = {
+    ...
+}
+```
+
+### Static
+
+-   Special lifetime to refere to values that live for the entire duration of the program (in the actual binary in RAM). They are never allocated, and deallocated.
+-   Strings take this lifetime by default. Reason: Since the actual string is already in the binary, it does not make sense to move it to the heap, instead just create a reference to the binary iteself.
+
+```rust
+let name: &'static str = "Default type of string";
+
+// Rust will rewrite this to use static lifetime by default
+let name: &str = "Static lifetime added by default";
+```
