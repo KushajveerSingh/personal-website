@@ -1,7 +1,7 @@
 ---
 title: Market Analysis
 parent: Product Design
-nav_order: 10
+nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->

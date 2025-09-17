@@ -629,3 +629,5 @@ calorie tracker. plus exercise tracker. Use the exercise info to somehow infer t
 In rust htmlrewrite, add a templating engine.
 
 create a payments page template using info from https://mitchellh.com/writing/advice-for-tech-nonprofits
+
+cancer related software. something that can take all the research and make it available to the people (by extension the hospitals). If people have the instrument, they can run it themselves (thinking in this direction).

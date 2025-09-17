@@ -324,6 +324,7 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 ## Monorepo
 
 -   [ ] [link](https://frontendmasters.com/courses/monorepos/) FrontendMasters: JavaScript and TypeScript Monorepos
+-   [ ] [link](https://frontendmasters.com/courses/monorepos-v2/) FrontendMasters: TypeScript Monorepos: Architet Maintainable Codebases
 -   [ ] [link](https://nx.dev/) Nx
 
 ## Performance

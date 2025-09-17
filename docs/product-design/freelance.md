@@ -1,7 +1,7 @@
 ---
 title: Freelance
 parent: Product Design
-nav_order: 20
+nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->
@@ -116,6 +116,31 @@ nav_order: 20
 -   Paul tried and it did not work. Paul tried it with email (people refer to subscribe to email), it didn't work much as well. He tried gamification as well, where people get points for doing certain actions, but that is again out of place for software engineering.
 
 ## 2. Define the market you wish to target
+
+Segment market by specialization.
+
+### Why specialize
+
+-   **Less competition** - Less competition and less pitching for work, and fewer other people can offer what you offer. Because we are focusing on a specific audience, we can tailor the message to better resonate with them.
+-   **Seen as en expert** - You are seen as an expert in the particular field, and become the "go to" person for that kind of work. Since you are targeting the same group of people, they will hear from you more often and come to know your name.
+-   **Higher fees** - Because fewer people can do what you do to the same standard, you can demand higher fees.
+
+### Specialization does not mean
+
+-   **Turning away clients** - Specialization allows us to focus our marketing effort. So we may primiarily talk about our specialism, but that do sen't mean we would turn away other types of work.
+-   **You will lack enough work** - This mostly comes from geographic contraints, and not thinking globally.
+-   **The work will get boring** - Specialization can be short term, and you can update your marketing campaign for different areas in future.
+
+### How to start with specialization
+
+-   Take it slow, until you know it will work.
+-   Do not redesign your website to focus exclusively on your specialization, as you will lose work outside of that area.
+-   Instead, create a separate landing campaign with a landing page aimed at the audience you are trying to reach.
+
+### Find minimum viable audience
+
+-   Can they afford your service or are the size of client you wish to target.
+    continue slide 32
 
 ## 3. Get the attention of your audience
 
