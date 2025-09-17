@@ -20,9 +20,9 @@ nav_order: 30
 
 ## Rersources
 
--   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) MDN Learn: Browsing the web
 -   [link](https://wpc.guide/) Web Platform Contribution Guide
 -   [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
+-   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) MDN Learn: Browsing the web
 
 ---
 
@@ -135,4 +135,75 @@ _Luke Wroblewski_ cointed the term _Mobile First_.
 
 Orignally, web design was dictated by the designer, with users having no choice but to accomodate the site's demand, like screen size, or network speed. Now web design can if focused on the universal nature of the World Wide Web i.e. everyone should be able to use the web.
 
-https://resilientwebdesign.com/chapter4/
+### JavaScript
+
+_John Postel_ (worked on ARPANET, precursor to Internet) created the Robustness Principle, also known as Postel's Law
+
+> Be conservative in what you send; be liberal in what you accept.
+
+This philosophy is true for declarative languages like HTML, CSS. Declarative language is where you describe the desired outcome without providing step-by-step instructions on how to achieve it.
+
+Imperative languages provide more power than declarative languages. The main downside being sytax needs to be perfect, hard to learn. In the browser, the only choice for imperative language is JavaScript.
+
+In 1996, _Brendan Eich_ working at Netscape created the first imperative language for the web in 10 days. First it was called _Mocha_, then launched officially as _LiveScript_, then marketing department changed it to _JavaScript_, hoping to ride the Java wave hype.
+
+Two main early uses were form validation (to get quicker feedback then getting response from server), and rollovers (swapping out images to mimic hover effect).
+
+Over the history of JavaScript, features that became popular were moved to HTML, CSS (as it is easier to write declarative langauge).
+
+_Ethan Zuckerman_ used JavaScript to spawn window with an advertisement in it.
+
+In 2005 _Jesse James Garett_ published an article _Ajax: A New Approach to Web Applications_, which popularized a technique for JavaScript to send and receive data from a web server without refreshing the whole page, resulting in smoother user experience.
+
+_Tim O'Reilly_ used the phrase _Web 2.0_ around the same time to describe new wave of web products and services. Not clear what exactly made Web 2.0 (rounded corners, gradients or JavaScript, Ajax or new business models). Launching the age of _web apps_ (hard to provide definition except use cases).
+
+After the standardization of HTMLv4 in 1999, the _World Wide Web Consortium_ published XHTML 1.0. It was a stricter way of writing HTML (moving HTML from declarative to imperative side). XHTMLv2 was abandoned. Interseting how later everyone moved to JavaScript which is also imperative.
+
+### Web Platform
+
+Platform is an incrorect term, as platforms are controlled and predictable. WWW is the opposite.
+
+iOS is a platform. If you build an ios app and someone has an ios device, you know they will get 100% of your software. On Android they will get 0%.
+
+Web on the other hand is a _continuum_. You can't be sure how many web technologies will be supported. Some people will get 80% or 90%, others 20%.
+
+### Progressive enhancement
+
+What does designing a thing in layer looks lik
+
+-   A chair in a room.
+-   A room in a house.
+-   A house in an environment.
+-   An environment in a city plan.
+
+In web the benefit of layering is separation of concerns, which allows enhancements to be applied according to the capabilities of the end user's device.
+
+Tha layers of web
+
+-   JavaScript and CSS build on top of HTML.
+-   HTML requires a URL to be reachable.
+-   URL reachability depends on HTTP protocol.
+-   HTTP protocol depends on TCP/IP.
+
+Progressive enhancement asks that designers start from the lowest common denominator (well marked-up document), and then add as many features on top as they want. If any feature is not supported, the browser will just ignore it. Websites do not need to look exactly the same in every browser. People using the old browsers should get the same content as the new browsers, but that dosen't mean they should get the same experience as well.
+
+Progressive enhancement means providing core functionality to everyone. The enhancements can be browser specific.
+
+Use this approach to implement progressive enhancement in web (this approach can help with technical debt, as you can throw the enhancements and start over)
+
+1. Identify core functionality (most people come to your website to read, write, buy, sell, not to tap or scroll).
+2. Make it available using the simplest possible technology.
+3. Enhance, which can include adding interactions like swiping, tapping, clicking, scrolling, dragging, dropping.
+
+Example news website
+
+1. Core functionality is to show the article. So serve plain HTML at a URL (the url should be simple and easy to read and share).
+2. Enhance, by adding your own stylesheet.
+
+Example social network
+
+1. Core functionality is sending and receiving messages. For displaying message, plain HTML is enough. For sending message, HTML with form and a button for submit is enough.
+    - People can now send and receive messages no matter that device or browser they are using.
+2. Improve the experience without breaking the fundamental activity.
+
+https://resilientwebdesign.com/chapter7/
