@@ -205,5 +205,3 @@ Example social network
 1. Core functionality is sending and receiving messages. For displaying message, plain HTML is enough. For sending message, HTML with form and a button for submit is enough.
     - People can now send and receive messages no matter that device or browser they are using.
 2. Improve the experience without breaking the fundamental activity.
-
-https://resilientwebdesign.com/chapter7/

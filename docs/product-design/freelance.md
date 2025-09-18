@@ -140,9 +140,60 @@ Segment market by specialization.
 ### Find minimum viable audience
 
 -   Can they afford your service or are the size of client you wish to target.
-    continue slide 32
+-   How often do they switch companies? If they regularly move, your reputation will move on with them.
+-   Do they talk with one another? Some sectors are very protective of their intellectual property, so there is little communication between companies.
+-   Is there community? Does the sector have dedicated blogs, conferences, and online communities?
+-   Are there figures within the community who are already well known and respected? Do they seem approachable and friendly?
+
+### Research and find clients
+
+Research your sector and pick people from that. Create two lists
+
+1. Influencers - Individuals, meetups, mailing lists, forums, events, blogs, communities and membership organizations.
+    - You can contact your existing contacts in the sector. Ask what publications they read, events they attend.
+    - Use google search with words like conference, meetup. Also, pay attention to who is advertising on your sector keywords.
+    - Use LinkedIn, Twitter and look for influencers, companies, and other groups in the sector.
+2. Clients - List of prospective clients you would like to work with within this sector.
+    - Make a list of 30-50 organizations you want to work with, starting with companies you know and like.
+    - Add recommendations from personal contacts, add direct and second order connections on LinkedIn.
+    - Use Google Search for the rest.
+
+Next step is to identify the specific people we want to contact at these organizations.
+
+-   Identify the role of the person we want to contact.
+    -   For small companies, it is usually the founder.
+    -   For single product companies, aim for the digital lead or head of marketing/IT depending on what sector you targeting.
+    -   Multi-product companies is complicated, and better to avoid initially.
+-   Use LinkedIn to find the exact people.
+    -   Company website often lists the senior people.
+-   If LinkedIn does not work, reach out to somebody eles and ask who the head of marketing is (make an excuse like I am doing a research study).
+-   If that doese not work, try emailing the catch all email address.
+-   If that does not work, give up and try another role or company.
+
+Next step if to find their email address
+
+-   Use email addresses of other people at the company and make a guess.
+    -   Use [emailhippo](https://www.emailhippo.com/) to validate the email address.
+-   Use [FindMyLead](https://findthatlead.com/) to lookup emails.
+-   Try LinkedIn and send message directly.
 
 ## 3. Get the attention of your audience
+
+After you have a list of people to contact, how do you reach out to them. **Make sure the message does not involve selling**. Instead do this.
+
+-   Ask for their help. Ask people to share their experiences and wisdom.
+    -   Introduction. Do not send them a message with the expectation of a reply. Introduce yourself, and explain we are researching the sector. Then ask them if they would like to know more about this.
+    -   Survey. Follow up with an email with a link to survey that we will explain will inform our report. Offer the report for free in exchange of participation, as well as site review.
+    -   Report. Finally, let them know the report is ready. Direct them to a landing page, where they can download the report and also sign up for an email series covering the report in more details.
+-   Provide value in return, in exchange of them sharing their experience.
+    -   A report. Provide an industry report that gives them insights into their sector and the kind of challenges and best practices about how to deal with that.
+        -   Talk about issues in your sector. Also, filter the issues in a way that it focuses on the area of the sector you want to work in.
+        -   What problems you want to draw attention to.
+        -   **Note**: Alternatively, you can use app, tool, code library instead of report as long as it is free.
+    -   A short site review. Say "Thanks for giving us a little bit of your time to share your experience with us. In return of that if you want us to do a quick first impressions review of your website, then we would happily do that".
+    -   Regular emails. Keep people engaged by sending them regular vise via email that helps them overcome the challenges they face in their role.
+
+continue from slide 58
 
 ## 4. Get permission for ongoing contact
 

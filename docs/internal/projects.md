@@ -19,6 +19,44 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Personal Values
+
+-   Limit network access to core functionality (no automatic check for updates, ...).
+    -   Support offline mode. Store local data in simple text formats without encryption so users can view it without the app. If encryption is needed, provide easy access to keys so users can decrypt data outside the app.
+-   Make software open-source (optionally open-contribution).
+    -   Provide detailed documentation so users can modify the source code for their needs. This includes writing software that is easy is maintain, and expand. This allows users to debloat the software per their needs. The documentation on customizing software can go as deep as the last if-condition.
+        -   For example, if the application supports two payment methods (check and payment processor).
+        -   Write each type in a different file, with common API structure.
+        -   This allows user to delete one type of payment, or add a third type easily.
+    -   Never force the user to read the source code to infer logic, valid config options.
+    -   Provide detailed documentation on DevOps. This lets advanced users integrate and customize the app within their DevOps environment.
+        -   Allow users to run software locally. If the application can benefit from peer-to-peer, add support for that as well.
+        -   When applicable, create a centralized website to list local servers.
+-   Meet accessibility standards.
+-   No nuisances which includes
+    -   Forced artificial intelligence.
+    -   Recommendation algorithms which need user data, history, third-party info.
+        -   Recommendations derived from a user’s follows and their extended network are permitted.
+        -   This has downside of confining people to a bubble. Add random recommendations to counter this.
+    -   Dark patterns.
+    -   Forced advertisements.
+    -   Changes to UI/UX should be opt-in, not forced.
+        -   Made new UI available through an opt-in toggle.
+        -   Provide documentation on how to move from old UI to new UI. Split the documentation as
+            -   New functionality.
+            -   Deprecated functionality. Provide reason.
+            -   Moved functionality.
+-   Optimize software, till limited by network, disk I/O.
+    -   Prefer hardware acceleration.
+-   Support greatest number of platforms.
+    -   Ability to use the entire app through API.
+        -   Allow users to create plugins.
+    -   Command line support.
+    -   Terminal user interface support. Use API to create simplified interface.
+-   Remain neutral. Avoid influence from politics, religion, geopolitics, or other external agendas.
+
+---
+
 ## Better Tech Name
 
 -   Come up with alternative names for GPUs/CPUs/RAM/Monitors (desktop, enterprise, mobile).

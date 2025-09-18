@@ -19,20 +19,21 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+-   [x] [link](https://www.oreilly.com/library/view/why-rust/9781492048589/) Why Rust? Trustworthy, Concurrent Systems Programming by _Jim Blandy_ (60 pages) (Sep 2015)
+-   [x] [link](https://frontendmasters.com/courses/rust/) Frontend Masters: The Rust Programming Language by _Richard Feldman_ (4 hours 42 minutes) (May 11, 2021)
+-   [ ] [link](https://rustbyexample.io/) Rust By Example
+
 ## Courses
 
 -   [ ] Frontend Masters
-    -   [x] [link](https://frontendmasters.com/courses/rust/) The Rust Programming Language by _Richard Feldman_ (4 hours 42 minutes) (May 11, 2021)
     -   [ ] [link](https://frontendmasters.com/courses/typescript-go-rust/) Polyglot Programming: TypeScript, Go, & Rust by _ThePrimeagen_ (8 hours 49 minutes) (Aug 13, 2022)
     -   [ ] [link](https://frontendmasters.com/courses/rust-ts-devs/) Rust for TypeScript Developers by _ThePrimeagen_ (5 hours 19 minutes) (Apr 25, 2023)
 
 ## Books
 
--   [x] [link](https://www.oreilly.com/library/view/why-rust/9781492048589/) Why Rust? Trustworthy, Concurrent Systems Programming by _Jim Blandy_ (60 pages) (Sep 2015)
 -   [ ] [link](https://doc.rust-lang.org/book/) The Rust Programming Language book
     -   [ ] [link](https://doc.rust-lang.org/rust-by-example/) Rust by Example
     -   [ ] [link](https://rustlings.cool/) Rustlings (exercises)
-    -   [ ] [link](https://www.ralfj.de/projects/rust-101/main.html) Welcome to Rust-101 (exercises)
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) Common Rust Lifetime Misconceptions
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md) Sizedness in Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md) Tour of Rust's Standard Library Traits
