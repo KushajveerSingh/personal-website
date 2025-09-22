@@ -671,3 +671,14 @@ create a payments page template using info from https://mitchellh.com/writing/ad
 cancer related software. something that can take all the research and make it available to the people (by extension the hospitals). If people have the instrument, they can run it themselves (thinking in this direction).
 
 Problem with math books, they are too abstract. Textbooks pull abstractions out of thin air. Yet mathematicians don't randomly set up axioms and start working out theorems. Every axiomatic system had a history. Had a motivation. Worked through loads of examples and counterexamples to motivate and finally settle on a specific definition that's both general enough to capture a sufficiently wide variety of interesting problems, but also specific enough so that we can actually prove interesting results about them. https://www.youtube.com/watch?v=D0ZVe9AtgUg Create your own math book for subfields of math you are interested in learning, and do motivation, history, examples, use cases, arguments against and then do the usual stuff that current books do.
+
+Windows has a central account management on domain level, active directory. Linux probably has this in paid ubuntu, red hat. Create an easy to use setup for free. Manage linux fistro from central server.
+
+On linked add software engineer 2. Used rust to migrate js to rust, transpiler to rust, internal report generator to rust.
+Excel files to web apps, outlook to an open source emeail server. Microost auth to linux auth, and stuff like that chroot.
+
+Have stuff in cart a week before black friday on amazon to order and get prime credit card
+
+Make a detailed note on how internet works i.e. how do you make request for a webpage and get it served. Check full stack for front end engineers v3 video on how the i ternet works on fro tend masters for reference.
+
+Use vpn to check your site performance across counties. Part of seo project.
