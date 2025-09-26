@@ -93,5 +93,3 @@ let x = tuple.0;
 ```
 
 ## Arrays
-
-continue https://rustbyexample.io/arrays
