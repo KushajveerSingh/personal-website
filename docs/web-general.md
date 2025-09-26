@@ -20,9 +20,18 @@ nav_order: 30
 
 ## Rersources
 
+-   MDN Learn
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Browsing the web
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Dealing with files
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works) How the web works
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model) The web standards model
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites) How browsers load websites
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools) Understanding client-side tools
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Server-side websites
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to solve common problems (Web mechanics)
+    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup) How to solve common problems (Tools and setup)
 -   [link](https://wpc.guide/) Web Platform Contribution Guide
 -   [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
--   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) MDN Learn: Browsing the web
 
 ---
 
@@ -31,8 +40,59 @@ nav_order: 30
 -   **Web page** (or "page") - Document that can be displayed in a web browser, like a HTML document.
 -   **Website** (or "site") - Collection of web pages grouped together into a single resource, with links connecting them together.
 -   **Web server** - Computer that hosts a website on the internet.
+-   **Web service** - Software that responds to requests over the Internet to perform a function (like handle user login) or provide data (like weather report).
 -   **Search engine** - Web service that helps people find web pages, such as Google, Bing.
--   **Interoperable** - Different implementations behave exactly the same for a given case.
+-   **Interoperable** - Different implementations behave exactly the same for a given case i.e. browsers should provide the same rendered output for a given input.
+-   **URL** - Uniform Resource Locator is a web address (kushaj.com) plus a protocol (https).
+
+## Domain name
+
+-   IPv4 - `192.0.2.172`
+-   IPv6 - `2001:db8:8b73:0000:0000:8a2e:0370:1337`
+-   Domain name (separated by dots and read from right to left)
+    -   Top-Level Domain (TLD) - `.com`. Tells the general purpose of the service behind the domain name. Some TLDs impose restrictions like `.gov` are only allowed to be used by government.
+    -   Label (or component) - case-insensitive character sequence from 1 to 63 characters in length.
+        -   Secondary Level Domain (SLD) - `mozilla.org` here `mozilla` is Label 1 also called SLD. The label located right before the TLD is called SLD.
+        -   Subdomain - `developer.mozilla.org` here `developer` is Label 2 and also servers the purpose of subdomain.
+-   You never own a domain name. Instead you pay to use domain name for a year or more. You can renew your right and your renewal has priority over other people's applications.
+    -   Companies called registrars book keep domain name info and administrative stuff.
+    -   Private companies can also maintain their own domains, like Amazon manages domains under `.fire`.
+-   DNS Refreshing - DNS servers refer to "top-level DNS servers".
+    -   Each DNS server that knows about a given domain stores the information for some time before it is automatically invalidated and then refreshed (the DNS server queries an authoritative server and fetches the updated information from it).
+
+### How DNS request works
+
+1. Type `mozilla.org` in browser search bar.
+2. The browser first checks local DNS cache on your computer. If it is a hit, then make request to web server.
+3. The browser then makes request to DNS server, which returns the IP address.
+
+## URL
+
+### Absolute URL string
+
+`https://www.example.com:80/path/to/file.html?key1=value1&key2=value2#SomewhereInTheDocument`
+
+-   Scheme `http` - Specify the protocol that the browser must use to request the resource.
+-   Authority `www.example.com:80` - Separated from the schema using `://`. Includes both the domain `www.example.com` and the port `443` (ommitted if using standard ports 80 for HTTP and 443 for HTTPS).
+-   Path to resource `/path/to/file.html` - Path to the resource on the web server. It can be an actual file or an abstraction handled by web servers without the presence of an actual file.
+-   Parameters `?key1=value1&key2=value2` - The GET parameters.
+-   Anchor `#SomewhereInTheDocument` - Location inside the resource itself.
+
+### Relative URL string
+
+For this absolute URL `https://developer.mozilla.org/en-US/docs/Learn_web_development`
+
+-   Scheme-relative URL `//developer.mozilla.org/en-US/docs/Learn_web_development` - The browser will use the same protocol as the one used to load the document hosting that URL.
+-   Domain-relative URL `/en-US/docs/Learn_web_development` - The protocol and domain name will be used from the host URL.
+-   Sub-resource `HowTo/Web_mechanics/What_is_a_URL` - Browser will use path relative to `en-US/docs/Learn_web_development`. So the final URL becomes `https://developer.mozilla.org/en-US/docs/Learn_web_development/HowTo/Web_mechanics/What_is_a_URL`. We can use `..` to move up a directory.
+-   Anchor-only `#semantic_urls` - To link to different parts of the current document, as the browser will use the entire URL.
+
+### HTTP Authentication
+
+`https://username:password@www.example.com:80`
+
+-   To immediately sign in to a website and bypass the username/password dialog box.
+-   Deprecated in modern browsers. And the username/password info is stripped from the request before it is sent.
 
 ## Folder structure
 
@@ -50,9 +110,17 @@ nav_order: 30
 -   Use hyphen (`-`) instead of space.
 -   Do not use backward slashes to reference file paths on Windows. HTML can handle forward slashes on Windows.
 
-## Web Platform
+## How the web works
 
-> [link](https://wpc.guide/) Web Platform Contribution Guide
+When a URL is typed into browser address bar, the following steps occur
+
+1. The browser goes to the DNS server and finds the real address of the server that the website lives on.
+2. The browser sends an HTTP request message to the server, asking it to send a copy of the website to the client (TCP/IP is used for sending the data).
+3. If the server approves the client's request, the server sends the client a "200 OK" message, and then starts sending the website's files to the browser as a series of small chunks called data packets.
+    - Reason for using small packets: Easier to replace dropped or corrupted packets. Also, the packets can be routed along different paths, making the exchange faster and allowing many users to download the same website at the same time (since the browser can start showing one packet at a time).
+4. The browser assembles the small chunks into a complete web page and displays it to you.
+
+## Web Platform
 
 Collection of standardized _application programming interfaces (APIs)_ that programmers use to make web pages and web applications.
 
@@ -80,8 +148,6 @@ Collection of standardized _application programming interfaces (APIs)_ that prog
     -   DNS Root, IP addressing
 
 ## History of web
-
-> [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
 
 ### HTML
 
