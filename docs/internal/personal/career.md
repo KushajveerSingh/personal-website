@@ -34,10 +34,18 @@ nav_exclude: true
 -   [ ] [link](https://www.syntaxdesign.com/expertise) Check Syntax Design to get overview of the field.
 -   [ ] [link](https://galshir.com/) Galshir brand design specialist website
 
+## Communication
+
+-   [link](https://www.youtube.com/watch?v=w82a1FT5o88) How to start a speech
+-   [link](https://www.youtube.com/@askvinh/videos) Vinh Giang videos
+-   [link](https://www.youtube.com/watch?v=2ZgUTX3VNQ4&t=14s) Elicitation: CIA’s Technique to Make People Talk Without Them Realizing
+    -   Confidential Uncover Your Competitors' Top Business Secrets Legally and Quickly book
+
 ## English
 
 -   [ ] [link](https://www.youtube.com/watch?v=gfYq2ng9s4E) English Punctuation Guide - English Writing Lesson
 -   [ ] [link](https://www.youtube.com/watch?v=ryAnfbEeJR8) How to Say EVERY SOUND in American English | 44 Sounds of American English
+-   [ ] [link](https://www.youtube.com/watch?v=6Y6jPBKisaE) American English Accent Training for Indian Speakers - Accent Reduction Classes
 
 ## Leadership
 

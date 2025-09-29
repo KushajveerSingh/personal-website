@@ -21,6 +21,7 @@ nav_exclude: true
 
 ## Courses
 
+-   [ ] [link](https://www.nslookup.io/dns-course) The DNS course for developers
 -   [ ] Hussein Nasser
     -   [ ] [link](https://network.husseinnasser.com/) Hussein Nasser: Fundamentals of Networking
     -   [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQVAtL9nmMTLFaXmKJIP7_38) Hussein Nasser: HTTP/3 playlist

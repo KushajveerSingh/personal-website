@@ -19,23 +19,28 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## (Done) General
+## (Done) Web General
 
--   [x] [link](https://wpc.guide/) Web Platform Contribution Guide
+-   [x] [link](https://wpc.guide/) Web Platform Contribution Guide May 2020 Version 1.0
 -   [x] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
--   [x] MDN Learn
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Browsing the web
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Dealing with files
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works) How the web works
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model) The web standards model
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites) How browsers load websites
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools) Understanding client-side tools
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Server-side websites
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to solve common problems (Web mechanics)
--   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
+-   [x] MDN
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Learn: Browsing the web
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Learn: Dealing with files
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works) Learn: How the web works
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model) Learn: The web standards model
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites) Learn: How browsers load websites
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools) Learn: Understanding client-side tools
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Learn: Server-side websites
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to: How to solve common problems (Web mechanics)
 
 ## Search Engine Optimization (SEO)
 
+-   [ ] URI
+    -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
+-   [ ] URL
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs) MDN URI: Choosing between www and non-www URLs
+    -   [x] [link](https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/#options-for-bare-domains) How to set up Netlify DNS - Custom Domains, CNAME, & A Records
+    -   [x] [link](https://www.wpbeginner.com/beginners-guide/www-vs-non-www-which-is-better-for-wordpress-seo/) WWW vs non-WWW - Which is Better for WordPress SEO?
 -   [ ] [link](https://frontendmasters.com/courses/modern-seo/) Frontend Masters: Modern Search Engine Optimization (SEO)
 -   [ ] [link](https://developers.google.com/search/docs) Google Search docs
     -   [ ] [link](https://developers.google.com/search/case-studies) Google Search Case Studies
@@ -44,6 +49,10 @@ nav_exclude: true
 -   [ ] [link](https://www.reddit.com/r/NextLevelSEO/top/?t=all) r/NextLevelSEO top posts
 -   [ ] [link](https://www.reddit.com/r/seogrowth/top/?t=all) r/SEOGrowth top posts
 -   [ ] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
+-   [ ] [link](https://www.google.com/advanced_search) Google Advanced Search
+-   [ ] [link](https://www.googleguide.com/) Google Guide Making Searching Even Easier
+-   [ ] [link](https://ahrefs.com/blog/google-advanced-search-operators/) Google Search Operators: The Complete List
+-   [ ] [link](https://kinsta.com/blog/google-search-operators/) Google Search Operators: 40 Commands to Know
 
 ### Books
 
@@ -140,6 +149,7 @@ nav_exclude: true
     -   [ ] [link](https://animations.dev/) animations.dev course by emil kowalski
     -   [ ] [link](https://developer.apple.com/videos/play/wwdc2018/803/) Designing Fluid Interfaces by apple
     -   [ ] [link](https://www.youtube.com/watch?v=fZpTvZuysIo) Benjamin De Cock youtube video
+-   [ ] [link](https://9elements.github.io/fancy-border-radius) Fancy Border Radius generator
 
 ### Tools
 
@@ -322,7 +332,6 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 
 ## Monorepo
 
--   [ ] [link](https://frontendmasters.com/courses/monorepos/) FrontendMasters: JavaScript and TypeScript Monorepos
 -   [ ] [link](https://frontendmasters.com/courses/monorepos-v2/) FrontendMasters: TypeScript Monorepos: Architet Maintainable Codebases
 -   [ ] [link](https://nx.dev/) Nx
 
@@ -501,6 +510,7 @@ Refer to [Learn - Networking](/internal/learn/cs-fields/networking).
 
 -   [ ] [link](https://hpbn.co/) High Performance Browser Networking
     -   [ ] [link](https://www.youtube.com/@igrigorik/videos) Ilya Grigorik videos on the book
+-   [ ] [link](https://www.cloudflare.com/learning/) Cloudfare Learning Center
 
 ## Error tracking
 

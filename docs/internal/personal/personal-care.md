@@ -27,6 +27,12 @@ nav_exclude: true
     -   [link](https://www.reddit.com/r/mensfashion/comments/1dh34mu/what_brand_is_considered_as_the_best_bespoke/) What brand is considered the best bespoke tailoring brand in the world?
     -   Savile Row, Kent and Haste, Sexton, Chittleborouigh, Huntsman
 
+## Fragrance
+
+-   [link](https://www.fragrantica.com/perfume/Coach/Coach-for-Men-45343.html) Coach for Men Eau De Toilette (professional, dinner)
+-   [link](https://www.fragrantica.com/perfume/Rabanne/Invictus-Platinum-72557.html) Paco Rabanne Invictus Platinum (party)
+-   [link](https://www.fragrantica.com/perfume/Burberry/Hero-Parfum-90069.html) Burberry Hero Eau de Parfum
+
 ## Nutrition
 
 ## Skincare

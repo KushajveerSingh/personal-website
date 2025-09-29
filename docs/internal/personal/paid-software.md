@@ -21,8 +21,7 @@ nav_exclude: true
 
 ## Apple
 
--   [link](https://cleanshot.com/) CleanShot - one year of upgrades
--   Goodnotes - ends Jul 26, 2025
+-   [link](https://cleanshot.com/) CleanShot (one year of upgrades at purchase)
 
 ## Books
 

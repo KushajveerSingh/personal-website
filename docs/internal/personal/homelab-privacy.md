@@ -131,7 +131,11 @@ nav_exclude: true
 -   [link](https://cachyos.org/) CachyOS
 -   [link](https://usebottles.com/) Bottles: Run windows software on linux
 -   [link](https://www.qubes-os.org/) Qubes OS (used by Edward Snowden)
--   [Nushell](https://www.nushell.sh/) - use this as shell (Bourne -> Bash -> Z shell -> Fish -> Nushell)
+-   [link](https://www.nushell.sh/) Nushell - use this as shell (Bourne -> Bash -> Z shell -> Fish -> Nushell)
+
+### Terminal
+
+-   [link](https://github.com/ghostty-org/ghostty) Ghostty (provide a library to integrate into other envs like VSCode)
 
 ### Tor
 

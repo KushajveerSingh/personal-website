@@ -21,7 +21,7 @@ parent: Rust
 
 ## Resources
 
--   [link](https://rustbyexample.io/constants) Rust by Example
+-   [link](https://rustbyexample.io) Rust by Example
 
 ---
 
