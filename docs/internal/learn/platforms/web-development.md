@@ -19,7 +19,7 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## General
+## (Done) General
 
 -   [x] [link](https://wpc.guide/) Web Platform Contribution Guide
 -   [x] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
@@ -32,8 +32,7 @@ nav_exclude: true
     -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools) Understanding client-side tools
     -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Server-side websites
     -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to solve common problems (Web mechanics)
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup) How to solve common problems (Tools and setup)
--   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
+-   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
 
 ## Search Engine Optimization (SEO)
 

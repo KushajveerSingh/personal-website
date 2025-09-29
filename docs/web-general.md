@@ -29,7 +29,6 @@ nav_order: 30
     -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools) Understanding client-side tools
     -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Server-side websites
     -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to solve common problems (Web mechanics)
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup) How to solve common problems (Tools and setup)
 -   [link](https://wpc.guide/) Web Platform Contribution Guide
 -   [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
 
