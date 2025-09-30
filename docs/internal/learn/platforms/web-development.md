@@ -36,7 +36,8 @@ nav_exclude: true
 ## Search Engine Optimization (SEO)
 
 -   [ ] URI
-    -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
+    -   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
+    -   https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 -   [ ] URL
     -   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs) MDN URI: Choosing between www and non-www URLs
     -   [x] [link](https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/#options-for-bare-domains) How to set up Netlify DNS - Custom Domains, CNAME, & A Records
