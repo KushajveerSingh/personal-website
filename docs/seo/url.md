@@ -1,11 +1,11 @@
 ---
-title: Uniform Resource Locator (URL)
+title: URL
 parent: SEO
 nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->
-# Uniform Resource Locator (URL)
+# URL (Uniform Resource Locator)
 {: .no_toc }
 
 <details open markdown="block">
@@ -43,3 +43,31 @@ Benefits of www
 -   Easier to manage DNS settings when using `www`.
 -   Handling cookies is easier. A cookie set on `example.com` would apply to all subdomains as well.
 -   CNAME record cannot be added to root domain. CDNs rely on CNAME records and using a non-www domain makes it harder to redirect traffic when servers experience issues. `www.example.com` can be redirected to `mycdn.provider.net` at the CDN level and `mycdn.provider.net` target can be changed whenever traffic needs to be rerouted.
+
+## Type of URL
+
+### Absolute URL string
+
+`https://www.example.com:80/path/to/file.html?key1=value1&key2=value2#SomewhereInTheDocument`
+
+-   Scheme `http` - Specify the protocol that the browser must use to request the resource.
+-   Authority `www.example.com:80` - Separated from the schema using `://`. Includes both the domain `www.example.com` and the port `443` (ommitted if using standard ports 80 for HTTP and 443 for HTTPS).
+-   Path to resource `/path/to/file.html` - Path to the resource on the web server. It can be an actual file or an abstraction handled by web servers without the presence of an actual file.
+-   Parameters `?key1=value1&key2=value2` - The GET parameters.
+-   Anchor `#SomewhereInTheDocument` - Location inside the resource itself.
+
+### Relative URL string
+
+For this absolute URL `https://developer.mozilla.org/en-US/docs/Learn_web_development`
+
+-   Scheme-relative URL `//developer.mozilla.org/en-US/docs/Learn_web_development` - The browser will use the same protocol as the one used to load the document hosting that URL.
+-   Domain-relative URL `/en-US/docs/Learn_web_development` - The protocol and domain name will be used from the host URL.
+-   Sub-resource `HowTo/Web_mechanics/What_is_a_URL` - Browser will use path relative to `en-US/docs/Learn_web_development`. So the final URL becomes `https://developer.mozilla.org/en-US/docs/Learn_web_development/HowTo/Web_mechanics/What_is_a_URL`. We can use `..` to move up a directory.
+-   Anchor-only `#semantic_urls` - To link to different parts of the current document, as the browser will use the entire URL.
+
+### HTTP Authentication
+
+`https://username:password@www.example.com:80`
+
+-   To immediately sign in to a website and bypass the username/password dialog box.
+-   Deprecated in modern browsers. And the username/password info is stripped from the request before it is sent.

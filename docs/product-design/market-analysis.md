@@ -255,7 +255,7 @@ nav_order: 1
 -   Who is talking about the pain points you solve
     -   [buzzsumo.com](https://buzzsumo.com/)
     -   [hootsuite.com](https://www.hootsuite.com/)
-    -   [mention.com](https://www.hootsuite.com/)
+    -   [mention.com](https://www.mention.com/en)
 -   Look at related SEO terms
     -   For example, when creating a task app look at Google Search for related phrases that people use. You can use this info to choose content for SEO tagline.
     -   Google keyword manager

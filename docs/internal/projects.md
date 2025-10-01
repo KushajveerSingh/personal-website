@@ -682,3 +682,6 @@ Have stuff in cart a week before black friday on amazon to order and get prime c
 Make a detailed note on how internet works i.e. how do you make request for a webpage and get it served. Check full stack for front end engineers v3 video on how the i ternet works on fro tend masters for reference.
 
 Use vpn to check your site performance across counties. Part of seo project.
+
+Simulate small world problem https://www.youtube.com/watch?v=CYlon2tvywA. Get population of each country, and further every city and zip code. Now you know exactly how poeple are distributed across the world. Next add probabilities of interaction based on geography and reduce as you go back further. Make these numbers available as controls.
+Have additional controls like railway connections, airport connections, visa free entry, gpd.

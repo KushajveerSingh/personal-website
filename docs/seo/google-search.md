@@ -1,7 +1,7 @@
 ---
 title: Google Search
 parent: SEO
-nav_order: 3
+nav_order:
 ---
 
 <!-- prettier-ignore-start -->

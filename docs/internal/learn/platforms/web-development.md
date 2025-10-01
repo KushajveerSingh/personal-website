@@ -19,7 +19,7 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## (Done) Web General
+## Web General
 
 -   [x] [link](https://wpc.guide/) Web Platform Contribution Guide May 2020 Version 1.0
 -   [x] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
@@ -35,22 +35,18 @@ nav_exclude: true
 
 ## Search Engine Optimization (SEO)
 
--   [ ] URI
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
-    -   https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
--   [ ] URL
+-   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
+-   [x] URL
     -   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs) MDN URI: Choosing between www and non-www URLs
     -   [x] [link](https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/#options-for-bare-domains) How to set up Netlify DNS - Custom Domains, CNAME, & A Records
     -   [x] [link](https://www.wpbeginner.com/beginners-guide/www-vs-non-www-which-is-better-for-wordpress-seo/) WWW vs non-WWW - Which is Better for WordPress SEO?
--   [ ] [link](https://frontendmasters.com/courses/modern-seo/) Frontend Masters: Modern Search Engine Optimization (SEO)
+    -   [ ] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
+-   [x] [link](https://frontendmasters.com/courses/modern-seo/) Frontend Masters: Modern Search Engine Optimization (SEO) by _Mike North_ (4 hours 4 minutes) (Jun 15, 2017)
 -   [ ] [link](https://developers.google.com/search/docs) Google Search docs
     -   [ ] [link](https://developers.google.com/search/case-studies) Google Search Case Studies
--   [ ] [link](https://schema.org/) Schema.org
 -   [ ] [link](https://learningseo.io/) LearnSEO.io
 -   [ ] [link](https://www.reddit.com/r/NextLevelSEO/top/?t=all) r/NextLevelSEO top posts
 -   [ ] [link](https://www.reddit.com/r/seogrowth/top/?t=all) r/SEOGrowth top posts
--   [ ] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
--   [ ] [link](https://www.google.com/advanced_search) Google Advanced Search
 -   [ ] [link](https://www.googleguide.com/) Google Guide Making Searching Even Easier
 -   [ ] [link](https://ahrefs.com/blog/google-advanced-search-operators/) Google Search Operators: The Complete List
 -   [ ] [link](https://kinsta.com/blog/google-search-operators/) Google Search Operators: 40 Commands to Know
@@ -59,6 +55,7 @@ nav_exclude: true
 
 -   [ ] Product-Led SEO: The Why Behind Building Your Organic Growth
 -   [ ] The Art of SEO: Mastering Search Engine Optimization
+-   [ ] Content Chemistry by Andy Crestodnia
 
 ## HTML
 

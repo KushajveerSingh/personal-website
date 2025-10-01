@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->
-# Uniform Resource Identifier (URI)
+# URI (Uniform Resource Identifier)
 {: .no_toc }
 
 <details open markdown="block">
