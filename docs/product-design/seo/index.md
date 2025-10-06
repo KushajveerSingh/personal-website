@@ -1,6 +1,7 @@
 ---
 title: SEO
-nav_order: 40
+parent: Product Design
+nav_order: 3
 ---
 
 # Search Engine Optimization (SEO)

@@ -42,9 +42,9 @@ nav_exclude: true
     -   [x] [link](https://www.wpbeginner.com/beginners-guide/www-vs-non-www-which-is-better-for-wordpress-seo/) WWW vs non-WWW - Which is Better for WordPress SEO?
     -   [ ] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
 -   [x] [link](https://frontendmasters.com/courses/modern-seo/) Frontend Masters: Modern Search Engine Optimization (SEO) by _Mike North_ (4 hours 4 minutes) (Jun 15, 2017)
+-   [ ] [link](https://learningseo.io/) LearningSEO.io
 -   [ ] [link](https://developers.google.com/search/docs) Google Search docs
     -   [ ] [link](https://developers.google.com/search/case-studies) Google Search Case Studies
--   [ ] [link](https://learningseo.io/) LearnSEO.io
 -   [ ] [link](https://www.reddit.com/r/NextLevelSEO/top/?t=all) r/NextLevelSEO top posts
 -   [ ] [link](https://www.reddit.com/r/seogrowth/top/?t=all) r/SEOGrowth top posts
 -   [ ] [link](https://www.googleguide.com/) Google Guide Making Searching Even Easier

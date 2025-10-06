@@ -19,12 +19,6 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
--   add cuphead game
-    -   add recommended games in the list as well
--   openkush.com
-    -   usa.pay.openkush.com (bank, phone, isp, insurance, tax, .kush separate from icana, auth, shop, poll/vote, social)
-    -   browser with own standards (no cookies, auth/pay controlled by browser)
-
 ## Daily
 
 -   rust.md
