@@ -40,11 +40,11 @@ nav_exclude: true
     -   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs) MDN URI: Choosing between www and non-www URLs
     -   [x] [link](https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/#options-for-bare-domains) How to set up Netlify DNS - Custom Domains, CNAME, & A Records
     -   [x] [link](https://www.wpbeginner.com/beginners-guide/www-vs-non-www-which-is-better-for-wordpress-seo/) WWW vs non-WWW - Which is Better for WordPress SEO?
-    -   [ ] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
+    -   [x] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
 -   [x] [link](https://frontendmasters.com/courses/modern-seo/) Frontend Masters: Modern Search Engine Optimization (SEO) by _Mike North_ (4 hours 4 minutes) (Jun 15, 2017)
--   [ ] [link](https://learningseo.io/) LearningSEO.io
 -   [ ] [link](https://developers.google.com/search/docs) Google Search docs
     -   [ ] [link](https://developers.google.com/search/case-studies) Google Search Case Studies
+-   [ ] [link](https://learningseo.io/) LearningSEO.io
 -   [ ] [link](https://www.reddit.com/r/NextLevelSEO/top/?t=all) r/NextLevelSEO top posts
 -   [ ] [link](https://www.reddit.com/r/seogrowth/top/?t=all) r/SEOGrowth top posts
 -   [ ] [link](https://www.googleguide.com/) Google Guide Making Searching Even Easier
@@ -148,6 +148,7 @@ nav_exclude: true
     -   [ ] [link](https://developer.apple.com/videos/play/wwdc2018/803/) Designing Fluid Interfaces by apple
     -   [ ] [link](https://www.youtube.com/watch?v=fZpTvZuysIo) Benjamin De Cock youtube video
 -   [ ] [link](https://9elements.github.io/fancy-border-radius) Fancy Border Radius generator
+-   [ ] [link](https://keen-slider.io/) Keen Slider
 
 ### Tools
 
@@ -666,3 +667,5 @@ Check [Learn - Database](/internal/learn/cs-fields/database).
 ## Message brokers
 
 -   Apache Kafka
+
+## CMS

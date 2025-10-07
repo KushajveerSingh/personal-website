@@ -36,6 +36,9 @@ nav_exclude: true
 -   [link](https://www.youtube.com/watch?v=kQ8bBtxZ1XQ) Stephen Curry full shooting workout 500+ shots at team usa training camp
 -   [link](https://www.youtube.com/watch?v=RboJ6Li7zZI) Kyrie Irving full pregame workout: finishes at rim, bag work and shooting in playoffs
 -   [link](https://www.youtube.com/watch?v=Mx4H3OWD0KM) Anthony Edwards FULL Workout 1000+ Shots At Team USA Training Camp
+-   [link](https://www.youtube.com/watch?v=zitVeXW82V0) Jeremy Lin: How Bigs Contest Guard's Shot
+-   [link](https://www.youtube.com/watch?v=lK4zIVazjlU) Jeremy Lin: Quick Pull Up Jumper off the dribble
+-   [link](https://www.youtube.com/watch?v=vdBvIaO6pMg) Jeremy Lin Shares his experience as a guard to defend bigs
 
 ## Training
 

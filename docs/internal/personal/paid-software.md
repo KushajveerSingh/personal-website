@@ -54,3 +54,4 @@ nav_exclude: true
     -   kushajveersingh.com + PremiumDNS
 -   [link](https://www.pronextjs.dev/workshops) ProNextJS by Jack Herrington
 -   [link](https://tailwindcss.com/plus) Tailwind Plus
+-   [link](https://animations.dev/) Animations course by Emil

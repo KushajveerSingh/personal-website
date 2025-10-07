@@ -143,6 +143,7 @@ nav_exclude: true
     -   pre-commit
 -   editorconfig
 -   Language Server Protocol
+-   [link](https://github.com/changesets/changesets) changesets
 
 ## FinOps
 

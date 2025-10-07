@@ -156,6 +156,7 @@ nav_exclude: true
 ### Race websites
 
 -   [link](https://bikepacking.com/event/) Bike packing
+    -   [link](https://www.reddit.com/r/bikepacking/wiki/index/) r/bikepacking wiki for routes
 -   [link](https://www.bikereg.com/Events) BikeReg
 -   [link](https://www.gamultisports.com/) Georgia Multisport
 -   [link](https://www.runreg.com/events) RunReg

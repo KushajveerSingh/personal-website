@@ -38,6 +38,12 @@ nav_exclude: true
 -   [ ] Tools
     -   [ ] [link](https://github.com/Munter/subfont?tab=readme-ov-file) subfont
 -   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
+-   [ ] [link](https://book.webtypography.net/) Web Typography A handbook for designing beautiful and effective responsive typography by Richard Rutter
+-   [ ] [link](https://clagnut.com/blog/2433) Introducing TODS - a typographic and OpenType default stylesheet
+
+## Design system
+
+-   [ ] [link](https://tweakcn.com/) tweakcn
 
 ## Start
 

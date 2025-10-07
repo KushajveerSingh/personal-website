@@ -19,7 +19,7 @@ nav_order: 2
 
 <!-- prettier-ignore-end -->
 
-## Rersources
+## Resources
 
 -   [link](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs) MDN URI: Choosing between www and non-www URLs
 -   [link](https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/#options-for-bare-domains) How to set up Netlify DNS - Custom Domains, CNAME, & A Records
@@ -71,3 +71,17 @@ For this absolute URL `https://developer.mozilla.org/en-US/docs/Learn_web_develo
 
 -   To immediately sign in to a website and bypass the username/password dialog box.
 -   Deprecated in modern browsers. And the username/password info is stripped from the request before it is sent.
+
+## Best practices
+
+-   Keep it short and memorable, in case someone has to manually write down the URL in the browser.
+-   Only use lowercase, as it removes the ambiguity, and also the official URL spec says to use lowercase.
+-   Use readable slug instead of ID. A readable slug makes it easier to glean the content of the page by just looking at the URL.
+-   Do not use spaces. Spaces also make it harder to identify the end of the URL.
+-   Use hyphens instead of underscore, use kebab case. Also, when links are underlined on a page, the underscores get hard to see.
+-   Use period only for domains and indicating file extensions.
+-   If possible avoid using `www` in the URL.
+-   Do not have `.html` in the URL, as it adds unncessary length.
+-   Avoid trailing slash where it does not make sense. `example.com/posts/` makes sense, since there is further content within `posts/`. But `example.com/posts/post-title/` is bad.
+-   URL's structure should work as breadcrumb. And the user should be able to make their way back along the path without error at any stage.
+-   Avoid date paths if you can `example.com/posts/2025/02/24/post-title`. It makes sense on news sites where there are multiple items releasing daily. Also, the date adds extra length to the url.

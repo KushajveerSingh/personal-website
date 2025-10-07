@@ -83,3 +83,4 @@ nav_exclude: true
 
 -   [ ] [link](https://www.youtube.com/playlist?list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1) How to Start a Startup playlist
 -   [ ] [link](https://bringyourownlaptop.com/courses/24-hour-business-building-contractor) Build an Online Business in 24 hours \| Building Contractor by BYOL
+-   [ ] [link](https://freelancemastery.dev/) Travesy Media Freelance Mastery
