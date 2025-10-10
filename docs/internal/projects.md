@@ -61,6 +61,7 @@ nav_exclude: true
 
 -   Combine all SEO products from [link](https://github.com/serpapi/awesome-seo-tools) into a single app.
     -   Add these as well [link](https://kushaj.com/product-design/seo).
+    -   Wordpress aioseo.
 -   Reference SEO notes for more ideas.
 
 ## Better Tech Name
