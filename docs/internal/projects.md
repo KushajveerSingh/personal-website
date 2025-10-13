@@ -54,6 +54,8 @@ nav_exclude: true
     -   Command line support.
     -   Terminal user interface support. Use API to create simplified interface.
 -   Remain neutral. Avoid influence from politics, religion, geopolitics, or other external agendas.
+-   Respect right to repair. When making hardware do not employ dark patterns to make it harder for people to access, modify, and repair the machine as they wish to.
+-   An exception to the rules can be created for organizations that don't respect these rules1.
 
 ---
 
@@ -125,11 +127,14 @@ nav_exclude: true
 -   Can be added as a feature of the bank or an independent product.
 -   Convert the entire tax code to a software which makes paying taxes as simple as clicking a single button.
 
+### OpenTLD
+
+-   In addition create your down top-level domain `.kush` and get free from ICANN.
+    -   Create own ip standard with maybe 5 parts similar to ipv4 and more bits for each part. Use the syntax 123-234.x.x.x to signify the ip ranges. In this way the ip string will always include the 3 dots and either have two numbers in each section separated by a dash.
+
 ### OpenISP
 
 -   Create your own ISP.
--   In addition create your down top-level domain `.kush` and get free from ICANN.
-    -   Create own ip standard with maybe 5 parts similar to ipv4 and more bits for each part. Use the syntax 123-234.x.x.x to signify the ip ranges. In this way the ip string will always include the 3 dots and either have two numbers in each section separated by a dash.
 -   Include phone number with additional digit if necessary.
 
 ### OpenAuth
@@ -154,6 +159,9 @@ nav_exclude: true
 
 ### OpenPhone
 
+-   Create a phone with open-source blueprint and modular approach.
+-   Every component can be individually purchased and integrated into the system.
+
 ### OpenInsurance
 
 ### OpenBrowser
@@ -172,6 +180,17 @@ nav_exclude: true
 
 -   A better alternative to department of health and usda, and an unbiased testing facility for food products and recommendations.
 -   Add toos like calorie tracker and thenutrient breakdown of all foods you eat. Include supplementation.
+
+## HTTP
+
+-   Tool for debugging HTTP requests, similar to Proxyman, Chrome Dev Tools.
+-   Add `curl` integration for making requests from interface, and seeing request, response information in detail.
+
+### CSP
+
+-   Create a tool similar to [csper](https://csper.io/) to track/report CSP violations, and suggestions on resolving.
+-   Option to add HTML head tags to resolve the issue.
+-   Option to add HTTP headers to resolve the issue.
 
 ## Reorganize
 
@@ -671,6 +690,7 @@ Mental outlaw video: How to securely erase data on May 27, 2025
 
 Make a data recovery tool.
 
+Password geenrator app. "How strong should your password by by mental outlaw"
 In the password tool, have it where it automatically helps you resets your password on the websites you choose.
 Maybe a monthly popup where is opens the necessary wi dows back and forth, and you copy paste the passwords with ease.
 
@@ -778,3 +798,11 @@ personal website. take inspiration from
 -   https://vale.rocks/posts/the-implementation-of-this-site
 -   https://vale.rocks/posts/writing-style-and-mannerisms
 -   https://singhkays.com/blog/netflix-av1-decode/ - Use of > and >> in headers
+
+live airflight tracker. map the flights in an app.
+include future flights from the database and then choose the locations on map and show only the flights from/to the location.
+add trips like from to location pairs and show them on the app.
+extend this to railway, bus, taxi, tourist spots and adventure spots (look at adventure.md for things you can add) (anything that has public data)
+include weather app in this as well.
+This app becomes one stop shop for everything travel, weather, adventure. Include your adventure.
+Include all the local emergency numbers and locations for hospitals, and where to go for different kind of emergencies like eyes, accident, urgent care.

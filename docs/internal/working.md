@@ -31,3 +31,7 @@ nav_exclude: true
     -   list of social media
     -   personal website
 -   Read non-technical book (after work before gym between 7 and 7:30, or before bed)
+
+## Add to notes
+
+-   Frontend masters full stack for frontend engineers devops notes
