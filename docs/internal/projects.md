@@ -57,6 +57,18 @@ nav_exclude: true
 -   Respect right to repair. When making hardware do not employ dark patterns to make it harder for people to access, modify, and repair the machine as they wish to.
 -   An exception to the rules can be created for organizations that don't respect these rules1.
 
+### Project writing tips
+
+-   Start each project with a day spent on project planning, scope (including features), rough estimate.
+-   Do the first iteration of project, which includes building a "hello, world" equivalent. This should include all the things (like deployment, docs, source control, ...) other than the actual core features.
+-   Refine the original estimate.
+-   After feature completion, do a review of the code base to ensure DRY, Orthogonality, ... principles are being followed. Refer to the following resources
+    -   [The Pragmatic Programmer](../../books/general_programming/the_pragmatic_programmer_your_journey_to_mastery/)
+    -   [Design Patterns: Elements of Reusable Object-Oriented Software](../../books/general_programming/design_patterns_elements_of_reusable_object_oriented_software/)
+-   Do an iteration focused on performance optimization. This is where subsections of code are analyzed to, improve performance. Also, check the network tab to identify and bottlenecks.
+-   Do one final iteration to verify Pragmatic Programmer principles are being met.
+-   Do a project retrospect. Work on refining the estimate and identifying how to make it more accurate in the future.
+
 ---
 
 ## SEO
@@ -213,18 +225,6 @@ when creating lims system for aesl with qwik js, be active in qwik discord and s
 
 create visualization like tigerbeetle simulator, for all distributed algorithms and database
 
-## Project writing tips
-
--   Start each project with a day spent on project planning, scope (including features), rough estimate.
--   Do the first iteration of project, which includes building a "hello, world" equivalent. This should include all the things (like deployment, docs, source control, ...) other than the actual core features.
--   Refine the original estimate.
--   After feature completion, do a review of the code base to ensure DRY, Orthogonality, ... principles are being followed. Refer to the following resources
-    -   [The Pragmatic Programmer](../../books/general_programming/the_pragmatic_programmer_your_journey_to_mastery/)
-    -   [Design Patterns: Elements of Reusable Object-Oriented Software](../../books/general_programming/design_patterns_elements_of_reusable_object_oriented_software/)
--   Do an iteration focused on performance optimization. This is where subsections of code are analyzed to, improve performance. Also, check the network tab to identify and bottlenecks.
--   Do one final iteration to verify Pragmatic Programmer principles are being met.
--   Do a project retrospect. Work on refining the estimate and identifying how to make it more accurate in the future.
-
 ## Astro
 
 ### Asset shortcut plugin
@@ -320,8 +320,6 @@ Other stuff
 -   Ensure all the tags are closed. Every tag (should probably) have a certain number of valid tags that can be nested inside of it. This information might be helpful for guessing if the tag was closed or not. When using the HTML parser, you have to look into if the AST returned includes auto-closing nodes added by the parser, which is what we don't want. The reason why we don't want auto-closing tags, is it sometimes results in weird behavior.
 
     -   This website lists [most common errors](https://htmlparser.info/conformance-checkers/).
-
-        ![Most common HTML errors](../../../assets/project_ideas/html_linter_most_common_errors.png)
 
 ### Minifier
 

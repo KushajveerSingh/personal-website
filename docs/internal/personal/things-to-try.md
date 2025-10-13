@@ -23,6 +23,11 @@ nav_exclude: true
 
 -   [link](https://www.youtube.com/watch?v=_a-8U4roG5c) Airsoft battle
 
+## Animation
+
+-   Flipbook animation book
+    = Stop motion animation
+
 ## Art and Crafts
 
 -   The Fine Art of paper flowers by Tiffanie Turner
