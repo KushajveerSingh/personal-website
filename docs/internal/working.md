@@ -35,3 +35,23 @@ nav_exclude: true
 ## Add to notes
 
 -   Frontend masters full stack for frontend engineers devops notes
+
+## Rust learn
+
+-   frontend masters prime course
+-   frontend masters prime course polygot
+-   https://rustbyexample.io/
+-   easy rust
+-   fast track to rust
+-   rust programming language book
+    -   rust by example
+-   cargo
+-   rustfmt
+-   clippy
+-   rust standard library
+-   rust editions
+-   rustdoc
+-   rustc
+-   compiler error index
+-   the rust reference
+-   the rustonomicon
