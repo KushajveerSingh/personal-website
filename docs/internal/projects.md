@@ -57,18 +57,6 @@ nav_exclude: true
 -   Respect right to repair. When making hardware do not employ dark patterns to make it harder for people to access, modify, and repair the machine as they wish to.
 -   An exception to the rules can be created for organizations that don't respect these rules1.
 
-### Project writing tips
-
--   Start each project with a day spent on project planning, scope (including features), rough estimate.
--   Do the first iteration of project, which includes building a "hello, world" equivalent. This should include all the things (like deployment, docs, source control, ...) other than the actual core features.
--   Refine the original estimate.
--   After feature completion, do a review of the code base to ensure DRY, Orthogonality, ... principles are being followed. Refer to the following resources
-    -   [The Pragmatic Programmer](../../books/general_programming/the_pragmatic_programmer_your_journey_to_mastery/)
-    -   [Design Patterns: Elements of Reusable Object-Oriented Software](../../books/general_programming/design_patterns_elements_of_reusable_object_oriented_software/)
--   Do an iteration focused on performance optimization. This is where subsections of code are analyzed to, improve performance. Also, check the network tab to identify and bottlenecks.
--   Do one final iteration to verify Pragmatic Programmer principles are being met.
--   Do a project retrospect. Work on refining the estimate and identifying how to make it more accurate in the future.
-
 ---
 
 ## SEO
@@ -203,6 +191,15 @@ nav_exclude: true
 -   Create a tool similar to [csper](https://csper.io/) to track/report CSP violations, and suggestions on resolving.
 -   Option to add HTML head tags to resolve the issue.
 -   Option to add HTTP headers to resolve the issue.
+
+## Coding Live Documentation Viewer
+
+-   When writing say Rust, depending on where cursor is, show the official documentation for that thing in a browser window. As you type, the page keeps getting updated.
+-   For this to work, offline documentation would work best. And for navigation using URL (file path) would be best.
+-   In addition show custom user documentation, which can include like performance characteristics of each thing, accessibility, security, usage examples, best practices.
+-   Another pane can show the piece of code at different compiler stages.
+
+---
 
 ## Reorganize
 

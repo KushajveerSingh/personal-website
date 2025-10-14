@@ -14,3 +14,7 @@ nav_exclude: true
 ## H
 
 -   Hollow Knight: Silksong by _Team Cherry_ (Sep 4, 2025)
+
+## Try
+
+-   The Last Guardian ps4
