@@ -1,6 +1,6 @@
 ---
 title: Software Engineering
-nav_order: 1000
+nav_order: 100
 ---
 
 <!-- prettier-ignore-start -->
