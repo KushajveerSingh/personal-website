@@ -34,3 +34,11 @@ nav_order: 110
     -   Ifixit repair kit
 -   Next (dec 12 or 19)
     -   GPU
+
+## Tools
+
+-   iFixit Repair Business Toolkit
+-   iFixit Magnetic Project Mat
+-   iFixit Precision Electric Screwdriver
+-   iFixit Anti-Static Project Tray
+-   iFixit Manta Driver Kit
