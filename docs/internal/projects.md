@@ -837,3 +837,5 @@ extend this to railway, bus, taxi, tourist spots and adventure spots (look at ad
 include weather app in this as well.
 This app becomes one stop shop for everything travel, weather, adventure. Include your adventure.
 Include all the local emergency numbers and locations for hospitals, and where to go for different kind of emergencies like eyes, accident, urgent care.
+
+make a program for all of nvidia ecosystem

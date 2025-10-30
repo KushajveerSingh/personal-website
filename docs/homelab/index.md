@@ -25,13 +25,10 @@ nav_order: 110
 -   Next (oct 31)
     -   Motherboard - Gigabyte X870E Aorus Master X3D Ice
     -   Power supply - Corsair HX1500i 2025 ATX 3.1 80+ Platinum
--   Next (nov 14)
     -   Ram
     -   4tb storage
--   Next (nov 28)
     -   4tb storage
     -   Pc case
-    -   Ifixit repair kit
 -   Next (dec 12 or 19)
     -   GPU
 
