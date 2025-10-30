@@ -22,13 +22,14 @@ nav_order: 110
 
 -   CPU - AMD Ryzen 9 9950X3D
 -   CPU cooler - Noctua NH-D15 G2 LBC Brown
--   Next (oct 31)
-    -   Motherboard - Gigabyte X870E Aorus Master X3D Ice
-    -   Power supply - Corsair HX1500i 2025 ATX 3.1 80+ Platinum
+-   Power supply - Corsair HX1500i 2025 ATX 3.1 80+ Platinum
+-   Case - Antex FLUX Pro, 6x PWN Fans, Walnut Wood ATX Full Tower Case
+-   Next (nov 14)
+    -   4tb storage
+    -   4tb storage
+-   Next (nov 28)
     -   Ram
-    -   4tb storage
-    -   4tb storage
-    -   Pc case
+    -   Motherboard - Gigabyte X870E Aorus Master X3D Ice
 -   Next (dec 12 or 19)
     -   GPU
 

@@ -33,6 +33,10 @@ nav_exclude: true
 -   [link](https://www.fragrantica.com/perfume/Rabanne/Invictus-Platinum-72557.html) Paco Rabanne Invictus Platinum (party)
 -   [link](https://www.fragrantica.com/perfume/Burberry/Hero-Parfum-90069.html) Burberry Hero Eau de Parfum
 
+## Hat
+
+-   [link](https://www.youtube.com/watch?v=9rp06KA0D-I) How the world's oldest hat shop has stayed in business for nearly 350 years
+
 ## Nutrition
 
 ## Skincare
