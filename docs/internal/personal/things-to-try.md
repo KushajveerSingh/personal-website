@@ -39,6 +39,10 @@ nav_exclude: true
 -   Tools Working Wood in Eighteenth Century America by James M. Gaymor
 -   A Natural History of Colour by Rob Deasalle
 
+## Astronomy
+
+-   Stargazing (mobile apps that show constellation)
+
 ## Cleaning
 
 -   Professional house cleaning training
@@ -55,6 +59,7 @@ nav_exclude: true
 ## Fires
 
 -   [link](https://www.youtube.com/watch?v=kqTxWiW8x9o) The Swedish torch: an ingenious 400-year-odl invention
+-   Smoke signal from fire
 
 ## Jigsaw puzzles
 

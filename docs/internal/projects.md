@@ -839,3 +839,5 @@ This app becomes one stop shop for everything travel, weather, adventure. Includ
 Include all the local emergency numbers and locations for hospitals, and where to go for different kind of emergencies like eyes, accident, urgent care.
 
 make a program for all of nvidia ecosystem
+
+obfuscation and hardening, used to prevent information leak from source code to machine code to make the compiled code extremely difficult to reverse engineer and understand.
