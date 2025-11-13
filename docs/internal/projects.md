@@ -235,6 +235,16 @@ nav_exclude: true
 
 -   Look for niche topics, like electronic circuits.
 
+## Wayland/X11
+
+-   Create a Wayland/X11 alternative.
+-   Some ultrawide monitors splitting single monitor into 2. Can this be implemented at software level, and let users define custom regions on their monitors, to act as sub monitors similar to ultrawide.
+-   Dell monitors have Dell Display Manager, which uses DDC/CI protocol to change monitor settings. When creating the alternative, also create a GUI thing, and in the GUI add features from the Dell Display Manager as well (change brightness, color mode, ...).
+-   Global shortcut for window movement to left, right, top, bottom. Use Win + UpArrow to move window up. Press up arrow twice to expand the window to entire top 50% width. Then downArrow would move it to smaller top region. For multi monitors, do Win + 2 + UpArrow, where 2 is for the second monitor. This will move the window to the number 2 monitor. Also, provide option to define these regions like top-left, top-right, .... And then use Win + arrow keys to move around.
+-   Use CSS names for all the things. Like for borders, provide option to control border for each window separately. On the programming side, this can be achieved by using a unique dictionary key corresponding to the window and then defining the boder options, including the monitor to show on and the placement within the monitor as well.
+    -   Include all the unique features from tiling window managers as well.
+-   Programming interface allows any application to open a new window, with all the config options. As long as the dictionary key name is unique, applications can control exactly how to display their window (this does include things like excluding the top bar with minimize, close buttons, and changing position to top-bar, buttons).
+
 ---
 
 ## Reorganize
