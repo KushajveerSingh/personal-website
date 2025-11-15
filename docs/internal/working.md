@@ -59,3 +59,35 @@ nav_exclude: true
 ## AESL job details
 
 -   Built custom high-end workstation pcs and ergonomic desk setup. Did lighting and would often DIY custom components like whisper quiet keyboards.
+
+## AESL learn
+
+-   ui/ux
+    -   refactoring ui youtube
+    -   design course ui/ux
+-   html
+    -   mdn element reference
+-   css
+    -   mdn css reference
+    -   mdn css guide
+-   tailwind docs
+-   javascript
+    -   modern js tutorial
+-   accessibility
+    -   mdn accessibiilty
+-   browser apis
+    -   mdn docs specifications
+-   svelte
+    -   sveltekit
+    -   shadcn
+    -   design system youtube video
+    -   zod
+    -   tanstack query
+-   rust
+    -   rust docs
+    -   zero to production book
+-   postgres
+    -   neon docs
+    -   postgres sql docs
+    -   sql performance book
+-   for devops use frontend masters course and digital ocean droplet
