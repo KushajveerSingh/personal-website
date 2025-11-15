@@ -55,3 +55,7 @@ nav_exclude: true
 -   compiler error index
 -   the rust reference
 -   the rustonomicon
+
+## AESL job details
+
+-   Built custom high-end workstation pcs and ergonomic desk setup. Did lighting and would often DIY custom components like whisper quiet keyboards.
