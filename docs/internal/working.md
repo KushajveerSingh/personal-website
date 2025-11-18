@@ -77,6 +77,7 @@ nav_exclude: true
     -   css animations and transitions
     -   mdn css reference
     -   mdn css guide
+    -   animations.dev course
 -   tailwind docs
 -   javascript
     -   the hard parts of asynchronous javascript
@@ -104,7 +105,14 @@ nav_exclude: true
     -   zod
     -   tanstack query
     -   es-toolkit
--   owasp web security
+-   testing
+    -   vitest
+    -   playwright
+    -   mock service worker
+-   security
+    -   mdn security
+    -   owasp web security
+-   http
 -   api design patterns
 -   designing data intensive applications
 -   system design interview 1
@@ -122,3 +130,4 @@ nav_exclude: true
     -   sql performance book
     -   sql antipatterns books
 -   for devops use frontend masters course and digital ocean droplet
+-   posthog
