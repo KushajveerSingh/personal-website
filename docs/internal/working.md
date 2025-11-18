@@ -63,17 +63,37 @@ nav_exclude: true
 ## AESL learn
 
 -   ui/ux
+    -   design for developers
     -   refactoring ui youtube
     -   design course ui/ux
+    -   design system ui collective
 -   html
     -   mdn element reference
+    -   svg essentials and animations
+    -   pwas: you might not need that app store
 -   css
+    -   ultimate css grid and layout techniques
+    -   practical css layout
+    -   css animations and transitions
     -   mdn css reference
     -   mdn css guide
 -   tailwind docs
 -   javascript
+    -   the hard parts of asynchronous javascript
+    -   the hard parts of ui development
+    -   web storage apis
+    -   a tour of web capabilities
     -   modern js tutorial
+-   performance
+    -   web performance fundamentals
+    -   javascript performance
+    -   blazingly fast javascript
+    -   mastering chrome developer tools
+    -   bare metal javascript
 -   accessibility
+    -   website accessibility v3
+    -   web app accessibiilrty
+    -   enterprise web app accessibility
     -   mdn accessibiilty
 -   browser apis
     -   mdn docs specifications
@@ -83,6 +103,16 @@ nav_exclude: true
     -   design system youtube video
     -   zod
     -   tanstack query
+    -   es-toolkit
+-   owasp web security
+-   api design patterns
+-   designing data intensive applications
+-   system design interview 1
+-   system design interview 2
+-   naming things
+-   data oriented programming
+-   data oriented programming with rust
+-   data oriented design
 -   rust
     -   rust docs
     -   zero to production book
@@ -90,4 +120,5 @@ nav_exclude: true
     -   neon docs
     -   postgres sql docs
     -   sql performance book
+    -   sql antipatterns books
 -   for devops use frontend masters course and digital ocean droplet
