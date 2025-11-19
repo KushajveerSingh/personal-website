@@ -247,6 +247,22 @@ nav_exclude: true
 
 ---
 
+## Basketball stats
+
+-   For every stat in basketball, find its meaning and how to actually use it (without stat padding).
+    -   For example, number of rebounds is a false metric. Because a reboud can be contested and uncontested, your teammate might box out making it easier for you to rebound. A better look at this metric is what is the rebound number of the team with/without you.
+    -   For example, number of blocks is a false metric. A better metric is opponent at-rim field goal percentage (on-off). The reason being having blocks does not give complete picture of defense. You may still be weak and get pushed around and in general cannot keep up with defensive assignment. Also, use opponent at-rim shot frequency (on-off).
+    -   [Video](https://www.youtube.com/watch?v=nhLIh4XQQjo) for reference.
+-   Do the above for every stat.
+-   Make it easy to make charts from these, like you see on youtube videos. Let people choose a player and time period and add it to the graph.
+-   Look at popular youtube basketball videos and add the graphs they use in the program as well.
+
+## Linux GUI
+
+-   Create Graphical UI to better view and navigate man pages.
+-   Add all the special linux related files and settings here.
+-   All the special command line commands that give info about the os and linux, have their output already present here.
+
 ## Reorganize
 
 Write a paper on how doing multiple sports can prevent injuries. Look at different sports, and parts they normally use, and make a series of sports that cover all parts of the body, without overusing the same part over and over again.
