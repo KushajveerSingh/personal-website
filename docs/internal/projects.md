@@ -177,6 +177,7 @@ nav_exclude: true
 -   Go through postgres documentation and create an admin panel to configure all the settings, this includes options for compiling postgres from source.
     -   For options which can take multiple values like page size, offer a testing utility which users can use to get the best value.
     -   Provide guide on meaning of all values and how to choose the appropriate one.
+    -   [link](https://postgresqlco.nf/) Page listing configuration options and tuning guide.
 -   Go through all the Postgre Weekly newsletters and add stuff from there.
 -   Look at databases built on top of Postgres and merge their features.
 -   Look at databases outside of Postgres and merge their features.
@@ -185,6 +186,9 @@ nav_exclude: true
 -   Development database setup and easier way to run queries in dev mode before pushing to production. In dev mode, add methods to easily add worst case inputs for the queries. And also test for performance.
 -   For migrations provide two functions for each function. How to upgrade and how to downgrade. And then it is to the user to handle the logic. The software handles the execution of these functions and can be used to roll back 100 migrations if the logic allows it.
     -   During migration we might have to look into load balancing and how to migrate when the database is really huge.
+-   High availability
+    -   patroni
+-   Add backup testing, backup restore. Disaster recovery.
 
 ### Access transpiler
 
@@ -253,8 +257,6 @@ nav_exclude: true
     -   Include all the unique features from tiling window managers as well.
 -   Programming interface allows any application to open a new window, with all the config options. As long as the dictionary key name is unique, applications can control exactly how to display their window (this does include things like excluding the top bar with minimize, close buttons, and changing position to top-bar, buttons).
 
----
-
 ## Basketball stats
 
 -   For every stat in basketball, find its meaning and how to actually use it (without stat padding).
@@ -293,14 +295,23 @@ nav_exclude: true
 -   When the compiler is updated, recompile all the libraries as well.
 -   Features from security area can be added, like creating dependency graph, checking for outdated dependencies.
 
+## Exercise research
+
+-   Write a paper on how doing multiple sports can prevent injuries.
+-   Goal: If you are a kid use this protocol, and this might help you with reaching professional league, but this will defintiely help you stay healthier and injury free in your 60s.
+-   Look at different sports, and parts they normally use, and make a series of sports that cover all parts of the body, without overusing the same part over and over again.
+-   Look at mentality, physicality aspect of the sports as well.
+-   Give suggestions like playing with old people, young people, left/right hand, playing with woman if you are a man. This covers playing the same sport slowly (against old people), and faster (against younger people).
+
+## Laboratory Inventory Management System (LIMS)
+
+-   Lims system using quickjs.
+
+## UI Layout
+
+-   Build UI layout engine with all CSS properties. Reference [Clay](https://www.youtube.com/watch?v=DYWTw19_8r4).
+
 ## Reorganize
-
-Write a paper on how doing multiple sports can prevent injuries. Look at different sports, and parts they normally use, and make a series of sports that cover all parts of the body, without overusing the same part over and over again.
-Look at mentality, physicality aspect of the sports as well.
-Give suggestions like playing with old people, young people, left/right hand, playing with woman.
-Goal: If you are a kid use this protocol, and this might help you with reaching professional league, but this will defintiely hep you stay healthier and injury free in your 60s.
-
-Lims system using quickjs
 
 Usa militiary industry complex
 Show the people who jokd positions and where they held before. And how these people are related to each other.
@@ -633,7 +644,7 @@ The mappings can be extended to have another object that specifies the type.
 
 In the c++ template, how to compile a binary for each linux distribution.
 This includes testing infrastructure, to run alll the source test cases on the compiled binary, and show the info in a table and github action.
-This includes detailed automatically created documentation on how to install, upgrade, delete.
+This includes detailed automatically created documentation on how to install, upgrade, te.
 This includes creating a ui that will look in a folder (similar to macos) for the binaries. Create desktop icons and other stuff for each distribution. When user runs the ui, show option to check for update, delete, roll back to previous version.
 In the tool, provide a syntax where the developers can define where and how to check if an update is released.
 

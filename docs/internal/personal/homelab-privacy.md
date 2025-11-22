@@ -155,3 +155,8 @@ nav_exclude: true
 -   [link](https://www.reddit.com/r/PleX) r/PleX
 -   [link](https://www.reddit.com/r/truenas) r/truenas
 -   [link](https://www.reddit.com/r/Proxmox) r/Proxmox
+
+## Data broker
+
+-   [link](https://joindeleteme.com/) DeleteMe
+-   [link](https://easyoptouts.com/) EasyOptOuts

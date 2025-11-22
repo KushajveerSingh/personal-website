@@ -39,6 +39,8 @@ nav_exclude: true
 -   [link](https://www.youtube.com/watch?v=zitVeXW82V0) Jeremy Lin: How Bigs Contest Guard's Shot
 -   [link](https://www.youtube.com/watch?v=lK4zIVazjlU) Jeremy Lin: Quick Pull Up Jumper off the dribble
 -   [link](https://www.youtube.com/watch?v=vdBvIaO6pMg) Jeremy Lin Shares his experience as a guard to defend bigs
+-   [link](https://www.youtube.com/watch?v=6mnujT_fzlY) Stephen Curry's Basketball Workout During The Off-Season
+-   [link](https://www.lockdowndefense.com/the-academy) The Lockdown Academy
 
 ## Training
 

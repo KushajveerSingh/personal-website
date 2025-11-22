@@ -86,6 +86,12 @@ nav_exclude: true
 -   [ ] Audio
     -   [ ] [link](https://frontendmasters.com/courses/web-audio/) Web Audio Synthesis & Visualization
 
+## Email
+
+-   [ ] [link](https://frontendmasters.com/courses/html-email-v2/) HTML Email Development, v2
+-   [link](https://www.litmus.com/) litmus
+-   [link](https://www.emailonacid.com/) Email on Acid
+
 ## Progressive web apps
 
 -   [ ] web.dev Resources
@@ -593,6 +599,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 ### Authentication/Authorization
 
 -   [ ] [link](https://www.better-auth.com/) Better-Auth
+-   [ ] [link](https://casl.js.org/v6/en/) CASL authorization
 
 ### Server Sent Events
 
@@ -602,6 +609,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 ### Web socket
 
 -   [ ] [link](https://socket.io/) Socket.IO
+-   [ ] [link](https://github.com/uNetworking/uWebSockets) uWebSockets (faster than Socket.IO)
 
 ## Payment
 

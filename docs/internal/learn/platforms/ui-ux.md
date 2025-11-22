@@ -109,6 +109,7 @@ nav_exclude: true
 
 -   [ ] Google Material for Android
 -   [ ] Apple Human Interfaces for Apple
+-   [ ] GitHub Primer
 
 ## Books
 

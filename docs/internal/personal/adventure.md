@@ -134,6 +134,7 @@ nav_exclude: true
 
 -   [link](https://www.alltrails.com/) AllTrails
 -   [link](https://caltopo.com/) CalTopo
+-   [link](https://cycle.travel/) cycle travel
 -   [link](https://faroutguides.com/) farOut
 -   [link](https://www.gaiagps.com/) GAIA GPS
 -   [link](https://www.mapmyrun.com/routes/search) Map My Run (make run route)
