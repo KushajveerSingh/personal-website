@@ -67,10 +67,15 @@ nav_exclude: true
     -   refactoring ui youtube
     -   design course ui/ux
     -   design system ui collective
+    -   github primer
+    -   apple human guidelines
+    -   google material design
+    -   gov.uk design system
 -   html
     -   mdn element reference
     -   svg essentials and animations
     -   pwas: you might not need that app store
+    -   html email development
 -   css
     -   ultimate css grid and layout techniques
     -   practical css layout

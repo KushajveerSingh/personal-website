@@ -176,11 +176,19 @@ nav_exclude: true
 
 -   Go through postgres documentation and create an admin panel to configure all the settings, this includes options for compiling postgres from source.
     -   For options which can take multiple values like page size, offer a testing utility which users can use to get the best value.
+    -   Provide guide on meaning of all values and how to choose the appropriate one.
 -   Go through all the Postgre Weekly newsletters and add stuff from there.
 -   Look at databases built on top of Postgres and merge their features.
 -   Look at databases outside of Postgres and merge their features.
--   Create transpiler and tooling to migrate from other databases to postgres.
-    -   Access
+-   CLI to create josn schema of all tables, typescript format, format for other languages.
+-   Some queries integrate data from previous years, and the output rarely changes. The output from previous years can be cached. Create interface where you keep track of such queries and update the cache. If intergation can be made on when was the table last modified, the update of query output can be automated.
+-   Development database setup and easier way to run queries in dev mode before pushing to production. In dev mode, add methods to easily add worst case inputs for the queries. And also test for performance.
+-   For migrations provide two functions for each function. How to upgrade and how to downgrade. And then it is to the user to handle the logic. The software handles the execution of these functions and can be used to roll back 100 migrations if the logic allows it.
+    -   During migration we might have to look into load balancing and how to migrate when the database is really huge.
+
+### Access transpiler
+
+-   Create transpiler and tooling to migrate from Access database system.
 
 ## HTTP
 
@@ -262,6 +270,28 @@ nav_exclude: true
 -   Create Graphical UI to better view and navigate man pages.
 -   Add all the special linux related files and settings here.
 -   All the special command line commands that give info about the os and linux, have their output already present here.
+
+## Email HTML creator
+
+-   Create tool to make HTML email campaigns.
+-   Plain HTML/CSS.
+    -   Have a template folder, and have something similar to JINJA syntax.
+    -   Another folder for emails, which will contain HTML files. Folder structure can used for versioning.
+    -   Script that creates `out` folder containing the final HTML files, with the templates filled in.
+-   Reference [HTML Email Development](https://frontendmasters.com/courses/html-email-v2) course.
+    -   Add tooling for linting, formatting based on the course.
+    -   If stuff can be added from [Email on Acid](https://www.emailonacid.com/) and [Litmus](https://www.litmus.com/) add that as well.
+        -   Leave the final checking of the email against email clients to these tool though.
+-   Tooling to check the email server. Like what protocol is being used, is the email encrypted, ...
+-   Add design system based on UI collective and simpler component library.
+-   [mjml](https://mjml.io/) framework for making responsive emails.
+
+## Rust dynamic library
+
+-   When installing library through Cargo, all the dependencies have to recompiled. Since rust has no stable ABI, there are differences in the compiled binary across different compiler versions.
+-   Create a wrapper around cargo installer, which will install/get libraries from a shared folder.
+-   When the compiler is updated, recompile all the libraries as well.
+-   Features from security area can be added, like creating dependency graph, checking for outdated dependencies.
 
 ## Reorganize
 
