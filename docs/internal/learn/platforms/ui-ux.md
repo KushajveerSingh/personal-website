@@ -26,9 +26,16 @@ nav_exclude: true
     -   [ ] [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
     -   [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
     -   [ ] [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process
-    -   [ ] [link](https://frontendmasters.com/courses/ux-testing/) UX Research & User Testing
-    -   [ ] [link](https://frontendmasters.com/courses/product-design/) The Product Design Process
-    -   [ ] [link](https://frontendmasters.com/courses/product-management/) Complete Intro to Product Management
+
+## Start
+
+-   [ ] [link](https://inclusivedesignprinciples.info/) Inclusive Design Principles
+-   [ ] [link](https://shapeofdesignbook.com/) The Shape of Design by Frank Chimero
+-   [ ] [link](https://designingfortheweb.co.uk/) Designing for the Web by Mark Boulton
+-   [ ] [link](https://designforweb.org/) Design for web A handbook for aspiring web designers
+-   [ ] [link](https://webstyleguide.com/) Web style guide by Patrick J. Lynch and Sarah Horton
+-   [ ] [link](https://readabilityguidelines.co.uk/) Readability Guidelines by Content Design London
+-   [ ] [link](https://www.designsystems.com/) Design Systems publication by Figma
 
 ## Typography
 
@@ -40,20 +47,6 @@ nav_exclude: true
 -   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
 -   [ ] [link](https://book.webtypography.net/) Web Typography A handbook for designing beautiful and effective responsive typography by Richard Rutter
 -   [ ] [link](https://clagnut.com/blog/2433) Introducing TODS - a typographic and OpenType default stylesheet
-
-## Design system
-
--   [ ] [link](https://tweakcn.com/) tweakcn
-
-## Start
-
--   [ ] [link](https://inclusivedesignprinciples.info/) Inclusive Design Principles
--   [ ] [link](https://shapeofdesignbook.com/) The Shape of Design by Frank Chimero
--   [ ] [link](https://designingfortheweb.co.uk/) Designing for the Web by Mark Boulton
--   [ ] [link](https://designforweb.org/) Design for web A handbook for aspiring web designers
--   [ ] [link](https://webstyleguide.com/) Web style guide by Patrick J. Lynch and Sarah Horton
--   [ ] [link](https://readabilityguidelines.co.uk/) Readability Guidelines by Content Design London
--   [ ] [link](https://www.designsystems.com/) Design Systems publication by Figma
 
 ## Practical
 
@@ -110,6 +103,7 @@ nav_exclude: true
 -   [ ] Google Material for Android
 -   [ ] Apple Human Interfaces for Apple
 -   [ ] GitHub Primer
+-   [ ] [link](https://tweakcn.com/) tweakcn
 
 ## Books
 
