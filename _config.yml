@@ -1,0 +1,23 @@
+title: Kushaj
+description: Kushajveer Singh personal websites
+theme: just-the-docs
+
+url: https://kushaj.com/
+
+mermaid:
+  version: "11.4.1"
+
+color_scheme: dark
+enable_copy_code_button: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+foother_content: ""
+
+source: docs
+defaults:
+  - values:
+      layout: default
+
+aux_links:
