@@ -82,6 +82,11 @@ nav_exclude: true
 -   The payment processor can now become independent from other banks.
 -   The cost will be supported through OpenPay, since you don't want people to lose money sitting in their account.
 
+### OpenTicket
+
+-   Have a ticketing system similar to Ticketmaster.
+-   Only people with OpenPay/OpenBank accounts, will be able to use the service.
+
 ### OpenTax
 
 -   Use domain `usa.tax.openkush.com`.
