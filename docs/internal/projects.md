@@ -418,6 +418,11 @@ nav_exclude: true
 -   [mjml](https://mjml.io/) framework for making responsive emails.
 -   Create GUI similar to nocode tools, for creating HTML email. Example [postcard](https://designmodo.com/postcards/).
 -   Copy SAAS providers like Litmus.
+-   Other tools
+    -   [link](https://www.litmus.com/) litmus
+    -   [link](https://www.emailonacid.com/) Email on Acid
+    -   [link](https://designmodo.com/postcards/) Postcards
+    -   [link](https://www.campaignmonitor.com/) Campaign Monitor
 
 ## Rust Dynamic Library
 

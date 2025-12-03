@@ -89,10 +89,7 @@ nav_exclude: true
 ## Email
 
 -   [ ] [link](https://frontendmasters.com/courses/html-email-v2/) HTML Email Development, v2
--   [link](https://www.litmus.com/) litmus
--   [link](https://www.emailonacid.com/) Email on Acid
--   [link](https://designmodo.com/postcards/) Postcards
--   [link](https://www.campaignmonitor.com/) Campaign Monitor
+-   [ ] [link](https://mjml.io/) mjml
 
 ## Progressive web apps
 
