@@ -876,3 +876,17 @@ nav_exclude: true
 -   Get population of each country, and further every city and zip code. Now you know exactly how poeple are distributed across the world.
 -   Next add probabilities of interaction based on geography and reduce as you go back further. Make these numbers available as controls.
 -   Have additional controls like railway connections, airport connections, visa free entry, gdp.
+
+## Homelab Builder
+
+-   Create detailed notes on how to create homelab/homedatacenter.
+-   From setting up custom power solution and other electricity related stuff, to rack, to ups, to hardware, networking, software.
+
+## Weather App
+
+-   Google weather app has forecast for activities like running, camping. It gets the data from the weather channel.
+-   Create a better user interface using google weather/maps api and the weather channel.
+-   AccuWeather is bad, do not use it.
+-   Look at all the weather apps and combine their features into a single app.
+-   Look at how the weather channel gets data from sources and make your own model, so as to not rely on the weather channel.
+-   National weather service better option than the weather channel (as the weather channel has some commerical restlrictions around their API).

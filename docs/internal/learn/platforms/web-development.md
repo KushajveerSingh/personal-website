@@ -33,31 +33,6 @@ nav_exclude: true
     -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Learn: Server-side websites
     -   [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to: How to solve common problems (Web mechanics)
 
-## Search Engine Optimization (SEO)
-
--   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
--   [x] URL
-    -   [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs) MDN URI: Choosing between www and non-www URLs
-    -   [x] [link](https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/#options-for-bare-domains) How to set up Netlify DNS - Custom Domains, CNAME, & A Records
-    -   [x] [link](https://www.wpbeginner.com/beginners-guide/www-vs-non-www-which-is-better-for-wordpress-seo/) WWW vs non-WWW - Which is Better for WordPress SEO?
-    -   [x] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
-    -   [x] [link](https://alfy.blog/2025/10/16/hidden-cost-of-url-design.html) The Hidden Cost of URL Design
-    -   [x] [link](https://alfy.blog/2025/10/31/your-url-is-your-state.html) Your URL Is Your State
-    -   [x] [link](https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers/417184#417184) What is the maximum length of a URL in different browsers?
--   [x] [link](https://frontendmasters.com/courses/modern-seo/) Frontend Masters: Modern Search Engine Optimization (SEO) by _Mike North_ (4 hours 4 minutes) (Jun 15, 2017)
--   [ ] [link](https://www.googleguide.com/) Google Guide Making Searching Even Easier
--   [ ] [link](https://ahrefs.com/blog/google-advanced-search-operators/) Google Search Operators: The Complete List
--   [ ] [link](https://kinsta.com/blog/google-search-operators/) Google Search Operators: 40 Commands to Know
--   [ ] [link](https://developers.google.com/search/docs) Google Search docs
-    -   [ ] [link](https://developers.google.com/search/case-studies) Google Search Case Studies
--   [ ] [link](https://developers.google.com/crawling) Google Crawling Infrastructure
-
-### Books
-
--   [ ] Product-Led SEO: The Why Behind Building Your Organic Growth
--   [ ] The Art of SEO: Mastering Search Engine Optimization
--   [ ] Content Chemistry by Andy Crestodnia
-
 ## HTML
 
 -   [ ] web.dev Resources

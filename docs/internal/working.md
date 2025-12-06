@@ -27,3 +27,30 @@ Take inspiration from
 -   https://vale.rocks/posts/the-implementation-of-this-site
 -   https://vale.rocks/posts/writing-style-and-mannerisms
 -   https://singhkays.com/blog/netflix-av1-decode/ - Use of > and >> in headers
+
+## Daily
+
+-   Read book
+-   project list -> social redesign
+-   rust.md
+-   web.md -> ui.md
+-   Free time - Frontend masters
+
+## Workout ideas
+
+-   Main gym
+    -   D1 training center
+    -   MMA gym
+    -   Ramsey (Gym, Basetball, Rock climbing)
+-   Flexibility
+    -   Yoga
+    -   Pilates
+    -   Gymnastics
+    -   Calesthenics
+-   Weekend
+    -   Bike riding
+    -   Hiking, backpacking1
+-   Random sports
+    -   Bowling
+    -   Pool
+    -   New sports
