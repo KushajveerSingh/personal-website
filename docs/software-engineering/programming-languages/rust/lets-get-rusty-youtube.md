@@ -1,6 +1,6 @@
 ---
 title: "Let's Get Rusty"
-nav_order: 1.5
+nav_order: 2
 parent: Rust
 ---
 

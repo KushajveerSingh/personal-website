@@ -34,9 +34,17 @@ nav_exclude: true
 
 ## Books
 
--   [ ] [link](https://doc.rust-lang.org/book/) The Rust Programming Language book
-    -   [ ] [link](https://doc.rust-lang.org/rust-by-example/) Rust by Example
-    -   [ ] [link](https://rustlings.cool/) Rustlings (exercises)
+-   [ ] Official
+    -   [ ] [link](https://doc.rust-lang.org/nightly/book/index.html) The Rust Programming Language book
+    -   [ ] [link](https://rust-lang.github.io/rustup/) The rustup book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/reference/index.html) The Rust Reference book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/style-guide/index.html) The Rust Style Guide book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/rustc/index.html) The rustc book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/cargo/index.html) The Cargo book
+    -   [ ] [link](https://rustc-dev-guide.rust-lang.org/) Rust Compiler Development Guide book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/rustdoc/index.html) The rustdoc book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/clippy/index.html) Clippy Documentation book
+    -   [ ] [link](https://doc.rust-lang.org/std/index.html) Rust API docs
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) Common Rust Lifetime Misconceptions
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md) Sizedness in Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md) Tour of Rust's Standard Library Traits
@@ -80,6 +88,7 @@ nav_exclude: true
 -   [ ] [link](https://createlang.rs/) Create Your Own Programming Language with Rust
 -   [ ] [link](https://docs.rust-embedded.org/discovery/) micro::bit v2 Embedded Discovery Book
 -   [ ] [link](https://docs.esp-rs.org/book/) The Rust on ESP Book
+-   [ ] [link](https://doc.rust-lang.org/nightly/embedded-book/index.html) The Embeeded Rust Book
 
 ## Other
 
@@ -107,3 +116,4 @@ nav_exclude: true
 -   rustowl
 -   cargo-expand
 -   [link](https://github.com/evcxr/evcxr) evcxr (interactive shell)
+-   [link](https://github.com/dtolnay/anyhow) anyhow

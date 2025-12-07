@@ -1,6 +1,6 @@
 ---
 title: "Frontend Masters: The Rust Programming Language"
-nav_order: 2
+nav_order: 3
 parent: Rust
 ---
 
