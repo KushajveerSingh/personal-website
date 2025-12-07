@@ -43,14 +43,22 @@ nav_exclude: true
 
 -   Stargazing (mobile apps that show constellation)
 
+## Barber (Hair Care)
+
 ## Bicycle Maintenance
 
 -   Zinn & The Art of Road Bike Maintenance
 -   Zinn & The Art of Mountain Bike Maintenance
 
+## Car Maintenance
+
+## Carpentry
+
 ## Cleaning
 
 -   Professional house cleaning training
+
+## Cooking / Food Storage
 
 ## Dance
 
@@ -61,14 +69,16 @@ nav_exclude: true
 
 -   [link](https://williamhanson.komi.io/) William Hanson
 
+## Firearm Training
+
 ## Fires
 
 -   [link](https://www.youtube.com/watch?v=kqTxWiW8x9o) The Swedish torch: an ingenious 400-year-odl invention
 -   Smoke signal from fire
 
-## Jigsaw puzzles
+## Gardening
 
--   [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
+## Ironing
 
 ## Lock picking
 
@@ -79,9 +89,32 @@ nav_exclude: true
 -   [link](https://www.vanishingincmagic.com/magician/Asi-Wind/) Asi Wind courses
 -   [link](https://www.youtube.com/@MattMcGurk) Matt McGurk youtube videos
 
+## Masseuse (Massage)
+
+## Music Instruments
+
+## Painting Walls
+
 ## Pilot license
 
+## Plumbing
+
+## Puzzles
+
+-   [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
+-   Rubiks cube.
+-   Board games.
+
 ## Rope tying
+
+## Sewing
+
+## Skin Care
+
+## Whistle
+
+-   Deliverance Song
+-   Hunger Games Song
 
 ## Wilderness First Aid
 

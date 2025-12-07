@@ -106,3 +106,4 @@ nav_exclude: true
 -   cargo-nextest
 -   rustowl
 -   cargo-expand
+-   [link](https://github.com/evcxr/evcxr) evcxr (interactive shell)

@@ -28,6 +28,8 @@ nav_exclude: true
 -   [link](https://www.youtube.com/@FUTOTECH/videos) FUTO youtube videos
 -   [link](https://futo.org/) FUTO website
 -   [link](https://www.youtube.com/watch?v=OHsJA2uYH-w) HOMELAB: A quick UPDATED look at my homelab...
+-   [link](https://www.youtube.com/playlist?list=PLWYPRHLWSBL7mOXFimjxlZ_qChwHmxOUR) Custom Cable Guides by singularity computers
+-   [link](https://www.reddit.com/r/linux/comments/1lp2288/sniffnet_a_free_open_source_network_monitoring_app/) Network monitor tool
 
 ## Reddit
 

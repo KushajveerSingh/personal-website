@@ -649,6 +649,11 @@ nav_exclude: true
 -   The ui tool takes care of downloading, updating emulators.
 -   It also shows where to see for help on the wiki before playing a game, to fix any bugs.
 -   All controllers should work without extra work.
+-   [link](https://www.reddit.com/r/opendirectories/comments/6haqbq/every_ps2_game_iso_ever/) r/opendirectories every ps2 game (iso) ever
+
+### Local Cloud Gaming
+
+-   Run cloud gaming from your home server or VPS.
 
 ## DevTools
 
@@ -791,6 +796,12 @@ nav_exclude: true
 -   Password geenrator app. "How strong should your password by by mental outlaw".
 -   In the password tool, have it where it automatically helps you resets your password on the websites you choose.
     -   Maybe a monthly popup where is opens the necessary windows back and forth, and you copy paste the passwords with ease.
+-   Integrate "have i been pawned" and other security websites.
+
+### Email Unsubscriber
+
+-   Go through all emails and find the subscriptions and show them in a list.
+-   Integrate have i been pawned and other security related services to email.
 
 ## PGP Chat Client
 
@@ -869,6 +880,7 @@ nav_exclude: true
 -   Every axiomatic system had a history. Had a motivation. Worked through loads of examples and counterexamples to motivate and finally settle on a specific definition that's both general enough to capture a sufficiently wide variety of interesting problems, but also specific enough so that we can actually prove interesting results about them.
 -   https://www.youtube.com/watch?v=D0ZVe9AtgUg Create your own math book for subfields of math, and do motivation, history, examples, use cases, arguments against and then do the usual stuff that current books do.
 -   The book progresses in chronological order, and you develop theory and the applications. Interactive diagrams as done by Brilliant.
+-   Other topics cryptography, networking, theory of computing, linear algebra, differential/intergral calculus, information theory, matrices, digital electornics, analog electronics, computer architecture, operating system, quantum computing.
 
 ## How Internet Works
 
@@ -895,3 +907,18 @@ nav_exclude: true
 -   Look at all the weather apps and combine their features into a single app.
 -   Look at how the weather channel gets data from sources and make your own model, so as to not rely on the weather channel.
 -   National weather service better option than the weather channel (as the weather channel has some commerical restlrictions around their API).
+
+## Media Viewer
+
+-   Single media player, that can show images, videos, audio, pdf.
+-   Include all the formats, hdr, display supports.
+-   Add common editing features, and also applying the same editing instructions to batch of inputs.
+
+## Anti DRM
+
+-   Modify chrome browser, display driver, gpu driver to get anti DRM to work.
+-   Test for all popular services and see if you can download the raw video, audio, images.
+
+## Wayback Timemachine
+
+-   Timemachine app that lets you backup a website from a URL. Includes manual backup and automatic interval backups.
