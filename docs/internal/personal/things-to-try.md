@@ -19,6 +19,10 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Airplane
+
+-   [link](https://www.amazon.com/Record-Airplane-International-Winning-Designs/dp/0999108417) World Record Paper Airplane book
+
 ## Airsoft
 
 -   [link](https://www.youtube.com/watch?v=_a-8U4roG5c) Airsoft battle
@@ -26,7 +30,7 @@ nav_exclude: true
 ## Animation
 
 -   Flipbook animation book
-    = Stop motion animation
+    -   Stop motion animation
 
 ## Art and Crafts
 
@@ -84,6 +88,8 @@ nav_exclude: true
 
 -   [link](https://www.youtube.com/watch?v=fTt1g0ZrzE0) LockPickingLawyer
 
+## Knitting
+
 ## Magic
 
 -   [link](https://www.vanishingincmagic.com/magician/Asi-Wind/) Asi Wind courses
@@ -91,7 +97,11 @@ nav_exclude: true
 
 ## Masseuse (Massage)
 
+## Medical Emergency Training
+
 ## Music Instruments
+
+## Origami
 
 ## Painting Walls
 
@@ -104,6 +114,8 @@ nav_exclude: true
 -   [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
 -   Rubiks cube.
 -   Board games.
+
+## Rock Balancing
 
 ## Rope tying
 

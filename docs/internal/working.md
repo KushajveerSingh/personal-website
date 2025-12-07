@@ -27,14 +27,15 @@ Take inspiration from
 -   https://vale.rocks/posts/the-implementation-of-this-site
 -   https://vale.rocks/posts/writing-style-and-mannerisms
 -   https://singhkays.com/blog/netflix-av1-decode/ - Use of > and >> in headers
+-   add terminal like navigation
 
 ## Daily
 
 -   Read book
--   project list -> social redesign
--   rust.md
--   web.md -> ui.md
--   Free time - Frontend masters
+-   rust
+-   web
+-   ui
+-   social redesign
 
 ## Workout ideas
 

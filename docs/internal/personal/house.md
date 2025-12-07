@@ -26,6 +26,11 @@ nav_exclude: true
 -   75 step-by-step paint projects and ideas to transform your home by Annie Sloan
 -   The Furniture of John Shearer A True North Britain in the Southern Backcountry by Elicabeth A. Davison
 
+## Car
+
+-   Tint windows for UX and IR, but allow visible light.
+-   Toyota forerunner
+
 ## Desk
 
 -   [link](https://www.youtube.com/watch?v=6er5oSPUGOI) Making 20 Upgrades for myu Desk Setup - Dream Setups #2
@@ -44,6 +49,9 @@ nav_exclude: true
 -   Purify electricity entering the house to reduce harmonic distortions [link](https://www.youtube.com/watch?v=3__HO-akNC8).
 -   Have a collection of historically worn clothes from different cultures.
 -   Create crossword puzzle like decoration with blocks making your families name.
+-   Birdhouse
+-   Plants to attract butterflies.
+-   Air plants in home.
 
 ## Pets
 

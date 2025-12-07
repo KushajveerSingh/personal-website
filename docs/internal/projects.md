@@ -167,6 +167,7 @@ nav_exclude: true
 ## VPN Performance Check
 
 -   Use vpn to check your site performance across counties.
+-   Can use aws vps as well.
 
 ## Better Tech Name
 
@@ -248,6 +249,11 @@ nav_exclude: true
 -   Add option to add changes to inputs, text fields, dropdowns to the URL. This is relevant to use URL as state management. Check [/product-design/seo/url.html#url-as-state-management](/product-design/seo/url.html#url-as-state-management).
 -   Add performance optimization for things like toggle. Even though toggle is a boolean, it takes 1 byte in memory. Multiple toggles can be packed together using bitwise operators. [video](https://www.youtube.com/watch?v=z7wVUfnm7M0).
 
+### Markdown Editor
+
+-   Markdown -> HTML -> PDF
+-   Show live preview of PDF export.
+
 ### CSS Style Sorter
 
 -   Sort CSS style properties similar to how Tailwind sort's the class names.
@@ -262,11 +268,11 @@ nav_exclude: true
 ### Code Snippet
 
 -   Create a code snippet module. Check all the documentation generators and copy their features.
--   Add compiler outputs, advanced stuff like assembly output, or whatever is relevant to that language.
+-   Add compiler outputs, print output, advanced stuff like assembly output, or whatever is relevant to that language.
 -   See typescript, swift docs for inspiration.
 -   Add optional feature for formatting the code using offical formatters of each language.
 -   Comments/Code can be highlighted for warming, danger, info, ...
-    All the code in the codeblock should be generated at build time, including line numbers.
+-   All the code in the codeblock should be generated at build time, including line numbers.
 
 ### Code Transition
 
@@ -294,6 +300,7 @@ nav_exclude: true
 -   Graphs.
 -   Diagrams. Refer [Diagrams project](#diagram) as well, as that will build on top of this.
 -   Some diagrams where it is of video format, to show flow of data (make it interactive, have the ability to hover and see tooltip). This might be int he realm of 3Blue1Brown animation library.
+-   Icepanel, Lucidchart.
 
 ### 3D-Visualization
 
@@ -664,6 +671,7 @@ nav_exclude: true
 ## Clipboard Sync
 
 -   Sync clipboard for copy/paste between computer and phone. Useful when you want to paste something from computer to mobile.
+-   Also, keep track of clipboard history.
 
 ## Movie Series Youtube
 
@@ -837,7 +845,13 @@ nav_exclude: true
 
 -   Combine all software related products from agriculture related fields.
 
-## Website Simulation Testing
+## Unit Test Builder
+
+-   For each parameter to a function, make a list of all possible options. Like for an integer it would be min, max, 0. And there can be user defined constraints like if conditions.
+    -   Additional constraints can be network loss, program crash, interrupts.
+-   Use this to create an exhaustive list of unit tests.
+
+### Website Simulation Testing
 
 -   Provide an array of all actions that a user can take, and the simulator will run those randomly.
 -   This includes everything like you are on a page, the user has the options to close the tab, open new tab, change url of current tab and lot more, and also click the buy button on the page.
@@ -922,3 +936,33 @@ nav_exclude: true
 ## Wayback Timemachine
 
 -   Timemachine app that lets you backup a website from a URL. Includes manual backup and automatic interval backups.
+
+## Rust JSF Standard
+
+-   [youtube video](https://www.youtube.com/watch?v=Gv4sDL9Ljww) Why Fighter Jets Ban 90% of C++ Features
+-   Create Rust equivalent of JSF standard.
+    -   Implement static code analyzer to enforce the standard.
+    -   Make a subset of Rust documentation that that shows only the allowed features. Go through the entire Rust API to include functions (and example usage).
+    -   Add [Unit Test Builder project](#unit-test-builder) and code test coverage.
+    -   Add flight simulation demo.
+-   Use [Xplane](https://www.x-plane.com/desktop/buy-it/) simulator to prepare a flight demo ([example code](https://github.com/LaurieWired/XplaneFlightData)).
+    -   Look at how to make the most comprehensive aerospace demo.
+    -   But [F35B](https://store.x-plane.org/AOA-Simulations_bymfg_71-0-1.html) jet by AOA simulations
+-   Standards to consider
+    -   [JSF](https://www.stroustrup.com/JSF-AV-rules.pdf)
+    -   [F Prime](https://fprime.jpl.nasa.gov/)
+    -   [MISRA](https://misra.org.uk/shop/)
+    -   [AUTOSAR](https://www.autosar.org/fileadmin/standards/R17-10_R1.2.0/AP/AUTOSAR_RS_CPP14Guidelines.pdf)
+    -   [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
+
+## Delete Consumer Reporting Data
+
+-   [List of consumer reporting companies](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/consumer-reporting-companies/companies-list/).
+-   Make a guide/automation tool on deleting all the info from the listed companies.
+-   Query to view free report.
+-   Data brokerages might be doing the same thing.
+
+## Phone Rotation By 180
+
+-   Phones can't be flipped to have header on the charge side, which is annoying in some cases when you need to use charger.
+-   Create app to enable this flip. Check this tool as [reference](https://play.google.com/store/apps/details?id=com.pranavpandey.rotation).
