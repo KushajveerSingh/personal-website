@@ -88,6 +88,7 @@ nav_exclude: true
 -   [ ] [link](https://www.refactoringui.com/) Refactoring UI book
     -   [ ] [link](https://www.youtube.com/watch?v=7Z9rrryIOC4) Steve Schoger \| Refactoring UI \| CSS Day 2019
     -   [ ] [link](https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE) Refactoring UI playlist
+    -   [ ] [link](https://tailwindcss.com/build-uis-that-dont-suck) Build UIs that don't suck
 -   [ ] [link](https://clearleft.com/work) Clearleft case studies
 
 ## Tools

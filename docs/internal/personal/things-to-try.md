@@ -121,6 +121,10 @@ nav_exclude: true
 
 ## Sewing
 
+### Embroidery
+
+-   [link](https://www.youtube.com/watch?v=FxG1dP6ZHBQ) My daughter's new side-hustle - BAi the Mirror
+
 ## Skin Care
 
 ## Whistle

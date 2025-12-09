@@ -19,6 +19,11 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Reorganize
+
+-   HTML - Set src of iframe using javascript after the main content is done with loading to improve page load time. Always use sandbox attribute.
+-   HTTP CSP - Disable full page from being embedded in an iframe. Allowing this often results in clickjacking attack.
+
 ## Personal website
 
 Take inspiration from
@@ -35,7 +40,7 @@ Take inspiration from
 -   rust
 -   web
 -   ui
--   social redesign
+-   social
 
 ## Workout ideas
 

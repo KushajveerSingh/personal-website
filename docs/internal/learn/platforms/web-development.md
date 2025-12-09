@@ -44,7 +44,6 @@ nav_exclude: true
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems) Learn: Common HTML problems
     -   [ ] [link](https://developer.mozilla.org/en-US/docs/Web/HTML) References: HTML
 -   [ ] [link](https://github.com/cure53/DOMPurify) DOMPurify
--   [ ] [link](https://frontendmasters.com/courses/html-email-v2/) FrontendMasters: HTML Email Development, v2
 
 ## Media
 
