@@ -55,12 +55,6 @@ parent: Rust
 -   Eveyr package can specify a set of imports that should always be added, in a prelude file.
 -   For `std` the prelude contains things like `Option`, `Result`. So that you don't have to import them like normal.
 
-## Crate
-
--   Collection of Rust source code files.
--   Binary crate - Where the aim is to create an executable.
--   Library crate - Contains code that is intended to be used in other programs and can't be executed on it own.
-
 ## Statements and Expressions
 
 -   _Statement_ - Perform an action and do not return a value.
@@ -121,6 +115,7 @@ parent: Rust
     -   `char` - `let z: char = 'Z';`.
 -   **String literals**
     -   Immutable and hardcoded in the binary executable.
+    -   These are string slices as the data type is `&str`.
 
 ### Compound
 
@@ -292,7 +287,10 @@ fn takes_and_gives_back(string: String) -> String { // string comes into scope
 ## Borrowing
 
 -   Pass a reference to variable that is owned by some other variable.
--   **Referencing** - Use `&` to create a reference that refers to the value of a variable, but the ownership does not change.
+-   **Referencing** - Use `&` to create a reference that refers to the value of a variable, but the ownership does not change. By default, references are immutable.
+-   **Mutable references** - Use `mut &`.
+    -   If you have a mutable reference, you are not allowed to have any other reference, including immutable reference.
+    -   This helps prevent _data races_.
 
 ```rust
 fn main() {
@@ -308,3 +306,131 @@ fn calculate_length(s: &String) -> usize {
     s.len();
 }
 ```
+
+Reference's scope starts from where it is introduced to the last point where it is used. So this code will work, even though we have both immutable and mutable references.
+
+```rust
+let mut s = String::from("hello");
+
+let r1 = &s; // scope of r1 starts
+println!("{r1}"); // scope of r1 ends, since it is not used after
+
+let r3 = &mut s;
+```
+
+### Returning a reference
+
+-   _Dangling pointer_ - Pointer that references a region of memory that is assigned to some other variable.
+-   Rust gurantees no dangling pointers.
+-   For example, the below code fails
+
+    ```rust
+    fn dangle() -> &String { // Return a reference to string
+        let s = String::from("hello");  // s comes into scope
+
+        &s // return reference to s
+    } // s goes out of scope and is dropped, so its memory is freed.
+      // This causes &s to be dangling pointer, which is an error.
+    ```
+
+To resolve the issue use lifetime, or simply return the original string instead.
+
+### Slices
+
+-   Reference to a contigous sequence of elements in a collection.
+-   Used when we want to keep a collection like string in sync with a variable like index of first space character.
+-   Consider the problem of finding the first word in string
+    ```rust
+    let mut s = String::from("hello world");
+    let word_end_index: usize = first_word(&s); // Let's say this get a value of 10
+    s.clear(); // the string is empty now
+    // word_end_index still has the value 10, even though the string is empty
+    ```
+-   Slices solve this issue of keeping variables in sync with the collection.
+    ```rust
+    let s = String::from("hello world");
+    let hello: &str = &s[0..5]; // reference to a portion of String
+    let world = &s[6..11];
+    ```
+-   **Slice creation**
+    -   `[starting_index..ending_index]`. Internally stored as a value of the stack with two properties `ptr` to the starting position and `len` specifying the length of the slice.
+    -   `[..ending_index]` - same as doing `[0..ending_index]`.
+    -   `[starting_index..]` - same as doing `[starting_index..len]` where `len = s.len()`.
+    -   `[..]` - same as `[0..len]` where `len = s.len()`.
+    -   Note that the indexes should be at valid UTF-8 character boundaries, otherwise the program will exit with an error.
+-   **Use `&str` as parameter instead of `&String`** - This allows the function to work for both `String` and `str` string literals.
+
+    ```rust
+    fn first_word(s: &str) -> &str {
+    }
+
+    fn main() {
+        let s = String::from("hello world");
+        first_word(&s[0..6]);
+        first_word(&s);
+
+        let literal = "hello";
+        first_word(&literal[0..6]);
+        first_word(literal);
+    }
+    ```
+
+## Struct
+
+-   Essentially named tuple.
+-   If you want to later change any field, the entire instance has to be made mutable.
+-   To use references inside the struct use lifetimes.
+
+```rust
+struct User {
+    active: bool,
+    username: String,
+    email: String,
+}
+
+let user1 = User {
+    active: true,
+    username: String::from("hello"),
+    email, // same as writing "email: email,"
+};
+
+user1.active
+user1.username
+
+let user2 = User {
+    email: String::from("hello@example.com"),
+    ...user1 // Use the same values from user1
+}; // This also moves user1 to user2, leaving user1 unusable (because we used
+   // username from user1 which is a heap value)
+```
+
+### Tuple struct
+
+-   Same as tuple, but just provide a name/meaning to the tuple.
+-   Also, when destructuring you need to provide the struct name as well.
+
+```rust
+struct Color(i32, i32, i32);
+
+let black = Color(0, 0, 0);
+let Color(r, g, b) = black;
+```
+
+### Unit struct
+
+-   Similar to unit tuple. It is a struct that has no data.
+-   Used when you need to implement a trait on some type but don't have any data that you want to store in the type itself.
+
+```rust
+struct AlwaysEqual;
+
+let subject = AlwaysEqual;
+```
+
+## Crate
+
+-   Collection of Rust source code files.
+-   Binary crate - Where the aim is to create an executable.
+-   Library crate - Contains code that is intended to be used in other programs and can't be executed on it own.
+
+https://doc.rust-lang.org/nightly/book/ch05-02-example-structs.html

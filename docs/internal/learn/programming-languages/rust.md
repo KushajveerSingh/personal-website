@@ -59,6 +59,7 @@ nav_exclude: true
 -   [ ] [link](https://www.sheshbabu.com/posts/rust-module-system/) Clear explanation of Rust's module system
 -   [ ] [link](https://rust-unofficial.github.io/patterns/) Rust Design Patterns
 -   [ ] [link](https://doc.rust-lang.org/nightly/nomicon/) The Rustonomicon
+-   [ ] [link](https://rust-unofficial.github.io/patterns/) Rust Patterns
 -   [ ] [link](https://www.lurklurk.org/effective-rust/) Effective Rust by _David Drysdale_
 -   [ ] [link](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/) Programming Rust
 -   [ ] [link](https://marabos.nl/atomics/foreword.html) Rust Atomics and Locks
