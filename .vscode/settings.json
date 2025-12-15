@@ -15,7 +15,7 @@
   "editor.stickyScroll.enabled": true,
 
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "files.eol": "\n",
   "files.insertFinalNewline": true,

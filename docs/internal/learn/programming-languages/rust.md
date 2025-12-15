@@ -32,19 +32,45 @@ nav_exclude: true
     -   [ ] [link](https://frontendmasters.com/courses/typescript-go-rust/) Polyglot Programming: TypeScript, Go, & Rust by _ThePrimeagen_ (8 hours 49 minutes) (Aug 13, 2022)
     -   [ ] [link](https://frontendmasters.com/courses/rust-ts-devs/) Rust for TypeScript Developers by _ThePrimeagen_ (5 hours 19 minutes) (Apr 25, 2023)
 
-## Books
+## Official
 
--   [ ] Official
+-   [ ] Official books
     -   [ ] [link](https://doc.rust-lang.org/nightly/book/index.html) The Rust Programming Language book
-    -   [ ] [link](https://rust-lang.github.io/rustup/) The rustup book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/rust-by-example/index.html) RUst by Example
     -   [ ] [link](https://doc.rust-lang.org/nightly/reference/index.html) The Rust Reference book
     -   [ ] [link](https://doc.rust-lang.org/nightly/style-guide/index.html) The Rust Style Guide book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/rustdoc/index.html) The rustdoc book
+    -   [ ] [link](https://doc.rust-lang.org/nightly/clippy/index.html) Clippy Documentation book
+    -   [ ] [link](https://rust-lang.github.io/rustup/) The rustup book
     -   [ ] [link](https://doc.rust-lang.org/nightly/rustc/index.html) The rustc book
     -   [ ] [link](https://doc.rust-lang.org/nightly/cargo/index.html) The Cargo book
     -   [ ] [link](https://rustc-dev-guide.rust-lang.org/) Rust Compiler Development Guide book
-    -   [ ] [link](https://doc.rust-lang.org/nightly/rustdoc/index.html) The rustdoc book
-    -   [ ] [link](https://doc.rust-lang.org/nightly/clippy/index.html) Clippy Documentation book
     -   [ ] [link](https://doc.rust-lang.org/std/index.html) Rust API docs
+
+## Tools
+
+-   Tools
+    -   Rustfmt
+    -   Clippy
+    -   Miri
+-   Performance
+    -   hyperfine (time)
+    -   flamegraph (time)
+    -   dhat (memory allocation)
+    -   Tracing (async testing)
+    -   tokio-console (connect with tracing)
+    -   oha (load testing http endpoints)
+    -   Rayon
+    -   DashMap
+-   bacon
+-   cargo-nextest
+-   rustowl
+-   cargo-expand
+-   [link](https://github.com/evcxr/evcxr) evcxr (interactive shell)
+-   [link](https://github.com/dtolnay/anyhow) anyhow
+
+## Books
+
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) Common Rust Lifetime Misconceptions
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md) Sizedness in Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md) Tour of Rust's Standard Library Traits
@@ -70,7 +96,7 @@ nav_exclude: true
 -   [ ] [link](https://www.amazon.com/dp/B0D7FQB3DH) Rust Under the Hood: A deep dive into Rust internals and generated assembly
 -   [ ] [link](https://nnethercote.github.io/perf-book/title-page.html) The Rust Performance Book
 
-## Application
+## Application books
 
 -   [ ] [link](https://rust-api.dev/docs/front-matter/preface/) API development with Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/too-many-brainfuck-compilers.md) Learn Assembly by Writing Entirely Too Many Brainfuck Compilers
@@ -91,30 +117,6 @@ nav_exclude: true
 -   [ ] [link](https://docs.esp-rs.org/book/) The Rust on ESP Book
 -   [ ] [link](https://doc.rust-lang.org/nightly/embedded-book/index.html) The Embeeded Rust Book
 
-## Other
+## Reorganize
 
 -   [ ] [link](https://lborb.github.io/book/title-page.html) The Little Book of Rust Books
--   [ ] [link](https://rustup.rs/) rustup
--   [ ] [link](https://play.rust-lang.org/) Rust playground
-
-## Tools
-
--   Tools
-    -   Rustfmt
-    -   Clippy
-    -   Miri
--   Performance
-    -   hyperfine (time)
-    -   flamegraph (time)
-    -   dhat (memory allocation)
-    -   Tracing (async testing)
-    -   tokio-console (connect with tracing)
-    -   oha (load testing http endpoints)
-    -   Rayon
-    -   DashMap
--   bacon
--   cargo-nextest
--   rustowl
--   cargo-expand
--   [link](https://github.com/evcxr/evcxr) evcxr (interactive shell)
--   [link](https://github.com/dtolnay/anyhow) anyhow

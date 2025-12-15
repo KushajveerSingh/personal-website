@@ -380,6 +380,9 @@ To resolve the issue use lifetime, or simply return the original string instead.
 -   Essentially named tuple.
 -   If you want to later change any field, the entire instance has to be made mutable.
 -   To use references inside the struct use lifetimes.
+-   Usage
+    -   Group similar data together and convey the meaning of our data in our code.
+    -   If a function computes area of rectange, then passing width and height as parameters is bad. Since the two parameters are not related Better approach is to use struct to group both width and height into a single object.
 
 ```rust
 struct User {
@@ -427,10 +430,32 @@ struct AlwaysEqual;
 let subject = AlwaysEqual;
 ```
 
+## Methods
+
+-   Similar to functions but defined for struct, enum, trait object.
+-   First parameter is always `self`. You can also use `&self` which is shorthand for `self: &Self`.
+
 ## Crate
 
 -   Collection of Rust source code files.
 -   Binary crate - Where the aim is to create an executable.
 -   Library crate - Contains code that is intended to be used in other programs and can't be executed on it own.
 
-https://doc.rust-lang.org/nightly/book/ch05-02-example-structs.html
+## Debug trait
+
+-   Add `#[derive(Debug)]` for types that don't implement `Debug` trait.
+-   Usage `dbg!(variable)`.
+-   Output's to `stderr` and takes ownership of value and returns it as well.
+    -   `println!` outputs to `stdout` and borrows values instead.
+
+```rust
+#[derive(Debug)]
+struct Rectangle {}
+
+let rect = Rectangle {
+    width: dbg!(30 * scale); // Since dbg returns value, width will get the result
+                             // of the expression
+}
+
+dbg!(&rect); // Use reference to not give ownership to dbg
+```
