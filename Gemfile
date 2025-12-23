@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# gem 'wdm', '>= 0.1.0'
+gem 'wdm', '>= 0.1.0'
 gem 'fiddle'
 gem 'logger'
 gem 'csv'

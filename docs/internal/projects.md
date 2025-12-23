@@ -450,6 +450,25 @@ nav_exclude: true
 
 -   Lims system using quickjs.
 
+## Agriculture SAAS
+
+-   What are the different types of things where agriculture related stuff is relevant (like water, soil, ...).
+-   Now dig deeper into each type.
+-   For water, where are all the places it is used (tap water, water filtration system, desalination systems, agriculture, acquarium, ships, ...).
+-   For each use case, build a simpler 3d printed model, to understand how these systems are constructed. Like how a tap water is built from the tap, to the pipes that carry the water. These will help identify issues that are impossible to think about just mentally.
+-   For each use case, identify the analysis or test that is relevant.
+-   In addition to the 3d model, make an animation that can be used to teach people how the system they are using is constructed.
+-   Consolidate all agriculture related software companies, precision agriculture, research papers.
+
+## Bike Car Cover
+
+-   When carrying bike behind a car, make a cover for it.
+-   The cover can expand and contract using velcros to support 1 to 4 bikes.
+-   The cover can shrink to cover smaller size bikes as well.
+-   Add a bottom cover, so that water does not seep in.
+-   Add reflective light things on the cover for night time riding.
+-   Pitch: You need a single cover for a car. The number of bikes don't matter.
+
 ## UI Layout
 
 -   Build UI layout engine with all CSS properties. Reference [Clay](https://www.youtube.com/watch?v=DYWTw19_8r4).
@@ -966,3 +985,10 @@ nav_exclude: true
 
 -   Phones can't be flipped to have header on the charge side, which is annoying in some cases when you need to use charger.
 -   Create app to enable this flip. Check this tool as [reference](https://play.google.com/store/apps/details?id=com.pranavpandey.rotation).
+
+## How To Use Website
+
+-   Have a tutorial button on website to show how to use it.
+-   It opens popovers with button for next/previous and close. Including table of contents to jump to certain sections.
+-   The tutorial spans multiple urls.
+-   The tutorial further includes transition periods that require users to press buttons, use the website.

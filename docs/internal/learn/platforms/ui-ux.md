@@ -53,7 +53,7 @@ nav_exclude: true
 -   [ ] The Art of SEO: Mastering Search Engine Optimization
 -   [ ] Content Chemistry by Andy Crestodnia
 
-## Start
+## Overview
 
 -   [ ] [link](https://inclusivedesignprinciples.info/) Inclusive Design Principles
 -   [ ] [link](https://shapeofdesignbook.com/) The Shape of Design by Frank Chimero
@@ -62,6 +62,7 @@ nav_exclude: true
 -   [ ] [link](https://webstyleguide.com/) Web style guide by Patrick J. Lynch and Sarah Horton
 -   [ ] [link](https://readabilityguidelines.co.uk/) Readability Guidelines by Content Design London
 -   [ ] [link](https://www.designsystems.com/) Design Systems publication by Figma
+-   [ ] [link](https://datagubbe.se/) datagubbe blog
 
 ## Typography
 
@@ -131,6 +132,11 @@ nav_exclude: true
 -   [ ] Apple Human Interfaces for Apple
 -   [ ] GitHub Primer
 -   [ ] [link](https://tweakcn.com/) tweakcn
+
+## Deceptive Patterns
+
+-   [ ] [link](https://www.deceptive.design/) Deceptive Patterns website
+-   [ ] [link](https://www.amazon.com/Deceptive-Patterns-Exposing-Companies-Control/dp/1739454405) Deceptive Patterns: Exposing the Tricks Tech Companies Use to Control You by _Harry Brignull_ (Jul 30, 2023) (272 pages)
 
 ## Books
 

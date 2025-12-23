@@ -155,52 +155,65 @@ parent: Rust
 -   `fn some_function(x: i32) -> i64 {}`.
 -   Return the last expression implicitly.
 
-### Control flow
+## Control flow
 
--   **if**
-    -   Expression.
-        ```rust
-        if bool_expression {
-        } else if bool_expression {
-        } else {
-        }
-        let x = if condition { 5 } else { 6 };
-        ```
--   **loop**
-    -   Same as `while true`.
-        ```rust
-        loop {
-        }
-        ```
-    -   `continue`, `break`.
-    -   Use `break return_val` to break from loop and return a value.
-        ```rust
-        let result = loop {
-            break 20;
-        };
-        ```
-    -   Provide labels to loop (begins with single quote) and use `continue label`, `break label` when working with nested loops.
-        ```rust
-        'outer_loop: loop {
-            loop {
-                break;
-                break 'outer_loop;
-                continue;
-                continue 'outer_loop;
-            }
-        }
-        ```
--   **while**
+### if
+
+Expression.
+`rust
+    if bool_expression {
+    } else if bool_expression {
+    } else {
+    }
+    let x = if condition { 5 } else { 6 };
+    `
+
+### loop
+
+-   Same as `while true`.
     ```rust
-    while condition {
+    loop {
     }
     ```
--   **for**
-    -   To loop over a collection.
-        ```rust
-        for element in a {
+-   `continue`, `break`.
+-   Use `break return_val` to break from loop and return a value.
+    ```rust
+    let result = loop {
+        break 20;
+    };
+    ```
+-   Provide labels to loop (begins with single quote) and use `continue label`, `break label` when working with nested loops.
+
+    ```rust
+    'outer_loop: loop {
+        loop {
+            break;
+            break 'outer_loop;
+            continue;
+            continue 'outer_loop;
         }
-        ```
+    }
+    ```
+
+### while
+
+```rust
+while condition {
+}
+```
+
+### for
+
+To loop over a collection.
+
+```rust
+for element in a {
+}
+```
+
+### match
+
+continue from https://doc.rust-lang.org/nightly/book/ch06-02-match.html
 
 ## Ownership
 
@@ -430,10 +443,73 @@ struct AlwaysEqual;
 let subject = AlwaysEqual;
 ```
 
+## Enum
+
+-   The value can be one of the possible set of values.
+-   Example IP address is better stored as enum, as it can be version four or six (it cannot be both at the same time). Thus we can enumerate all possible variants.
+
+```rust
+enum IpAddrKind {
+    V4(String),
+    V4_number(u8, u8, u8, u8),
+    V6(String),
+}
+
+// We get constructor method for free
+let four: IpAddrKind = IpAddrKind::V4(String::from("127.0.0.1"));
+let four_number: IpAddrKind = IpAddrKind::V4_number(127, 0, 0, 1);
+let six: IpAddrKind = IpAddrKind::V6(String::from("::1"));
+```
+
+### Option
+
+-   Enum to encode that value could be something or it could be nothing.
+
+```rust
+enum Option<T> {
+    None,
+    Some(T),
+}
+
+let some_number: Option<i32> = Some(5);
+let absent_number: Option<i32> = None;
+```
+
 ## Methods
 
 -   Similar to functions but defined for struct, enum, trait object.
 -   First parameter is always `self`. You can also use `&self` which is shorthand for `self: &Self`.
+-   The main purpose of `impl` is to group related code together.
+-   Calling `obj.something()` rust will do _automatic refercing and dereferncing_, where it will add `&`, `&mut`, `*` so that object matches the signature.
+-   Multiple `impl` blocks can be defined for the same type.
+
+```rust
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+```
+
+### Associated functions
+
+-   Functions defined in `impl` are called _associated functions_.
+-   The convention is to use `new`.
+-   `Self` alias for the type that comes after `impl`.
+-   Use `::` to call the associated function.
+
+```rust
+impl Rectangle {
+    fn square(size: u32) -> Self {
+        Self {
+            width: size,
+            height: size,
+        }
+    }
+}
+
+let square = Rectangle::square(10);
+```
 
 ## Crate
 
