@@ -213,6 +213,10 @@ for element in a {
 
 ### match
 
+-   Compare value against a series of patterns.
+-   Compiler ensures that all possible cases are handled.
+-   The comparison stops at the first match.
+
 continue from https://doc.rust-lang.org/nightly/book/ch06-02-match.html
 
 ## Ownership

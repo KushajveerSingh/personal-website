@@ -1,6 +1,6 @@
 ---
 title: macOS
-parent: Development Setup
+parent: Power User
 ---
 
 <!-- prettier-ignore-start -->
