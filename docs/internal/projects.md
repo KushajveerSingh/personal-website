@@ -1001,3 +1001,8 @@ nav_exclude: true
 -   Modify chromium pipeline, to include all things related to accessibility.
 -   For images/videos, render them using dark mode, color blindness modes. Look at other tags and see what you can add.
 -   Look at [Accessibility project](#accessibility) as well.
+
+## Progressive Web App
+
+-   Have install button in HTML that triggers PWA install.
+    -   Need to check the operating system and show a message if PWA is not supported and provide alternatives. [link](https://firt.dev/notes/pwa) with more info.
