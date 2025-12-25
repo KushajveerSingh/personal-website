@@ -248,6 +248,8 @@ nav_exclude: true
 -   For each component, have a separate file/layer for print, accessibilty options, keyboard shortcuts, event listeners.
 -   Add option to add changes to inputs, text fields, dropdowns to the URL. This is relevant to use URL as state management. Check [/product-design/seo/url.html#url-as-state-management](/product-design/seo/url.html#url-as-state-management).
 -   Add performance optimization for things like toggle. Even though toggle is a boolean, it takes 1 byte in memory. Multiple toggles can be packed together using bitwise operators. [video](https://www.youtube.com/watch?v=z7wVUfnm7M0).
+-   Components
+    -   Header - Similar to amazon mobile app, the header background fades if you have not scrolled for some time, and then the text fades as well.
 
 ### Markdown Editor
 
@@ -459,6 +461,7 @@ nav_exclude: true
 -   For each use case, identify the analysis or test that is relevant.
 -   In addition to the 3d model, make an animation that can be used to teach people how the system they are using is constructed.
 -   Consolidate all agriculture related software companies, precision agriculture, research papers.
+-   Show how much people are saving by using this project. For every usecase, anlysis show the price from commercial companies.
 
 ## Bike Car Cover
 
@@ -992,3 +995,9 @@ nav_exclude: true
 -   It opens popovers with button for next/previous and close. Including table of contents to jump to certain sections.
 -   The tutorial spans multiple urls.
 -   The tutorial further includes transition periods that require users to press buttons, use the website.
+
+## Chromium Pipeline Accessibility
+
+-   Modify chromium pipeline, to include all things related to accessibility.
+-   For images/videos, render them using dark mode, color blindness modes. Look at other tags and see what you can add.
+-   Look at [Accessibility project](#accessibility) as well.

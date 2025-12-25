@@ -2,7 +2,7 @@
 title: Global Attributes
 parent: HTML
 grand_parent: Frontend
-nav_order: 1
+nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->

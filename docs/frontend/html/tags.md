@@ -2,7 +2,7 @@
 title: Tags
 parent: HTML
 grand_parent: Frontend
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- prettier-ignore-start -->

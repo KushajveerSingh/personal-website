@@ -19,6 +19,10 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Idea
+
+-   Look at **Chromium Pipeline Accessibility** project.
+
 ## Program details
 
 [Program link](https://computing.uga.edu/doctor-philosophy-computer-science)

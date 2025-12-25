@@ -1,6 +1,7 @@
 ---
 title: Web General
-nav_order: 30
+parent: Frontend
+nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->
