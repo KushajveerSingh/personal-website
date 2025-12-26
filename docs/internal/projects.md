@@ -1006,6 +1006,9 @@ nav_exclude: true
 
 -   Have install button in HTML that triggers PWA install.
     -   Need to check the operating system and show a message if PWA is not supported and provide alternatives. [link](https://firt.dev/notes/pwa) with more info.
+-   Provide list of operating systems + browsers + devices, and the application will take screenshots of the app to show it is working fine.
+    -   The screenshots can be in different states, as to how it looks before install, screenshot of the icon to open, screenshot of when it is in alt tab view, and more.
+    -   Later show the screenshots like a slideshow. All the screenshots of the same spot (but on differnt os, browser, device) get shown simultaneously.
 
 ## Qwik Rust Ecosystem
 
