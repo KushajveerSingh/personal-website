@@ -213,11 +213,83 @@ for element in a {
 
 ### match
 
--   Compare value against a series of patterns.
+-   Compare value against a series of patterns and the resultant value of the matched pattern expression is returned.
 -   Compiler ensures that all possible cases are handled.
 -   The comparison stops at the first match.
 
-continue from https://doc.rust-lang.org/nightly/book/ch06-02-match.html
+```rust
+#[derive(Debug)]
+enum USState {
+    Alabama,
+    Alaska,
+}
+
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter(USState),
+}
+
+fn value_in_cents(coin: Coin) -> u8 {
+    match coin {
+        Coin::Penny => 1,
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter(state) => {
+            println!("State quarter from {state:?}!");
+            25
+        } // no need for comma after curly
+    }
+}
+
+println!("{}", value_in_cents(Coin::Quarter(USState::Alabama)));
+```
+
+**Catch-all**
+
+-   Use `_ => something` as a catch all pattern.
+-   If you need value use `other => something(other)`.
+
+### if let
+
+-   Similar to `match` but use when you only want to handle one pattern.
+
+```rust
+let var = Some(3);
+if let Some(max) = var {
+    println!("{max}");
+} else {
+    println!("something");
+}
+
+// The above is the same as `match`
+let var = Some(3);
+match var {
+    Some(max) => println!("{max}"),
+    _ => println!("something"),
+}
+```
+
+### let else
+
+-   Use to get the value from the mateched pattern and write logic to handle all the other cases.
+-   In `if let` we wrote logic for both the matched pattern and catch all case.
+
+```rust
+let Coin::Quarter(state) = coin else {
+    return None;
+};
+println!("{state:?}"); // The value from the pattern is bound to the outer scope,
+                       // i.e. why you can "state" here.
+
+// The above is same as "if let"
+let state = if let Coin::Quarter(state) = coin {
+    state
+} else {
+    return None;
+};
+```
 
 ## Ownership
 
@@ -479,6 +551,21 @@ let some_number: Option<i32> = Some(5);
 let absent_number: Option<i32> = None;
 ```
 
+-   Use `match` to compare variants of `Option<T>`.
+
+```rust
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    match x {
+        None => None,
+        Some(x) => Some(x + 1),
+    }
+}
+
+let five = Some(5);
+let six = plus_one(five); // `Some(5)` matches the pattern `Some(x)`
+let none = plus_one(None); // `None` matches the pattern `None`
+```
+
 ## Methods
 
 -   Similar to functions but defined for struct, enum, trait object.
@@ -515,12 +602,6 @@ impl Rectangle {
 let square = Rectangle::square(10);
 ```
 
-## Crate
-
--   Collection of Rust source code files.
--   Binary crate - Where the aim is to create an executable.
--   Library crate - Contains code that is intended to be used in other programs and can't be executed on it own.
-
 ## Debug trait
 
 -   Add `#[derive(Debug)]` for types that don't implement `Debug` trait.
@@ -539,3 +620,92 @@ let rect = Rectangle {
 
 dbg!(&rect); // Use reference to not give ownership to dbg
 ```
+
+## Module system
+
+-   Manage code organization, public/private details, what names are in each scope. These features are collectively called _module system_.
+    -   **Paths** - Way of naming an item, such as struct, function or module.
+    -   **Modules and use** - Let you control the organization, scope, and privacy of paths.
+    -   **Crates** - Tree of modules that produce a library or executable.
+    -   **Packages** - Cargo feature to build, test, and share crates.
+    -   **Workspaces** - Cargo feature for large projects comprising of interrelated packages that evolve together.
+
+### Crate
+
+-   Smallest amount of code that the Rust compiler considers at a time. Collection of Rust source code files.
+-   Crate can contain modules, and the modules may be defined in multiple files.
+-   Two types
+    -   **Binary crate** - Where the aim is to create an executable. `main` function is the entry point.
+    -   **Library crate** - Does not produce an executable. Contains code that is intended to be shared with multiple projects and can't be executed on it own. Does not have `main` function.
+        -   This is what people generally refer to _crate_ as well.
+-   _Crate root_ - Source file that the Rust compiler starts from and makes up the root module of your crate.
+    -   `src/main.rs` - Root for binary crate with same name as package.
+    -   `src/lib.rs` - Root for library crate with same name as package.
+    -   For multiple binary crates, place them in `src/bin`.
+
+### Package
+
+-   Bundle of one or more crates that provides a set of functionality.
+-   Contains `Cargo.toml` file that describes how to build those crates.
+-   Cargo is a package that contains a binary crate for command line usage. It also contains a library crate that the binary crate depends on.
+-   Package can contain any number of binary crates.
+-   Package can contain at most one library crate.
+
+For packages with both binary and library crate
+
+-   Define the module tree in library crate.
+-   The binary crate essentially acts like a user of the library (similar to other users will use your library).
+-   The public items can be used in the binary crate by starting the path with the package name.
+
+### Module
+
+-   Group related definitions together and name why they are related.
+-   Making module public, means the parents can access the module. It does not mean, the parents can access the inner components of the module as well.
+-   To make the inner components available, you need to make them public as well.
+
+### Paths
+
+-   To show Rust where to find an item in a module tree.
+-   Two types
+    -   **Absolute path** - Full path starting from a crate root. Rust prefers this.
+        -   For current crate use the literal `crate` to start the path.
+        -   For external crate use the crate name to start the path.
+    -   **Relative path** - Start from current module. Use `self`, `super` (similar to `..` in command line to go one directory up) or identifier to start the path.
+
+```rust
+mod front_of_house {
+    pub mod hosting {
+        pub fn add_to_waitlist() {}
+    }
+}
+
+fn eat_at_restaurant() {
+    // Absolute path
+    crate::front_of_house::hosting::add_to_waitlist();
+
+    // Relative path
+    front_of_house::hosting::add_to_waitlist();
+}
+```
+
+### Compiler Working
+
+-   **Start from the crate root**. Compiler checks these files for code to compile
+    -   `src/main.rs` for binary crate.
+    -   `src/lib.rs` for library crate.
+-   **Declaring modules**. In above files you can define modules using `mod module_name;` and compiler will look for the module's code in these places
+    -   Inline, within curly brackets (`mod module_name { code }`).
+    -   `src/module_name.rs`.
+    -   `src/module_name/mod.rs`.
+-   **Declaring submodules**. If submodules are defined `mod submodule_name;`, the compiler will check these places
+    -   Inline, withing curly brackets `mod submodule_name { code }`.
+    -   `src/module_name/submodule_name.rs`. Although Rust docs recommend this, prefer `mod.rs`, as it keeps the module code and submodule code in the same directory.
+    -   `src/module_name/submodule_name/mod.rs`.
+-   **Paths to code in modules**. Once a module is part of crate, it can be referred from anywhere else in that same crate. `crate::module_name::submodule_name::function_name`.
+-   **Private vs public**. Code within module is private from the parent by default.
+    -   To make the entire module public use `pub mod module_name`.
+    -   To make specific items public, use `pub` before item declaration.
+    -   Private items are internal implementation details.
+-   **The use keyword**. Within a scope, the `use` keyword creates shortcut to items to reduce repetition of long paths. `use crate::module_name::submodule_name::function_name;`. Now you can call `function_name` directly without the long path.
+
+continue from https://doc.rust-lang.org/nightly/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html

@@ -49,6 +49,7 @@ nav_order: 2
     -   The accuracy of vision matters less. There are many paths to greatness.
 -   With only one life to live on this earth, you ought to try to make significant contributions to humanity rather than just get along through life comfortably.
     -   The true gain is in the struggle and not in the achievement.
+-   Believe nothing, no matter where you read it, or who said it, unless it agrees with your own reason and your own common sense.
 
 ## Things great scientists do
 
@@ -70,4 +71,16 @@ nav_order: 2
     -   What is likely to happen? - Engineering. The desirable outcome will help guide this.
     -   What is desirable to have happen? - Value judgement.
 
-continue from page 16
+## Affect of simulations
+
+-   It is cheaper to do simulations than real experiments, more flexibility in testing, possible to do things that are not possible in the lab.
+-   But you should occasionally still look at nature as she is.
+-   Simulation is also bringing engineering closer to science.
+    -   Since everything can be done with simulation. Human factor is becoming more important for a better design.
+
+## Growth S curve
+
+-   The growth of fields follow S-shaped curve. Things begin slowly, then rise rapidly, and later flatten off as they hit some natural limits.
+-   Often new innvoation will set the growth of a field ont a new S curvewhich takes off from around the saturation level of the old one.
+
+continue from page 43

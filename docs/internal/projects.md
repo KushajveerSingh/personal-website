@@ -1006,3 +1006,8 @@ nav_exclude: true
 
 -   Have install button in HTML that triggers PWA install.
     -   Need to check the operating system and show a message if PWA is not supported and provide alternatives. [link](https://firt.dev/notes/pwa) with more info.
+
+## Qwik Rust Ecosystem
+
+-   Include subset of qwik features.
+-   Have cheatsheet for other web related stuff. ui/ux, html, css, js, ts, vite, tailwind, design system, browser apis.
