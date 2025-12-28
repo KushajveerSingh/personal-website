@@ -75,6 +75,16 @@ nav_exclude: true
 -   [ ] [link](https://book.webtypography.net/) Web Typography A handbook for designing beautiful and effective responsive typography by Richard Rutter
 -   [ ] [link](https://clagnut.com/blog/2433) Introducing TODS - a typographic and OpenType default stylesheet
 
+### Unicode
+
+-   [ ] [link](https://www.youtube.com/watch?v=vpSkBV5vydg) UTF-8, Explained Simply video
+-   [ ] [link](https://www.amazon.com/Unicode-Demystified-Practical-Programmers-Encoding/dp/0201700522) Unicode Demystified: A Practical Programmer's Guide to the Encoding Standard
+-   [ ] [link](https://www.amazon.com/Unicode-Explained-Internationalize-Documents-Programs/dp/059610121X) Unicode Explained: Internationalize Documents, Programs, and Web Sites
+
+### Fonts
+
+-   [ ] [link](https://www.amazon.com/Fonts-Encodings-Advanced-Typography-Everything/dp/0596102429) Fonts & Encodings: From Advanced Typography to Unicode and Everything in Between
+
 ## Practical
 
 -   [ ] [link](https://anthonyhobday.com/sideprojects/saferules/) Visual design rules you can safely follow every time

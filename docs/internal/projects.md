@@ -922,6 +922,7 @@ nav_exclude: true
 
 -   Make a detailed note on how internet works i.e. how do you make request for a webpage and get it served.
 -   For every block go deeper like all the network layers, encryption, bits, assembly. DNS cables getting routed across the world.
+-   Give the talk in breath first manner. Give high level overview (layer 1). For layer 2, dig deeper into each section. And keep adding layers till you reach atoms. And then negative layers, where you discuss machines used to make the cpus, pcs, cables...
 
 ## Small World Problem Simulator
 

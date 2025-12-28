@@ -25,6 +25,35 @@ nav_order: 1
 
 ---
 
+## How we read
+
+```mermaid
+flowchart TB
+    letters["Letters<br>(visual)"]
+    translation_rules(["Translation Rules"])
+    word_sounds(["Word Sounds<br>(phonology)"])
+    word_meaning(["Word Meanings<br>(semantics)"])
+
+    letters --> translation_rules
+    translation_rules --> word_sounds
+    word_sounds --> word_meaning
+    word_meaning --> word_sounds
+```
+
+---
+
+```mermaid
+flowchart RL
+    word_sounds(["Word Sounds<br/>(phonology)"])
+    word_meaning(["Word Meanings<br/>(semantics)"])
+    word_sounds --> word_meaning
+    word_meaning --> word_sounds
+```
+
+-   Both located in separate parts of the brain. Because brain damage can compromise one without much affecting the other.
+-   We can pronounce words of whom we don't know the meaning of.
+-   We know a phenomena, but don't know the sound for it.
+
 ## Mind v/s Brain
 
 -   **Mind** - Similar to algorithm.
@@ -47,7 +76,59 @@ _Sociocultural view_ not included in this.
 ## History
 
 -   Reading is 6,000 years old.
+    -   Writing was invented on at least three separate occasions: about 5300 years ago in Mesopotamia, 3400 years ago in China, and 2700 years ago in Mesoamerica.
+    -   Speaking came around 80,000 years ago.
+    -   Texting is closer to speaking (subconcious and rapid) than writing (deliberate and slow).
+    -   Emoji's main purpose is to convey emotion (vocal tone and facial expression), which are missing from written communication. They do suffer from the problems of logograph of not having a shared meaning and having no set meaning for a sequence of emojis.
 
 ## Traits of a strong reader
 
-continue from page 13
+-   Since writing codes spoken language. There is strong relationship between oral comprehension and reading comprehension.
+
+## Why we read
+
+```mermaid
+flowchart RL
+    Memory & Speech --> Writing --> Reading
+```
+
+-   Cognitive psychologists start with "why" (purpose) before "how".
+
+### Purpose of reading
+
+-   To understand thoughts: either someone eles's thoughts, or our own thoughts from the past.
+
+### Purpose of writing
+
+-   To preserve one's own thoughts, and to transmit thoughts to others.
+-   Writing is an extension of memory. Creating new memory takes effort, while it is easier to create new written records.
+-   Speech requires you to be present at the same place as the speaker. Writing preserves that makes it portable.
+
+### How writing came to be
+
+```mermaid
+flowchart LR
+    Pictographs --> Logographs --> id1[Sumerian cuneiform and Egyptian hieroglyphics] --> id2["Phonetic writing system"]
+```
+
+-   **Pictographs** - A picture that carries meaning.
+    -   Advantages - Writing them requires no training, and they are readily interpretable.
+    -   Disadvantages - Open to misinterpretation. Some things are hard to put in a picture, like danger, genius.
+-   **Logographs** - Images that act as symbols and have a defined meaning.
+    -   Advantages - Gained specificity and flexibility and can represent abstract ideas like danger.
+    -   Disadvantages - The writer/reader needs to be trained, and have to memorize abstract symbols.
+        -   Conveying grammar, time, counterfactual states is hard. _The ram is here_ vs _The ram was here_.
+-   **Sumerian cuneiform and Egyptian hieroglyphics** - Some symbols in logographs would be used to convey sound. This is how they solved grammar issue.
+-   **Phonetic writing system** - Symbols stand for sound, not meaning.
+    -   English is mostly phonetic writing system, since it contains logographs "$", "&".
+    -   Writing essentially becomes a code for what you say, not what you think. And it makes using grammar effortless.
+    -   This also means children don't need explicit instruction in vocabulary or syntax, exposure to a community of speakers is enough.
+    -   In English alphabetic system is sued. Each symbol corresponds to a speech sound called a _phoneme_ (44 phonemes in English and 26 letters).
+
+### How writing affects reading
+
+1. Visually distinguish one letter from another, exmaple "b" from "p".
+2. Describe the difference between sound of "bump" and "pump".
+3. Know the mapping between the visual and auditory components.
+
+continue from page 27

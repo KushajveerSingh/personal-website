@@ -34,19 +34,18 @@ nav_exclude: true
 
 ## Official
 
--   [ ] Official books
-    -   [ ] [link](https://doc.rust-lang.org/nightly/book/index.html) The Rust Programming Language book
-    -   [ ] [link](https://rust-lang.github.io/api-guidelines/) Rust API Guidelines
-    -   [ ] [link](https://doc.rust-lang.org/nightly/rust-by-example/index.html) Rust by Example
-    -   [ ] [link](https://doc.rust-lang.org/nightly/reference/index.html) The Rust Reference book
-    -   [ ] [link](https://doc.rust-lang.org/nightly/style-guide/index.html) The Rust Style Guide book
-    -   [ ] [link](https://doc.rust-lang.org/nightly/rustdoc/index.html) The rustdoc book
-    -   [ ] [link](https://doc.rust-lang.org/nightly/clippy/index.html) Clippy Documentation book
-    -   [ ] [link](https://rust-lang.github.io/rustup/) The rustup book
-    -   [ ] [link](https://doc.rust-lang.org/nightly/rustc/index.html) The rustc book
-    -   [ ] [link](https://doc.rust-lang.org/nightly/cargo/index.html) The Cargo book
-    -   [ ] [link](https://rustc-dev-guide.rust-lang.org/) Rust Compiler Development Guide book
-    -   [ ] [link](https://doc.rust-lang.org/std/index.html) Rust Standard Library docs
+-   [ ] [link](https://doc.rust-lang.org/nightly/book/index.html) The Rust Programming Language book
+-   [ ] [link](https://rust-lang.github.io/api-guidelines/) Rust API Guidelines
+-   [ ] [link](https://doc.rust-lang.org/nightly/rust-by-example/index.html) Rust by Example
+-   [ ] [link](https://doc.rust-lang.org/nightly/reference/index.html) The Rust Reference book
+-   [ ] [link](https://doc.rust-lang.org/nightly/style-guide/index.html) The Rust Style Guide book
+-   [ ] [link](https://doc.rust-lang.org/nightly/rustdoc/index.html) The rustdoc book
+-   [ ] [link](https://doc.rust-lang.org/nightly/clippy/index.html) Clippy Documentation book
+-   [ ] [link](https://rust-lang.github.io/rustup/) The rustup book
+-   [ ] [link](https://doc.rust-lang.org/nightly/rustc/index.html) The rustc book
+-   [ ] [link](https://doc.rust-lang.org/nightly/cargo/index.html) The Cargo book
+-   [ ] [link](https://rustc-dev-guide.rust-lang.org/) Rust Compiler Development Guide book
+-   [ ] [link](https://doc.rust-lang.org/std/index.html) Rust Standard Library docs
 
 ## Tools
 

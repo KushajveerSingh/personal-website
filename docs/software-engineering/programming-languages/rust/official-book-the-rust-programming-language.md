@@ -116,6 +116,7 @@ parent: Rust
 -   **String literals**
     -   Immutable and hardcoded in the binary executable.
     -   These are string slices as the data type is `&str`.
+    -   UTF-8 encoded.
 
 ### Compound
 
@@ -145,9 +146,19 @@ parent: Rust
 ### Heap
 
 -   **String**
+
     ```rust
     let s = String::from("hello");
+    let s = String::new();
+    let s = "hello".to_string();
+
+    for c in s.chars() {
+        // This returns individual characters, not grapheme clusters.
+    }
     ```
+
+    -   Implemented as a wrapper around `Vec<u8>`.
+    -   The compiler can coerce `&String` to `&str` when needed.
 
 ## Functions
 
@@ -707,5 +718,17 @@ fn eat_at_restaurant() {
     -   To make specific items public, use `pub` before item declaration.
     -   Private items are internal implementation details.
 -   **The use keyword**. Within a scope, the `use` keyword creates shortcut to items to reduce repetition of long paths. `use crate::module_name::submodule_name::function_name;`. Now you can call `function_name` directly without the long path.
+    -   The shortcuts are created only in the scope `use` occurs.
+        -   Use `pub use` to allow code outside scope to refer to that name.
+        -   `pub use` is also useful when you want to expose a different structure to your program, instead of the client coming up with his own.
+    -   When bringing in functions specify only the module name in `use`. This ensures the parent module needs to be specified when calling the function, and makes things clearer.
+    -   When bringing structs, enums, and other items specify the full path.
+    -   Alias can be provided using `as`. `use std::io::Result as IOResult;`.
+    -   Use nesting to bring multiple imports in one line
+        -   `use std::{cmp::Ordering, io};`.
+        -   `use std::io::{self, Write}` to import `std::io` and `std::io::Write`.
+        -   `use std::collections::*;` to bring all public items. Use when writing tests and with prelude pattern only.
 
-continue from https://doc.rust-lang.org/nightly/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html
+## Error handling
+
+continue from https://doc.rust-lang.org/nightly/book/ch09-00-error-handling.html
