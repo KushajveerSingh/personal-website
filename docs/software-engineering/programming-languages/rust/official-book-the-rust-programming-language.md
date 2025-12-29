@@ -507,6 +507,26 @@ let user2 = User {
    // username from user1 which is a heap value)
 ```
 
+Struct pattern is also useful when you want to constrain a value, and _panic_ if constraints are not met. This helps keep the validation logic in one place.
+
+```rust
+pub struct Guess {
+    value: i32,
+}
+impl Guess {
+    pub fn new(value: i32) -> Guess {
+        if value < 1 || value > 100 {
+            panic!("Guess value must be between 1 and 100, got {value}.")
+        }
+        Guess{ value }
+    }
+
+    pub fn value(&self) -> i32 {
+        self.value
+    }
+}
+```
+
 ### Tuple struct
 
 -   Same as tuple, but just provide a name/meaning to the tuple.
@@ -576,6 +596,13 @@ let five = Some(5);
 let six = plus_one(five); // `Some(5)` matches the pattern `Some(x)`
 let none = plus_one(None); // `None` matches the pattern `None`
 ```
+
+-   When using `Option` inside a function use `?` to propagate the `None` value above the function (assuming the function also returns an `Option`).
+    ```rust
+    fn last_char_of_first_line(text: &str) -> Option<char> {
+        text.lines().next()?.chars().last()
+    }
+    ```
 
 ## Methods
 
@@ -731,4 +758,96 @@ fn eat_at_restaurant() {
 
 ## Error handling
 
-continue from https://doc.rust-lang.org/nightly/book/ch09-00-error-handling.html
+Two categories
+
+-   _Recoverable errors_ - `Result<T, E>` such as file not found. Report the problem to the user and retry the operation.
+-   _Unrecoverable errors_ - `panic!` such as index out of bounds. Symptom of bugs, so we want to immediately stop the program.
+
+### panic!
+
+The macros does the following
+
+-   Print a failure message.
+-   Unwind. Backtrack the call stack, and clean data from each function.
+    -   This takes up a significant chunk in the binary.
+    -   Instead you can abort immediately and have the operating system do the clean up.
+        ```toml
+        [profile.release]
+        panic = 'abort'
+        ```
+-   Clean the stack.
+-   Quit.
+
+Use `RUST_BACKTRACE=1 cargo run` to view the backtrace of the panic.
+
+-   Read from top and find the file where the error occurs.
+
+### Result
+
+```rust
+enum Result<T, E> {
+    Ok(T),
+    Err(E),
+}
+```
+
+-   Closures providea cleaner way to handler `Result` than `match`.
+-   `unwrap()` return `Ok` otherwise calls `panic`.
+-   `unwrap_or_else()` return `Ok` otherwise run the function passed as argument.
+-   `expect()` - same as `unwrap` but you can provide an error message.
+-   To propage the errors up the function call use `?` (also works with `Option`).
+
+    This also requires the `From` trait to be implemented. When `?` is used the error is sent to the `from` function to convert it to the return type of the function.
+
+    ```rust
+    fn read_username_from_file() -> Result<String, io::Error> {
+        let mut username_file = File::open("hello.txt")?;
+
+        // The equivalent of above to match
+        let username_file_result = File::open("hello.txt");
+        let mut username_file = match username_file_result {
+            Ok(file) => file,
+            Err(e) => return Err(e),
+        };
+    }
+    ```
+
+### main function
+
+-   `main` function can return `Result<(), Box<dyn Error>>`, where `Box<dyn Error>` means "any kind of error".
+-   This is useful when you want the executable to return an exit code.
+    -   Exit code of 0 means success. The returned value of `main` is `Ok(())`.
+    -   Exit code with a number means failure. The Error should have `std::process::Termination` trait which has `report` function to return an `ExitCode`.
+
+## Generics
+
+-   Replace specific types with placeholder that represents multiple types to remove code duplication.
+-   Use with functions, structs, enums, methods to replace conrete data types.
+-   You also restrict the generic to what trait the types should support, for it to valid.
+-   No runtime performance. The compiler looks at all the places where generic code is called and generates code for that concrete types the generic code is called with.
+
+```rust
+// The function "largest" is generic over some type "T"
+fn largest<T: std::cmp::PartialOrd>(list: &[T]) -> &T {
+}
+
+// "Point<T>" struct is generic over some type "T"
+struct Point<T> {
+    x: T,
+    y: T,
+}
+// "T" required after "impl", so that we can use Point<T>
+impl<T> Point<T> {
+    fn x(&self) -> &T {
+    }
+}
+
+enum Result<T, E> {
+    Ok(T),
+    Err(E),
+}
+```
+
+## Traits
+
+continue from https://doc.rust-lang.org/nightly/book/ch10-02-traits.html

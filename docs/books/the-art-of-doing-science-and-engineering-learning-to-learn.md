@@ -53,6 +53,8 @@ nav_order: 2
 -   Programming is closer to novel writing than engineering. Novelists are bound only by their imagination.
     -   If two novelists are given the task of writing, they will come up with different stories.
     -   If you ask two engineers to put someone on the moon, the solution would almost be the same, as they are both limited by the laws of physics.
+-   False beliefs will mean you will not participate significantly in the inevitable and extensive computerization of your organization and society generally.
+    -   For example, you assume Artificial Intelligence is useless. What if this belief turns out to be false.
 
 ## Things great scientists do
 
@@ -151,4 +153,41 @@ It is important to communicate findings in at least three forms
 -   In 1962 LISP came by John McCarthy and his student build the LISP compiler. It was self-compiled.
 -   ADA was designed by experts and thus hard for humans to write. 90% of ADA programs were first written in FORTRAN, debugged, tested and then converted by hand to ADA program, with high probability of errors.
 
-continue from page 75
+## Artificial Intelligence
+
+### Expert systems
+
+-   Talk with experts in a field, extract their rules, put these rules into a program, and you hopefully got an expert.
+-   It dosen't work because some things just cannot be put in words.
+-   The number of rules can grow out to be very large.
+-   Experts make decisions subconciously.
+
+### Can machines think?
+
+-   AI is a variant of this question.
+-   A better version of the question is "Can we write programs which will produce 'thinking' from a von Neumann-type machine?"
+-   Why is this question important? We cannot have humans as backups for certain tasks (like driving a vehicle on Mars). People suffer from boredom, and humans are not used to seconds of sheer panic, speed of response is another problem.
+
+Arguments for difference between machine and human
+
+-   Machine cannot have organic parts.
+    -   It does not need to. It can have wooden parts.
+    -   If we can reprogram a frog's nervous system to have the frog be used as a storage machine, then would it be right to call the frog a machine.
+-   Humans can think and machines cannot.
+    -   Chemists originally held vitalistic aspect that no organic compounds can only be made by living things. But now they hold non-vitalistic view, where they believe every organic compound can be made in the lab. Of course their is no way to prove it.
+    -   Usually people use this argument to name things that machine cannot do. But it goes other way as well.
+    -   From the machine's perspective it can do what Newton and Einstein did, which is more than what an average person can do. So essentially from the machine's perspective we cannot think.
+-   Religious view "God made Man in His image".
+    -   Religions say soul it what separates man from other animals. But soul does not have material weight.
+    -   Another argument is God gave man special properties.
+    -   The argument essentially comes to defining thinking as things that machine cannot do.
+-   Physics perspective "All is atoms and void".
+    -   There is no essential difference between machines and humans, hence by suitably programming machines, the machines can do anything humans can do.
+    -   The failure to produce thinking, is merely the failure of programmers to understand what they are doing.
+-   Self-awareness and self-consciousness.
+    -   There is no satisfactory test to prove these things exist.
+    -   A machine can be programmed to say "I am self-aware", but that is not sufficient according to you.
+-   People learn from experience.
+    -   Reinforcement learning is a counter example to this.
+
+continue from page 88

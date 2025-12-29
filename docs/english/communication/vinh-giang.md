@@ -125,4 +125,101 @@ Why people do this
     -   Anchor - I believe this is the right direction for us because...
     -   Invite - And I'm open to hearing your perspectives too.
 
-continue from https://www.youtube.com/watch?v=D6uxCDcFxKo&t=10s
+## 5 love languages that we naturally speak
+
+[video link](https://www.youtube.com/watch?v=D6uxCDcFxKo)
+
+1. Words of affirmation - These are people who value your words.
+    - Feeling loved though spoken, written, kind words.
+    - You like when someone says to you "You did amazing today".
+    - Specific and genuine praise makes you feel deeply valued.
+    - Need regular verbal acknowledgement.
+    - Avoid silence, bluntness and criticism.
+2. Quality time - These are people who value your presence.
+    - Feeling loved through undivided time and attention.
+    - Values meaningful conversations and shared activities.
+    - Being fully present signals "you matter to me".
+    - Gets hurt when the other person is constantly distracted.
+    - Sees time spent together as clear proof of care.
+3. Acts of service - These are people who value your effort.
+    - Feels loved when you people do helpful and thoughtful things to make your life easier.
+    - Appreciates things being done without needing to ask, like somone doing an errand for you without being asked.
+    - Your actions speak louder than your words.
+    - Laziness or broken promises signal "I don't care".
+    - Small actions are far greater than big declarations.
+4. Physical touch - These are people who love physical closeness.
+    - Feels loved through appropriate physical closeness.
+    - Values hugs, sitting close, pats on the back.
+    - Physical closeness signals emotional safety.
+    - Laziness or broken promises signal "I don't care".
+    - Small actions are far greater than big declarations.
+5. Receiving gifts - These are people who value thoughtful tokens.
+    - Feels loved though thoughtful tokens and gifts.
+    - Lights up at small surprises like a snack or souvenir.
+    - Focuses on symbolism behind the gift more than price.
+    - Forgotten occasions or thoughtless gifts hurt deeply.
+    - Gifts signal that you remembered them.
+
+### Why are these important
+
+-   Every person primarily speaks one of these languages.
+-   When you show love and care to others don't do it in your love language, do it in their love language.
+
+### How to identify your love language
+
+Do you feel hurt the fastest when...
+
+1. Someone dosen't acknowledge you?
+2. Somone dosen't spend time with you?
+3. Someone dosen't take initiative to help?
+4. Someone dosen't get you a gift?
+5. Someone isn't physically around enough?
+
+### How to identify their love language
+
+Depending on your relationship with the person
+
+1. Covert
+    1. Make a list of people you want to deepen connection with.
+    2. For each person, ask yourself these questions what would hurt them the most
+        1. You don't acknowledge them?
+        2. You don't spend time with them?
+        3. You don't take the initiative to help them?
+        4. You aren't physically present or around them?
+        5. You don't get them a gift when it's a special occasion?
+2. Overt
+    1. For people you want to make a deeper connection than Covert.
+    2. Ask them directly.
+
+### How to speak their langauge
+
+-   Words of affirmation.
+    -   Don't say silent.
+    -   Give specific and sincere affirmations.
+    -   Use the SNI Framework
+        -   Spot - Spot what they did and how they showed up.
+        -   Name - Name the specific behavior or trait.
+        -   Impact - Say how it helped you.
+    -   Example.
+        -   Spot - Hey, when you checked on my last week, that was one of the toughest weeks of my life.
+        -   Name - And your kindness and patience really came through.
+        -   Impact - It really made me feel like I wasn't alone. I really appreciate it.
+-   Quality time.
+    -   Don'tmultitask when you're with them.
+    -   Turn your phone off to minimise distractions.
+    -   Give them 100% of your attention.
+-   Acts of service.
+    -   Stick to your word, don't bail on things you say you'll do.
+    -   Make a list of things you can do for this person.
+    -   Set a target to do something on the list once a day.
+-   Physical touch.
+    -   Don't treat touch like an afterthought and something that should only be reserved for private.
+    -   Consistent small physical gestures matter.
+    -   Look for natural opportunities for physical closeness.
+-   Receiving gifts.
+    -   Don't assume they are materialistic.
+    -   The gift don't have to be expensive. It's the thought and the timing behind the gift that matters.
+    -   Gifts are a physical reminder that you are thinking of them.
+    -   Make a habit to notice what they love and surprise them, like their favorite snack, sourvenir from recent trip, handwritten note.
+
+continue from https://www.youtube.com/watch?v=ha5qaiwNHTc

@@ -19,6 +19,11 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## TODO
+
+phonemes
+phonemic and phonological awareness
+
 ## Reorganize
 
 -   HTML - Set src of iframe using javascript after the main content is done with loading to improve page load time. Always use sandbox attribute.
