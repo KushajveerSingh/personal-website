@@ -6,6 +6,6 @@ gem 'logger'
 gem 'csv'
 gem 'ostruct'
 gem 'base64'
-gem "sass-embedded", "~> 1.78.0"
+gem "sass-embedded", "~> 1.97.2"
 gem "jekyll", github: "jekyll/jekyll"
 gem "just-the-docs"
