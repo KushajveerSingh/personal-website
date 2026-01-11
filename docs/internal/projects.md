@@ -128,6 +128,14 @@ nav_exclude: true
 -   Create a phone with open-source blueprint and modular approach.
 -   Every component can be individually purchased and integrated into the system.
 
+### OpenLaptop
+
+-   Create a laptop where the cpu, ram, storage is inside the keyboard.
+-   Have the keyboard be assembled so people can use their custom mechanical keys.
+-   Attach monitor panels, with stands on the side so the monitor can be positioned at eye level.
+-   Have detachable numpad so it can be put on either side.
+-   For the trackpad area, have it as an attachable as well. The trackpad can be placed at any spot.
+
 ### OpenInsurance
 
 ### OpenBrowser
