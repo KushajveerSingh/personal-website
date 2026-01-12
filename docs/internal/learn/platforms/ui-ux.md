@@ -68,6 +68,7 @@ nav_exclude: true
 
 -   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
     -   [ ] [link](https://www.oreilly.com/library/view/responsive-typography/9781491907085/) Responsive Typography book
+-   [ ] [link](https://learn.microsoft.com/en-us/typography/opentype/spec/) OpenType specification
 -   [ ] [link](https://practicaltypography.com/) Practical Typography by Butterrick
 -   [ ] [link](https://typedesignresources.com/) Type Design Resources
 -   [ ] [link](https://www.oddbird.net/2025/02/12/fluid-type/?ck_subscriber_id=2308324911) Reimagining Fluid Typography
