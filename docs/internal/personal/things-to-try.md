@@ -64,6 +64,8 @@ nav_exclude: true
 
 ## Cooking / Food Storage
 
+-   [link](https://www.youtube.com/watch?v=Dw9vRSVUZgs) Stop Wasting Money on Chicken video
+
 ## Dance
 
 -   [link](https://www.youtube.com/watch?v=S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)

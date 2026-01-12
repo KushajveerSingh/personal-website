@@ -68,6 +68,7 @@ nav_exclude: true
 -   cargo-expand
 -   [link](https://github.com/evcxr/evcxr) evcxr (interactive shell)
 -   [link](https://github.com/dtolnay/anyhow) anyhow
+-   [link](https://github.com/johnthagen/min-sized-rust) Reduce rust binary size
 
 ## Books
 

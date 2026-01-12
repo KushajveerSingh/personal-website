@@ -346,6 +346,11 @@ nav_exclude: true
 
 ### Math Equations
 
+### PDF Renderer
+
+-   Convert Latex to Webassembly Rust and use it to write PDF and render it on the side.
+-   Look at book writing software/platforms like writebook, [best book writing software or platform](https://www.reddit.com/r/selfpublish/comments/1gi7yif/best_book_writing_software_or_platform/) for additional features.
+
 ### Chemistry
 
 ### Random
@@ -411,6 +416,10 @@ nav_exclude: true
 ## Basketball Game Stats
 
 -   Use a series of mobile cameras, record live basketball game and get stats of all players.
+-   Alternatively, put a tracker on the player (a wristband like thing on the shooting hand), rim to track when the basket is made.
+    -   Algorithm can figure out assist, rebound, score and all advanced nba stats.
+    -   Put a phone on the corner of the court to get all the data from the wristbands.
+    -   Before the game, walk the court to map out the coordinates.
 
 ## WNBA Shot Predictor
 
@@ -465,6 +474,12 @@ nav_exclude: true
 ## Laboratory Inventory Management System (LIMS)
 
 -   Lims system using quickjs.
+-   Create an api for the entire project (this is not referring to the http api, but an api for getting info from the global config).
+-   Now for the UI of the LIMS system, you query the api and build the template. In this way, you can have multiple templates for the system. Every lab can easily build their own template.
+    -   Updating the software becomes easier as now you only have to update the api and if there are any breaking changes, you make the changes in the template.
+    -   As part of the default template, make the all the smaller components available for people to build their template on as well.
+-   Links
+    -   [link](https://www.labbit.com/) labbit
 
 ## Agriculture SAAS
 
@@ -756,6 +771,7 @@ nav_exclude: true
 -   Rewrite all these functions without the weird quirks.
 -   For APIs that are hard to use, provide a wrapper for easier use.
 -   Avoid having multiple smaller functions that are a wrapper over some other function.
+-   Create linter and vscode shortcut generator instead of a separate library.
 
 ## Nvidia GUI
 
@@ -829,7 +845,7 @@ nav_exclude: true
 
 ## 3D Map Caves
 
--   Drone to 3D map water caves. Put sensors to get various layers of data from the walls.
+-   to 3D map water caves. Put sensors to get various layers of data from the walls.
 
 ## Linux Desktop Storybook
 
@@ -860,7 +876,8 @@ nav_exclude: true
 
 -   Create rust standard library, with all the data structures. and optimize them as much as possible and have graphs showing improvements.
 -   Document the data structure in detail with all the optimizations.
--   Look into optimizing the data structures with cpu specific stuff.
+-   [link](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia list of data structures
+-   [link](https://xlinux.nist.gov/dads/) Dictionary of algorithms and data structures
 
 ## Stripe Clone
 
@@ -1029,3 +1046,27 @@ nav_exclude: true
 
 -   Include subset of qwik features.
 -   Have cheatsheet for other web related stuff. ui/ux, html, css, js, ts, vite, tailwind, design system, browser apis.
+
+## Mouse Macros
+
+-   For mouse with multiple buttons, create useful macros.
+    -   Copy
+    -   Cut
+    -   Paste current
+    -   Paste one behind current
+    -   Select text in double ticks or other selector. Press again to go one level higher.
+    -   Select line.
+    -   Select current scope. Press again to go one outer scope. (Shift macro, include brackets in selection as well)
+    -   Press to go smaller scope.
+    -   Go to chrome, check open tabs against title regex, url and execute js.
+-   Include Shift modifier for addtional layer of commands.
+
+## Linux PC Utilities
+
+-   Blog post "I built my dream PC" How to get the utilities working.
+-   CPU, GPU temperature monitor. Motherbaord have screens to show stuff. There is sensor HDMI on motherboards that can show numbers.
+-   Check popular tools like mic, mice, keybaord, streaming related and how to get that working as well.
+
+## Mapping With Drone Imagery
+
+-   [Spexi](https://www.spexi.com/). Use drone to create map.

@@ -66,12 +66,13 @@ nav_exclude: true
 
 ## Typography
 
+-   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
+    -   [ ] [link](https://www.oreilly.com/library/view/responsive-typography/9781491907085/) Responsive Typography book
 -   [ ] [link](https://practicaltypography.com/) Practical Typography by Butterrick
 -   [ ] [link](https://typedesignresources.com/) Type Design Resources
 -   [ ] [link](https://www.oddbird.net/2025/02/12/fluid-type/?ck_subscriber_id=2308324911) Reimagining Fluid Typography
 -   [ ] Tools
     -   [ ] [link](https://github.com/Munter/subfont?tab=readme-ov-file) subfont
--   [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
 -   [ ] [link](https://book.webtypography.net/) Web Typography A handbook for designing beautiful and effective responsive typography by Richard Rutter
 -   [ ] [link](https://clagnut.com/blog/2433) Introducing TODS - a typographic and OpenType default stylesheet
 
@@ -101,6 +102,7 @@ nav_exclude: true
     -   [ ] [link](https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE) Refactoring UI playlist
     -   [ ] [link](https://tailwindcss.com/build-uis-that-dont-suck) Build UIs that don't suck
 -   [ ] [link](https://clearleft.com/work) Clearleft case studies
+-   [ ] [link](https://xlinux.nist.gov/dads/) Design Lovers youtube channel
 
 ## Tools
 
@@ -142,11 +144,17 @@ nav_exclude: true
 -   [ ] Apple Human Interfaces for Apple
 -   [ ] GitHub Primer
 -   [ ] [link](https://tweakcn.com/) tweakcn
+-   [ ] [link](http://styleguides.io/) Website Style Guide Resources
 
 ## Deceptive Patterns
 
 -   [ ] [link](https://www.deceptive.design/) Deceptive Patterns website
 -   [ ] [link](https://www.amazon.com/Deceptive-Patterns-Exposing-Companies-Control/dp/1739454405) Deceptive Patterns: Exposing the Tricks Tech Companies Use to Control You by _Harry Brignull_ (Jul 30, 2023) (272 pages)
+-   [ ] [link](https://www.fairpatterns.com/) Fairpatterns
+-   [ ] [link](https://darkpatternstipline.org/) Dark Patterns Tip Line
+-   [ ] [link](https://www.reddit.com/r/assholedesign/) r/assholedesign
+-   [ ] [link](https://www.reddit.com/r/CrappyDesign/) r/crappydesign
+-   [ ] [link](https://www.darkpattern.games/) Dark Pattern Games
 
 ## Books
 

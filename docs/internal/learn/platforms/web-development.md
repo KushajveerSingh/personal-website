@@ -310,6 +310,10 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 -   [ ] [link](https://tanstack.com/db/latest) Tanstack DB (builds on top of tanstack query)
 -   [ ] [link](https://tanstack.com/store/latest) Tanstack Store (client state management using signals)
 
+### Device detection
+
+-   [ ] [link](https://web.wurfl.io/) WURFL
+
 ## Monorepo
 
 -   [ ] [link](https://frontendmasters.com/courses/monorepos-v2/) FrontendMasters: TypeScript Monorepos: Architet Maintainable Codebases
@@ -530,6 +534,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 
 -   [ ] FrontendMasters courses
     -   [ ] [link](https://frontendmasters.com/courses/backend-architectures/) Introduction to Backend Architectures
+    -   [ ] [link](https://frontendmasters.com/courses/backend-system-design/) Backend System Design
 -   [ ] Hussien Nasser
     -   [ ] [link](https://backend.husseinnasser.com/) Course: Fundamentals of Backend Engineering
     -   [ ] [link](https://performance.husseinnasser.com/) Course: Backend Performance

@@ -19,6 +19,10 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Behavioral Economics
+
+-   [link](https://www.behavioraleconomics.com/resources/books/) Book list
+
 ## Learning
 
 -   [ ] Range: Why Generalists Triumph in a Specialized World

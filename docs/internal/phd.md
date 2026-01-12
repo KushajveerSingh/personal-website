@@ -19,6 +19,22 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Schedule
+
+### Spring 2026
+
+-   CSCI 6730 Operating systems
+    -   Instructor - In Kee Kim
+    -   Location - Cedar Street Building C Room 0674
+    -   Monday - 1:15pm - 2:10pm
+    -   Tuesday - 1:15pm - 2:35pm
+    -   Thursday - 1:15pm - 2:35pm
+-   CSCI 6810 Computer Graphics
+    -   Instructor - Ingrid M. Hybinette
+    -   Tuesday - 2:55pm - 4:15pm Geography Geology Room 0200A
+    -   Wednesday - 2:55pm - 3:50pm Boyd Room 0328
+    -   Thursday - 2:55pm - 4:15pm Geography Geology Room 0200A
+
 ## Idea
 
 -   Look at **Chromium Pipeline Accessibility** project.
