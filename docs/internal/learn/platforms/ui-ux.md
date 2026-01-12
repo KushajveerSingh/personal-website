@@ -76,6 +76,7 @@ nav_exclude: true
     -   [ ] [link](https://github.com/Munter/subfont?tab=readme-ov-file) subfont
 -   [ ] [link](https://book.webtypography.net/) Web Typography A handbook for designing beautiful and effective responsive typography by Richard Rutter
 -   [ ] [link](https://clagnut.com/blog/2433) Introducing TODS - a typographic and OpenType default stylesheet
+-   [ ] [link](https://developer.chrome.com/blog/framework-tools-font-fallback) Framework for font fallbacks
 
 ### Unicode
 

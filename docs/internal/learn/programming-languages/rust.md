@@ -72,6 +72,7 @@ nav_exclude: true
 
 ## Books
 
+-   [ ] [link](https://highassurance.rs/) High Assurance Rust Developing Secure and Robust Software
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md) Common Rust Lifetime Misconceptions
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md) Sizedness in Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md) Tour of Rust's Standard Library Traits
@@ -96,9 +97,11 @@ nav_exclude: true
 -   [ ] [link](https://www.manning.com/books/code-like-a-pro-in-rust) Code Like a Pro in Rust
 -   [ ] [link](https://www.amazon.com/dp/B0D7FQB3DH) Rust Under the Hood: A deep dive into Rust internals and generated assembly
 -   [ ] [link](https://nnethercote.github.io/perf-book/title-page.html) The Rust Performance Book
+-   [ ] [link](https://rust-exercises.com/advanced-testing/) Advanced Rust Testing
 
 ## Application books
 
+-   [ ] [link](https://rust-exercises.com/telemetry/) Rust telemetry workshop
 -   [ ] [link](https://rust-api.dev/docs/front-matter/preface/) API development with Rust
 -   [ ] [link](https://github.com/pretzelhammer/rust-blog/blob/master/posts/too-many-brainfuck-compilers.md) Learn Assembly by Writing Entirely Too Many Brainfuck Compilers
 -   [ ] [link](https://www.zero2prod.com/index.html?country_code=US) Zero To Production in Rust by _Luca Palmieri_
@@ -112,11 +115,14 @@ nav_exclude: true
 -   [ ] [link](https://github.com/aquova/chip8-book) An Introduction to Chip-8 emulation using Rust
 -   [ ] [link](https://pest.rs/book/) A thoughtful introduction to pest parser
 -   [ ] [link](https://wubingzheng.github.io/build-lua-in-rust/en/) Build a Lua Interpreter in Rust
+-   [ ] [link](https://rust-hosted-langs.github.io/book/) Writing Interpreters in Rust: a guide
 -   [ ] [link](https://crosvm.dev/book/) Book of crosvm
 -   [ ] [link](https://createlang.rs/) Create Your Own Programming Language with Rust
 -   [ ] [link](https://docs.rust-embedded.org/discovery/) micro::bit v2 Embedded Discovery Book
 -   [ ] [link](https://docs.esp-rs.org/book/) The Rust on ESP Book
 -   [ ] [link](https://doc.rust-lang.org/nightly/embedded-book/index.html) The Embeeded Rust Book
+-   [ ] [link](https://os.phil-opp.com/) Writing an OS in Rust
+-   [ ] [link](https://rust-cli.github.io/book/index.html) Command line apps in Rust
 
 ## Reorganize
 
