@@ -52,6 +52,11 @@ nav_exclude: true
 -   [ ] Product-Led SEO: The Why Behind Building Your Organic Growth
 -   [ ] The Art of SEO: Mastering Search Engine Optimization
 -   [ ] Content Chemistry by Andy Crestodnia
+-   [ ] Get to the top of Google The Plain English Guide to SEO
+-   [ ] 3 Months To No. 1 The "No-Nonsense" seo playbook for getting your website found on google
+-   [ ] Content marketing strategy harness power of your brand's voice
+-   [ ] Copywriting Marketers The Busy Marketer's Guide to Writing Awesome Multichannel Marketing Copy
+-   [ ] Everybody Writes
 
 ## Overview
 

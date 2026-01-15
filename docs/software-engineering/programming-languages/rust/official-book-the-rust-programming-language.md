@@ -850,4 +850,25 @@ enum Result<T, E> {
 
 ## Traits
 
-continue from https://doc.rust-lang.org/nightly/book/ch10-02-traits.html
+-   To define functionality of a particular type has.
+-   Trait bounds are used to restrict generics to types that have certain behavior.
+-   Each type implementing the trait must provide its own custom behavior for the body of the method `summarize`.
+
+```rust
+trait Summary {
+    fn summarize(&self) -> String;
+}
+
+struct NewsArticle {
+    headline: String,
+    location: String,
+    author: String,
+    content: String,
+}
+
+impl Summary for NewsArticle {
+    fn summarize(&self) -> String {
+        format!("{}, by {} ({})", self.headline, self.author, self.location)
+    }
+}
+```

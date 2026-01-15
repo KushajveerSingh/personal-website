@@ -8,7 +8,6 @@ search_exclude: true
 
 <h2 class="text-delta">Table of content</h2>
 
--   [Ph.D.](/internal/phd)
 -   [Projects](/internal/projects)
 -   [Working](/internal/working)
 -   Personal
