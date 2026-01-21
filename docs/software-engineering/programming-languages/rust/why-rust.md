@@ -21,36 +21,36 @@ parent: Rust
 
 ## Resources
 
--   [link](https://www.oreilly.com/content/why-rust/) Why Rust? Trustworthy, concurrent systems programming by _Jim Blandy_ (60 pages) (Sep 2015)
+- [link](https://www.oreilly.com/content/why-rust/) Why Rust? Trustworthy, concurrent systems programming by _Jim Blandy_ (60 pages) (Sep 2015)
 
 ---
 
 Rust is a statically and strongly typed systems programming language.
 
--   statically - all types are known at compile-time.
--   strongly - types make it harder to write incorrect programs.
--   systems - generate the best machine code with full control of memory use.
+- statically - all types are known at compile-time.
+- strongly - types make it harder to write incorrect programs.
+- systems - generate the best machine code with full control of memory use.
 
 ## Problems with C/C++
 
 Systems programming languages (C, C++) have two main problems
 
--   Difficult to write secure code (buffer overflow).
--   Difficult to write multithreaded code.
+- Difficult to write secure code (buffer overflow).
+- Difficult to write multithreaded code.
 
 These problems mostly stem from the standard (C/C++) not making the compiler responsible for detecting and handling odd behavior like running off the end of an array. Instead, the standard makes the programmer responsible for ensuring those conditions never arise in the first place.
 
 ## Goals of Rust
 
--   (C++ also) Zero-overhead principle. What you don't use, you don't pay for. And what you do use, you couldn't hand code any better.
--   Memory safety.
--   Data-race-free concurrency.
+- (C++ also) Zero-overhead principle. What you don't use, you don't pay for. And what you do use, you couldn't hand code any better.
+- Memory safety.
+- Data-race-free concurrency.
 
 ## What is _type safety_?
 
--   **Undefined behavior** - When program does something, for which standard has no requirement. For example, in C an element can be accessed outside an array. And the standard does not define what to do in this situation.
--   **Well defined program** - If a program has been written so that no possible execution can exhibit undefined behavior, the the program is _well defined_.
--   **Type safe** - If a language's type system ensures that every program is well defined, then the language is called _type safe_.
+- **Undefined behavior** - When program does something, for which standard has no requirement. For example, in C an element can be accessed outside an array. And the standard does not define what to do in this situation.
+- **Well defined program** - If a program has been written so that no possible execution can exhibit undefined behavior, the the program is _well defined_.
+- **Type safe** - If a language's type system ensures that every program is well defined, then the language is called _type safe_.
 
 C/C++ are not type safe. \
 Python, Java, JavaScript, Ruby, Haskell are type safe.
@@ -81,8 +81,8 @@ T min(T a, T b) {
 
 Similarities
 
--   No runtime cost in either case, but C++ takes longer to compile (check differences below for reason).
--   In Rust, a copy of the generic function is created for each unique call to `min`. Compiler can further inline method calls, take advantage of other aspects of the type, and perform optimizations that depend on the types.
+- No runtime cost in either case, but C++ takes longer to compile (check differences below for reason).
+- In Rust, a copy of the generic function is created for each unique call to `min`. Compiler can further inline method calls, take advantage of other aspects of the type, and perform optimizations that depend on the types.
 
 Differences
 
@@ -133,18 +133,18 @@ std::variant<int, double, std::string> v3 = "Hello";
 
 Key promises Rust makes about every program that passes compile-time checks (these form the foundations for memory safety and trustworthy concurrency)
 
--   _No null pointer dereferences_. Program will not crash, if you try to dereference a null pointer.
--   _No dangling pointers_. Every value will live as long as it must. Your program will never use a heap-allocated values after it has been freed.
--   _No buffer overruns_. Your program will never access elements beyond the end or before the start of the array.
+- _No null pointer dereferences_. Program will not crash, if you try to dereference a null pointer.
+- _No dangling pointers_. Every value will live as long as it must. Your program will never use a heap-allocated values after it has been freed.
+- _No buffer overruns_. Your program will never access elements beyond the end or before the start of the array.
 
 ### No Null Pointer Dereferences
 
 Solution
 
--   Never allow null pointers to be created.
--   Require each variable to be initialized before using.
--   Use `Option<P>`, whenever a `None` value is required. And the only way to extract value from `Option`, is to use `match` statement and find `Some(p)` (here `p` is guaranteed not to be null).
--   For situations, when an error needs to be returned from a function use `type Result<T> = std::result::Result<T, std::io::Error>`.
+- Never allow null pointers to be created.
+- Require each variable to be initialized before using.
+- Use `Option<P>`, whenever a `None` value is required. And the only way to extract value from `Option`, is to use `match` statement and find `Some(p)` (here `p` is guaranteed not to be null).
+- For situations, when an error needs to be returned from a function use `type Result<T> = std::result::Result<T, std::io::Error>`.
     ```rust
     enum Result<T, E> {
         Ok(T),
@@ -233,7 +233,6 @@ Rust has three rules, to specify when each value is freed, and ensure all pointe
     ```
 
     In the above example
-
     - `s` always had ownership.
     - `append_to_string` borrowed ownership.
 
@@ -286,7 +285,6 @@ Rust has three rules, to specify when each value is freed, and ensure all pointe
     ```
 
 3. You can only modify a value when you have exclusive access to it.
-
     - While you borrow a shared reference to a value, nothing can modify it or cause it to be dropped.
         ```rust
         let x: i32 = 128;
@@ -355,8 +353,8 @@ In C++, you don't actually index arrays, you index pointers, which carry no info
 
 In Rust, you index arrays and slices, both of which have definite bounds.
 
--   Doing `a[i]`, first checks that `i` falls within the array's size `n`. Sometimes the compiler recognizes that this check can be safely omitted, but when it can't, Rust generates code to check the array's index at runtime.
--   Slice is a pointer to the first element included in the slice, along with the number of elements in it. `&a[i..j]` is a slice referring to the i-th through j-1th elements of `a`. Bounds are checked when creating the slice, and also when indexing into the slice.
+- Doing `a[i]`, first checks that `i` falls within the array's size `n`. Sometimes the compiler recognizes that this check can be safely omitted, but when it can't, Rust generates code to check the array's index at runtime.
+- Slice is a pointer to the first element included in the slice, along with the number of elements in it. `&a[i..j]` is a slice referring to the i-th through j-1th elements of `a`. Bounds are checked when creating the slice, and also when indexing into the slice.
 
 ## Multithreaded programming
 

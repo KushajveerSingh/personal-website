@@ -21,7 +21,7 @@ parent: Rust
 
 ## Resources
 
--   [link](https://rustbyexample.io) Rust by Example
+- [link](https://rustbyexample.io) Rust by Example
 
 ---
 
@@ -34,10 +34,10 @@ let mut x = 10;
 
 ## Constant
 
--   Can be declared in any scope, including global.
--   At compile time the constant is replaced with the actual value.
--   Must define type in source.
--   Cannot be defined multiple times (like `let`), even if you use different data type.
+- Can be declared in any scope, including global.
+- At compile time the constant is replaced with the actual value.
+- Must define type in source.
+- Cannot be defined multiple times (like `let`), even if you use different data type.
 
 ```rust
 const SOMETHING: i32 = 10_000;
@@ -45,8 +45,8 @@ const SOMETHING: i32 = 10_000;
 
 ## Enum
 
--   Define a type that can be of different variants.
--   To define methods on enums use `impl`.
+- Define a type that can be of different variants.
+- To define methods on enums use `impl`.
 
 ```rust
 enum Animal {
@@ -84,7 +84,7 @@ cat.name();
 
 ## Tuple
 
--   Fixeed length.
+- Fixeed length.
 
 ```rust
 let tuple: (i32, f64, u8) = (500, 6.4, 1);
@@ -299,12 +299,12 @@ for i in 0..=5 {
 
 ## Function
 
--   Functions with no return value return `()` known as _unit_ type.
--   To return multiple values use tuple `return (x, y)`.
+- Functions with no return value return `()` known as _unit_ type.
+- To return multiple values use tuple `return (x, y)`.
 
 ## Closures
 
--   Same as inline/lambda functions.
+- Same as inline/lambda functions.
 
 ```rust
 let add_1 = |a: i32, b: i32| -> i32 { return a + b; };
@@ -326,9 +326,9 @@ where
 
 ## Strings
 
--   `&str` - String slice is an immutable reference to a UTF-8 encoded string in memory that is not owned by the program.
--   String literal are stored in the binary as immutable data. These are also considered string slices `&str`.
--   `String` - Mutable UTF-8 string allocated on the heap. Used to store text that is unknown at compile time.
+- `&str` - String slice is an immutable reference to a UTF-8 encoded string in memory that is not owned by the program.
+- String literal are stored in the binary as immutable data. These are also considered string slices `&str`.
+- `String` - Mutable UTF-8 string allocated on the heap. Used to store text that is unknown at compile time.
 
 ```rust
 let s: &str = "hello, world";
@@ -348,12 +348,12 @@ let str_to_str: String = "hello, world".to_string();
 
 ## Structs
 
--   Used to group related data together.
--   Use `impl` to define functions on structs.
--   Structs are private and only visible within the module theyu are declared. Use `pub Struct name {}` to make them public.
-    -   Similarly you need to make the fields and function within the struct public as well using `pub`, if you want other modules to access them.
--   Multiple `impl` blocks can be defined for the same struct.
--   Use `Default` trait to set default values for the fields.
+- Used to group related data together.
+- Use `impl` to define functions on structs.
+- Structs are private and only visible within the module theyu are declared. Use `pub Struct name {}` to make them public.
+    - Similarly you need to make the fields and function within the struct public as well using `pub`, if you want other modules to access them.
+- Multiple `impl` blocks can be defined for the same struct.
+- Use `Default` trait to set default values for the fields.
 
     ```rust
     #[derive(Default)]
@@ -365,7 +365,7 @@ let str_to_str: String = "hello, world".to_string();
     let other_point = Point { x: 10, ..Point::default() };
     ```
 
-    -   Define `Default` trait
+    - Define `Default` trait
 
         ```rust
         impl Default for Point {
@@ -375,18 +375,17 @@ let str_to_str: String = "hello, world".to_string();
         }
         ```
 
--   Three type of structs
-
-    -   **Unit-like** - Have no fields are useful for implementing trait on a type without storing any data in the type itself.
+- Three type of structs
+    - **Unit-like** - Have no fields are useful for implementing trait on a type without storing any data in the type itself.
         ```rust
         struct UnitLike;
         ```
-    -   **Tuple-like** - Essentially a tuple.
+    - **Tuple-like** - Essentially a tuple.
         ```rust
         struct Color(u8, u8, u8);
         let black = Color(0, 0, 0);
         ```
-    -   **Named-Field** - Named tuple.
+    - **Named-Field** - Named tuple.
 
         ```rust
         struct Rectangle {
@@ -432,8 +431,8 @@ let str_to_str: String = "hello, world".to_string();
 
 ## Traits
 
--   Used to define shared behavior between types (similar to interfaces or abstract base classes).
--   Implement the functions required by the trait, for the type to be a member of that trait.
+- Used to define shared behavior between types (similar to interfaces or abstract base classes).
+- Implement the functions required by the trait, for the type to be a member of that trait.
 
 ```rust
 trait Shape {
@@ -467,8 +466,8 @@ print_area(&circle);
 
 ## Generics
 
--   Generics allow you to define functions, structs, enums and trais that can operate on any type.
--   Naming convention is to use single-upper case letter.
+- Generics allow you to define functions, structs, enums and trais that can operate on any type.
+- Naming convention is to use single-upper case letter.
 
     ```rust
     fn first_element<T>(slice: &[T]) -> Option<&T> {
@@ -484,7 +483,7 @@ print_area(&circle);
     }
     ```
 
--   Use _trait bounds_ to restrict the type that can be used with a generic function.
+- Use _trait bounds_ to restrict the type that can be used with a generic function.
 
     ```rust
     // 'largest' function can only be used with types that implement the 'PartialOrd' trait.
@@ -496,7 +495,7 @@ print_area(&circle);
     }
     ```
 
--   Example of generic struct
+- Example of generic struct
 
     ```rust
     struct GenericStruct<T> {
@@ -517,7 +516,7 @@ print_area(&circle);
     }
     ```
 
--   Example of enum
+- Example of enum
     ```rust
     enum HTTPResp<T> {
         Success(T),
@@ -528,37 +527,38 @@ print_area(&circle);
 
 ## Error handling
 
--   `Result<T, E>` - `Ok<T>`, `Err<E>`.
+- `Result<T, E>` - `Ok<T>`, `Err<E>`.
     ```rust
     match ... {
         Ok(result) => ...,
         Err(error) => ...,
     }
     ```
--   `Option<T>` - `Some<T>`, `None`
+- `Option<T>` - `Some<T>`, `None`
     ```rust
     match ... {
         Some(result) => ...,
         None => ...,
     }
     ```
--   Use `?` to propagate errors up the call stack. In which case the caller has to handle the error.
+- Use `?` to propagate errors up the call stack. In which case the caller has to handle the error.
     ```rust
     let result = divide(10, 2)?;
     ```
-    -   Typically used when chaining.
+
+    - Typically used when chaining.
     ```rust
     fn sum(a: &str, b: &str) -> Result<i32, ParseIntError> {
         let result = a.parse::<i32>()? + b.parse::<i32>()?;
         Ok(result)
     }
     ```
--   Use `()` when you do not want to return a success value
+- Use `()` when you do not want to return a success value
     ```rust
     fn do_something() -> Result<(), io::Error> {
         Ok(())
     }
     ```
--   `unwrap()` - used to extract the `Ok` value. In case of error, the program will _panic_.
--   `expect()` - similar to `unwrap()` but allows to provide a custom error message in case of err variant.
--   `unwrap_or()` - will extract contents of `Ok`. In case of error, will return the default value provided as an argument.
+- `unwrap()` - used to extract the `Ok` value. In case of error, the program will _panic_.
+- `expect()` - similar to `unwrap()` but allows to provide a custom error message in case of err variant.
+- `unwrap_or()` - will extract contents of `Ok`. In case of error, will return the default value provided as an argument.

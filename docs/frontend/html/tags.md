@@ -22,6 +22,6 @@ nav_order: 3
 
 ## Resources
 
--   [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements) MDN HTML Elements
+- [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements) MDN HTML Elements
 
 ---

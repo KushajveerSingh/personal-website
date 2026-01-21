@@ -21,38 +21,38 @@ nav_exclude: true
 
 ## Airplane
 
--   [link](https://www.amazon.com/Record-Airplane-International-Winning-Designs/dp/0999108417) World Record Paper Airplane book
+- [link](https://www.amazon.com/Record-Airplane-International-Winning-Designs/dp/0999108417) World Record Paper Airplane book
 
 ## Airsoft
 
--   [link](https://www.youtube.com/watch?v=_a-8U4roG5c) Airsoft battle
+- [link](https://www.youtube.com/watch?v=_a-8U4roG5c) Airsoft battle
 
 ## Animation
 
--   Flipbook animation book
-    -   Stop motion animation
+- Flipbook animation book
+    - Stop motion animation
 
 ## Art and Crafts
 
--   The Fine Art of paper flowers by Tiffanie Turner
--   punched Techniques and Projects for Modern Punch Needle Art by Stacie Schaat
--   Microcrafts Tiny Treasures to Make and Share by Margaret McGuire
--   The Colour Mixing Guide Watercolor Botanicals by Julie Collins
--   fine art wire weaving by Sarah Thompson
--   The Art of Modern Quilling by Erin Perkins Curet
--   Tools Working Wood in Eighteenth Century America by James M. Gaymor
--   A Natural History of Colour by Rob Deasalle
+- The Fine Art of paper flowers by Tiffanie Turner
+- punched Techniques and Projects for Modern Punch Needle Art by Stacie Schaat
+- Microcrafts Tiny Treasures to Make and Share by Margaret McGuire
+- The Colour Mixing Guide Watercolor Botanicals by Julie Collins
+- fine art wire weaving by Sarah Thompson
+- The Art of Modern Quilling by Erin Perkins Curet
+- Tools Working Wood in Eighteenth Century America by James M. Gaymor
+- A Natural History of Colour by Rob Deasalle
 
 ## Astronomy
 
--   Stargazing (mobile apps that show constellation)
+- Stargazing (mobile apps that show constellation)
 
 ## Barber (Hair Care)
 
 ## Bicycle Maintenance
 
--   Zinn & The Art of Road Bike Maintenance
--   Zinn & The Art of Mountain Bike Maintenance
+- Zinn & The Art of Road Bike Maintenance
+- Zinn & The Art of Mountain Bike Maintenance
 
 ## Car Maintenance
 
@@ -60,27 +60,27 @@ nav_exclude: true
 
 ## Cleaning
 
--   Professional house cleaning training
+- Professional house cleaning training
 
 ## Cooking / Food Storage
 
--   [link](https://www.youtube.com/watch?v=Dw9vRSVUZgs) Stop Wasting Money on Chicken video
+- [link](https://www.youtube.com/watch?v=Dw9vRSVUZgs) Stop Wasting Money on Chicken video
 
 ## Dance
 
--   [link](https://www.youtube.com/watch?v=S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)
--   [link](https://www.youtube.com/watch?v=w60K81K_Idk) How to dance to pop music solo (the best hip moves)
+- [link](https://www.youtube.com/watch?v=S1qp7r99DcE) How to slow dance with a girl (weddings, proms, parties)
+- [link](https://www.youtube.com/watch?v=w60K81K_Idk) How to dance to pop music solo (the best hip moves)
 
 ## Etiquette
 
--   [link](https://williamhanson.komi.io/) William Hanson
+- [link](https://williamhanson.komi.io/) William Hanson
 
 ## Firearm Training
 
 ## Fires
 
--   [link](https://www.youtube.com/watch?v=kqTxWiW8x9o) The Swedish torch: an ingenious 400-year-odl invention
--   Smoke signal from fire
+- [link](https://www.youtube.com/watch?v=kqTxWiW8x9o) The Swedish torch: an ingenious 400-year-odl invention
+- Smoke signal from fire
 
 ## Gardening
 
@@ -88,14 +88,14 @@ nav_exclude: true
 
 ## Lock picking
 
--   [link](https://www.youtube.com/watch?v=fTt1g0ZrzE0) LockPickingLawyer
+- [link](https://www.youtube.com/watch?v=fTt1g0ZrzE0) LockPickingLawyer
 
 ## Knitting
 
 ## Magic
 
--   [link](https://www.vanishingincmagic.com/magician/Asi-Wind/) Asi Wind courses
--   [link](https://www.youtube.com/@MattMcGurk) Matt McGurk youtube videos
+- [link](https://www.vanishingincmagic.com/magician/Asi-Wind/) Asi Wind courses
+- [link](https://www.youtube.com/@MattMcGurk) Matt McGurk youtube videos
 
 ## Masseuse (Massage)
 
@@ -113,9 +113,9 @@ nav_exclude: true
 
 ## Puzzles
 
--   [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
--   Rubiks cube.
--   Board games.
+- [link](https://www.youtube.com/watch?v=0KRToCPAACI) Karen Puzzles youtube videos
+- Rubiks cube.
+- Board games.
 
 ## Rock Balancing
 
@@ -125,15 +125,15 @@ nav_exclude: true
 
 ### Embroidery
 
--   [link](https://www.youtube.com/watch?v=FxG1dP6ZHBQ) My daughter's new side-hustle - BAi the Mirror
+- [link](https://www.youtube.com/watch?v=FxG1dP6ZHBQ) My daughter's new side-hustle - BAi the Mirror
 
 ## Skin Care
 
 ## Whistle
 
--   Deliverance Song
--   Hunger Games Song
+- Deliverance Song
+- Hunger Games Song
 
 ## Wilderness First Aid
 
--   [link](https://www.redcross.org/take-a-class/cpr/wilderness-sports) Red Cross
+- [link](https://www.redcross.org/take-a-class/cpr/wilderness-sports) Red Cross

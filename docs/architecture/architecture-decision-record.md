@@ -21,30 +21,30 @@ nav_order: 1
 
 ## Resources
 
--   [link](https://alfy.blog/2021/01/01/adrs.html) Architecture Decision Records by Ahmad Alfy
--   [link](https://github.com/joelparkerhenderson/architecture-decision-record) Architecture Decision Record GitHub
--   [link](https://github.com/npryce/adr-tools) adr-tools GitHub
+- [link](https://alfy.blog/2021/01/01/adrs.html) Architecture Decision Records by Ahmad Alfy
+- [link](https://github.com/joelparkerhenderson/architecture-decision-record) Architecture Decision Record GitHub
+- [link](https://github.com/npryce/adr-tools) adr-tools GitHub
 
 ---
 
 ## Architecture Knowledge Management
 
--   **Architecture decision (AD)** - Software design choice that addresses a significant requirement.
--   **Architecturally-Significant Requirement (ASR)** - Requirement that has a measurable effect on a software system's architecture.
--   **Architecture Decision Record (ADR)** - Document that captures an important architecture decision made along with its context and consequences.
--   **Architecture Decision Log (ADL)** - Collection of all ADRs created and maintained for a particular project or organization.
--   **Architecture Knowledge Management (AKM)** - Everything above falls under AKM.
+- **Architecture decision (AD)** - Software design choice that addresses a significant requirement.
+- **Architecturally-Significant Requirement (ASR)** - Requirement that has a measurable effect on a software system's architecture.
+- **Architecture Decision Record (ADR)** - Document that captures an important architecture decision made along with its context and consequences.
+- **Architecture Decision Log (ADL)** - Collection of all ADRs created and maintained for a particular project or organization.
+- **Architecture Knowledge Management (AKM)** - Everything above falls under AKM.
 
 ## ADR
 
 Markdown file for every _architecturally significant_ decision. Include the following
 
--   **The decision** we need to take.
--   **Status** of that decision whether it's a proposal, accepted decision, rejected, or superseded.
--   **Context**, which is an explanantion of the problem and all the circumstances around it.
--   **Considered options**. Listing all the considered options with the pros, cons, and impact of each.
--   **The decision** that will be taken and all the reasons favoring that decision.
--   **The consequences** of taking that decision whether it's positive or not.
+- **The decision** we need to take.
+- **Status** of that decision whether it's a proposal, accepted decision, rejected, or superseded.
+- **Context**, which is an explanantion of the problem and all the circumstances around it.
+- **Considered options**. Listing all the considered options with the pros, cons, and impact of each.
+- **The decision** that will be taken and all the reasons favoring that decision.
+- **The consequences** of taking that decision whether it's positive or not.
 
 ## Example
 
@@ -70,12 +70,12 @@ Accepted
 
 ## Organizing ADRs
 
--   Store all the records under `doc/adr` folder.
--   Number the ADRs like `0001-record-architecture-decisions.md`.
-    -   Use present tense imperative verb phrase like choose-database, format-timestamps, manage-passwords, handle-exceptions.
--   Identify when each item in the ADR is written using timestamps.
--   Don't alter existing information in an ADR. Instead amend the ADR by adding new information, or supersede the ADR by creating a new ADR.
--   Make this as the first ADR.
+- Store all the records under `doc/adr` folder.
+- Number the ADRs like `0001-record-architecture-decisions.md`.
+    - Use present tense imperative verb phrase like choose-database, format-timestamps, manage-passwords, handle-exceptions.
+- Identify when each item in the ADR is written using timestamps.
+- Don't alter existing information in an ADR. Instead amend the ADR by adding new information, or supersede the ADR by creating a new ADR.
+- Make this as the first ADR.
 
     ```
     # 1. Record architecture decisions
@@ -99,7 +99,7 @@ Accepted
     See Michael Nygard's article, linked above.
     ```
 
--   For ADR that supercede's previous ADR, adjust the status accordingly.
+- For ADR that supercede's previous ADR, adjust the status accordingly.
 
     For old ADR
 

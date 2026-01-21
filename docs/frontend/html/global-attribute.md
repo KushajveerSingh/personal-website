@@ -22,7 +22,7 @@ nav_order: 2
 
 ## Resources
 
--   [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements) MDN HTML Elements
+- [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements) MDN HTML Elements
 
 ---
 
@@ -32,16 +32,16 @@ nav_order: 2
 <button accesskey="s">Button</button>
 ```
 
--   DO NOT USE.
--   Specify a single character as keyboard shortcut to focus/click elements. Button is clicked.
--   Chrome - Alt + key
--   Firefox - Alt + Shift + key
--   Safari - n/a
--   Bad for accessibility
-    -   Shortcut keys can conflict with keyboard shortcut, assistive technology functionality.
-    -   Difference in operating systems, keyboards.
-    -   Internationalization concerns when supporting multiple languages.
-    -   Need to educate users about the presence of shortcuts, so they do not accidentally activate it.
+- DO NOT USE.
+- Specify a single character as keyboard shortcut to focus/click elements. Button is clicked.
+- Chrome - Alt + key
+- Firefox - Alt + Shift + key
+- Safari - n/a
+- Bad for accessibility
+    - Shortcut keys can conflict with keyboard shortcut, assistive technology functionality.
+    - Difference in operating systems, keyboards.
+    - Internationalization concerns when supporting multiple languages.
+    - Need to educate users about the presence of shortcuts, so they do not accidentally activate it.
 
 ## autocapitalize (enumerated)
 
@@ -61,10 +61,10 @@ nav_order: 2
 <form autocapitalize="characters" />
 ```
 
--   Turn on the CAPS LOCK key when using virtual keyboards (mobile), voice input, to make data entry faster. Does not work with a physical keyboard.
--   Used on `<input>`, `<textarea>`, tags with `contenteditable=”true”`, `<form>` (overrides inner values).
--   Does not work with `input type=` url, email, password.
--   Chrome and Safari default to on/sentences, Firefox default to off/none, when no value is provided.
+- Turn on the CAPS LOCK key when using virtual keyboards (mobile), voice input, to make data entry faster. Does not work with a physical keyboard.
+- Used on `<input>`, `<textarea>`, tags with `contenteditable=”true”`, `<form>` (overrides inner values).
+- Does not work with `input type=` url, email, password.
+- Chrome and Safari default to on/sentences, Firefox default to off/none, when no value is provided.
 
 ## autofocus (boolean)
 
@@ -76,14 +76,14 @@ nav_order: 2
 </dialog>
 ```
 
--   BEST NOT TO USE.
--   Focus the element on page load, or when `<dialog>` is shown.
--   If applied to multiple elements, only the first one will receive focus.
--   Accessibility concerns
-    -   Autofocusing a form control can confuse visually-imparied people using screen-readers and people with cognitive impairments.
-    -   Autofocus can cause scroll, and sudden appearance of dynamic keyboard. Or give the illusion of being teleported past important content.
-    -   Label for the input will be announced by screen reader, but nothing before that.
-    -   When not to use. If autofocus skips users past important information, then do not use.
+- BEST NOT TO USE.
+- Focus the element on page load, or when `<dialog>` is shown.
+- If applied to multiple elements, only the first one will receive focus.
+- Accessibility concerns
+    - Autofocusing a form control can confuse visually-imparied people using screen-readers and people with cognitive impairments.
+    - Autofocus can cause scroll, and sudden appearance of dynamic keyboard. Or give the illusion of being teleported past important content.
+    - Label for the input will be announced by screen reader, but nothing before that.
+    - When not to use. If autofocus skips users past important information, then do not use.
 
 ## class
 
@@ -91,7 +91,7 @@ nav_order: 2
 <div class="class1 class2"></div>
 ```
 
--   Use class names that describe the semantic purpose of the element, rather than presentation of the element.
+- Use class names that describe the semantic purpose of the element, rather than presentation of the element.
 
 ## contenteditable (enumerated)
 
@@ -107,10 +107,10 @@ nav_order: 2
 <div contenteditable="plaintext-only">Text4</div>
 ```
 
--   DO NOT USE.
--   Used originally to create text editors in Explorer days, with rich text formatting like bold, italics. Use a dedicated library instead.
--   Setting the attribute makes the element focusable, but not tabbable.
--   Value inherited from parent if not specified.
+- DO NOT USE.
+- Used originally to create text editors in Explorer days, with rich text formatting like bold, italics. Use a dedicated library instead.
+- Setting the attribute makes the element focusable, but not tabbable.
+- Value inherited from parent if not specified.
 
 ## data-\*
 
@@ -121,9 +121,9 @@ nav_order: 2
 <div data-id="some-name-1">...</div>
 ```
 
--   Data available via HTMLElement.dataset property.
--   Do not use names that start with xml, contain colon, contain capital letters, to preserve space for XML spec.
--   In JS use `ele.getAttribute('data-some-name')` or ele.dataset.someName.
+- Data available via HTMLElement.dataset property.
+- Do not use names that start with xml, contain colon, contain capital letters, to preserve space for XML spec.
+- In JS use `ele.getAttribute('data-some-name')` or ele.dataset.someName.
 
 ## dir (enumerated)
 
@@ -145,9 +145,9 @@ nav_order: 2
 <bdi dir="auto">Value not inherited from parent. And default is 'auto'.</bdi>
 ```
 
--   Do not use CSS direction and unicode-bidi to set these values, since the direction of text is semantically related to text and not to its presentation.
--   In `<input>` and `<textarea>` Chrome/Safari provide a directionality option in the contextual menu (right-click inside input field). In Firefox use Ctrl + Shift + X to toggle text direction.
--   Value inherited from parent if not specified.
+- Do not use CSS direction and unicode-bidi to set these values, since the direction of text is semantically related to text and not to its presentation.
+- In `<input>` and `<textarea>` Chrome/Safari provide a directionality option in the contextual menu (right-click inside input field). In Firefox use Ctrl + Shift + X to toggle text direction.
+- Value inherited from parent if not specified.
 
 ## draggable (enumerated)
 
@@ -164,9 +164,9 @@ nav_order: 2
 </script>
 ```
 
--   Images, links, selections are draggable by default. Do not modify the behavior of these, as this is controlled by browsers and provides consistency across websites.
--   For other elements, set draggable=”true” and add dragstart listener with drag data (when image/link are dragged, the URL is set as the drag data).
--   The content in drag data is pasted/inserted when the mouse button is released, which may happen in a completely separate window.
+- Images, links, selections are draggable by default. Do not modify the behavior of these, as this is controlled by browsers and provides consistency across websites.
+- For other elements, set draggable=”true” and add dragstart listener with drag data (when image/link are dragged, the URL is set as the drag data).
+- The content in drag data is pasted/inserted when the mouse button is released, which may happen in a completely separate window.
 
 ## enterkeyhint (enumerated)
 
@@ -193,8 +193,8 @@ nav_order: 2
 <input enterkeyhint="send" />
 ```
 
--   Provide what action label or icon to show on virtual keyboards for the enter key.
--   If no value is provided, information from inputmode, type, pattern used to make a guess.
+- Provide what action label or icon to show on virtual keyboards for the enter key.
+- If no value is provided, information from inputmode, type, pattern used to make a guess.
 
 ## hidden (enumerated)
 
@@ -207,14 +207,14 @@ nav_order: 2
 <div id="hidden-content" hidden="until-found">I'm hidden until found</div>
 ```
 
--   Use `ele.removeAttribute('hidden')` to remove.
--   Used to hide content that is currently not relevant to the page. Or that is being used to declare content for reuse by other parts of the page and should not be directly presented to the user. For example, content that should be shown only after the user is logged in.
--   Hidden from screen readers as well. Use aria-describedby to refer to hidden descriptions, to provide additional context.
--   `<canvas>` can use hidden for an off-screen buffer. `<form>` can use it to hide CSRF tokens.
--   Setting display using CSS override's hidden attribute.
--   Browsers implement `hidden="hidden"` using `display: none`.
--   Browsers implement `hidden="until-found"` using `content-visibility: hidden`. Element is shown when Ctrl-F leads to it or href directs to it. beforematch event is fired before removing the hidden attribute.
--   Does not work with inline-elements, as it requires elements to be affected by layout containment.
+- Use `ele.removeAttribute('hidden')` to remove.
+- Used to hide content that is currently not relevant to the page. Or that is being used to declare content for reuse by other parts of the page and should not be directly presented to the user. For example, content that should be shown only after the user is logged in.
+- Hidden from screen readers as well. Use aria-describedby to refer to hidden descriptions, to provide additional context.
+- `<canvas>` can use hidden for an off-screen buffer. `<form>` can use it to hide CSRF tokens.
+- Setting display using CSS override's hidden attribute.
+- Browsers implement `hidden="hidden"` using `display: none`.
+- Browsers implement `hidden="until-found"` using `content-visibility: hidden`. Element is shown when Ctrl-F leads to it or href directs to it. beforematch event is fired before removing the hidden attribute.
+- Does not work with inline-elements, as it requires elements to be affected by layout containment.
 
 ## id
 
@@ -222,9 +222,9 @@ nav_order: 2
 <div id="someid"></div>
 ```
 
--   Define an identifier that is unique within the entire document.
--   Do not use `window.someid` and `window['someid']` to access elements, as it can cause conflicts with future or existing APIs in the browser.
--   Use `document.getElementById()` or `document.querySelector()`.
+- Define an identifier that is unique within the entire document.
+- Do not use `window.someid` and `window['someid']` to access elements, as it can cause conflicts with future or existing APIs in the browser.
+- Use `document.getElementById()` or `document.querySelector()`.
 
 ## inert (boolean)
 

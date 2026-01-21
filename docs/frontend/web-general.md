@@ -21,44 +21,44 @@ nav_order: 1
 
 ## Rersources
 
--   MDN Learn
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Browsing the web
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Dealing with files
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works) How the web works
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model) The web standards model
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites) How browsers load websites
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools) Understanding client-side tools
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Server-side websites
-    -   [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to solve common problems (Web mechanics)
--   [link](https://wpc.guide/) Web Platform Contribution Guide
--   [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
+- MDN Learn
+    - [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Browsing the web
+    - [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Dealing with files
+    - [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works) How the web works
+    - [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model) The web standards model
+    - [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites) How browsers load websites
+    - [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools) Understanding client-side tools
+    - [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Server-side websites
+    - [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to solve common problems (Web mechanics)
+- [link](https://wpc.guide/) Web Platform Contribution Guide
+- [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
 
 ---
 
 ## Terminology
 
--   **Web page** (or "page") - Document that can be displayed in a web browser, like a HTML document.
--   **Website** (or "site") - Collection of web pages grouped together into a single resource, with links connecting them together.
--   **Web server** - Computer that hosts a website on the internet.
--   **Web service** - Software that responds to requests over the Internet to perform a function (like handle user login) or provide data (like weather report).
--   **Search engine** - Web service that helps people find web pages, such as Google, Bing.
--   **Interoperable** - Different implementations behave exactly the same for a given case i.e. browsers should provide the same rendered output for a given input.
--   **URL** - Uniform Resource Locator is a web address (kushaj.com) plus a protocol (https).
+- **Web page** (or "page") - Document that can be displayed in a web browser, like a HTML document.
+- **Website** (or "site") - Collection of web pages grouped together into a single resource, with links connecting them together.
+- **Web server** - Computer that hosts a website on the internet.
+- **Web service** - Software that responds to requests over the Internet to perform a function (like handle user login) or provide data (like weather report).
+- **Search engine** - Web service that helps people find web pages, such as Google, Bing.
+- **Interoperable** - Different implementations behave exactly the same for a given case i.e. browsers should provide the same rendered output for a given input.
+- **URL** - Uniform Resource Locator is a web address (kushaj.com) plus a protocol (https).
 
 ## Domain name
 
--   IPv4 - `192.0.2.172`
--   IPv6 - `2001:db8:8b73:0000:0000:8a2e:0370:1337`
--   Domain name (separated by dots and read from right to left)
-    -   Top-Level Domain (TLD) - `.com`. Tells the general purpose of the service behind the domain name. Some TLDs impose restrictions like `.gov` are only allowed to be used by government.
-    -   Label (or component) - case-insensitive character sequence from 1 to 63 characters in length.
-        -   Secondary Level Domain (SLD) - `mozilla.org` here `mozilla` is Label 1 also called SLD. The label located right before the TLD is called SLD.
-        -   Subdomain - `developer.mozilla.org` here `developer` is Label 2 and also servers the purpose of subdomain.
--   You never own a domain name. Instead you pay to use domain name for a year or more. You can renew your right and your renewal has priority over other people's applications.
-    -   Companies called registrars book keep domain name info and administrative stuff.
-    -   Private companies can also maintain their own domains, like Amazon manages domains under `.fire`.
--   DNS Refreshing - DNS servers refer to "top-level DNS servers".
-    -   Each DNS server that knows about a given domain stores the information for some time before it is automatically invalidated and then refreshed (the DNS server queries an authoritative server and fetches the updated information from it).
+- IPv4 - `192.0.2.172`
+- IPv6 - `2001:db8:8b73:0000:0000:8a2e:0370:1337`
+- Domain name (separated by dots and read from right to left)
+    - Top-Level Domain (TLD) - `.com`. Tells the general purpose of the service behind the domain name. Some TLDs impose restrictions like `.gov` are only allowed to be used by government.
+    - Label (or component) - case-insensitive character sequence from 1 to 63 characters in length.
+        - Secondary Level Domain (SLD) - `mozilla.org` here `mozilla` is Label 1 also called SLD. The label located right before the TLD is called SLD.
+        - Subdomain - `developer.mozilla.org` here `developer` is Label 2 and also servers the purpose of subdomain.
+- You never own a domain name. Instead you pay to use domain name for a year or more. You can renew your right and your renewal has priority over other people's applications.
+    - Companies called registrars book keep domain name info and administrative stuff.
+    - Private companies can also maintain their own domains, like Amazon manages domains under `.fire`.
+- DNS Refreshing - DNS servers refer to "top-level DNS servers".
+    - Each DNS server that knows about a given domain stores the information for some time before it is automatically invalidated and then refreshed (the DNS server queries an authoritative server and fetches the updated information from it).
 
 ### How DNS request works
 
@@ -68,19 +68,19 @@ nav_order: 1
 
 ## Folder structure
 
--   `index.html`
--   `images` folder
--   `styles` folder
--   `scripts` folder
+- `index.html`
+- `images` folder
+- `styles` folder
+- `scripts` folder
 
 ## Naming files/folders
 
--   Lowercase with no spaces.
-    -   Web servers are case-sensitive. Having all names in lowercase helps reduce random errors.
-    -   In terminal, file names need to be quoted if containing spaces.
-    -   In URL, the space is converted to `%20`, which can create bugs if the system assumes file names and URLs match perfectly.
--   Use hyphen (`-`) instead of space.
--   Do not use backward slashes to reference file paths on Windows. HTML can handle forward slashes on Windows.
+- Lowercase with no spaces.
+    - Web servers are case-sensitive. Having all names in lowercase helps reduce random errors.
+    - In terminal, file names need to be quoted if containing spaces.
+    - In URL, the space is converted to `%20`, which can create bugs if the system assumes file names and URLs match perfectly.
+- Use hyphen (`-`) instead of space.
+- Do not use backward slashes to reference file paths on Windows. HTML can handle forward slashes on Windows.
 
 ## How the web works
 
@@ -96,28 +96,28 @@ When a URL is typed into browser address bar, the following steps occur
 
 Collection of standardized _application programming interfaces (APIs)_ that programmers use to make web pages and web applications.
 
--   Browser
-    -   W3C
-    -   WHATWG
--   Ecma International
-    -   Ecma-262, Ecma-402, Ecma-404 (collectively ECMAScript)
--   OpenJS Foundation
-    -   Node.js
-    -   Node Global
--   IETF
-    -   HTTP
--   Unicode Consortium
-    -   Unicode standard
-    -   Text related issues like bi-directional text, line-breaking
--   IEEE
-    -   IEEE 802.11 WLAN
-    -   IEEE 754 Floating-Point Arithmetic
--   ISO
-    -   Standards organizations like W3C will publish ISO standard, to allow governments to require these standards for policy and procurement purposes.
--   Khronos
-    -   WebGL
--   IANA
-    -   DNS Root, IP addressing
+- Browser
+    - W3C
+    - WHATWG
+- Ecma International
+    - Ecma-262, Ecma-402, Ecma-404 (collectively ECMAScript)
+- OpenJS Foundation
+    - Node.js
+    - Node Global
+- IETF
+    - HTTP
+- Unicode Consortium
+    - Unicode standard
+    - Text related issues like bi-directional text, line-breaking
+- IEEE
+    - IEEE 802.11 WLAN
+    - IEEE 754 Floating-Point Arithmetic
+- ISO
+    - Standards organizations like W3C will publish ISO standard, to allow governments to require these standards for policy and procurement purposes.
+- Khronos
+    - WebGL
+- IANA
+    - DNS Root, IP addressing
 
 ## History of web
 
@@ -157,9 +157,9 @@ One reason why this happened, is because there were no tools created specificall
 
 Photoshop was one tool utilized by graphic designers, which started with fixed canvas size. Then came _Macromedia's Dreamweaver_ for web design, which operated on WYSIWYG (What You See If What You Get), which would not always work on the web. Some assumptions that were prominent in first decade of twenty-first century
 
--   everyone was browsing with a screen wider than 960px.
--   everyone had broadband internet access, so no need to optimize the number and file size of images.
--   everyone was using a modern web browser with the latest plug-ins installed.
+- everyone was browsing with a screen wider than 960px.
+- everyone had broadband internet access, so no need to optimize the number and file size of images.
+- everyone was using a modern web browser with the latest plug-ins installed.
 
 In 2007, Steve Jobs released iPhone which can be used to browse the Web. Before iPhone, mobile devices could only display a specialized mobile-friendly file format called WML.
 
@@ -209,19 +209,19 @@ Web on the other hand is a _continuum_. You can't be sure how many web technolog
 
 What does designing a thing in layer looks lik
 
--   A chair in a room.
--   A room in a house.
--   A house in an environment.
--   An environment in a city plan.
+- A chair in a room.
+- A room in a house.
+- A house in an environment.
+- An environment in a city plan.
 
 In web the benefit of layering is separation of concerns, which allows enhancements to be applied according to the capabilities of the end user's device.
 
 Tha layers of web
 
--   JavaScript and CSS build on top of HTML.
--   HTML requires a URL to be reachable.
--   URL reachability depends on HTTP protocol.
--   HTTP protocol depends on TCP/IP.
+- JavaScript and CSS build on top of HTML.
+- HTML requires a URL to be reachable.
+- URL reachability depends on HTTP protocol.
+- HTTP protocol depends on TCP/IP.
 
 Progressive enhancement asks that designers start from the lowest common denominator (well marked-up document), and then add as many features on top as they want. If any feature is not supported, the browser will just ignore it. Websites do not need to look exactly the same in every browser. People using the old browsers should get the same content as the new browsers, but that dosen't mean they should get the same experience as well.
 

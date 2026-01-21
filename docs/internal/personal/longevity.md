@@ -19,5 +19,5 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
--   [link](https://www.youtube.com/@BryanJohnson) Bryan Johnson youtube videos
--   [link](https://www.youtube.com/@FoundMyFitness) FoundMyFitness youtube videos
+- [link](https://www.youtube.com/@BryanJohnson) Bryan Johnson youtube videos
+- [link](https://www.youtube.com/@FoundMyFitness) FoundMyFitness youtube videos

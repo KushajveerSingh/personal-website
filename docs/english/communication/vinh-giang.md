@@ -21,7 +21,7 @@ grand_parent: English
 
 ## Resources
 
--   [link](https://www.youtube.com/@askvinh/videos) Vinh Giang youtube videos
+- [link](https://www.youtube.com/@askvinh/videos) Vinh Giang youtube videos
 
 ---
 
@@ -33,36 +33,36 @@ grand_parent: English
 
 **Problem** - When speaking 100% of their cognitive capacity goes into what they say and 0% into how they actually say it.
 
--   Reason why this happens is most people grow up rewarded for their technical ability, not for their ability to communicate.
--   Ideas don't speak for itself.
+- Reason why this happens is most people grow up rewarded for their technical ability, not for their ability to communicate.
+- Ideas don't speak for itself.
 
 **Solution** - Split the attention 50/50 between how you say it and what you say.
 
--   Use Vocal-Visual-Verbal framework.
--   Vocal - Add melody to your voice. When speaking about something serious, speak with a lower pitch, convery passion with higher pitch.
--   Visual - Match your facial expression to the tone of your words. If talking about something facinating, show the facinating look on your face.
--   Verbal - Simplify your language and don't use complex jargon to try to sound smart.
+- Use Vocal-Visual-Verbal framework.
+- Vocal - Add melody to your voice. When speaking about something serious, speak with a lower pitch, convery passion with higher pitch.
+- Visual - Match your facial expression to the tone of your words. If talking about something facinating, show the facinating look on your face.
+- Verbal - Simplify your language and don't use complex jargon to try to sound smart.
 
 ### Imposter disclaimer
 
 **Problem** - You disqualify yourself when you start the sentences with
 
--   I'm not the best person to answer this but...
--   This might be stupid but...
--   I haven't really thought this through but...
+- I'm not the best person to answer this but...
+- This might be stupid but...
+- I haven't really thought this through but...
 
 Why people do this
 
--   You value humility and being humble, but this is not the place for that.
--   Imposter syndrome kick's in and you lower people's expectations so it dosen't disappoint anyone.
--   You fear being judged for sounding too confident.
+- You value humility and being humble, but this is not the place for that.
+- Imposter syndrome kick's in and you lower people's expectations so it dosen't disappoint anyone.
+- You fear being judged for sounding too confident.
 
 **Solution** - Remove the disclaimers and start with
 
--   Here's my idea.
--   Here's my perspective.
--   Here's one idea we could explore.
--   A recommendation is.
+- Here's my idea.
+- Here's my perspective.
+- Here's one idea we could explore.
+- A recommendation is.
 
 ### Content Shield
 
@@ -70,60 +70,60 @@ Why people do this
 
 Why people do this
 
--   You're afraid of being wrong.
--   You're afraid of follow-up questions.
--   You're over-compensating for imposter syndrome.
+- You're afraid of being wrong.
+- You're afraid of follow-up questions.
+- You're over-compensating for imposter syndrome.
 
 **Solution**
 
--   Say the headline first. One clean sentence to summarize your point.
--   Add detail to support your point, only if someone asks for clarification.
+- Say the headline first. One clean sentence to summarize your point.
+- Add detail to support your point, only if someone asks for clarification.
 
 ### Micro-checking loop
 
 **Problem** - Every sentence ending with
 
--   Right?
--   Yeah?
--   Does that make sense?
--   Do you know what I mean?
--   Sorry I just have a quick question... (when micro-checking happens in the beginning).
+- Right?
+- Yeah?
+- Does that make sense?
+- Do you know what I mean?
+- Sorry I just have a quick question... (when micro-checking happens in the beginning).
 
 Why people do this
 
--   Hyper-sensitivity to how you're coming across to others.
--   Hyper-awareness of people's facial expressions.
--   Scanning the room for consistent validation and subtle need for approval in real time.
+- Hyper-sensitivity to how you're coming across to others.
+- Hyper-awareness of people's facial expressions.
+- Scanning the room for consistent validation and subtle need for approval in real time.
 
 **Solution**
 
--   Finish your sentence on a low pitch.
--   Pause after you finish your sentence.
--   Let the point land.
--   Then ask for clarity like this
-    -   Is that clear?
-    -   Did you have any questions?
-    -   Would you like me to expand on any points (that I spoke about)?
+- Finish your sentence on a low pitch.
+- Pause after you finish your sentence.
+- Let the point land.
+- Then ask for clarity like this
+    - Is that clear?
+    - Did you have any questions?
+    - Would you like me to expand on any points (that I spoke about)?
 
 ### Disappearing Spine Syndrome
 
 **Problem** - When sharing an idea, the very moment you sense disagreement, you abandon your point completely.
 
--   Your idea disappears before it even has a chance to stand.
+- Your idea disappears before it even has a chance to stand.
 
 Why people do this
 
--   You put too much emphasis on the first sign of resistance.
--   You have a strong desire to be agreeable and not cause conflict.
+- You put too much emphasis on the first sign of resistance.
+- You have a strong desire to be agreeable and not cause conflict.
 
 **Solution**
 
--   Pause when you sense disagreement.
--   Take a deep breath.
--   Slow down your rate of speech and finish your point.
--   You can also use the anchor and invite technique
-    -   Anchor - I believe this is the right direction for us because...
-    -   Invite - And I'm open to hearing your perspectives too.
+- Pause when you sense disagreement.
+- Take a deep breath.
+- Slow down your rate of speech and finish your point.
+- You can also use the anchor and invite technique
+    - Anchor - I believe this is the right direction for us because...
+    - Invite - And I'm open to hearing your perspectives too.
 
 ## 5 love languages that we naturally speak
 
@@ -162,8 +162,8 @@ Why people do this
 
 ### Why are these important
 
--   Every person primarily speaks one of these languages.
--   When you show love and care to others don't do it in your love language, do it in their love language.
+- Every person primarily speaks one of these languages.
+- When you show love and care to others don't do it in your love language, do it in their love language.
 
 ### How to identify your love language
 
@@ -193,33 +193,33 @@ Depending on your relationship with the person
 
 ### How to speak their langauge
 
--   Words of affirmation.
-    -   Don't say silent.
-    -   Give specific and sincere affirmations.
-    -   Use the SNI Framework
-        -   Spot - Spot what they did and how they showed up.
-        -   Name - Name the specific behavior or trait.
-        -   Impact - Say how it helped you.
-    -   Example.
-        -   Spot - Hey, when you checked on my last week, that was one of the toughest weeks of my life.
-        -   Name - And your kindness and patience really came through.
-        -   Impact - It really made me feel like I wasn't alone. I really appreciate it.
--   Quality time.
-    -   Don'tmultitask when you're with them.
-    -   Turn your phone off to minimise distractions.
-    -   Give them 100% of your attention.
--   Acts of service.
-    -   Stick to your word, don't bail on things you say you'll do.
-    -   Make a list of things you can do for this person.
-    -   Set a target to do something on the list once a day.
--   Physical touch.
-    -   Don't treat touch like an afterthought and something that should only be reserved for private.
-    -   Consistent small physical gestures matter.
-    -   Look for natural opportunities for physical closeness.
--   Receiving gifts.
-    -   Don't assume they are materialistic.
-    -   The gift don't have to be expensive. It's the thought and the timing behind the gift that matters.
-    -   Gifts are a physical reminder that you are thinking of them.
-    -   Make a habit to notice what they love and surprise them, like their favorite snack, sourvenir from recent trip, handwritten note.
+- Words of affirmation.
+    - Don't say silent.
+    - Give specific and sincere affirmations.
+    - Use the SNI Framework
+        - Spot - Spot what they did and how they showed up.
+        - Name - Name the specific behavior or trait.
+        - Impact - Say how it helped you.
+    - Example.
+        - Spot - Hey, when you checked on my last week, that was one of the toughest weeks of my life.
+        - Name - And your kindness and patience really came through.
+        - Impact - It really made me feel like I wasn't alone. I really appreciate it.
+- Quality time.
+    - Don'tmultitask when you're with them.
+    - Turn your phone off to minimise distractions.
+    - Give them 100% of your attention.
+- Acts of service.
+    - Stick to your word, don't bail on things you say you'll do.
+    - Make a list of things you can do for this person.
+    - Set a target to do something on the list once a day.
+- Physical touch.
+    - Don't treat touch like an afterthought and something that should only be reserved for private.
+    - Consistent small physical gestures matter.
+    - Look for natural opportunities for physical closeness.
+- Receiving gifts.
+    - Don't assume they are materialistic.
+    - The gift don't have to be expensive. It's the thought and the timing behind the gift that matters.
+    - Gifts are a physical reminder that you are thinking of them.
+    - Make a habit to notice what they love and surprise them, like their favorite snack, sourvenir from recent trip, handwritten note.
 
 continue from https://www.youtube.com/watch?v=ha5qaiwNHTc

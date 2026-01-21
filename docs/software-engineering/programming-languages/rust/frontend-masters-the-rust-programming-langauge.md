@@ -21,21 +21,21 @@ parent: Rust
 
 ## Resources
 
--   [link](https://frontendmasters.com/courses/rust/) The Rust Programming Language by _Richard Feldman_ (4 hours 42 minutes) (May 11, 2021)
--   [link](https://rtfeldman-rust-workshop.netlify.app/) Course website
--   [link](https://github.com/rtfeldman/rust-1.51-workshop) Course GitHub repository
--   [link](https://docs.google.com/presentation/d/1kkTsCrMIVtxYef9T7SV-MWS-nQlnmTniAGaTl6L9Fe4) Course slides
+- [link](https://frontendmasters.com/courses/rust/) The Rust Programming Language by _Richard Feldman_ (4 hours 42 minutes) (May 11, 2021)
+- [link](https://rtfeldman-rust-workshop.netlify.app/) Course website
+- [link](https://github.com/rtfeldman/rust-1.51-workshop) Course GitHub repository
+- [link](https://docs.google.com/presentation/d/1kkTsCrMIVtxYef9T7SV-MWS-nQlnmTniAGaTl6L9Fe4) Course slides
 
 ---
 
 ## Primitives
 
--   `let` - similar to `const` in js
--   `let mut` - similar to `let` in js
--   `as` - for type casting
--   `!` - functions ending with `!` are macros
--   `panic!(str)` - similar to `throw` in js
--   last expression in function (after last semicolon) used as default return value
+- `let` - similar to `const` in js
+- `let mut` - similar to `let` in js
+- `as` - for type casting
+- `!` - functions ending with `!` are macros
+- `panic!(str)` - similar to `throw` in js
+- last expression in function (after last semicolon) used as default return value
 
 ```rust
 // String
@@ -83,11 +83,11 @@ let ternary_operator = if something {
 
 ## Collections
 
--   `unit` - similar to `void`
--   tuple
--   struct - Syntax sugar only. Similar to named tuples.
--   array - length is fixed.
--   at runtime tuple, struct, array have same memory layout and no additional overhead. Meaning they have the same performance. The read/write operations compile to the same machine code.
+- `unit` - similar to `void`
+- tuple
+- struct - Syntax sugar only. Similar to named tuples.
+- array - length is fixed.
+- at runtime tuple, struct, array have same memory layout and no additional overhead. Meaning they have the same performance. The read/write operations compile to the same machine code.
 
 ```rust
 // Tuple
@@ -133,13 +133,13 @@ let [year1, year2, year3] = arr;
 
 ## Pattern matching
 
--   Enums define one of several distinct alternative variants at runtime.
--   At runtime, the variants are converted to `u8`. If number of varaints are more then `u16` is used. By default, the numbering starts from 0. You can assign a start value or values in general to any varaint using `Yellow = 3`.
--   `match` similar to switch, except _break_ is not needed. For default you can use `_ => {}`, but generally avoid that, as you should be handling all variants manually. Plus if you add a variant in the future, you need to know the places it affects.
--   For payloads, the first memory represents the `u8` number of enum, and the additional bytes represent the payload.
--   Also, the size of the largest payload determines the size of each variant in enum. Since `Custom` in the example below takes 4 bytes, it means `Green` also takes 4 bytes.
--   `impl` used for namespacing functions.
-    -   `self` takes the type of the thing that comes after `impl`.
+- Enums define one of several distinct alternative variants at runtime.
+- At runtime, the variants are converted to `u8`. If number of varaints are more then `u16` is used. By default, the numbering starts from 0. You can assign a start value or values in general to any varaint using `Yellow = 3`.
+- `match` similar to switch, except _break_ is not needed. For default you can use `_ => {}`, but generally avoid that, as you should be handling all variants manually. Plus if you add a variant in the future, you need to know the places it affects.
+- For payloads, the first memory represents the `u8` number of enum, and the additional bytes represent the payload.
+- Also, the size of the largest payload determines the size of each variant in enum. Since `Custom` in the example below takes 4 bytes, it means `Green` also takes 4 bytes.
+- `impl` used for namespacing functions.
+    - `self` takes the type of the thing that comes after `impl`.
 
 ```rust
 enum Color {
@@ -184,10 +184,10 @@ let is_color_yellow = Color::Yellow.is_yellow(); // self allows us to uss method
 
 ### Type parameters
 
--   Use `Option<T>` to mimic null, undefined.
-    -   `Option` is available globally, so no need to do `Option.Some`, `Option.None`.
--   Use `Result` to return from a function, where the first argument is for success and the second argument is for error.
-    -   Available globally.
+- Use `Option<T>` to mimic null, undefined.
+    - `Option` is available globally, so no need to do `Option.Some`, `Option.None`.
+- Use `Result` to return from a function, where the first argument is for success and the second argument is for error.
+    - Available globally.
 
 ```rust
 enum Option<T> {
@@ -211,7 +211,7 @@ let success: Result<i64, String> = Ok(42);
 
 ## Vectors
 
--   Internally `vec` stores _memory_index_of_first_element_, _length_, _capacity_. Capacity is the starting size of `vec`.
+- Internally `vec` stores _memory_index_of_first_element_, _length_, _capacity_. Capacity is the starting size of `vec`.
 
 ```rust
 let mut years: Vec<i32> = vec![2000, 2001, 2002];
@@ -228,11 +228,11 @@ let mut years: Vec<i32> = Vec::capacity(1);
 
 ## Ownership
 
--   Only applies to things in the heap.
--   Goal of ownership is to add `dealloc` in code to free the memory. In C/C++ we have to manually add these and do memeory management. In gargabe collected languages, the garbage collector does this. In Rust this is automatic. You can use `unsafe` to do manual memory management.
--   _Ownership_ - Every value is "owned" by a particular scope. At first it's owned by the scope where it was originally created, but ownership can be passed to other scope later on.
--   _moving_ - Transferring ownership of a value is called "moving" that value. Use `return` to transfer ownership.
--   Deallocation happens whern there is no longer any scope owning a value.
+- Only applies to things in the heap.
+- Goal of ownership is to add `dealloc` in code to free the memory. In C/C++ we have to manually add these and do memeory management. In gargabe collected languages, the garbage collector does this. In Rust this is automatic. You can use `unsafe` to do manual memory management.
+- _Ownership_ - Every value is "owned" by a particular scope. At first it's owned by the scope where it was originally created, but ownership can be passed to other scope later on.
+- _moving_ - Transferring ownership of a value is called "moving" that value. Use `return` to transfer ownership.
+- Deallocation happens whern there is no longer any scope owning a value.
 
 **use-after-free** bug
 
@@ -327,10 +327,10 @@ fn main() {
 
 Possible solutions to the above problem
 
--   Return `years` from the `print_years` function, as that will transfer ownership back to `main`.
--   Or use `.clone()` to pass a new copy to the function. This will hurt performance.
--   If the function takes immutable value, then you can convert it to mutable value inside the function.
--   Recommended: Use Borrowing
+- Return `years` from the `print_years` function, as that will transfer ownership back to `main`.
+- Or use `.clone()` to pass a new copy to the function. This will hurt performance.
+- If the function takes immutable value, then you can convert it to mutable value inside the function.
+- Recommended: Use Borrowing
 
 ```rust
 fn main() {
@@ -344,16 +344,16 @@ fn main() {
 
 ## Borrowing
 
--   To solve limitations of ownership.
--   _Borrowing_ - Obtain a reference from an owned value. Also, the thing borrowing can't move or mutate it. Once the function returns, that reference if no longer in any scope, and there are no longer any _active borrows_ on the original owned value.
--   _Borrow checker_ - Rust's compilier errors around ownership and borrowing are collectively called "the borrow chekcer".
-    -   Borrow checker cannot be turned off, even in unsafe code.
--   For immutable references, multiple functions can borrow the variable.
--   For mutables references, only one function can borrow at a time, to prevent race-conditions.
--   References are deallocated when the original variable is deallocated. Also, references never cause anything to get deallocated.
--   Prefer reference over ownership, if a function can accomplish its goals.
-    -   It makes the function more restricted in what it can do.
-    -   But it makes the caller less restricted. They don't have to clone or modify the function to return the value.
+- To solve limitations of ownership.
+- _Borrowing_ - Obtain a reference from an owned value. Also, the thing borrowing can't move or mutate it. Once the function returns, that reference if no longer in any scope, and there are no longer any _active borrows_ on the original owned value.
+- _Borrow checker_ - Rust's compilier errors around ownership and borrowing are collectively called "the borrow chekcer".
+    - Borrow checker cannot be turned off, even in unsafe code.
+- For immutable references, multiple functions can borrow the variable.
+- For mutables references, only one function can borrow at a time, to prevent race-conditions.
+- References are deallocated when the original variable is deallocated. Also, references never cause anything to get deallocated.
+- Prefer reference over ownership, if a function can accomplish its goals.
+    - It makes the function more restricted in what it can do.
+    - But it makes the caller less restricted. They don't have to clone or modify the function to return the value.
 
 ```rust
 fn print_years(years: &Vec<i32>) {
@@ -389,9 +389,9 @@ let years3: &mut Vec<i32> = &mut years; // error (also the order does not matter
 
 ### Slices
 
--   Reference to subset of vector's elements or strings.
--   To convert entire vector to slice use `vec.as_slice()`.
--   To convert entire string to slice use `str.as_str()`.
+- Reference to subset of vector's elements or strings.
+- To convert entire vector to slice use `vec.as_slice()`.
+- To convert entire string to slice use `str.as_str()`.
 
 ```rust
 let nums = vec![1,2,3];
@@ -402,9 +402,9 @@ let str_slice: &str = string[3..7];
 
 ## Lifetimes
 
--   Lifetime is the time between when a value is allocated and when its deallocated.
--   Lifetime annotations are a way to track dependencies between lifetimes.
--   Lifetime annotations are required in all structs that hold references.
+- Lifetime is the time between when a value is allocated and when its deallocated.
+- Lifetime annotations are a way to track dependencies between lifetimes.
+- Lifetime annotations are required in all structs that hold references.
 
 ```rust
 struct Releases<'y> {
@@ -443,7 +443,7 @@ struct Releases<'a, 'b, 'c> {
 
 ### Elision
 
--   Lifetime annotations are not needed when there is exactly 1 reference in the return type and also exactly 1 reference in the arguments.
+- Lifetime annotations are not needed when there is exactly 1 reference in the return type and also exactly 1 reference in the arguments.
 
 ```rust
 fn foo(arg: &String) -> &i64
@@ -452,7 +452,7 @@ fn foo(arg: &String) -> &i64
 fn foo<'a>(arg: &'a String) -> &'a i64
 ```
 
--   Use `_` as the lifetime name to tell rust to infer the lifetime from the context and elision rules.
+- Use `_` as the lifetime name to tell rust to infer the lifetime from the context and elision rules.
 
 ```rust
 let releases: Releases<'_> = {
@@ -462,8 +462,8 @@ let releases: Releases<'_> = {
 
 ### Static
 
--   Special lifetime to refere to values that live for the entire duration of the program (in the actual binary in RAM). They are never allocated, and deallocated.
--   Strings take this lifetime by default. Reason: Since the actual string is already in the binary, it does not make sense to move it to the heap, instead just create a reference to the binary iteself.
+- Special lifetime to refere to values that live for the entire duration of the program (in the actual binary in RAM). They are never allocated, and deallocated.
+- Strings take this lifetime by default. Reason: Since the actual string is already in the binary, it does not make sense to move it to the heap, instead just create a reference to the binary iteself.
 
 ```rust
 let name: &'static str = "Default type of string";
