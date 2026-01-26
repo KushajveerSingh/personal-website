@@ -1,7 +1,6 @@
 ---
 title: "The Art of Doing Science and Engineering: Learning to Learn"
 parent: Books
-nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->

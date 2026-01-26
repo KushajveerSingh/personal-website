@@ -1070,3 +1070,7 @@ nav_exclude: true
 ## Mapping With Drone Imagery
 
 - [Spexi](https://www.spexi.com/). Use drone to create map.
+
+## Namign Convention
+
+- Create AI tool to enforce identifier naming convention as discussed in book "Naming things" by Tom Benner.

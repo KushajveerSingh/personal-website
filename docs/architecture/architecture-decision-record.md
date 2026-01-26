@@ -1,7 +1,6 @@
 ---
 title: Architecture Decision Records (ADR)
 parent: Architecture
-nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->

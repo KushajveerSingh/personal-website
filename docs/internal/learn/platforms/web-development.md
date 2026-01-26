@@ -120,6 +120,7 @@ nav_exclude: true
     - [ ] [link](https://frontendmasters.com/courses/pro-css/) Professional CSS: Build a Website from Scratch
     - [ ] [link](https://frontendmasters.com/courses/css-grid/) Ultimate CSS Grid & Layout Techniques, v3
     - [ ] [link](https://frontendmasters.com/courses/css-animations/) CSS Animations and Transitions
+    - [ ] [link](https://frontendmasters.com/courses/winning-websites/) Award-Winning Marketing Websites
 - [ ] [link](https://www.devsheets.io/categories/css) CSS DevSheets by Travesy Media
 - [ ] Animations
     - [ ] [link](https://emilkowal.ski/) Emil Kowalski animation blog
@@ -264,8 +265,6 @@ nav_exclude: true
 
 ### Testing
 
-Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
-
 - [ ] [link](https://vitest.dev/) Vitest
 - [ ] [link](https://playwright.dev/) Playwright
 - [ ] web.dev Resources
@@ -285,6 +284,12 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
     - [ ] Smoke tests
     - [ ] Performance tests
     - [ ] [link](https://www.browserstack.com/guide/what-is-exhaustive-testing) Exhaustive Testing
+- [ ] [link](https://github.com/goldbergyoni/nodejs-testing-best-practices?ck_subscriber_id=2308324911#readme) A detailed guide to modern testing with Node.js
+- [ ] [link](https://testcontainers.com/) Testcontainers
+- [ ] [link](https://martinfowler.com/articles/practical-test-pyramid.html) The Practical Test Pyramid
+- [ ] [link](https://www.amazon.com/dp/0321146530) Test Driven Development: By Example
+- [ ] [link](https://typesanitizer.com/blog/errors.html) An epic treatise on error models for systems programming languages
+- [ ] [link](https://sqlite.org/testing.html) How SQLite Is Tested
 
 ### Graphics/Visualization
 
@@ -300,6 +305,9 @@ Refer to [Learn - Testing](/internal/learn/cs-fields/testing)
 - [ ] [link](https://gsap.com/) GSAP (animation)
 - [ ] [link](https://github.com/leeoniya/uPlot) uPlot
 - [ ] [link](https://echarts.apache.org/en/index.html) Apache ECharts
+- [ ] Learning resources
+    - [ ] [link](https://app.powerbi.com/view?r=eyJrIjoiMDA4YWIwZWEtMDE3ZS00YmFhLWE5YWMtODFlZWEzNTU1ODNiIiwidCI6IjZjMGE1YjljLTA4OWEtNDk0ZS1iMDVlLTcxNjEwOTgyOTA0NyIsImMiOjF9) PowerBI Visual Vocabulary
+    - [ ] [link](https://www.youtube.com/watch?v=T4_ja1VAhUs) Graphical EXCELLENCE: Presenting Data Clearly by Tufte (4-5) video
 
 ### State
 
@@ -565,14 +573,6 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 - [ ] [link](https://node.win/) Hussein Nasser: Node Internals and Architecture
 - [ ] [link](https://frontendmasters.com/courses/api-design-nodejs-v4/) API Design in Node.js, v4
 
-### Testing
-
-- [ ] [link](https://github.com/goldbergyoni/nodejs-testing-best-practices?ck_subscriber_id=2308324911#readme) A detailed guide to modern testing with Node.js
-- [ ] [link](https://testcontainers.com/) Testcontainers
-- [ ] [link](https://martinfowler.com/articles/practical-test-pyramid.html) The Practical Test Pyramid
-- [ ] [link](https://www.amazon.com/dp/0321146530) Test Driven Development: By Example
-- [ ] [link](https://typesanitizer.com/blog/errors.html) An epic treatise on error models for systems programming languages
-
 ### Web framework
 
 - [ ] [link](https://h3.dev/) H3
@@ -599,8 +599,6 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 
 ## Database
 
-Check [Learn - Database](/internal/learn/cs-fields/database).
-
 ### Learn
 
 - CMU courses
@@ -617,6 +615,8 @@ Check [Learn - Database](/internal/learn/cs-fields/database).
     - [ ] Database systems concepts 7th edition
     - [ ] The Data Warehouse Toolkit 3rd edition
     - [ ] [link](https://www.amazon.com/Database-Design-Mere-Mortals-Anniversary/dp/0136788041) Database Design for Mere Mortals: 25th Anniversay Edition
+    - [link](https://en.wikipedia.org/wiki/Joe_Celko#Bibliography) Joe Calko books
+    - [link](https://www.reddit.com/r/Database/comments/s5rrog/what_are_some_good_books_or_resources_for/) Database design books
 - Conferences
     - [ ] [link](https://www.hytradboi.com/) HYTRADBOI 2025
 
@@ -628,6 +628,10 @@ Check [Learn - Database](/internal/learn/cs-fields/database).
 - (book) [SQL Performance Explained](https://use-the-index-luke.com/)
 - (book) [SQL Antipatterns volume 1](https://pragprog.com/titles/bksap1/sql-antipatterns-volume-1/)
 - Leetcode [sql problems](https://leetcode.com/problemset/database/)
+
+### Transaction
+
+- [link](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) Transaction Processing: Concepts and Techniques (The Morgan Kaufmann Series in Data Management Systems)
 
 ### Postgres
 

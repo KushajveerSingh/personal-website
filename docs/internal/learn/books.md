@@ -150,6 +150,7 @@ nav_exclude: true
 - [ ] [link](https://www.amazon.com/dp/B0CN6PQ42B) Code Is for Humans: A Guide to Human-Centric Software Engineering
 - [ ] [link](https://www.amazon.com/dp/1680502395) Release It!: Design and Deploy Production-Ready Software
 - [ ] [link](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052) The Pragmatic Programmer: Your Journey To Mastery, 20th Anniversary (2nd Edition) by _David Thomas_, _Andrew Hunt_ (352 pages) (Sep 13, 2019)
+- [ ] [link](https://www.amazon.com/Code-Generation-Action-Jack-Herrington/dp/1930110979) Code Generation in Action
 
 ## Testing
 

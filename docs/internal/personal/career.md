@@ -44,7 +44,7 @@ nav_exclude: true
 ## English
 
 - [ ] [link](https://www.youtube.com/watch?v=gfYq2ng9s4E) English Punctuation Guide - English Writing Lesson
-- [ ] [link](https://www.youtube.com/watch?v=ryAnfbEeJR8) How to Say EVERY SOUND in American English | 44 Sounds of American English
+- [ ] [link](https://www.youtube.com/watch?v=ryAnfbEeJR8) How to Say EVERY SOUND in American English \| 44 Sounds of American English
 - [ ] [link](https://www.youtube.com/watch?v=6Y6jPBKisaE) American English Accent Training for Indian Speakers - Accent Reduction Classes
 
 ## Leadership
@@ -78,6 +78,19 @@ nav_exclude: true
 
 - [ ] [link](https://ethan-evans.mykajabi.com/) Ethan Evans course (Maximizing a Severance Package)
 - [ ] [link](https://www.financialsamurai.com/how-to-engineer-your-layoff-make-a-small-fortune-by-saying-goodbye/) How to Engineer Your Layoff Book: Make A Small Fortune By Saying Goodbye
+
+## Freelancer
+
+- Books
+    - Networking
+        - [link](https://www.amazon.com/Never-Eat-Alone-Expanded-Updated/dp/0385346654) Never Eat Alone, Expanded and Updated: And Other Secrets to Success, One Relationship at a Time
+        - [link](https://www.amazon.com/Your-Well-Before-Youre-Thirsty/dp/0385485468) Dig Your Well Before You're Thirsty: The Only Networking Book You'll Ever Need
+    - [link](https://www.amazon.com/Free-Agent-Nation-Working-Yourself/dp/0446678791) Free Agent Nation: The Future of Working for Yourself
+    - Consulting
+        - [link](https://www.amazon.com/Getting-Started-Consulting-Comprehensive-Profession-dp-139437626X/dp/139437626X) Getting Started in Consulting
+        - [link](https://www.amazon.com/Flawless-Consulting-Guide-Getting-Expertise/dp/1394177305) Flawless Consulting: A Guide to Getting Your Expertise Used
+    - Fianance
+        - [link](https://www.amazon.com/Essentials-Finance-Accounting-Nonfinancial-Managers/dp/0814436943) The Essentials of Finance and Accounting for Nonfinancial Managersnapkin
 
 ## Startup
 

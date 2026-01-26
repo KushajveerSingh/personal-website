@@ -1,7 +1,6 @@
 ---
 title: "The Reading Mind: A Cognitive Approach To Understanding How The Mind Reads"
 parent: Books
-nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->

@@ -129,6 +129,7 @@ nav_exclude: true
 
 - [link](https://www.outwardbound.org/) Outward Bound for group trips
 - [link](https://andrewskurka.com/guided-trips/) Andrew Shurka guided trips
+- [link](https://activities.wimhofmethod.com/activities/winter-expedition-sweden-2026/69331) Wim Hof yearly winter expedition Sweden
 
 ### Navigation apps
 
