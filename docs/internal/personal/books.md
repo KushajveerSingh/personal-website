@@ -23,8 +23,43 @@ nav_exclude: true
 
 - [link](https://www.behavioraleconomics.com/resources/books/) Book list
 
+## English
+
+- The ABC's and All Their Tricks The Complete Reference Book of Phonics and Spelling
+- Why do we say that 101 idioms, savings and facts
+- 5 love languages the science of love that lasts
+- How highly effective people speak how high performers use psychology to influence with ease
+- The well spoken thesaurus the most powerful ways to say everyday words and phrases
+
+## Electrical
+
+- The only electrical engineering guide you'll ever need by mason r. hayes
+
+## History
+
+### USA
+
+- [link](https://www.ushistory.org/us/index.asp) U.S. History Pre-Columbian to the New Millennium
+
 ## Learning
 
+- make it stick The Science of Successful Learning
+- flow the psychology of optimal experience
+- Neuroplasticity by moheb costandi
+- What the internet is doing to our brains the shallows
+- A brief history of intelligence
+- The science of rapid skill acquistion
+- The scientific method why science is a crucial process for human progress, not just another academic subject or belief
+- Learn like a polymath how to teach yourself anything
+- The cold start problem how to start and scale network effects
+- The bell curve intelligence and class structure in american life
+- The neuroscience of intelligence by richard j haier
+- The book of five rings
+- Human diversity the biology of gender, race, and class
+- Facing reality two truths about race in america
+- Unlimited memory how to use advanced learning strategies to lear faster, remember more
+- Super learning advanced strategies for quicker comprehension, greater retention
+- Critical thinking logic and problem solving by neuronswaves
 - [ ] Range: Why Generalists Triumph in a Specialized World
 - [ ] Loonshots: How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries
 - [ ] The Back of the Napkin (Expanded Edition): Solving Problems and Selling Ideas with Pictures
@@ -58,6 +93,8 @@ nav_exclude: true
 ## Random
 
 - [ ] Stuff You Should Know An Incomplete Compendium of Mostly Interesting Things by Josh Clark
+- The Origins of Efficiency by Brain Potter
+- The rise and fall of the third reich a history of nazi germany
 
 ## Philosophy (Stoicism)
 

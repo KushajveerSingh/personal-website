@@ -54,6 +54,11 @@ nav_exclude: true
 - Eclipse
 - Constellation
 
+## Buy
+
+- [link](https://shokz.com/) Shokz earphones for bike riding
+- [link](https://www.sena.com/en-us/product/pi/) Sena pi bluetooth intercom for biking
+
 ## Locations
 
 ### World

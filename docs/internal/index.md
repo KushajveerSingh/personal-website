@@ -14,7 +14,6 @@ search_exclude: true
     - [Adventure](/internal/personal/adventure)
     - [Books](/internal/personal/books)
     - [Career](/internal/personal/career)
-    - [Exercise](/internal/personal/exercise)
     - [Finance](/internal/personal/finance)
     - [Games](/internal/personal/games)
     - [Homelab & Privacy](/internal/personal/homelab-privacy)

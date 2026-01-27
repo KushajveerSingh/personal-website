@@ -45,6 +45,7 @@ nav_exclude: true
 - [ ] [link](https://www.amazon.com/Cloud-Architecture-Patterns-Using-Microsoft/dp/1449319777) Cloud Architecture Patterns
 - [ ] [link](https://www.amazon.com/Cloud-Native-Infrastructure-Applications-Environment/dp/1491984309) Cloud Native Infrastructure: Patterns for Scalable Infrastructure and Applications in a Dynamic Environment
 - [ ] [link](https://www.amazon.com/Cloud-Native-Containers-Next-Generation-Applications/dp/1492053821) Cloud Native: Using Containers, Functions, and Data to Build Next-Generation Applications
+- Container Security: Fundamental Technology Concepts That Protect Cloud Native Applications
 
 ## Leadership
 
@@ -111,6 +112,7 @@ nav_exclude: true
 - [link](https://www.amazon.com/stores/page/6AA020D9-FD83-4417-B0A2-609AFFEF4EEA?ingress=0) O'Rilley security
 - [ ] [link](https://www.amazon.com/dp/1119642787) Security Engineering: A Guide to Building Dependable Distributed Systems
 - [ ] [link](https://www.amazon.com/dp/1118809998) Threat Modeling: Designing for Security
+- BFF Performance Tools
 - [ ] [link](https://www.amazon.com/dp/1098135121) Learning eBPF: Programming the Linux Kernel for Enhanced Observability, Networking, and Security
 - [ ] [link](https://www.amazon.com/Linux-Observability-BPF-Programming-Performance/dp/1492050202) Linux Observability with BPF: Advanced Programming for Performance Analysis and Networking
 - [ ] [link](https://www.amazon.com/dp/1492083127) Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems

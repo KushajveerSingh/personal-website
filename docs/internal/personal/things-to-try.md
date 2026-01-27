@@ -84,11 +84,18 @@ nav_exclude: true
 
 ## Gardening
 
+- [link](https://www.quarto.com/subject-area/139/architecture) Quarto50 Gardening
+
+## Interior Design
+
+- [link](https://www.quarto.com/subject-area/139/architecture) Quarto50 Interior Design
+
 ## Ironing
 
 ## Lock picking
 
 - [link](https://www.youtube.com/watch?v=fTt1g0ZrzE0) LockPickingLawyer
+- [link](https://covertinstruments.com/) Covert Companion Pro
 
 ## Knitting
 
