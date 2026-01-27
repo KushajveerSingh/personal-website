@@ -22,23 +22,12 @@ nav_exclude: true
 ## Product Design
 
 - [ ] FrontendMasters courses
-    - [x] [link](https://frontendmasters.com/courses/product-launch/) Guide for Launching Your Next Big Idea by _Paul Boag_
     - [ ] [link](https://frontendmasters.com/courses/freelancing/) Finding Clients as a Freelancer
     - [ ] [link](https://frontendmasters.com/courses/ux-design-principles/) Web UX Design for High Converting Websites
     - [ ] [link](https://frontendmasters.com/courses/design-process/) Mastering the Design Process
 
 ## Search Engine Optimization (SEO)
 
-- [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI) MDN Reference: URIs
-- [x] URL
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs) MDN URI: Choosing between www and non-www URLs
-    - [x] [link](https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/#options-for-bare-domains) How to set up Netlify DNS - Custom Domains, CNAME, & A Records
-    - [x] [link](https://www.wpbeginner.com/beginners-guide/www-vs-non-www-which-is-better-for-wordpress-seo/) WWW vs non-WWW - Which is Better for WordPress SEO?
-    - [x] [link](https://vale.rocks/posts/strong-opinions-on-url-design) Strong Opinions on URL Design
-    - [x] [link](https://alfy.blog/2025/10/16/hidden-cost-of-url-design.html) The Hidden Cost of URL Design
-    - [x] [link](https://alfy.blog/2025/10/31/your-url-is-your-state.html) Your URL Is Your State
-    - [x] [link](https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers/417184#417184) What is the maximum length of a URL in different browsers?
-- [x] [link](https://frontendmasters.com/courses/modern-seo/) Frontend Masters: Modern Search Engine Optimization (SEO) by _Mike North_ (4 hours 4 minutes) (Jun 15, 2017)
 - [ ] [link](https://www.googleguide.com/) Google Guide Making Searching Even Easier
 - [ ] [link](https://ahrefs.com/blog/google-advanced-search-operators/) Google Search Operators: The Complete List
 - [ ] [link](https://kinsta.com/blog/google-search-operators/) Google Search Operators: 40 Commands to Know
@@ -60,7 +49,6 @@ nav_exclude: true
 
 ## Design Overview
 
-- [x] [link](https://inclusivedesignprinciples.info/) Inclusive Design Principles
 - [ ] [link](https://shapeofdesignbook.com/) The Shape of Design by Frank Chimero
 - [ ] [link](https://designingfortheweb.co.uk/) Designing for the Web by Mark Boulton
 - [ ] [link](https://designforweb.org/) Design for web A handbook for aspiring web designers
@@ -100,6 +88,7 @@ nav_exclude: true
 
 ## Typography
 
+- [ ] [link](https://typographyforlawyers.com/) Typography for lawyers
 - [ ] [link](https://www.youtube.com/watch?v=WdBNYcWG0Yg) CSS Typography Crash Course kevin powell
 - [ ] [link](https://web.dev/articles/baseline-in-action-fluid-type) Responsive and fluid typography with Baseline CSS features
 - [ ] [link](https://frontendmasters.com/courses/responsive-typography-v2/) FrontendMasters: Responsive Web Typography v2
@@ -212,3 +201,4 @@ nav_exclude: true
 - [ ] [link](https://www.amazon.com/dp/194230319X) Design Is Storytelling by _Ellen Lupton_ (159 pages)
 - [ ] [link](https://www.amazon.com/dp/1119629195) The Design Thinking Toolbox: A Guide to Mastering the Most Popular and Valuable Innovation Methods by _Michael Lewrick_, _Patrick Link_, _Larry Leifer_ (320 pages)
 - [ ] [link](https://www.amazon.com/dp/1250758203) User Friendly-How the Hidden Rules of Design Are Changing the Way We Live, Work, and Play by _Cliff Kuang_, _Robert Fabricant_ (416 pages)
+- [link](https://www.amazon.com/Making-Breaking-Grid-Third-Workshop-dp-0760381933/dp/0760381933) Making and Breaking the Grid, Third Edition: A Graphic Design Layout Workshop

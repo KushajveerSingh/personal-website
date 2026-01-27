@@ -19,20 +19,6 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## Web General
-
-- [x] [link](https://wpc.guide/) Web Platform Contribution Guide May 2020 Version 1.0
-- [x] [link](https://resilientwebdesign.com/) Resilient web design by _Jeremy Keith_
-- [x] MDN
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web) Learn: Browsing the web
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) Learn: Dealing with files
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works) Learn: How the web works
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model) Learn: The web standards model
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites) Learn: How browsers load websites
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools) Learn: Understanding client-side tools
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side) Learn: Server-side websites
-    - [x] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics) How to: How to solve common problems (Web mechanics)
-
 ## HTML
 
 - [ ] web.dev Resources
@@ -79,6 +65,8 @@ nav_exclude: true
 
 ## CSS
 
+- [link](https://gridbyexample.com/) Grid by example
+- [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) A Complete Guide to Flexbox
 - [ ] [link](https://every-layout.dev/) Every Layout Relearn CSS layout by example
 - [ ] [link](https://cssbattle.dev/learn) CSS Battle: Learn CSS
 - [ ] [link](https://designcourse.com/app/course/interactive-css-course) DesignCourse: CSS
