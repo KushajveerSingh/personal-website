@@ -222,4 +222,33 @@ Depending on your relationship with the person
     - Gifts are a physical reminder that you are thinking of them.
     - Make a habit to notice what they love and surprise them, like their favorite snack, sourvenir from recent trip, handwritten note.
 
+## 5 Minute Ritual Before Doing Any Presentation
+
+[video link](https://www.youtube.com/watch?v=0qM83MX_ggg)
+
+### Psychological - Become audience-conscious
+
+- Thinking about yourself or what the audience is thinking about you, makes you more self-conscious.
+    - The more self-conscious you become, the more nervous you become.
+- Before walking to give the presentation look at the audience from the side, thinking about how you change the lives of the people with this talk.
+    - By doing you have no cognitive capacity left to think about yourself.
+
+### Physiological - Remove adrenaline before the stage
+
+- Symptoms of nerviousness shaky voice, shaky body, fidgeting, poor eye contact, sweating.
+    - This happens from the flight-and-fight response which dumps adrenaline in your body.
+    - This also makes you flee. This is why when people walk in for the presentation, they keep walking back away from the audience.
+- Do brisk forms of exercise behind the stage.
+    - Jumping jacks, walk, push-ups.
+- Just before walking on stage, do skip walking to put yourself in a playful energy. This is not done in front of the audience.
+
+### Laugh
+
+- Watch funny videos.
+
+### Do Wim Hof Breathing
+
+- Do 2-3 cycles.
+- [Guided Wim Hof Method Breathing](https://www.youtube.com/watch?v=tybOi4hjZFQ)
+
 continue from https://www.youtube.com/watch?v=ha5qaiwNHTc
