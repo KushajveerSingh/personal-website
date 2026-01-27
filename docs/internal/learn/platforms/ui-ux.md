@@ -29,8 +29,6 @@ nav_exclude: true
 ## Search Engine Optimization (SEO)
 
 - [ ] [link](https://www.googleguide.com/) Google Guide Making Searching Even Easier
-- [ ] [link](https://ahrefs.com/blog/google-advanced-search-operators/) Google Search Operators: The Complete List
-- [ ] [link](https://kinsta.com/blog/google-search-operators/) Google Search Operators: 40 Commands to Know
 - [ ] [link](https://developers.google.com/search/docs) Google Search docs
     - [ ] [link](https://developers.google.com/search/case-studies) Google Search Case Studies
 - [ ] [link](https://developers.google.com/crawling) Google Crawling Infrastructure

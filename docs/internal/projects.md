@@ -59,6 +59,18 @@ nav_exclude: true
 
 ---
 
+## Personal Website
+
+Take inspiration from
+
+- https://vale.rocks/posts/the-design-of-this-site#footnote-ref-1
+- https://vale.rocks/posts/the-implementation-of-this-site
+- https://vale.rocks/posts/writing-style-and-mannerisms
+- https://singhkays.com/blog/netflix-av1-decode/ - Use of > and >> in headers
+- add terminal like navigation
+- [Orizon Design](https://www.orizon.co/) has a dot following the cursor
+- Have two dogs playing at the bottom of the screen, jumping and random fighting. You can click on them to shoot or pet.
+
 ## Microsoft Migrate
 
 - For all Microsoft products created Excel, Word, VB Script, Access, Azure create alternate tooling to migrate to. For each tool you will have to look at the various versions throughout the years as well.
