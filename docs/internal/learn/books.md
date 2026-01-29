@@ -139,7 +139,6 @@ nav_exclude: true
 - [ ] [link](https://www.amazon.com/dp/1098151240) Tidy First?: A Personal Exercise in Empirical Software Design
 - [ ] [link](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164) Clean Architecture: A Craftsman's Guide to Software Structure and Design
 - [ ] [link](https://www.amazon.com/dp/161729473X) Dependency Injection Principles, Practices, and Patterns
-- [ ] [link](https://www.amazon.com/dp/B0BTLYZWRL\) Naming Things: The Hardest Problem in Software Engineering
 - [ ] [link](https://www.amazon.com/dp/0137464401) Code That Fits in Your Head : Heuristics for Software Engineering
 - [ ] [link](https://www.amazon.com/dp/0321278658) Extreme Programming Explained: Embrace Change
 - [ ] [link](https://www.amazon.com/dp/0134757599) Refactoring: Improving the Design of Existing Code

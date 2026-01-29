@@ -29,6 +29,22 @@ nav_exclude: true
 
 ## Exercise
 
+### Books
+
+- The Muscle and Strength Pyramid: Training by Eric Russel Helms
+- The Muscle and Strength Pyramid: Nutrition by Eric Russel Helms
+- Overcome Training Injuries by Jujimify
+- Legendary Flexibility Injuries by Jujimify
+- Strongman: The Doug Hepburn Story
+- Practical Programming for Strength Programming
+- The New Encyclopedia of Modern Bodybuilding: The Bible of Bodybuilding, Fully Updated and Revised
+- The Barbell Prescription Strength Training for Life after 40
+- Starting Strength Basic Barbell Training
+
+### Programs
+
+- [link](https://strengthsystem.com/online/) Strength System
+
 ### Basketball videos
 
 - [link](https://www.youtube.com/watch?v=jMLN59-yirc) Steph Curry Training Gym workout routine for MVP performance
