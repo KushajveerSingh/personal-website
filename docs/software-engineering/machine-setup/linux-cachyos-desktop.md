@@ -25,5 +25,6 @@ parent: Machine Setup
 - [link](https://github.com/gpakosz/.tmux) Oh my tmux
 - [link](https://github.com/Prayag2/konsave) konsave to backup dotfiles
 - [link](https://www.reddit.com/r/cachyos/comments/1qni1yo/migrating_to_plasma_login_manager/) Migrating to Plasma Login Manager
+- [link](https://github.com/rxappdev/MouseTiler) MouseTiler
 
 ---
