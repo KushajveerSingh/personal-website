@@ -55,6 +55,10 @@ nav_exclude: true
 
 ## Pets
 
+### Cat
+
+- Egyptian Mau (Silver)
+
 ### Dog
 
 Training
