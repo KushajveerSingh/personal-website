@@ -570,6 +570,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 
 - [ ] [link](https://www.better-auth.com/) Better-Auth
 - [ ] [link](https://casl.js.org/v6/en/) CASL authorization
+- [ ] [link](https://thecopenhagenbook.com/) The Copenhagen Book
 
 ### Server Sent Events
 
