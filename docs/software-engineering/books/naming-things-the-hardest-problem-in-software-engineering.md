@@ -22,6 +22,7 @@ grand_parent: Software Engineering
 ## Resources
 
 - [link](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052) Naming Things: The Hardest Problem In Software Engineering by _Tom Benner_ (106 pages) (Feb 1, 2023)
+- [link](https://www.youtube.com/watch?v=SEp0NrXWwoo) Programming - Naming Things is Easy by _Nick Barker_ video
 
 ---
 
