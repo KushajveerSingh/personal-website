@@ -1101,3 +1101,7 @@ Take inspiration from
 ## Namign Convention
 
 - Create AI tool to enforce identifier naming convention as discussed in book "Naming things" by Tom Benner.
+
+## CPU Specific Compile
+- Product a general x64 binary.
+- Next, produce the most optimized binary for each CPU. This will take benefit of CPU instructions and more.
