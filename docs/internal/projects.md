@@ -445,6 +445,16 @@ Take inspiration from
 - Create Graphical UI to better view and navigate man pages.
 - Add all the special linux related files and settings here.
 - All the special command line commands that give info about the os and linux, have their output already present here.
+- Add KDE plasma, other display manager specific settings.
+- Handle operating system differences like certain files existing in different locations, and provide option to change the default path.
+- For testing, create a test utility (described next).
+
+### Linux OS Testing
+
+- Create Virtual machine.
+- Create restore point.
+- Run the test, verify, and log.
+- Restore back to clean and run the next test.
 
 ## Email HTML Creator
 
@@ -1058,6 +1068,11 @@ Take inspiration from
 
 - Include subset of qwik features.
 - Have cheatsheet for other web related stuff. ui/ux, html, css, js, ts, vite, tailwind, design system, browser apis.
+- In Qwik add stuff from Casey computer enhance course.
+- Add Inline function capability.
+    - A function that takes keyboard shortcut for example, and then we need to do certain checks like if the key is a reserved key.
+    - If the call to the function can be resolved at build time, then the checks inside the function are not necessary at runtime. So include certain comments inside the function to remove that code.
+    - And then just inline the component with the HTML returned from the component.
 
 ## Mouse Macros
 
