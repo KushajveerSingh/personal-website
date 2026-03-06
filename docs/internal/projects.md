@@ -1073,6 +1073,13 @@ Take inspiration from
     - A function that takes keyboard shortcut for example, and then we need to do certain checks like if the key is a reserved key.
     - If the call to the function can be resolved at build time, then the checks inside the function are not necessary at runtime. So include certain comments inside the function to remove that code.
     - And then just inline the component with the HTML returned from the component.
+- Add compile-time macros like C using define keyword.
+- Create subset of JavaScript with performance based implementation. Provide these as compile-time macros to reduce further waste.
+- For Rust create microservices like folder structure, so easily split a subset of apis into their own docker file. Similarly come up with convention for database tables that can be easily split for each service as well.
+- Add common tools
+    - CSS related
+    - Typography related
+    - Image manipualation related
 
 ## Mouse Macros
 
@@ -1098,10 +1105,11 @@ Take inspiration from
 
 - [Spexi](https://www.spexi.com/). Use drone to create map.
 
-## Namign Convention
+## Naming Convention
 
 - Create AI tool to enforce identifier naming convention as discussed in book "Naming things" by Tom Benner.
 
 ## CPU Specific Compile
+
 - Product a general x64 binary.
 - Next, produce the most optimized binary for each CPU. This will take benefit of CPU instructions and more.
