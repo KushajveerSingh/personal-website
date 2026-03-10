@@ -40,6 +40,7 @@ nav_exclude: true
 ## Homestead
 
 - [link](https://www.youtube.com/watch?v=Bn5NvhoU_Dk) How we store ONE year's worth of Homegrown Food!
+- [link](https://www.youtube.com/watch?v=j43IQsTVeRE) Making soap
 
 ## Ideas
 

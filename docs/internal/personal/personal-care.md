@@ -29,6 +29,10 @@ nav_exclude: true
 
 ## Exercise
 
+### Trainer
+
+- [link](https://strengthsystem.com/vip-coaching-program/) Sebastian Oreb personal training
+
 ### Books
 
 - The Muscle and Strength Pyramid: Training by Eric Russel Helms
@@ -67,6 +71,7 @@ nav_exclude: true
 - [link](https://www.youtube.com/watch?v=vdBvIaO6pMg) Jeremy Lin Shares his experience as a guard to defend bigs
 - [link](https://www.youtube.com/watch?v=6mnujT_fzlY) Stephen Curry's Basketball Workout During The Off-Season
 - [link](https://www.lockdowndefense.com/the-academy) The Lockdown Academy
+- [link](https://www.youtube.com/watch?v=40odDHg3FDU) Kyrie Irving breaks down fan favorite dribble moves on stream with Phil Handy
 
 ### Buy
 

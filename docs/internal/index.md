@@ -28,16 +28,7 @@ search_exclude: true
     - [Certifications](/internal/learn/certifications)
     - [Power User](/internal/learn/power-user)
     - [Random](/internal/learn/random)
-    - CS Fields
-        - [Compiler](/internal/learn/cs-fields/compiler)
-        - [Computer Architecture](/internal/learn/cs-fields/computer-architecture)
-        - [Concurrency](/internal/learn/cs-fields/concurrency)
-        - [Cybersecurity](/internal/learn/cs-fields/cybersecurity)
-        - [Data Programming](/internal/learn/cs-fields/data-programming)
-        - [Distributed Computing](/internal/learn/cs-fields/distributed-computing)
-        - [Networking](/internal/learn/cs-fields/networking)
-        - [Object Oriented Design](/internal/learn/cs-fields/object-oriented-design)
-        - [Operating Systems](/internal/learn/cs-fields/operating-systems)
+    - [Computer Science](/internal/learn/computer-science)
     - Platforms
         - [AI Agent](/internal/learn/platforms/ai-agent)
         - [Android Development](/internal/learn/platforms/android-development)

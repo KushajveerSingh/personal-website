@@ -65,6 +65,8 @@ nav_exclude: true
 
 ## CSS
 
+- [link](https://modern-css.com/) modern.css
+- [link](https://thecascade.dev/courses/css-demystified/) Kevin Powell CSS Demystified course
 - [link](https://gridbyexample.com/) Grid by example
 - [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) A Complete Guide to Flexbox
 - [ ] [link](https://every-layout.dev/) Every Layout Relearn CSS layout by example
@@ -506,6 +508,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 
 ### System Design
 
+- [link](https://www.youtube.com/watch?v=cjuzzsnMCkk) I aced my technical interviews knowing these microservices design patterns
 - Books by ByteByteGo
     - System Design Interview - An insider's guide
     - System Design Interview - An Insider's Guide: Volume 2

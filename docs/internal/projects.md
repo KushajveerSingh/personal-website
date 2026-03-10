@@ -265,6 +265,7 @@ Take inspiration from
 - Add performance optimization for things like toggle. Even though toggle is a boolean, it takes 1 byte in memory. Multiple toggles can be packed together using bitwise operators. [video](https://www.youtube.com/watch?v=z7wVUfnm7M0).
 - Components
     - Header - Similar to amazon mobile app, the header background fades if you have not scrolled for some time, and then the text fades as well.
+    - [link](https://rednegra.net/blog/20260212-virtual-scroll/?ck_subscriber_id=2308324911) Virtual Scrolling for Billions of Rows
 
 ### Markdown Editor
 
@@ -1113,3 +1114,9 @@ Take inspiration from
 
 - Product a general x64 binary.
 - Next, produce the most optimized binary for each CPU. This will take benefit of CPU instructions and more.
+
+## Cryptography Hack
+
+- The main idea is you have a large number and you split it into multpication of two prime numbers.
+- Use heuristics on digits to see if you can find the prime numbers.
+- Make an API that takes two parameters "data" and "crypto_method" and see if you can return all the necessary info to break the encryption.
