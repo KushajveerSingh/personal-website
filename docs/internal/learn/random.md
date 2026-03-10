@@ -21,29 +21,33 @@ nav_exclude: true
 
 ## Benchmarking
 
--   [link](https://github.com/sharkdp/hyperfine) hyperfine: CLI benchamrking tool
+- [link](https://github.com/sharkdp/hyperfine) hyperfine: CLI benchamrking tool
 
 ## Diagram
 
--   PlanUML
--   c4model.com
--   diagrams.minigrammer.com
--   Mermaid
--   https://arc42.org/
--   https://c4model.com/
--   https://www.uml.org/
--   https://sysml.org/
--   architecture decision record
+- PlanUML
+- c4model.com
+- diagrams.minigrammer.com
+- Mermaid
+- https://arc42.org/
+- https://c4model.com/
+- https://www.uml.org/
+- https://sysml.org/
+- architecture decision record
+
+## Documentation
+
+- Microsoft Writing Style Guide
 
 ## Licenses
 
 ## Presentation
 
--   [Marp](https://marp.app/) for Markdown presentation
--   [link](https://www.youtube.com/watch?v=Vh3y1ela-_s) How to make beautiful code presentations
+- [Marp](https://marp.app/) for Markdown presentation
+- [link](https://www.youtube.com/watch?v=Vh3y1ela-_s) How to make beautiful code presentations
 
 ## Semantic versioning
 
 ## Standard/Specification
 
--   [link](https://infra.spec.whatwg.org/) Infra Standard
+- [link](https://infra.spec.whatwg.org/) Infra Standard

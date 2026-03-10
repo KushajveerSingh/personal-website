@@ -159,6 +159,7 @@ nav_exclude: true
 - [link](https://www.outsideonline.com/home) Outside
 - [link](https://reachinternationaloutfitters.com/) RIO (Adventure Bucket Lists)
 - [link](https://wwoof.net/) WWOOF (organic farms locations)
+- [link](https://fastestknowntime.com/) Fastest Known Time
 
 ### Race websites
 

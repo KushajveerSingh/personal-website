@@ -263,6 +263,7 @@ Take inspiration from
 - For each component, have a separate file/layer for print, accessibilty options, keyboard shortcuts, event listeners.
 - Add option to add changes to inputs, text fields, dropdowns to the URL. This is relevant to use URL as state management. Check [/product-design/seo/url.html#url-as-state-management](/product-design/seo/url.html#url-as-state-management).
 - Add performance optimization for things like toggle. Even though toggle is a boolean, it takes 1 byte in memory. Multiple toggles can be packed together using bitwise operators. [video](https://www.youtube.com/watch?v=z7wVUfnm7M0).
+- Keyboard shortcuts should be opt-in, and give user the option to change them.
 - Components
     - Header - Similar to amazon mobile app, the header background fades if you have not scrolled for some time, and then the text fades as well.
     - [link](https://rednegra.net/blog/20260212-virtual-scroll/?ck_subscriber_id=2308324911) Virtual Scrolling for Billions of Rows

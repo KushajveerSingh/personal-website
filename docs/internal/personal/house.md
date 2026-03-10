@@ -73,7 +73,7 @@ Breeds
 - Great Danes
 - Mongolian Shepherd Dog
 - Samoyed
-- German Shepherd
+- Working line German Shepherd
 - Siberian Husky
 
 ## Kinetic Sculptures
