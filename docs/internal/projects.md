@@ -1121,3 +1121,13 @@ Take inspiration from
 - The main idea is you have a large number and you split it into multpication of two prime numbers.
 - Use heuristics on digits to see if you can find the prime numbers.
 - Make an API that takes two parameters "data" and "crypto_method" and see if you can return all the necessary info to break the encryption.
+
+## Intel Manual
+
+- When reading Intel manual, create utility functions to view/create diagram of the thing being discussed.
+- For example, the manual discusses 4-level paging, then given a pointer value, decompose that value into what is specified by the manual, maybe even create a diagram for it.
+- Limit the OS to Linux and later add AMD.
+
+## Math constant calculator
+
+- Create applicationsimilar to y-cruncher but with GPU acceleration and direct storage access.
