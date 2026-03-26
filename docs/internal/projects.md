@@ -53,9 +53,11 @@ nav_exclude: true
         - Allow users to create plugins.
     - Command line support.
     - Terminal user interface support. Use API to create simplified interface.
+- Provide an iso file with operating system and ready to use program. This should not require any network access, except for downloading the iso.
+    - Also, provide steps on creating the iso.
 - Remain neutral. Avoid influence from politics, religion, geopolitics, or other external agendas.
 - Respect right to repair. When making hardware do not employ dark patterns to make it harder for people to access, modify, and repair the machine as they wish to.
-- An exception to the rules can be created for organizations that don't respect these rules1.
+- An exception to the rules can be created for organizations that don't respect these rules.
 
 ---
 
@@ -1145,3 +1147,8 @@ Take inspiration from
 ## Math constant calculator
 
 - Create application similar to y-cruncher but with GPU acceleration and direct storage access.
+
+## Bowling Helper
+
+- Given oil pattern, provide equipment advice and which shot to take.
+- After every shot, provide info on your start, arrrows you aimed and did the ball too much or less. The app tells what the best strategy for the optimal throw.

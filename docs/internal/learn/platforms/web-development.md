@@ -30,6 +30,8 @@ nav_exclude: true
     - [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems) Learn: Common HTML problems
     - [ ] [link](https://developer.mozilla.org/en-US/docs/Web/HTML) References: HTML
 - [ ] [link](https://github.com/cure53/DOMPurify) DOMPurify
+- [link](https://html-validate.org/about/index.html) HTML-Validate
+- [link](https://github.com/validator/validator) Nu HTML Checker
 
 ## Media
 
