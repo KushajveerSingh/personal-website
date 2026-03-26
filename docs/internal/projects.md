@@ -222,6 +222,8 @@ Take inspiration from
 - For this to work, offline documentation would work best. And for navigation using URL (file path) would be best.
 - In addition show custom user documentation, which can include like performance characteristics of each thing, accessibility, security, usage examples, best practices.
 - Another pane can show the piece of code at different compiler stages.
+- Show the dependency graph of the assmebly for the current function or lines of code. Refer to Casey Computer Enhance course (Linking Directly to ASM for experimentation).
+    - Add the ability to modify the assembly manually (temporarily) and see how the dependency graph changes.
 
 ## SEO
 
@@ -900,6 +902,8 @@ Take inspiration from
 
 - Create rust standard library, with all the data structures. and optimize them as much as possible and have graphs showing improvements.
 - Document the data structure in detail with all the optimizations.
+- Run benchmarks against available options.
+- Use things learned from Computer Enhance course.
 - [link](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia list of data structures
 - [link](https://xlinux.nist.gov/dads/) Dictionary of algorithms and data structures
 
@@ -1082,6 +1086,7 @@ Take inspiration from
     - CSS related
     - Typography related
     - Image manipualation related
+- Create a new js framework based on qwik. Take out stuff that relates to creating apis, optimize using things learned in Computer Enhance course, maybe change the way qwik stores data in frontend from json to something better. Take good things from other frameworks into this.
 
 ## Mouse Macros
 
@@ -1122,12 +1127,14 @@ Take inspiration from
 - Use heuristics on digits to see if you can find the prime numbers.
 - Make an API that takes two parameters "data" and "crypto_method" and see if you can return all the necessary info to break the encryption.
 
-## Intel Manual
+## x64 Manual
 
 - When reading Intel manual, create utility functions to view/create diagram of the thing being discussed.
 - For example, the manual discusses 4-level paging, then given a pointer value, decompose that value into what is specified by the manual, maybe even create a diagram for it.
 - Limit the OS to Linux and later add AMD.
+- For each CPU describe the characteristics of the frontend and backend.
+    - Provide the all the spec of the CPUs as well.
 
 ## Math constant calculator
 
-- Create applicationsimilar to y-cruncher but with GPU acceleration and direct storage access.
+- Create application similar to y-cruncher but with GPU acceleration and direct storage access.
