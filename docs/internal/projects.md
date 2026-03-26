@@ -1129,11 +1129,18 @@ Take inspiration from
 
 ## x64 Manual
 
+- For intel, amd, arm, maybe risc.
 - When reading Intel manual, create utility functions to view/create diagram of the thing being discussed.
 - For example, the manual discusses 4-level paging, then given a pointer value, decompose that value into what is specified by the manual, maybe even create a diagram for it.
 - Limit the OS to Linux and later add AMD.
 - For each CPU describe the characteristics of the frontend and backend.
     - Provide the all the spec of the CPUs as well.
+- Similar to how Casey did tests to verify the hardware, add tests for everything mentioned in the manual.
+    - If the manual says the processor has 2 read execution units, then create a test to verify that.
+
+## OS Manual
+
+- Do something similar to [x64 Manual](#x64-manual).
 
 ## Math constant calculator
 
