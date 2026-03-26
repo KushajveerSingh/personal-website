@@ -53,9 +53,11 @@ nav_exclude: true
         - Allow users to create plugins.
     - Command line support.
     - Terminal user interface support. Use API to create simplified interface.
+- Provide an iso file with operating system and ready to use program. This should not require any network access, except for downloading the iso.
+    - Also, provide steps on creating the iso.
 - Remain neutral. Avoid influence from politics, religion, geopolitics, or other external agendas.
 - Respect right to repair. When making hardware do not employ dark patterns to make it harder for people to access, modify, and repair the machine as they wish to.
-- An exception to the rules can be created for organizations that don't respect these rules1.
+- An exception to the rules can be created for organizations that don't respect these rules.
 
 ---
 
