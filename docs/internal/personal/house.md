@@ -62,12 +62,7 @@ nav_exclude: true
 
 ### Dog
 
-Training
-
-- [link](https://www.americanstandardk9.com/) American Standard Dog Training courses
-- [link](https://girlwiththedogs.com/collections/courses) Girl With The Dog courses
-
-Breeds
+#### Breeds
 
 - Cane Corso
 - Great Danes
@@ -75,6 +70,18 @@ Breeds
 - Samoyed
 - Working line German Shepherd
 - Siberian Husky
+- Irish Wolfhound
+- The Great Dane
+
+#### Food
+
+- [link](https://www.youtube.com/watch?v=cWP02g3Cw1Q) The Dog Food Lies that will kill your dog
+    - Kinetic Dog Food
+
+#### Training
+
+- [link](https://www.americanstandardk9.com/) American Standard Dog Training courses
+- [link](https://girlwiththedogs.com/collections/courses) Girl With The Dog courses
 
 ## Kinetic Sculptures
 

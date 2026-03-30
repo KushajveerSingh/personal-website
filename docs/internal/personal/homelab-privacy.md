@@ -156,6 +156,7 @@ nav_exclude: true
 
 - [link](https://www.whonix.org/) Whonix
 - [link](https://www.torproject.org/) Tor
+- [link](https://i2p.net/en/) I2P better than tor
 
 ### Wifi
 

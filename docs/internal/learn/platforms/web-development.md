@@ -68,7 +68,7 @@ nav_exclude: true
 ## CSS
 
 - [link](https://modern-css.com/) modern.css
-- [link](https://thecascade.dev/courses/css-demystified/) Kevin Powell CSS Demystified course
+- [link](https://courses.thecascade.dev/dashboard) Kevin Powell CSS Demystified course
 - [link](https://gridbyexample.com/) Grid by example
 - [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) A Complete Guide to Flexbox
 - [ ] [link](https://every-layout.dev/) Every Layout Relearn CSS layout by example
@@ -236,6 +236,8 @@ nav_exclude: true
 ### Package repositories
 
 - [ ] [link](https://www.npmjs.com/) NPM Registry
+    - [link](https://knip.dev/) Knip dependency
+    - [link](https://npmgraph.js.org/) npmgraph
 - [ ] [link](https://jsr.io/) JSR
 - [ ] [link](https://cdnjs.com/) cdnjs
 - [ ] [link](https://www.jsdelivr.com/) jsdelivr
@@ -244,11 +246,13 @@ nav_exclude: true
 
 - [ ] [link](https://vite.dev/) Vite
     - [ ] [link](https://frontendmasters.com/courses/vite/) FrontendMasters: Vite
+- [ ] [link](https://viteplus.dev/) Vite+
 - [ ] [link](https://rolldown.rs/) Rolldown
 - [ ] [link](https://oxc.rs/) Oxc
     - [ ] [link](https://oxc.rs/docs/guide/usage/linter.html) oxlint
     - [ ] [link](https://oxc.rs/docs/guide/usage/minifier.html) oxc-minify
     - [ ] oxc-formatter (will replace prettier)
+- [link](https://tc39.es/ecma426/) Source map format specification
 
 ### Validation
 
@@ -376,6 +380,7 @@ nav_exclude: true
 
 ## Other frontend
 
+- [link](https://e18e.dev/) e18e ecosystem performance
 - [ ] [link](https://web.dev/case-studies) web.dev Case studies
 - [ ] [link](https://web.dev/explore) web.dev Explore
 - [ ] [link](https://web.dev/patterns) web.dev Patterns

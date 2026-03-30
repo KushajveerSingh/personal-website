@@ -19,11 +19,7 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-Tuesday
-
-- Naming things
-- Software legacy book
-- SEO - google search commands
-    - [ ] [link](https://ahrefs.com/blog/google-advanced-search-operators/) Google Search Operators: The Complete List
-    - [ ] [link](https://kinsta.com/blog/google-search-operators/) Google Search Operators: 40 Commands to Know
-- How to read book
+Writing/English
+Ide
+C
+Comp arch

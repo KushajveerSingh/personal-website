@@ -160,6 +160,7 @@ nav_exclude: true
 - [link](https://reachinternationaloutfitters.com/) RIO (Adventure Bucket Lists)
 - [link](https://wwoof.net/) WWOOF (organic farms locations)
 - [link](https://fastestknowntime.com/) Fastest Known Time
+- [link](https://ifmga.net/) IFMGA Mountain Guide Certification
 
 ### Race websites
 
