@@ -1152,3 +1152,8 @@ Take inspiration from
 
 - Given oil pattern, provide equipment advice and which shot to take.
 - After every shot, provide info on your start, arrrows you aimed and did the ball too much or less. The app tells what the best strategy for the optimal throw.
+
+## Media Edit tool
+
+- Create a single media edit tool for the web, that can edit images, videos, audio, pdfs, and more.
+- Also, add [Media Viewer](#media-viewer) project to this.
