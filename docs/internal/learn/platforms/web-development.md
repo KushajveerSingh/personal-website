@@ -216,6 +216,7 @@ nav_exclude: true
     - [ ] [link](https://frontendmasters.com/courses/object-oriented-js/) The Hard Parts of Object Oriented JavaScript
     - [ ] [link](https://frontendmasters.com/courses/good-parts-javascript-web/) The Good Parts of JavaScript and the Web
     - [ ] [link](https://frontendmasters.com/courses/enterprise-patterns/) Enterprise Architecture Patterns
+- pretext
 
 ### TypeScript
 

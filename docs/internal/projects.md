@@ -1020,6 +1020,10 @@ Take inspiration from
 - Modify chrome browser, display driver, gpu driver to get anti DRM to work.
 - Test for all popular services and see if you can download the raw video, audio, images.
 
+### Crack Game DRM
+
+- For games figure out how crackers crack games, remove internet connectivity and other stuff for all platforms.
+
 ## Wayback Timemachine
 
 - Timemachine app that lets you backup a website from a URL. Includes manual backup and automatic interval backups.
@@ -1166,3 +1170,44 @@ Take inspiration from
 
 - [link](https://www.youtube.com/watch?v=aZYvyy_R4jU) The Gadgets that taught me everything about cybersecurity.
 - Use minicomputer and study every protocol there is like usb, wifi, rfid. Create a tool that gets all the information relevant to the protocol and displays it or modify it if allowed.
+
+## Linux Native Games
+
+- Create DirectX ecosystem equivalent on Linux. Use Vulkan for rendering.
+- Handle audio, and more.
+- Add common things from game engines and use [s&box](https://sbox.game/) as the game engine.
+- Add speedrunning things like in-game timer, ability to add auto time checkpoints for points of interest, like when an objective is met or a boss is is killed.
+- Add common things like menu options, character making tool, accessibility options.
+- Add controller UIs and ability to natively support all controllers, even if it requires specific drivers.
+- Add common mods like admin camera, viewer statistics (in case poeple want to watch a stream of the game).
+- Apple uses Metal (there is tool to translate Tto Vulkan) and Linux uses Vulkan (windows can use it instead of DirectX 12).
+
+## Web to QML
+
+- Create a zero-runtime cost translation layer that can convert HTML/CSS to QML to make it easier to transition apps from web to desktop.
+
+## Cross-Platform App Development
+
+- After doing everything in qwik-rust ecosystem project. And before working on custom browser with custom web standard.
+- Import all the project ideas from this page to this project.
+- After doing qwik ecosystem project and learning desktop/mobile app development work on this. This project will be done before working on the browser project.
+- Add everything from the qwik ecosystem like design system and more.
+- Transpile the logic to native code.
+- Start with linux desktop, and then transpile to make it work on web, mobile, apple.
+- The folder structure
+    - Have a `custom_code` folder where you can override transpiled code. This includes creating a `json` or similar file to tell what changes you want to make. Like deleting a file, changing a file completely, or updating certain functions.
+- Have common things like accessibility menu, so people don't have to make it on their own. Easy keyboard shortcut programming.
+
+## Book Binding
+
+- Summarize all the book binding techniques and terminology and associated graphics.
+- There is a standard that library books have to adhere to.
+- See if there are any relevant conferences or book about this.
+- Do history of the field as well.
+
+## Reverse Engineer Chips
+
+- People will delid chip and do some Xray to get the die.
+- They will do specific workdloads and measure the photons/heat to determine parts of chip that are active. From this they can more easily reverse engineer the chip.
+- They it for the actual GPU card as well. The card will have traces, capicitors and more stuff. Try to create a second board with the components you found (buy commerical ones) and then see if the GPU die works with that.
+- Create a 3D model of the GPU/die using similar to how Branch Education youtube channel does.
