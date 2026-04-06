@@ -8,6 +8,7 @@ search_exclude: true
 
 <h2 class="text-delta">Table of content</h2>
 
+- [Working](/internal/working)
 - [Projects](/internal/projects)
 - Personal
     - [Adventure](/internal/personal/adventure)

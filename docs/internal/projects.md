@@ -1152,9 +1152,13 @@ Take inspiration from
 
 - Do something similar to [x64 Manual](#x64-manual).
 
-## Math constant calculator
+## Math Constant Calculator
 
 - Create application similar to y-cruncher but with GPU acceleration and direct storage access.
+
+### NP Problem Solver
+
+- For all NP hard problems create GPU optimized solution.
 
 ## Bowling Helper
 
