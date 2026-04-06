@@ -684,6 +684,7 @@ Take inspiration from
 
 ## Health Website
 
+- Discuss human anatomy, nutrition science.
 - Information about healthy lifestyle (exercise, recovery, nutrition, sleep, ...).
 - Completely free and proof-checked with experts.
 - Have a forum section, where people can post suggestion for new/missing topics.
