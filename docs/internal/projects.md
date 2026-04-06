@@ -1215,3 +1215,10 @@ Take inspiration from
 - They will do specific workdloads and measure the photons/heat to determine parts of chip that are active. From this they can more easily reverse engineer the chip.
 - They it for the actual GPU card as well. The card will have traces, capicitors and more stuff. Try to create a second board with the components you found (buy commerical ones) and then see if the GPU die works with that.
 - Create a 3D model of the GPU/die using similar to how Branch Education youtube channel does.
+
+## Backpacking Weight Calculator
+
+- Simple calculator to see the weight of your backpacking gear.
+- Add option, to make it easier for couples to make their list together.
+- Show the weight option for various days (as you eat food, or redistribute stuff the weight changes). People can use this as a reference on how to distribute weight over the trip.
+- Add some extra variables like dirt, wetness (which increase the weight slightly).
