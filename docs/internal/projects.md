@@ -1230,3 +1230,12 @@ Take inspiration from
     - For more popular websites, like zoom links check if the meeting link is correct.
 - There is additional software that shows network activity and other related stuff to this.
 - Create separate email accounts/browser profiles so as to keep everything separate from main.
+
+## Nuclear Fission Simulation
+
+- Create simulations for different types of nuclear reactors. Let people control different parameters and see how the reactor reacts.
+- This will help aid people understand that nuclear power is safe.
+- Add comparisons to energy created as compared to fossil fuels and other resources.
+- Add simulations for all nuclear accidents.
+- [video](https://www.youtube.com/watch?v=P3oKNE72EzU) for reference.
+- Exapnd the simulation to a learning resource for nuclear physics (maybe the entire field or the one focusing on nuclear reactors).
