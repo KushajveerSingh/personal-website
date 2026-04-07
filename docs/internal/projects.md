@@ -1223,3 +1223,9 @@ Take inspiration from
 - Add option, to make it easier for couples to make their list together.
 - Show the weight option for various days (as you eat food, or redistribute stuff the weight changes). People can use this as a reference on how to distribute weight over the trip.
 - Add some extra variables like dirt, wetness (which increase the weight slightly).
+
+## Secure Sandbox Environment
+
+- Create a sandbox environment which you can use to join online meetings (axios got hacked becuase of this), open suspicious links, media.
+- There is additional software that shows network activity and other related stuff to this.
+- Create separate email accounts/browser profiles so as to keep everything separate from main.
