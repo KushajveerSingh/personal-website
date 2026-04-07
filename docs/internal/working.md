@@ -37,6 +37,7 @@ nav_exclude: true
         - C
             - Things like debugger, formatter, linter, minifier, IDE (look at C++ learn.md for more).
         - Math
+            - Latex
         - Computer Science
             - Computer Architecture
 - Learn desktop app development using Flutter and Intellij IDEA.
