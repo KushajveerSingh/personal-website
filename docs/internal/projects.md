@@ -1227,5 +1227,6 @@ Take inspiration from
 ## Secure Sandbox Environment
 
 - Create a sandbox environment which you can use to join online meetings (axios got hacked becuase of this), open suspicious links, media.
+    - For more popular websites, like zoom links check if the meeting link is correct.
 - There is additional software that shows network activity and other related stuff to this.
 - Create separate email accounts/browser profiles so as to keep everything separate from main.
