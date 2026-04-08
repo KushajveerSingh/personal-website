@@ -1231,7 +1231,7 @@ Take inspiration from
 - There is additional software that shows network activity and other related stuff to this.
 - Create separate email accounts/browser profiles so as to keep everything separate from main.
 
-## Nuclear Fission Simulation
+## Nuclear Physics
 
 - Create simulations for different types of nuclear reactors. Let people control different parameters and see how the reactor reacts.
 - This will help aid people understand that nuclear power is safe.
@@ -1239,3 +1239,8 @@ Take inspiration from
 - Add simulations for all nuclear accidents.
 - [video](https://www.youtube.com/watch?v=P3oKNE72EzU) for reference.
 - Exapnd the simulation to a learning resource for nuclear physics (maybe the entire field or the one focusing on nuclear reactors).
+
+## Statistical Analysis Software
+
+- Create software that includes everything that a statistian would need to analyze data.
+- Include Epidemiology, popular libraries in R, Excel.
