@@ -975,14 +975,6 @@ Take inspiration from
 - Database with all exercises and how to perform and what body parts they target.
 - Include calorie and nutrition tracker.
 
-## Math Book
-
-- Problem with math books, they are too abstract. Textbooks pull abstractions out of thin air. Yet mathematicians don't randomly set up axioms and start working out theorems.
-- Every axiomatic system had a history. Had a motivation. Worked through loads of examples and counterexamples to motivate and finally settle on a specific definition that's both general enough to capture a sufficiently wide variety of interesting problems, but also specific enough so that we can actually prove interesting results about them.
-- https://www.youtube.com/watch?v=D0ZVe9AtgUg Create your own math book for subfields of math, and do motivation, history, examples, use cases, arguments against and then do the usual stuff that current books do.
-- The book progresses in chronological order, and you develop theory and the applications. Interactive diagrams as done by Brilliant.
-- Other topics cryptography, networking, theory of computing, linear algebra, differential/intergral calculus, information theory, matrices, digital electornics, analog electronics, computer architecture, operating system, quantum computing.
-
 ## How Internet Works
 
 - Make a detailed note on how internet works i.e. how do you make request for a webpage and get it served.
@@ -1231,7 +1223,21 @@ Take inspiration from
 - There is additional software that shows network activity and other related stuff to this.
 - Create separate email accounts/browser profiles so as to keep everything separate from main.
 
-## Nuclear Physics
+## STEM Learning/Simulations
+
+### Math
+
+- Problem with math books, they are too abstract. Textbooks pull abstractions out of thin air. Yet mathematicians don't randomly set up axioms and start working out theorems.
+- Every axiomatic system had a history. Had a motivation. Worked through loads of examples and counterexamples to motivate and finally settle on a specific definition that's both general enough to capture a sufficiently wide variety of interesting problems, but also specific enough so that we can actually prove interesting results about them.
+- https://www.youtube.com/watch?v=D0ZVe9AtgUg Create your own math book for subfields of math, and do motivation, history, examples, use cases, arguments against and then do the usual stuff that current books do.
+- The book progresses in chronological order, and you develop theory and the applications. Interactive diagrams as done by Brilliant.
+- Other topics cryptography, networking, theory of computing, linear algebra, differential/intergral calculus, information theory, matrices, digital electornics, analog electronics, computer architecture, operating system, quantum computing.
+
+## Physics
+
+- Create learning resources, simulations for all branches of physics (similar to what you wanted to do with the math history).
+
+### Nuclear Physics
 
 - Create simulations for different types of nuclear reactors. Let people control different parameters and see how the reactor reacts.
 - This will help aid people understand that nuclear power is safe.
@@ -1239,6 +1245,8 @@ Take inspiration from
 - Add simulations for all nuclear accidents.
 - [video](https://www.youtube.com/watch?v=P3oKNE72EzU) for reference.
 - Exapnd the simulation to a learning resource for nuclear physics (maybe the entire field or the one focusing on nuclear reactors).
+
+### Chemistry
 
 ## Statistical Analysis Software
 
