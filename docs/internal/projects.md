@@ -1244,3 +1244,8 @@ Take inspiration from
 
 - Create software that includes everything that a statistian would need to analyze data.
 - Include Epidemiology, popular libraries in R, Excel.
+- Have different sections in the side.
+    - Data loading. This deals with loading the data in some standard format. Also, provide pandas like options in case the data source files are weirdly formatted.
+    - Data manipulation section. To get the data ready for certain analysis.
+    - Analysis section. All the different analysis like getting the statistics on data, factor analysis and more.
+- For data loading you can define multiple strategies, same for data manipulation. Think of layer system in photoshop.
