@@ -1168,9 +1168,12 @@ Take inspiration from
 - [link](https://www.youtube.com/watch?v=aZYvyy_R4jU) The Gadgets that taught me everything about cybersecurity.
 - Use minicomputer and study every protocol there is like usb, wifi, rfid. Create a tool that gets all the information relevant to the protocol and displays it or modify it if allowed.
 
-## Linux Native Games
+## Game Engine
 
-- Create DirectX ecosystem equivalent on Linux. Use Vulkan for rendering.
+- Create DirectX ecosystem equivalent on Linux. Use Vulkan for rendering. For Apple create using Metal.
+- Create game engine that can easily handle directx, vulkan, metal. And easy testing and integration of all the necessary tools. The game engine can skip directx and instead use
+    - Vulkan - Linux and Windows
+    - Metal - Apple
 - Handle audio, and more.
 - Add common things from game engines and use [s&box](https://sbox.game/) as the game engine.
 - Add speedrunning things like in-game timer, ability to add auto time checkpoints for points of interest, like when an objective is met or a boss is is killed.
