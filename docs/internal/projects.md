@@ -464,6 +464,11 @@ Take inspiration from
 - With window managers expose additional settings, the ones that window managers are known for, like building a taskbar and other things.
 - Look at r/unixporn.
 
+### Mac Linux Desktop Environment
+
+- Create a desktop environment for macos, to make it look and behave like Linux.
+- Linux shortcuts, linux file structure, linux bash tools.
+
 ### Linux OS Testing
 
 - Create Virtual machine.
