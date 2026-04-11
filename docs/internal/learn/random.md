@@ -46,6 +46,10 @@ nav_exclude: true
 - [Marp](https://marp.app/) for Markdown presentation
 - [link](https://www.youtube.com/watch?v=Vh3y1ela-_s) How to make beautiful code presentations
 
+## Prompting
+
+- [link](https://github.com/JuliusBrussee/caveman) caveman - reduce tokens
+
 ## Semantic versioning
 
 ## Standard/Specification

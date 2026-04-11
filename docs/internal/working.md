@@ -49,3 +49,13 @@ nav_exclude: true
 
 - `openapparchitect` and `openapptools` in parallel.
     - `openappimplement` after that.
+
+## Technical writing resources
+
+- [link](https://boffosocko.com/2022/12/26/the-ultimate-guide-to-zettelkasten-index-card-storage/) The Ultimate Guide to Zettelkasten Index Card storage
+- TruBind Coil Binding Machine with electric coil inseter
+
+## Computer architecture resources
+
+- [link](https://docs.google.com/document/d/1IBv24IZR_YYBuy9kj9k1eX_ociSHivi8b6HL6t2cvZk/edit?tab=t.0) My copy
+- [link](https://docs.google.com/document/d/1S1A3Mq0zbMt19a4e7DEiILlOz_kzSCLpK6pyTJw5MXI/edit?pli=1&tab=t.0#heading=h.r8ta1j5gysq7) orig copy

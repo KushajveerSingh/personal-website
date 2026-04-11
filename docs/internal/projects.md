@@ -458,6 +458,12 @@ Take inspiration from
 - Handle operating system differences like certain files existing in different locations, and provide option to change the default path.
 - For testing, create a test utility (described next).
 
+### Hyprland
+
+- Look at different window managers and if you can create a single GUI to make them feature parity with desktop environments like kde, gnome.
+- With window managers expose additional settings, the ones that window managers are known for, like building a taskbar and other things.
+- Look at r/unixporn.
+
 ### Linux OS Testing
 
 - Create Virtual machine.
@@ -1141,6 +1147,19 @@ Take inspiration from
 - Similar to how Casey did tests to verify the hardware, add tests for everything mentioned in the manual.
     - If the manual says the processor has 2 read execution units, then create a test to verify that.
 
+### RAM
+
+- Read the RAM specs and create functions for those as well.
+- [link](https://www.youtube.com/watch?v=KKbgulTp3FE) motivation video.
+
+### Storage
+
+- Do same for storage specs.
+
+### Network
+
+- Do same for network specs.
+
 ## OS Manual
 
 - Do something similar to [x64 Manual](#x64-manual).
@@ -1205,6 +1224,13 @@ Take inspiration from
 - See if there are any relevant conferences or book about this.
 - Do history of the field as well.
 
+## Print Paper
+
+- Look at canon latest printers like imageForce c7165.
+- Do a summary of all the type of paper, sizes, use cases.
+- Look at canon printer catalog and use that as a guide as to what even is there in the market.
+- The print companies can reference your website when they have to explain to customers the options they have available. Allow the print companies to select a subset of papers and other things, which they use to show the capabilities offered by their print shop, rather than having to send clients to your page.
+
 ## Reverse Engineer Chips
 
 - People will delid chip and do some Xray to get the die.
@@ -1260,3 +1286,7 @@ Take inspiration from
     - Data manipulation section. To get the data ready for certain analysis.
     - Analysis section. All the different analysis like getting the statistics on data, factor analysis and more.
 - For data loading you can define multiple strategies, same for data manipulation. Think of layer system in photoshop.
+
+## Debugger
+
+- Create debugger using [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/).
