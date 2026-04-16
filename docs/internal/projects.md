@@ -413,6 +413,8 @@ Take inspiration from
 - Programming interface allows any application to open a new window, with all the config options. As long as the dictionary key name is unique, applications can control exactly how to display their window (this does include things like excluding the top bar with minimize, close buttons, and changing position to top-bar, buttons).
 - Explore the idea of unfragmenting Linux, like having universal settings menu.
 - Check [river](https://codeberg.org/river/river).
+- In display protocol project, include standard linux things that distros dont need to support, and call it unification of distro and helping hardware manufactures support linux, things like power management, wifi, bluetooth, rgb lighting, and more hardware that uses open standards like keyboards. For rgb expand it to include all metrics, like gpu temps, psu, motherboard and others which users can query against to create anything.
+- Look at all the popular linux distros and the programs they have like [Omarchy](https://omarchy.org/).
 
 ## Basketball Stats
 

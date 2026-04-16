@@ -45,6 +45,12 @@ nav_exclude: true
 
 ## Internet
 
+### ISP
+
+- [link](https://www.dcconnectglobal.com/dark-fiber-vs-leased-fiber-the-ultimate-guide-for-enterprise-network-strategy/) Dark Fiber vs Leased fiber: The ultimate guide for enterprise network strategy
+- [link](https://startyourownisp.com/) Start Your Own ISP
+- [link](https://blog.thelifeofkenneth.com/2017/11/creating-autonomous-system-for-fun-and.html?m=1) The complex process of becoming your own ISP
+
 ### Nonprofit Internet Providers
 
 - [link](https://www.reddit.com/r/NoContract/comments/g1b8p0/calyxinstitute_vs_connectall_vs_mobilecitizen_vs/) Comparison blog

@@ -64,6 +64,7 @@ nav_exclude: true
 
 #### Breeds
 
+- [link](https://www.youtube.com/playlist?list=PLDcLCPYWzh55uQCb5wErfp9WM4QVDFHFD) Dog Breeds of the world
 - Cane Corso
 - Great Danes
 - Mongolian Shepherd Dog
