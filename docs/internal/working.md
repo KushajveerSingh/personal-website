@@ -23,8 +23,8 @@ nav_exclude: true
 
 ## Working
 
-- Create `openkush.kushaj.com`. Use Qwik js to create a simple page and list all the projects under this.
-- Modify `kushaj.com` to Qwik js site and show overview of all your skills.
+- Create `openkush.kushaj.com`. Use docosorus to create a simple page and list all the projects under this.
+- Modify `kushaj.com` to docosorus site and show overview of all your skills.
     - Migrate the notes section to `kushaj.com/notes` (eventually all the notes will be moved to separate projects).
 - Create `openapparchitect.kushaj.com` and add it to `openkush` as well. Focuses on theory.
     - Create docosorus site and add sections
@@ -54,6 +54,7 @@ nav_exclude: true
 
 - [link](https://boffosocko.com/2022/12/26/the-ultimate-guide-to-zettelkasten-index-card-storage/) The Ultimate Guide to Zettelkasten Index Card storage
 - TruBind Coil Binding Machine with electric coil inseter
+- Check latest amazon order for spiral binding stuff
 
 ## Computer architecture resources
 
