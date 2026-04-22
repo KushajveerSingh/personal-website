@@ -1297,3 +1297,14 @@ Take inspiration from
 ## Debugger
 
 - Create debugger using [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/).
+
+## Garmin Docs
+
+- Create documentation site for all garmin features.
+- Have metrics section, which shows all the metrics and a screenshot of how it looks like, what the metric means.
+- Activities.
+- Device specific.
+- Share it with Garmin, and see if they want to expand this to other devices.
+- Have a global switch where you can select what device you have and to show only the features included or excluded.
+    - This can be used to show what metrics does a watch not have.
+- Also, have a section to compare multiple devices in terms of metrics, activities, and other stuff side by side.
