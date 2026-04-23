@@ -1308,3 +1308,14 @@ Take inspiration from
 - Have a global switch where you can select what device you have and to show only the features included or excluded.
     - This can be used to show what metrics does a watch not have.
 - Also, have a section to compare multiple devices in terms of metrics, activities, and other stuff side by side.
+
+## Custom Computer Hardware
+
+- Common
+    - No RGB.
+    - No account creation necessary to get driver and use the hardware.
+- Mouse
+    - User can 3d scan their hand and make a mouse that fits their hand.
+    - DPI buttons similar to logitech where you can set multiple break points and increase, decrease using the buttons.
+    - Wireless, usb-c.
+- Computer Rack
