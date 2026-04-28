@@ -1336,3 +1336,14 @@ Take inspiration from
 - Create a separate application for issue tracking.
 - Everything is a "Discussion" first, and then get's promoted or allowed by the organizer to become an "Issue".
 - There is also a page for feature request poll, where users can upvote the features they want for the next couple of releases.
+
+## Adventure Simulation
+
+- Do a 360 recording of all adventure stuff hikes, bikes, water.
+- Create desktop app to show the 360 recording on multiple monitors (similar to 3 monitor setup for racing car simulators).
+- Have ability to calibrate the displays to match the angles the user has setup.
+- Provide option to set multiple displays/overlays on the same monitor.
+    - The first overlay can be just the raw feed.
+    - The second overlay can be raw feed + some statistics (and the position can be customized in the creation menu as well).
+    - Or just a screen of statistics.
+- The 360 recording is just distributed as a downlaodable file rather than streamed.
