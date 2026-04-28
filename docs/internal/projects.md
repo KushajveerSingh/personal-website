@@ -1308,6 +1308,10 @@ Take inspiration from
 - Have a global switch where you can select what device you have and to show only the features included or excluded.
     - This can be used to show what metrics does a watch not have.
 - Also, have a section to compare multiple devices in terms of metrics, activities, and other stuff side by side.
+- Create a transpiler from maybe Flutter or Rust.
+- Create tool similar to Android Studio or Figma or Blocks or the arrow thing in video editors but for the entire SDK, making all of the SDK being programmed just using Figma like UI.
+    - Show the rendering on all the watch faces, and provide option to customize the selected watches manually.
+    - Tool to check all the functions, arguments of SDK on physical hardware. This is necessary since the documentation is lacking, and this can act as a source of truth.
 
 ## Custom Computer Hardware
 
@@ -1319,3 +1323,16 @@ Take inspiration from
     - DPI buttons similar to logitech where you can set multiple break points and increase, decrease using the buttons.
     - Wireless, usb-c.
 - Computer Rack
+
+## Version Control
+
+- Create GitHub clone but much simplified for Git.
+    - Show 100 commits per pagination page.
+    - Show 12 branches (viewing main) instead of just "main branch".
+    - Only include pull request.
+
+### Issue tracker
+
+- Create a separate application for issue tracking.
+- Everything is a "Discussion" first, and then get's promoted or allowed by the organizer to become an "Issue".
+- There is also a page for feature request poll, where users can upvote the features they want for the next couple of releases.
