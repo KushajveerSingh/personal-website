@@ -1312,6 +1312,13 @@ Take inspiration from
 - Create tool similar to Android Studio or Figma or Blocks or the arrow thing in video editors but for the entire SDK, making all of the SDK being programmed just using Figma like UI.
     - Show the rendering on all the watch faces, and provide option to customize the selected watches manually.
     - Tool to check all the functions, arguments of SDK on physical hardware. This is necessary since the documentation is lacking, and this can act as a source of truth.
+- Create custom metrics
+    - Heart rate value, bar underneath to see where in the zone you are.
+    - Cycle gear front or back (maybe both). Combine it with heart rate to see both at same time.
+    - Avg power, and show +/- value (+10 means right left is generating more power) in brackets.
+    - Elevation gain and distance. From current point, find max local peak and how far it is and show those two values. Do the same for elevation loss. Maybe both can be combined in one field or outputted side by side.
+    - Combine speed fields into one as well (with +/-) to compress. Like show speed and show +2 to mean the avg is +2 of current.
+    - Combine distance fields. Current distance, distance to next stop (show it as +value), and same for total distance remaining (as +value).
 
 ## Custom Computer Hardware
 
