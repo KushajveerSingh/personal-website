@@ -1354,3 +1354,16 @@ Take inspiration from
     - The second overlay can be raw feed + some statistics (and the position can be customized in the creation menu as well).
     - Or just a screen of statistics.
 - The 360 recording is just distributed as a downlaodable file rather than streamed.
+
+## Internatiolization, Localization
+
+- Create tool that will generate the different builds for each translation. Rather than wasting performance on loading JSON files.
+- When making JS framework, build i18n into it, where you have an en-us folder for example, already configured as the base language.
+- Handle strings, images, videos or anything else.
+- For each entry, have the user provide a screenshot of where the element occurs, add an arrow for making it easier. Also, support screenshot for multiple resolutions if necessary.
+    - Add optional video in case the context is complex.
+    - Add constraint text as well.
+- This UI not gets shipped to the third-party that will handle the translation. After doing the translation for an element, they press done to confirm.
+    - Maybe it shows them the rendered component as well in different languages.
+- On the developer side, they choose a base language. When they update an element in this language, only then the other languages will get missing translation flag.
+    - In the UI component visualization project add support to render component in multiple translations.
