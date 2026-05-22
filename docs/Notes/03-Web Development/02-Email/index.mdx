@@ -1,0 +1,82 @@
+import CodeBlock from '@theme/CodeBlock';
+
+# Email
+
+## Starter Template
+
+import EmailTemplate from '!!raw-loader!./01-email-template.html';
+
+<CodeBlock language='html'>{EmailTemplate}</CodeBlock>
+
+## Table Layout
+
+- Use `role="presentation"` to avoid announcing in screen reader.
+- Only use `table, tr, td`. Ignore header, body, footer.
+- Override defaults using HTML attributes.
+- Place styles on table cells.
+
+```html title="Boilerplate template"
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+  <tr>
+    <td style=""></td>
+  </tr>
+</table>
+```
+
+### Single Column Layout
+
+- Fluid table - 100% wide
+- Fixed table - Like 600px
+- Content
+
+:::note
+
+Some email clients break after 12-level deep tables.
+
+:::
+
+import SingleColumnTableLayout from '!!raw-loader!./02-single-column-table-layout.html';
+
+<CodeBlock language='html'>{SingleColumnTableLayout}</CodeBlock>
+
+### Multiple Column Layout
+
+- Fluid table - 100% wide
+- Fixed table - Like 600px
+- Fluid table - 100% wide
+- Fixed table - One for each column. Percentage width works best.
+  - Do not have the percentages add to 100, as it will break for older version of outlook. Add the percentages close to 95%.
+
+Mobile-aware design
+
+- Simple layouts.
+- Large text.
+- Large buttons.
+- Design scales down. Email clients will zoom out emails to fit on screen.
+
+To create responsive email, where the columns convert to rows.
+
+- Use desktop first approach, as some email clients don't respect the embedded styles, and we don't want desktop clients to get mobile version of email.
+  - On mobile clients that strip embedded styles, the client will see a zoomed out version of the email, so as to fit the layout on the phone screen.
+- Add `class="mobile"` to the fixed table of 600px width.
+- Add `class="block"` to the innermost fixed table, that you are using for the columns.
+- Add the responsive style.
+
+import MultipleColumnTableLayout from '!!raw-loader!./03-multiple-column-table-layout.html';
+
+<CodeBlock language='html'>{MultipleColumnTableLayout}</CodeBlock>
+
+### Hybrid/Spongy Coding
+
+- For cases, when the email client is stripping the `head` tag and the embedded styles, we can use hybrid/spongy coding (not that important now).
+- Fluid by default.
+- Use `max-width`.
+- MSO ghost tables. Only for Microsoft Outlook.
+  ```
+  <!-- [if (gte mso 9)|(IE)]>
+  <![endif]-->
+  ```
+
+## Interactivity
+
+- `:hover`, `transition`, `transform`.

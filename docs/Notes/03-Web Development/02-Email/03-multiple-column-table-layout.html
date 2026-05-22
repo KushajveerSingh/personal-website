@@ -1,0 +1,87 @@
+<style>
+  @media screen and (max-width: 600px) {
+    .mobile {
+      width: 100% !important;
+    }
+
+    .block {
+      display: block !important;
+      width: 100% !important;
+    }
+  }
+</style>
+
+<!-- Fluid table -->
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+  <tr>
+    <td>
+      <!-- Fixed table -->
+      <table
+        class="mobile"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        role="presentation"
+        width="600"
+        style="
+          background-color: #ffffff;
+          color: #000000;
+          font-family: sans-serif;
+          font-size: 18px;
+          line-height: 36px;
+          margin: 0;
+          padding: 0;
+        "
+      >
+        <!-- Two column -->
+        <tr>
+          <td>
+            <!-- Fuild table -->
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+              <tr>
+                <td>
+                  <!-- Fixed table (Set column width)-->
+                  <!-- Column 1 -->
+                  <table
+                    class="block"
+                    align="left"
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    width="48%"
+                  >
+                    <tr>
+                      <td style="padding: 20px; line-height: 24px">
+                        <h2 style="font-size: 16px; margin: 0 0 20px 0">Heading Left</h2>
+                        <p style="font-size: 14px; margin: 0">Lorem ipsum dolor sit amet</p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <!-- Column 2 -->
+                  <table
+                    class="block"
+                    align="right"
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    width="48%"
+                  >
+                    <tr>
+                      <td style="padding: 20px; line-height: 24px">
+                        <h2 style="font-size: 16px; margin: 0 0 20px 0">Heading Left</h2>
+                        <p style="font-size: 14px; margin: 0">Lorem ipsum dolor sit amet</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

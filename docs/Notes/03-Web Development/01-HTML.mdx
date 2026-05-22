@@ -1,0 +1,298 @@
+# HTML
+
+## Main root
+
+Tags
+
+- **\<html>**
+
+```html
+<!doctype html>
+<html lang="en-US" data-theme="dark"></html>
+```
+
+## Document metadata
+
+Tags
+
+- **\<head>**
+- **\<base>**
+- **\<link>**
+- **\<meta>**
+- **\<style>**
+- **\<title>**
+  - Search engines show first 55-60 characters.
+  - Specify primary purpose of the page, followed by name of the website. Example `Menu - Blue House Chinese Food - FoodYum: Online takeout today!`.
+  - During form submission errors, update title to reflect the error. Example `2 errors - Your order - Sea Food Store - Food: Online takeout today!`.
+  - Screen readers do not announce title changes, so use _Aria Live Regions_.
+
+Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.github.io/capo.js/) provides weight ordering for _head_ elements.
+
+- [Chrome extension](https://chromewebstore.google.com/detail/capo-get-your-%EF%B9%A4%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%8D%EF%B9%A5/ohabpnaccigjhkkebjofhpmebofgpbeb) - Click extension to run and view results in the console.
+- [Online demo](https://rviscomi.github.io/capo.js/user/demo/) - Paste HTML or URL to test.
+
+{/* prettier-ignore-start */}
+
+```html
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>Page title</title>
+
+<!-- Perform all steps of TCP handshake (critical stuff like external font, CDN)
+    For non-critical use dns-prefetch -->
+<link rel="preconnect" href="https://example.com" />
+
+<!-- Downloaded and executed without blocking main thread -->
+<script src="" async></script>
+<!-- Will block parsing until downlaoded and parsed. But the following
+    stylesheets will be downloaded in parallel. -->
+<script src=""></script>
+<script></script>
+
+<link rel="stylesheet" href="" />
+<style></style>
+
+<link rel="preload" href="" as="" />
+<link rel="modulepreload" href="" />
+
+<script src="" defer></script>
+
+<link rel="prefetch" href="" />
+<link rel="dns-prefetch" href="" />
+
+<!-- Fixes rem not using OS value on mobile. -->
+<meta name="text-scale" content="scale" />
+<!-- Set color for UI elements like scrollbar.
+     Use CSS color-scheme to adjust value on theme change, no JS required. -->
+<meta name="color-scheme" content="dark" />
+<!-- Set color for things like URL bar on PWA and mobile. -->
+<meta name="theme-color" content="blue" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="dimgray" media="(prefers-color-scheme: dark)" />
+
+<!-- Everything else after this -->
+<!-- Use the full URL to the current page. -->
+<link rel="canonical" href="https://url/suburl" />
+<!-- Generate favicon from https://realfavicongenerator.net/ -->
+<link rel="icon" href="favicon.svg" />
+<link rel="manifest" href="manifest.json" />
+```
+
+## Content sectioning
+
+### \<address>
+
+- Contact information like name, physical address, URL, email address, phone number, social media handle, geographic coordinates.
+- Use to represent contact information of the nearest `<body>` or `<article>` ancestor.
+  - Inside `<body>` to provide contact information of the website.
+  - Inside `<article>` to provide contact information of the article like author name.
+
+```html
+<address>
+  You can contact author at
+  <a href="http://www.example.com/contact">www.example.com</a>.<br />
+  If you see any bugs, please
+  <a href="mailto:webmaster@example.com">contact webmaster</a>.<br />
+  You may also want to visit us:<br />
+  Mountain View, CA 94041<br />
+  USA
+</address>
+
+<article>
+  <footer>
+    <address>
+      By <a href="">Kushaj</a><br />
+      Email: <a href="">alex@semantics-weekly.com</a><br />
+      Office: 404 Syntax Lane, Suite 100, Athens, GA
+    </address>
+  </footer>
+</article>
+```
+
+### \<article>
+
+- If `<article>` contains `<h1>-<h6>` header tag use `aria-labelledby` to link them.
+- Independent item of content, that can be consumed without the context of the website. Like blog post, forum post, news article, product card, user-submitted comment, interactive widget.
+- Use `<h1> - <h6>` as child element to help identify the article.
+- When nesting `<article>`, the inner article represent content independent of the outer article, like comments on blog post.
+
+```html
+<article class="blog-post">
+  <h2></h2>
+  <section class="comments-section">
+    <article class="comment"><h3></h3></article>
+    <article class="comment"><h3></h3></article>
+  </section>
+</article>
+
+<article class="product-card">
+  <h3></h3>
+  <p></p>
+  <button></button>
+</article>
+```
+
+### \<aside>
+
+- If multiple `<aside>` are present on the page use `aria-label` or `aria-labelledby`.
+- Content that is only indirectly related to the main content, and the content can be removed without affecting the webpage.
+- Use for sidebar content like trending topics, call-out box, glossary, footnotes, advertising blocks, profile snippet like About the author, related articles, recommended reading.
+
+```html
+<article>
+  <h1>History of space exploration</h1>
+  <aside class="fun-fact-box"></aside>
+</article>
+
+<div class="page-layout">
+  <main></main>
+  <aside class="page-sidebar">
+    <h3>Trending topics</h3>
+
+    <h3>Advertisement</h3>
+  </aside>
+</div>
+```
+
+### \<footer>
+
+- Use for the concluding content of the section like
+  - Article footer - category tags, author bio, read more links.
+  - Component footer - timestamps, reply, flag, report buttons.
+  - Aside footer - logal disclaimers for a form, disclosure notes, view all links.
+  - Global page footer - copywright notice, links to privacy policy, sitemaps, social icons, contact info.
+- Does not have to necessariy appear at the bottom.
+
+### \<header>
+
+- Use under `<body>` to act as banner of the webpage and provide info like logo, name, search feature, global navigation, slogan.
+- Use under `<article>, <main>, <section>, <nav>, <aside>` to provide introductory or navigational aids for the surrounding section. Place the `<h1>-<h6>` inside.
+
+```html
+<header class="side-header">
+  <div class="logo"></div>
+  <nav></nav>
+</header>
+
+<section class="featured-content">
+  <header class="section-header">
+    <h2></h2>
+    <p>Introductory line</p>
+  </header>
+</section>
+
+<article class="blog-post">
+  <header class="article-header">
+    <h1></h1>
+    <div class="meta-data"></div>
+  </header>
+</article>
+```
+
+### \<h1> - \<h6>
+
+- Used to construct table of contents information.
+  - Users use this to quickly jump from heading to heading in order to determine the contents of the page.
+- Do not skip heading levels.
+- Every page should have a single `<h1>` to describe content of the page similar to `<title>`.
+
+### \<hgroup>
+
+- To grroup `<h1>-<h6>` with related content.
+- Related content can be subheading, alternative title, tagline. Each represented using `<p>` tag.
+
+```html
+<hgroup>
+  <h1>Title</h1>
+  <p>Last updated 12 July 2002</p>
+</hgroup>
+```
+
+### \<main>
+
+- One per page.
+- The content inside `<main>` should be unique to the current document. Content that is repeated like header, footer, sidebar, copywirght info, search forums shouldn't be included.
+- Use "skipnav" with main as well.
+
+```html
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <main id="main-content"></main>
+</body>
+```
+
+### \<nav>
+
+- If multiple `<nav>` are present on the page use `aria-label` or `aria-labelledby`.
+- Provide navigation links either within the current document or to other documents, like menus, table of contents, indexes.
+- Prose can be used to provide navigation as well.
+
+```html
+<header>
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="">Home</a></li>
+    </ul>
+  </nav>
+</header>
+
+<footer>
+  <nav aria-label="Footer navigation"></nav>
+</footer>
+
+<nav>
+  <p>You are on my home page. To the north lies <a href="">my blog</a>.</p>
+  <p>To the south lies a dark and dank <a href="">contacts page</a>.</p>
+</nav>
+```
+
+### \<section>
+
+- Use `aria-label` or `aria-labelledby` for `<section>`.
+- To represent generic standalone section of a document, that does not fit it in other content sectioning tags. Like a list of search results, map display and its controls.
+- Most of the times have a heading.
+- `<div>` is used as a styling wrapper.
+
+```html
+<section aria-labelledby="introduction">
+  <h2 id="introduction">Introduction</h2>
+  <p></p>
+</section>
+<section aria-labelledby="criteria">
+  <h2 id="criteria">Criteria</h2>
+  <p></p>
+</section>
+
+<section aria-label="Control Group">
+  <button></button>
+  <button></button>
+</section>
+```
+
+### \<search>
+
+- If multiple `<search>` are present on the page use `aria-label` or `aria-labelledby`.
+- To represent part of document with a form for search or filtering operation.
+  - The search/filtering can be for the entire site or current page.
+- Do not use it for presenting search results. They should be part of main contents of the page.
+- Suggestions and links part of "Quick search" are parts of the forum and should be present inside `<search>`.
+
+```html
+<search>
+  <form action="">
+    <button>Search</button>
+  </form>
+</search>
+
+<search>
+  <input type="search" />
+
+  <section aria-label="Suggestions and quick links">
+    <h3>Results:</h3>
+    <ul id="results"></ul>
+    <output id="no-results"></output>
+  </section>
+</search>
+```
+
+## Text content
