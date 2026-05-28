@@ -245,6 +245,7 @@ Take inspiration from
 
 - To generate a template for all the tags that you can possibly enter in HTML head.
 - This can be `<meta>` tags or HTTP relevant or a function that returns the HTML.
+- Refer capo.js on how to order head elements for performance.
 
 ## HTML checker
 
