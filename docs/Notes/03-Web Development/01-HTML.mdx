@@ -295,4 +295,209 @@ Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.g
 </search>
 ```
 
-## Text content
+## Block Text content
+
+### \<blockquote>, \<q>, \<cite>
+
+- Direct quote from an external source.
+  - Use `<blockquote>` for block-level element.
+  - Use `<q>` for inline quote.
+- Source attribution
+  - Specify URL to source document using `cite` attribute.
+  - Or use `<cite>` to provide text representation of the source. Place it outside `blockquote, q`.
+- Use `<cite>` to specify title for creative work like book, paper, song, film, game, website, blog post, comment, social media post, oral statement.
+  - This does not include the name of person.
+
+```html
+<div>
+  <blockquote cite="url">
+    <p>Quote</p>
+  </blockquote>
+  <p>-Author, <cite>Source name</cite></p>
+</div>
+
+<p>As <cite></cite> wrote <q cite="url">inline quote.</q></p>
+```
+
+### \<dl>, \<dt>, \<dd>
+
+- Use for dispalying key-value pairs information.
+  - Glossary.
+  - Recipe where ingredient is header and quantity is description.
+  - Transcript or conversations, where speaker name is header and spoken words are the description.
+- Single term and description (one dt, dd per item).
+- Multiple terms, single description (multiple dt, one dd per item).
+- Single term, multiple descriptions (one dt, multiple dd per item).
+- Each item can be wrapped in `<div>` to style.
+
+```html
+<dl>
+  <div>
+    <dt>Term</dt>
+    <dd>Description</dd>
+  </div>
+
+  <dt>Term</dt>
+  <dt>Term alternative</dt>
+  <dd>Description</dd>
+
+  <dt>Term</dt>
+  <dd>Description</dd>
+  <dd>Description alternative</dd>
+</dl>
+```
+
+### \<div>, \<span>
+
+- Represent nothing, and is used only to group content and style.
+
+```html
+<div>
+  <p>Something <span>inline text</span></p>
+</div>
+```
+
+### \<figure>, \<figcaption>
+
+- To represent self-contained content (with optional caption).
+- It can be image, diagram, code snippet, table, poem, quotation that is referenced in the main flow of a docuemnt.
+- `<figure>` can be be moved to any part of the document or to appendex without affecting the main flow.
+
+```html
+<figure>
+  <figcaption></figcaption>
+  <img />
+</figure>
+```
+
+### \<hr>
+
+- Represent a thematic break between paragraph-level elements (change of scene, shift of topic within a section).
+- Another way to think about it is as a new section within body of text where it's not necessary to have a heading.
+
+```html
+<p></p>
+
+<hr />
+
+<p></p>
+```
+
+### \<menu>, \<ol>, \<ul>, \<li>
+
+- `<menu>` - Same as `<ul>`, but the items are interactive.
+- `<ol>` - The order matters for the meaning of the content.
+  - `reversed` - To reverse the numbering, not the list items.
+  - `start="3"`
+  - `type="1"` - If you are referencing the items in the HTML document, then use `type` attribute, otherwise use CSS `list-style-type` property.
+    - `a` lowercase letter, `A` uppercase letter.
+    - `i` lowercase roman, `I` uppercase roman.
+    - `1` number.
+- `<ul>` - Order of items in the list is meaningless. The items are for display only.
+
+```html
+<ol type="i" reversed start="4">
+  <li>One</li>
+  <!-- To override list numbering -->
+  <li value="10">Three</li>
+  <li>Four</li>
+</ol>
+
+<ul>
+  <li>Item</li>
+  <li>Item</li>
+</ul>
+
+<menu>
+  <li><button>Copy</button></li>
+  <li><button>Paste</button></li>
+</menu>
+```
+
+### \<p>
+
+- Structured grouping of related content, such as images, form fields, block of text.
+  - Each part of form is considered a paragraph.
+- Screen readers provide shortcuts to skip to the next/previous paragraph, letting them skim content.
+- Using a block level element inside p tag, will autoclose the p tag.
+
+```html
+<form>
+  <p>
+    <label>Name: <input /></label>
+  </p>
+
+  <p>
+    <label>Phone: <input type="tel" /></label>
+  </p>
+
+  <p>
+    <label>Email: <input type="email" /></label>
+  </p>
+
+  <fieldset>
+    <legend>Size</legend>
+    <p>
+      <label> <input type="radio" name="size" /> Small </label>
+    </p>
+    <p>
+      <label> <input type="radio" name="size" /> Medium </label>
+    </p>
+  </fieldset>
+
+  <p><button>Submit</button></p>
+</form>
+
+<form>
+  <p>Hello. My <label for="firstName">name</label> is <input id="firstName" type="text" />...</p>
+</form>
+```
+
+### \<pre>
+
+- To show preformatted text. Monospaced font used to display the content.
+- The first leading newline character is ignored.
+- The content is parsed as HTML.
+- If creating illustrations, provide alternate description using `<figure>`, `role`, `aria-label`.
+- Escape ambigious characters
+  1. Replace `&` with `&amp;`.
+  2. Replace `<` with `&lt;`.
+- Useful for frontend debugging, instead of relying on `console.log`.
+
+```html
+<pre>
+  <code>
+body {
+  color: red;
+}
+  </code>
+</pre>
+
+<figure>
+  <pre role="img" aria-label="ASCII COW">
+\   ^__^
+  \  (oo)\_______
+    (__)\       )\/\
+        ||----w |
+        ||     ||
+  </pre>
+  <figcaption>The cow is illustrated using preformatted text characters.</figcaption>
+</figure>
+```
+
+## Inline text content
+
+### \<a>
+
+- Provide URL in `href`, which can include hyperlink, files, email addresses, locations in the same page.
+- Content inside should indicate where the link goes.
+  - `about our products` more accessible thatn `click here`.
+- Assistive software has shortcut to list all links on a page, to quickly scan pages.
+- Attributes
+  - `downlaod` - The URL is downloaded. `filename` is optional, in which case the browser will suggest a filename/extension.
+    - `download="filename.extension"` - Name of downloaded file. `\`, `/` are converted to `_`.
+    - Works for same-origin URLs, `blob:`, `data:` schemes.
+  - `href`
+  - `hreflang`
+  - `interestfor` - For Popover API.
+  - `ping` - send `POST` request to list of URLs for tracking with the text body `PING`.
