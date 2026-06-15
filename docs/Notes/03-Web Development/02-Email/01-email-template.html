@@ -5,15 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!--
-      - Screen readers will read title at start of email.
-      - When user opens the email in browser tab like a normal webpage.
-    -->
     <title>Page title</title>
 
     <style>
-      /* START - CSS Reset*/
-      /* - Client specific styles, mostly for Microsoft Office */
       body,
       table,
       td,
@@ -21,18 +15,14 @@
         -webkit-text-size-adjust: 100%;
         -ms-text-size-adjust: 100%;
       }
-      /* Remove extra spacing added by Microsoft around tables */
       table,
       td {
         mso-table-lspace: 0pt;
         mso-table-rspace: 0pt;
       }
+
       img {
         -ms-interpolation-mode: bicubic;
-      }
-
-      /* - Basic style resets */
-      img {
         border: 0;
         height: auto;
         line-height: 100%;
@@ -49,7 +39,7 @@
         width: 100% !important;
       }
 
-      /* - iOS blue links */
+      /* iOS */
       a[x-apple-data-detectors] {
         color: inherit !important;
         text-decoration: none !important;
@@ -59,7 +49,7 @@
         line-height: inherit !important;
       }
 
-      /* - Gmail blue links. Gmail changes html tag to `u` tag. */
+      /* Gmail changes <html> to <u> */
       u + #body a {
         color: inherit;
         text-decoration: none;
@@ -69,7 +59,7 @@
         line-height: inherit;
       }
 
-      /* - Samsung mail blue links */
+      /* Samsung mail */
       #MessageViewBody a {
         color: inherit;
         text-decoration: none;
@@ -78,28 +68,11 @@
         font-weight: inherit;
         line-height: inherit;
       }
-      /* END - CSS Reset*/
-
-      /* Universal styles for links and stuff */
-      a {
-        color: #229efd;
-        font-weight: bold;
-      }
-      a:hover {
-        color: #fd6350;
-        text-decoration: none;
-      }
-      a.button:hover {
-        background-color: #fd6350 !important;
-      }
-
-      /* Responsive styles */
     </style>
   </head>
 
-  <!-- Some email clients strip style tag from head tag. -->
   <body id="body" style="margin: 0 !important; padding: 0 !important">
-    <!-- Use div to provide majority of styles -->
+    <!-- Styles -->
     <div
       style="
         color: black;
@@ -110,99 +83,47 @@
         max-width: 600px;
       "
     >
-      <!--
-        Use
-        - div, span
-        - h1 - h6
-        - p, strong, em
-        - a (do not use relative paths)
-        - img
-          - Do not use relative paths, for cases when the client downloads the email
-          - Use jpg, png, gif
-          - Provide alternate text only on relevant images. Alternate text on decorative images
-            like icon, logo should be empty.
-          - For alternate text do not start with "Image of", as screen readers will automatically add it.
-        - table
-
-        Reliable CSS properties
-        - Text
-          - color
-          - font-family
-          - font-size
-          - font-style
-          - font-weight
-          - line-height
-          - text-align
-        - Block level elements
-          - margin
-          - padding
-          - border
-          - width
-          - max-width
-
-        CSS things
-        - Override margin and padding of all block-level elements.
-        - Set font style for all div's individually, even if you set on the parent.
-        - CSS 3 properties are not supported on all browsers, like border-radius.
-        - Use <center> in addition to "display: block; margin: 0 auto;" trick.
-
-        Buttons
-        - Need to use Bulletproof Email buttons instead.
-        - Use https://buttons.cm/ to create button. The generated code has maintainability issues.
-        - An alternative is to use nested tables, as shown in "Call to action" example below.
-      -->
-
       <!-- Logo image -->
-      <!-- <img src="https://kushaj.com/assets/logo.jpg" alt="" /> -->
-      <!-- For centering use both center tag and display: block; margin: 0 auto; trick. -->
       <center>
-        <img src="assets/logo.jpg" alt="" width="60" style="border-radius: 60px; display: block; margin: 0 auto" />
+        <img
+          src="https://kushaj.com/assets/logo.jpg"
+          alt=""
+          width="60"
+          style="border-radius: 60px; display: block; margin: 0 auto"
+        />
       </center>
 
       <!-- Headline -->
-      <h1 style="margin: 40px 0; text-align: center">This is a heading!</h1>
+      <h1 style="margin: 40px 0; text-align: center">Headline</h1>
 
-      <!-- Hero image (Responsive image) -->
-      <!-- <img src="https://kushaj.com/assets/hero.jpg" alt="" /> -->
+      <!-- Responsive Hero image -->
       <img
-        src="assets/hero.jpg"
+        src="https://kushaj.com/assets/hero.jpg"
         alt="A Red mainbox in front of plants."
         width="600"
         border="0"
         style="display: block; max-width: 100%; min-width: 100px; width: 100%; padding: 20px 0"
       />
 
-      <!-- Body copy -->
-      <p style="margin: 0 0 20px 0">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui hic eligendi ipsum cum maxime. Unde impedit libero
-        consectetur laudantium dicta? Sint illo necessitatibus quo in aliquam explicabo hic vitae aliquid!
-      </p>
+      <!-- Body -->
+      <p style="margin: 0 0 20px 0"></p>
 
-      <p style="margin: 0 0 20px 0">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui hic eligendi ipsum cum maxime. Unde impedit libero
-        consectetur laudantium dicta? Sint illo necessitatibus quo in aliquam explicabo hic vitae aliquid!
-      </p>
+      <p style="margin: 0 0 20px 0"></p>
 
-      <!--
-        Using background image. For <td> cells.
-        - background="assets/bg-dark.jpg" - Fallback for old clients
-        - bgcolor - Fallback for old clients
-        - style="background: #229efd url('assets/bg-dark.jpg')" - Modern way.
-      -->
+      <!-- Background Image + Text -->
       <table>
         <tr>
           <td
-            style="color: #ffffff; padding: 20px"
-            background="assets/bg-dark.jpg"
+            background="https://kushaj.com/assets/bg-dark.jpg"
             bgcolor="#229efd"
-            style="background: #229efd url('assets/bg-dark.jpg')"
+            style="color: #ffffff; padding: 20px; background: #229efd url('https://kushaj.com/assets/bg-dark.jpg')"
           >
             Who loves HTML email?
           </td>
         </tr>
       </table>
 
-      <!-- Call to action -->
+      <!-- Call To Action Button -->
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td align="center" style="padding: 60px">
@@ -233,7 +154,7 @@
         </tr>
       </table>
 
-      <!-- Footer for disclaimers. Refer to CAN-SPAM act compliance in USA. -->
+      <!-- Foote  -->
       <div style="color: grey; font-family: sans-serif; font-size: 16px; line-height: 24px">
         <p style="margin: 60p 0 20px 0"><a href="#">Feel free to unsubscribe</a></p>
         <p style="margin: 0 0 60px 0">12345 Main St. Anywhere, MA 01234</p>

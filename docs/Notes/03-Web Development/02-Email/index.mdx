@@ -2,7 +2,52 @@ import CodeBlock from '@theme/CodeBlock';
 
 # Email
 
-## Starter Template
+- [Can I email](https://www.caniemail.com/) (check HTML/CSS support)
+- Email over 102KB is clipped and the message `View entire message` is shown at the bottom.
+
+## Template
+
+- `<title>` read by screen readers when email is opened.
+- Some email clients strip `<head>`.
+- Wrap body contents in `<div>` to provide majority styles.
+- Provide inline margin/padding styles for all block-level elements.
+- Refer to CAN-SPAM act complaiance for footer disclaimer.
+- HTML elements
+  - div, span
+  - h1 - h6
+  - p, strong, em
+  - a
+    - Do not use relative path.
+  - img
+    - Do not use relative path.
+    - Provide full path with protocol to the hosted web server address. Example `https://kushaj.com/assets/logo.jpg`.
+    - Use jpg, png, gif.
+    - Provide alternate text only on relevant images.
+  - table
+- CSS properties
+  - Text
+    - color
+    - font-family
+    - font-size
+    - font-style
+    - font-weight
+    - line-height
+    - text-align
+  - Block level elements
+    - margin
+    - padding
+    - border
+    - width
+    - max-width
+- CSS quirks
+  - Provide margin/padding on all block-level elements.
+  - Provide font properties on all `<div>` elements.
+  - Use `<center>` in addition to `display: block; margin: 0 auto;` trick.
+- Buttons
+  - Method 1: Bulletproof Email button.
+    - [buttons.cm](https://buttons.cm/) to get code. Hard to maintain.
+  - Method 2: Nested table.
+    - Shown in below example in "Call to action".
 
 import EmailTemplate from '!!raw-loader!./01-email-template.html';
 
@@ -10,8 +55,8 @@ import EmailTemplate from '!!raw-loader!./01-email-template.html';
 
 ## Table Layout
 
-- Use `role="presentation"` to avoid announcing in screen reader.
-- Only use `table, tr, td`. Ignore header, body, footer.
+- Add `role="presentation"` to avoid announcing in screen reader.
+- Only use `table, tr, td`.
 - Override defaults using HTML attributes.
 - Place styles on table cells.
 
@@ -26,14 +71,8 @@ import EmailTemplate from '!!raw-loader!./01-email-template.html';
 ### Single Column Layout
 
 - Fluid table - 100% wide
-- Fixed table - Like 600px
+- Fixed table - Like 600px. Add global styles here.
 - Content
-
-:::note
-
-Some email clients break after 12-level deep tables.
-
-:::
 
 import SingleColumnTableLayout from '!!raw-loader!./02-single-column-table-layout.html';
 
@@ -42,10 +81,10 @@ import SingleColumnTableLayout from '!!raw-loader!./02-single-column-table-layou
 ### Multiple Column Layout
 
 - Fluid table - 100% wide
-- Fixed table - Like 600px
+- Fixed table - Like 600px. Add global styles here.
 - Fluid table - 100% wide
 - Fixed table - One for each column. Percentage width works best.
-  - Do not have the percentages add to 100, as it will break for older version of outlook. Add the percentages close to 95%.
+  - Percentages should add up to like 95%, not 100%.
 
 Mobile-aware design
 
@@ -54,29 +93,11 @@ Mobile-aware design
 - Large buttons.
 - Design scales down. Email clients will zoom out emails to fit on screen.
 
-To create responsive email, where the columns convert to rows.
+Responsive email (column converts to row)
 
-- Use desktop first approach, as some email clients don't respect the embedded styles, and we don't want desktop clients to get mobile version of email.
-  - On mobile clients that strip embedded styles, the client will see a zoomed out version of the email, so as to fit the layout on the phone screen.
-- Add `class="mobile"` to the fixed table of 600px width.
-- Add `class="block"` to the innermost fixed table, that you are using for the columns.
+- Use desktop first approach.
 - Add the responsive style.
 
 import MultipleColumnTableLayout from '!!raw-loader!./03-multiple-column-table-layout.html';
 
 <CodeBlock language='html'>{MultipleColumnTableLayout}</CodeBlock>
-
-### Hybrid/Spongy Coding
-
-- For cases, when the email client is stripping the `head` tag and the embedded styles, we can use hybrid/spongy coding (not that important now).
-- Fluid by default.
-- Use `max-width`.
-- MSO ghost tables. Only for Microsoft Outlook.
-  ```
-  <!-- [if (gte mso 9)|(IE)]>
-  <![endif]-->
-  ```
-
-## Interactivity
-
-- `:hover`, `transition`, `transform`.
