@@ -1,91 +1,90 @@
 # HTML
 
-## Main root
-
-Tags
-
-- **\<html>**
+## \<html>
 
 ```html
 <!doctype html>
-<html lang="en-US" data-theme="dark"></html>
+<html lang="en-US"></html>
 ```
 
-## Document metadata
+## \<head>
 
-Tags
+Order of `<head>` elements
 
-- **\<head>**
-- **\<base>**
-- **\<link>**
-- **\<meta>**
-- **\<style>**
-- **\<title>**
-  - Search engines show first 55-60 characters.
-  - Specify primary purpose of the page, followed by name of the website. Example `Menu - Blue House Chinese Food - FoodYum: Online takeout today!`.
-  - During form submission errors, update title to reflect the error. Example `2 errors - Your order - Sea Food Store - Food: Online takeout today!`.
-  - Screen readers do not announce title changes, so use _Aria Live Regions_.
-
-Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.github.io/capo.js/) provides weight ordering for _head_ elements.
-
-- [Chrome extension](https://chromewebstore.google.com/detail/capo-get-your-%EF%B9%A4%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%8D%EF%B9%A5/ohabpnaccigjhkkebjofhpmebofgpbeb) - Click extension to run and view results in the console.
+- [Chrome extension](https://chromewebstore.google.com/detail/capo-get-your-%EF%B9%A4%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%8D%EF%B9%A5/ohabpnaccigjhkkebjofhpmebofgpbeb) - Click extension to run and view results in console.
 - [Online demo](https://rviscomi.github.io/capo.js/user/demo/) - Paste HTML or URL to test.
 
-{/* prettier-ignore-start */}
+### \<title>
+
+- Search engines show first 55-60 characters.
+- Specify primary purpose of the page, followed by name of website. Example `Menu - Blue House Chinese Food - Food: Online takeout today!`.
+- During form submission errors, update title to reflect the error. Example `2 errors - Your order - Sea Food Store - Food: Online takeout today!`.
+- Screen readers do not announce title changes. Use _Aria Live Regions_.
 
 ```html
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
 
-<title>Page title</title>
+  <title>Page title</title>
 
-<!-- Perform all steps of TCP handshake (critical stuff like external font, CDN)
-    For non-critical use dns-prefetch -->
-<link rel="preconnect" href="https://example.com" />
+  <!-- Do TCP handshake. Critical stuff like external font, CDN.
+       For non-critical use dns-prefetch -->
+  <link rel="preconnect" href="https://example.com" />
 
-<!-- Downloaded and executed without blocking main thread -->
-<script src="" async></script>
-<!-- Will block parsing until downlaoded and parsed. But the following
-    stylesheets will be downloaded in parallel. -->
-<script src=""></script>
-<script></script>
+  <!-- Download and execute without blocking main thread -->
+  <script src="" async></script>
+  <!-- Pause HTML parsing. Download and execute. Resume HTML parsing.
+       Following stylesheets will be downloaded in parallel.
+       Inline scripts preferred over this. -->
+  <script src=""></script>
+  <!-- Inline script. To prevent Flash of Unstyled Content, Dark/Light theme
+       flash, early device size detection and feature flags. -->
+  <script></script>
 
-<link rel="stylesheet" href="" />
-<style></style>
+  <link rel="stylesheet" href="" />
+  <style></style>
 
-<link rel="preload" href="" as="" />
-<link rel="modulepreload" href="" />
+  <link rel="preload" href="" as="" />
+  <link rel="modulepreload" href="" />
 
-<script src="" defer></script>
+  <script src="" defer></script>
 
-<link rel="prefetch" href="" />
-<link rel="dns-prefetch" href="" />
+  <link rel="prefetch" href="" />
+  <link rel="dns-prefetch" href="" />
 
-<!-- Fixes rem not using OS value on mobile. -->
-<meta name="text-scale" content="scale" />
-<!-- Set color for UI elements like scrollbar.
-     Use CSS color-scheme to adjust value on theme change, no JS required. -->
-<meta name="color-scheme" content="dark" />
-<!-- Set color for things like URL bar on PWA and mobile. -->
-<meta name="theme-color" content="blue" media="(prefers-color-scheme: light)" />
-<meta name="theme-color" content="dimgray" media="(prefers-color-scheme: dark)" />
+  <!-- Fixes `rem` on mobile. -->
+  <meta name="text-scale" content="scale" />
+  <!-- Set color for UI elements like scrollbar.
+       Use CSS `color-scheme` to adjust value on theme change. -->
+  <meta name="color-scheme" content="dark" />
+  <!-- Set color for URL bar on PWA and mobile. -->
+  <meta name="theme-color" content="blue" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="rgba()" media="(prefers-color-scheme: dark)" />
 
-<!-- Everything else after this -->
-<!-- Use the full URL to the current page. -->
-<link rel="canonical" href="https://url/suburl" />
-<!-- Generate favicon from https://realfavicongenerator.net/ -->
-<link rel="icon" href="favicon.svg" />
-<link rel="manifest" href="manifest.json" />
+  <!-- Use full URL to the current page. -->
+  <link rel="canonical" href="https://url/en-us/page" />
+  <!-- Add translation links -->
+  <link rel="alternate" hreflang="en-us" href="https://url/en-us/page" />
+  <link rel="alternate" hreflang="es" href="https://url/es/page" />
+  <link rel="alternate" hreflang="x-default" href="https://url/en-us/page" />
+
+  <!-- Generate favicon https://realfavicongenerator.net/ -->
+  <link rel="icon" href="favicon.svg" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Everything else after this -->
+</head>
 ```
 
-## Content sectioning
+## Content Sectioning
 
 ### \<address>
 
 - Contact information like name, physical address, URL, email address, phone number, social media handle, geographic coordinates.
-- Use to represent contact information of the nearest `<body>` or `<article>` ancestor.
+- Usage
   - Inside `<body>` to provide contact information of the website.
-  - Inside `<article>` to provide contact information of the article like author name.
+  - Inside `<article>` to provide contact information of the article.
 
 ```html
 <address>
@@ -111,32 +110,33 @@ Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.g
 
 ### \<article>
 
-- If `<article>` contains `<h1>-<h6>` header tag use `aria-labelledby` to link them.
-- Independent item of content, that can be consumed without the context of the website. Like blog post, forum post, news article, product card, user-submitted comment, interactive widget.
-- Use `<h1> - <h6>` as child element to help identify the article.
-- When nesting `<article>`, the inner article represent content independent of the outer article, like comments on blog post.
+- Independent item of content, that can be consumed without the context of the website. Like blog post, forum post, news article, product card, user-submitted comments, interactive widget.
+  - When nesting `<article>`, the inner `<article>` represents content independent of the outer `<article>` like comments on blog post.
+- Usage
+  - Use `<h1> - <h6>` as child element to help identify the article.
+  - Link `<h1> - <h6>` using `aria-labelledby` on `<article>`.
+    - This will create a landmark region.
+    - For comments avoid this. Instead wrap all the comments in `<section>`.
 
 ```html
-<article class="blog-post">
-  <h2></h2>
-  <section class="comments-section">
+<article aria-labelledby="post-title">
+  <h2 id="post-title">Blog post title</h2>
+
+  <section aria-labelledby="comments-title">
+    <h2 id="comments-title">Comments (2)</h2>
+
     <article class="comment"><h3></h3></article>
     <article class="comment"><h3></h3></article>
   </section>
-</article>
-
-<article class="product-card">
-  <h3></h3>
-  <p></p>
-  <button></button>
 </article>
 ```
 
 ### \<aside>
 
-- If multiple `<aside>` are present on the page use `aria-label` or `aria-labelledby`.
 - Content that is only indirectly related to the main content, and the content can be removed without affecting the webpage.
-- Use for sidebar content like trending topics, call-out box, glossary, footnotes, advertising blocks, profile snippet like About the author, related articles, recommended reading.
+  - Sidebar content like trending topics, call-out box, glossary, footnotes, advertising blocks, profile snippet like About the author, related articles, recommended reading.
+- Usage
+  - Use `aria-label` or `aria-labelledby` if multiple `<aside>` are present.
 
 ```html
 <article>
@@ -156,17 +156,20 @@ Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.g
 
 ### \<footer>
 
-- Use for the concluding content of the section like
-  - Article footer - category tags, author bio, read more links.
-  - Component footer - timestamps, reply, flag, report buttons.
-  - Aside footer - logal disclaimers for a form, disclosure notes, view all links.
-  - Global page footer - copywright notice, links to privacy policy, sitemaps, social icons, contact info.
+- Concluding content a section.
+  - Article - category tags, author bio, read more links.
+  - Component - timestamps, reply, flag, report buttons.
+  - Aside - logal disclaimers for a form, disclosure notes, view all links.
+  - Global page - copywright notice, links to privacy policy, sitemaps, social icons, contact info.
 - Does not have to necessariy appear at the bottom.
 
 ### \<header>
 
-- Use under `<body>` to act as banner of the webpage and provide info like logo, name, search feature, global navigation, slogan.
-- Use under `<article>, <main>, <section>, <nav>, <aside>` to provide introductory or navigational aids for the surrounding section. Place the `<h1>-<h6>` inside.
+- Introductory content or navigational aids.
+  - Heading element, logo, search form, author name.
+- Usage
+  - Inside `<body>` to act as banner of the webpage and provide info like logo, name, search feature, global navigation, slogan.
+  - Inside `<article>`, `<main>`, `<section>`, `<nav>`, `<aside>` to provide introductory or navigational aids for the surrounding section. Place `<h1> - <h6>` inside.
 
 ```html
 <header class="side-header">
@@ -191,15 +194,16 @@ Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.g
 
 ### \<h1> - \<h6>
 
-- Used to construct table of contents information.
+- To construct table of contents information.
   - Users use this to quickly jump from heading to heading in order to determine the contents of the page.
 - Do not skip heading levels.
-- Every page should have a single `<h1>` to describe content of the page similar to `<title>`.
+- Usage
+  - Every page should have a single `<h1>` to describe the content of the page similar to `<title>`.
 
 ### \<hgroup>
 
-- To grroup `<h1>-<h6>` with related content.
-- Related content can be subheading, alternative title, tagline. Each represented using `<p>` tag.
+- Group `<h1> - <h6>` with related content in `<p>` tag.
+  - Related content can be subheading, alternative title, tagline.
 
 ```html
 <hgroup>
@@ -210,22 +214,26 @@ Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.g
 
 ### \<main>
 
-- One per page.
-- The content inside `<main>` should be unique to the current document. Content that is repeated like header, footer, sidebar, copywirght info, search forums shouldn't be included.
-- Use "skipnav" with main as well.
+- Content unique to the current document. Content that is repeated like header, footer, sidebar, copyright info, search forums shouldn't be included.
+- Usage
+  - One per page.
+  - "skipnav" points to `<main>`.
 
 ```html
 <body>
   <a href="#main-content">Skip to main content</a>
+
   <main id="main-content"></main>
 </body>
 ```
 
 ### \<nav>
 
-- If multiple `<nav>` are present on the page use `aria-label` or `aria-labelledby`.
-- Provide navigation links either within the current document or to other documents, like menus, table of contents, indexes.
-- Prose can be used to provide navigation as well.
+- Provide navigation links either within the current document or to other documents.
+  - Menus, table of contents, indexes.
+  - Prose can be used to provide navigation as well.
+- Usage
+  - Use `aria-label` or `aria-labelledby` if multiple `<nav>` are present.
 
 ```html
 <header>
@@ -248,10 +256,10 @@ Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.g
 
 ### \<section>
 
-- Use `aria-label` or `aria-labelledby` for `<section>`.
-- To represent generic standalone section of a document, that does not fit it in other content sectioning tags. Like a list of search results, map display and its controls.
-- Most of the times have a heading.
-- `<div>` is used as a styling wrapper.
+- Represent generic standalone section of a document, that does not fit it in other _Content Sectioning_ tags.
+- Usage
+  - Provide `aria-label` or `aria-labelledby`.
+  - Heading inluced most of the times.
 
 ```html
 <section aria-labelledby="introduction">
@@ -271,11 +279,11 @@ Order of elements in _head_ can affect performance. [capo.js](https://rviscomi.g
 
 ### \<search>
 
-- If multiple `<search>` are present on the page use `aria-label` or `aria-labelledby`.
-- To represent part of document with a form for search or filtering operation.
-  - The search/filtering can be for the entire site or current page.
-- Do not use it for presenting search results. They should be part of main contents of the page.
-- Suggestions and links part of "Quick search" are parts of the forum and should be present inside `<search>`.
+- Represent part of document with `<form>` for search or filtering operation on the current page or the entire site.
+- Search results are part of `<main>`, not `<search>`.
+- Suggestions and "Quick search" are parts of `<search>`.
+- Usage
+  - Use `aria-label` or `aria-labelledby` if multiple `<search>` are present.
 
 ```html
 <search>
