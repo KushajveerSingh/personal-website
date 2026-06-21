@@ -10,8 +10,8 @@ const config: Config = {
 
   // Serve URL = ${url}/${baseUrl}
   // If hosting at "url", use baseUrl: '/'
-  url: 'https://kushajveersingh.github.io',
-  baseUrl: '/website',
+  url: 'https://kushaj.com',
+  baseUrl: '/',
 
   favicon: 'img/favicon.ico',
   trailingSlash: false, // For GitHub Pages
