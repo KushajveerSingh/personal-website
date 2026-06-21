@@ -32,7 +32,7 @@ Order of `<head>` elements
        For non-critical use dns-prefetch -->
   <link rel="preconnect" href="https://example.com" />
 
-  <!-- Download and execute without blocking main thread -->
+  <!-- Download. Pause HTML parsing. Execute. Resume HTML parsing. -->
   <script src="" async></script>
   <!-- Pause HTML parsing. Download and execute. Resume HTML parsing.
        Following stylesheets will be downloaded in parallel.
@@ -48,6 +48,7 @@ Order of `<head>` elements
   <link rel="preload" href="" as="" />
   <link rel="modulepreload" href="" />
 
+  <!-- Download. Wait for HTML to load. Execute. -->
   <script src="" defer></script>
 
   <link rel="prefetch" href="" />
@@ -58,11 +59,12 @@ Order of `<head>` elements
   <!-- Set color for UI elements like scrollbar.
        Use CSS `color-scheme` to adjust value on theme change. -->
   <meta name="color-scheme" content="dark" />
-  <!-- Set color for URL bar on PWA and mobile. -->
+  <!-- PWA to set color of browser elements like top bar. -->
   <meta name="theme-color" content="blue" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="rgba()" media="(prefers-color-scheme: dark)" />
 
-  <!-- Use full URL to the current page. -->
+  <!-- Use full URL to the current page. Relevant to reference the original resource
+       when cross-posting the site on different platform. -->
   <link rel="canonical" href="https://url/en-us/page" />
   <!-- Add translation links -->
   <link rel="alternate" hreflang="en-us" href="https://url/en-us/page" />
@@ -72,6 +74,9 @@ Order of `<head>` elements
   <!-- Generate favicon https://realfavicongenerator.net/ -->
   <link rel="icon" href="favicon.svg" />
   <link rel="manifest" href="manifest.json" />
+
+  <!-- Shown under page title and when bookmarking. -->
+  <meta name="description" content="Short and accurate summary of the page's content." />
 
   <!-- Everything else after this -->
 </head>
@@ -303,7 +308,7 @@ Order of `<head>` elements
 </search>
 ```
 
-## Block Text content
+## Block-Level Elements
 
 ### \<blockquote>, \<q>, \<cite>
 
