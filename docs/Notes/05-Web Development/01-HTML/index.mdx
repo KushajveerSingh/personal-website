@@ -310,16 +310,14 @@ Order of `<head>` elements
 
 ## Block-Level Elements
 
-### \<blockquote>, \<q>, \<cite>
+### \<blockquote>, \<cite>
 
 - Direct quote from an external source.
-  - Use `<blockquote>` for block-level element.
-  - Use `<q>` for inline quote.
 - Source attribution
-  - Specify URL to source document using `cite` attribute.
-  - Or use `<cite>` to provide text representation of the source. Place it outside `blockquote, q`.
-- Use `<cite>` to specify title for creative work like book, paper, song, film, game, website, blog post, comment, social media post, oral statement.
-  - This does not include the name of person.
+  - `<blockquote cite="url">` - URL of source document.
+  - `<cite>` - Text representation of source. Place it outside `<blockquote>, <q>`.
+    - Title for creative work like book.
+    - Do not include name of person.
 
 ```html
 <div>
@@ -332,16 +330,23 @@ Order of `<head>` elements
 <p>As <cite></cite> wrote <q cite="url">inline quote.</q></p>
 ```
 
+### \<div>
+
+- Used to group and style elements.
+- No semantic meaning.
+
+```html
+<div>
+  <p>Something <span>inline text</span></p>
+</div>
+```
+
 ### \<dl>, \<dt>, \<dd>
 
-- Use for dispalying key-value pairs information.
+- Provide key-value pairs.
   - Glossary.
   - Recipe where ingredient is header and quantity is description.
   - Transcript or conversations, where speaker name is header and spoken words are the description.
-- Single term and description (one dt, dd per item).
-- Multiple terms, single description (multiple dt, one dd per item).
-- Single term, multiple descriptions (one dt, multiple dd per item).
-- Each item can be wrapped in `<div>` to style.
 
 ```html
 <dl>
@@ -360,21 +365,11 @@ Order of `<head>` elements
 </dl>
 ```
 
-### \<div>, \<span>
-
-- Represent nothing, and is used only to group content and style.
-
-```html
-<div>
-  <p>Something <span>inline text</span></p>
-</div>
-```
-
 ### \<figure>, \<figcaption>
 
-- To represent self-contained content (with optional caption).
-- It can be image, diagram, code snippet, table, poem, quotation that is referenced in the main flow of a docuemnt.
-- `<figure>` can be be moved to any part of the document or to appendex without affecting the main flow.
+- Represent self-contained content (similar to `<article>`) that is referenced in main flow of document, with optional caption.
+  - Image, diagram, code snippet, table, poem, quotation.
+- Figure support's the surrounding text, but does not depend on the exact paragraph for meaning.
 
 ```html
 <figure>
@@ -385,8 +380,9 @@ Order of `<head>` elements
 
 ### \<hr>
 
-- Represent a thematic break between paragraph-level elements (change of scene, shift of topic within a section).
-- Another way to think about it is as a new section within body of text where it's not necessary to have a heading.
+- Represent a thematic break between paragraph-level elements.
+  - Change of scene, shift of topic within a section.
+  - New section within body of text where it's not necessary to have a heading.
 
 ```html
 <p></p>
@@ -398,17 +394,24 @@ Order of `<head>` elements
 
 ### \<menu>, \<ol>, \<ul>, \<li>
 
-- `<menu>` - Same as `<ul>`, but the items are interactive.
-- `<ol>` - The order matters for the meaning of the content.
-  - `reversed` - To reverse the numbering, not the list items.
+- `<menu>` - Same as `<ul>`, but items are interactive.
+- `<ol>` - Order of items matter for meaning of content.
+  - `reversed` - Reverse numbering. This does not reverse items.
   - `start="3"`
-  - `type="1"` - If you are referencing the items in the HTML document, then use `type` attribute, otherwise use CSS `list-style-type` property.
-    - `a` lowercase letter, `A` uppercase letter.
-    - `i` lowercase roman, `I` uppercase roman.
+  - `type="1"` - If the ordering system is a convention of the document type or when list marker is referenced in the document. Example legal documents (Section 1, Article A).
+    - `a` lowercase letter
+    - `A` uppercase letter.
+    - `i` lowercase roman
+    - `I` uppercase roman.
     - `1` number.
-- `<ul>` - Order of items in the list is meaningless. The items are for display only.
+- `<ul>` - Order of items is meaningless. Items are for display only.
 
 ```html
+<menu>
+  <li><button>Copy</button></li>
+  <li><button>Paste</button></li>
+</menu>
+
 <ol type="i" reversed start="4">
   <li>One</li>
   <!-- To override list numbering -->
@@ -420,19 +423,14 @@ Order of `<head>` elements
   <li>Item</li>
   <li>Item</li>
 </ul>
-
-<menu>
-  <li><button>Copy</button></li>
-  <li><button>Paste</button></li>
-</menu>
 ```
 
 ### \<p>
 
-- Structured grouping of related content, such as images, form fields, block of text.
-  - Each part of form is considered a paragraph.
-- Screen readers provide shortcuts to skip to the next/previous paragraph, letting them skim content.
-- Using a block level element inside p tag, will autoclose the p tag.
+- Group related content.
+  - Images, form fields, block of text.
+- Screen readers provide shortcut to skip to next/previous paragraph.
+- Using block-level element inside `<p>` will autoclose `<p>`.
 
 ```html
 <form>
@@ -468,14 +466,13 @@ Order of `<head>` elements
 
 ### \<pre>
 
-- To show preformatted text. Monospaced font used to display the content.
-- The first leading newline character is ignored.
-- The content is parsed as HTML.
-- If creating illustrations, provide alternate description using `<figure>`, `role`, `aria-label`.
-- Escape ambigious characters
-  1. Replace `&` with `&amp;`.
-  2. Replace `<` with `&lt;`.
-- Useful for frontend debugging, instead of relying on `console.log`.
+- Show preformatted text with Monospaced font.
+- First leading 1newline character is ignored.
+- Content parsed as HTML.
+  - Escape ambigious characters
+    1. Replace `&` with `&amp;`.
+    2. Replace `<` with `&lt;`.
+- Use `<figure>`, `role`, `aria-label` to provide alternate description to illustrations.
 
 ```html
 <pre>
@@ -498,7 +495,7 @@ body {
 </figure>
 ```
 
-## Inline text content
+## Inline Elements
 
 ### \<a>
 
@@ -514,3 +511,11 @@ body {
   - `hreflang`
   - `interestfor` - For Popover API.
   - `ping` - send `POST` request to list of URLs for tracking with the text body `PING`.
+
+### \<q>
+
+- Inline element corresponding to [`<blockquote>`](#blockquote-cite).
+
+### \<span>
+
+- Inline element corresponding to [`<div>`](#div).
