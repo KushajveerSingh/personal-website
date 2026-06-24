@@ -1,5 +1,7 @@
 # HTML
 
+## Summary
+
 ## \<html>
 
 ```html
@@ -499,18 +501,30 @@ body {
 
 ### \<a>
 
-- Provide URL in `href`, which can include hyperlink, files, email addresses, locations in the same page.
-- Content inside should indicate where the link goes.
-  - `about our products` more accessible thatn `click here`.
-- Assistive software has shortcut to list all links on a page, to quickly scan pages.
-- Attributes
-  - `downlaod` - The URL is downloaded. `filename` is optional, in which case the browser will suggest a filename/extension.
-    - `download="filename.extension"` - Name of downloaded file. `\`, `/` are converted to `_`.
-    - Works for same-origin URLs, `blob:`, `data:` schemes.
+- Hyperlink, file, email addresse, location in the same page.
+- Screen readers display list of all links on the page.
+- Link content (except text) should take at least 44x44 CSS pixels.
+- Usage
+  - `<a>Content</a>` - Use _content_ to describe where the link goes.
+    - Indicate when link will open in new tab, or is pointing to a resource other than a website. Example `External site (opens in new tab)`. Or `<img src="new-tab.svg" alt="(Opens in new tab)" />`.
+  - `downlaod` - Download the URL, with name specified by browser.
+    - `download="filename.extension"` - `\`, `/` converted to `_`.
   - `href`
-  - `hreflang`
-  - `interestfor` - For Popover API.
-  - `ping` - send `POST` request to list of URLs for tracking with the text body `PING`.
+    - `hreflang` - Provide hint at language of URL.
+  - `interestfor` - Popover API.
+  - `target` - Where to display URL.
+    - `_self` - Default. Current browsing content.
+    - `_blank` - New browsing content (tab or window). Specify `rel="noreferrer nofollow"` for external websites. `nofollow` instruct's crawler to not follow the link.
+  - `type` - Provide hint at MIME type of resource.
+
+```html
+<p>
+  <a href="url.ppt" target="_blank">
+    Report
+    <img src="powerpoint.svg" alt="(Powerpoint file)" />
+  </a>
+</p>
+```
 
 ### \<q>
 
