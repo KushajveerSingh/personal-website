@@ -312,7 +312,7 @@ Order of `<head>` elements
 
 ## Block-Level Elements
 
-### \<blockquote>, \<cite>
+### \<blockquote>
 
 - Direct quote from an external source.
 - Source attribution
@@ -526,10 +526,102 @@ body {
 </p>
 ```
 
-### \<q>
+### \<abbr>
 
-- Inline element corresponding to [`<blockquote>`](#blockquote-cite).
+- Abbreviation (e.g.) or acronym (NATO).
+- Spell out the abbreviation in parentheses instead of using `title` or Popover.
+- Wrap all abbreviation on page inside `<abbr>` to help screen readers with spelling.
+  - It might be better to wrap _kilometers_ in `<abbr>` and put _km_ in parenthesis, as speaking _kilometers_ makes more sense than speaking _kay emm_.
+
+```html
+<p>
+  You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup Language).
+</p>
+
+<p>
+  <dfn id="html"><abbr>HTML</abbr></dfn> is a ...
+</p>
+<p><dfn id="spec">Specification</dfn> (<abbr>spec</abbr>) is a ...</p>
+```
+
+### \<b>
+
+- To draw attention to content without giving special importance.
+  - Keywords in summary, product names in review, boldface due to writing convention.
+- If there is no semantic meaning to using `<b>` element, use CSS `font-weight: bold` instead.
+
+```html
+<b>bold</b>
+```
+
+### \<bdi>
+
+- Tell browser's bidrectional algorithm to treat the content in isolation from its surrounding text.
+- Browser will infer the direction of content.
+- Browser algorithm can assign directionality to spaces, some punctuations based on the surrounding text. And this can mess up the correct output.
+  - `EMBEDDED-TEXT - 1st place` - Works in LTR
+  - `1 - EMBEDDED-TEXTst place` - Fails in RTL
+- Usage
+  - `<span dir='ltr'>text</span>` - When directionality of the content is known.
+  - `<bdi>text</bdi>` - When directionality is not known - for example, reading from database, user input.
+
+```html
+<span><bdi>EMBEDDED-TEXT</bdi> - 1st place</span>
+```
+
+### \<bdo>
+
+- Force browser to render content in the provided direction.
+- `<span dir="">` is more like a hint.
+
+```html
+<bdo dir="ltr">content</bdo>
+```
+
+### \<br>
+
+- Add line break in text, where the division of lines is insignificant.
+  - Poem, address.
+- Do not style.
+
+```html
+Address 1<br />
+City <br />
+```
+
+### \<cite>, \<q>
+
+- `<q>` - Inline element corresponding to [`<blockquote>`](#blockquote-cite).
+
+### \<code>
+
+- Indicate the text is fragment is a single phrase of code.
+- Use `<pre>` for multiple lines of code.
+
+```html
+<p><code>selectAll()</code></p>
+
+<pre>
+    <code>
+let x = 1;
+let y = 2;
+    </code>
+</pre>
+```
+
+### \<i>
 
 ### \<span>
 
 - Inline element corresponding to [`<div>`](#div).
+
+### \<strong>
+
+- Indicate content is of strong importance, seriousness, urgency, warnings.
+  - Importance can be in terms of the whole page or nearby Content.
+
+```html
+<p>... rule: <strong>never feed him after midnight</strong>.</p>
+
+<p><strong>Important:</strong> Before proceeding, ...</p>
+```
